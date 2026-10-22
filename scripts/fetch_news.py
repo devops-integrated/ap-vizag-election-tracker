@@ -22,7 +22,9 @@ USER_AGENT = "Mozilla/5.0 (compatible; AP-Vizag-Election-Tracker/1.0)"
 KEYWORDS = (
     "election", "ward", "reservation", "candidate", "contesting", "result",
     "notification", "nomination", "municipal", "local body", "delimitation",
-    "poll", "corporator", "seat"
+    "poll", "corporator", "seat", "violence", "attack", "attacked", "intimidation",
+    "threat", "clash", "arson", "firing", "assault", "complaint", "fir", "arrest",
+    "nomination paper", "snatched", "torn", "house arrest", "supreme court", "petition"
 )
 QUERIES = [
     ("Andhra Pradesh elections", '(Andhra Pradesh OR AP) election (SEC OR municipal OR local body OR candidate)'),
@@ -30,6 +32,9 @@ QUERIES = [
     ("AP State Election Commission", 'site:sec.ap.gov.in election Andhra Pradesh'),
     ("APSEC notices and candidates", 'site:demo8.cgg.gov.in/apsec (election OR candidate OR result OR notification)'),
     ("GVMC official notices", 'site:gvmc.gov.in (election OR ward OR reservation OR notification)'),
+    ("AP election violence and complaints", 'Andhra Pradesh local body election violence attack intimidation complaint nomination papers police October 2026'),
+    ("AP election court and SEC actions", 'Andhra Pradesh State Election Commission Supreme Court election complaint violence nomination October 2026'),
+    ("Vizag / GVMC incidents", '(Visakhapatnam OR Vizag OR GVMC) election violence complaint intimidation attack nomination'),
 ]
 FEED_BASE = "https://news.google.com/rss/search"
 
