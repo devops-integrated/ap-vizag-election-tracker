@@ -75,15 +75,7 @@ def scrape_official_page(label, page_url):
         raw, final_url = fetch(page_url)
         soup = BeautifulSoup(raw, "html.parser")
         page_title = soup.title.get_text(" ", strip=True) if soup.title else label
-        found.append({
-            "title": f"{label}: page checked — {page_title[:180]}",
-            "link": final_url,
-            "source": label,
-            "published": "",
-            "feed": "Official website monitor",
-            "status": "Official source",
-            "note": "Official page checked automatically; open the source to inspect the latest notice."
-        })
+        # Do not turn a generic homepage check into a fake election update.
         for anchor in soup.find_all("a", href=True):
             link_text = " ".join(anchor.get_text(" ", strip=True).split())
             href = urljoin(final_url, anchor["href"].strip())
@@ -92,30 +84,19 @@ def scrape_official_page(label, page_url):
             if urlparse(href).scheme not in ("http", "https"):
                 continue
 
-            context = link_text
-            # Walk up only a few levels and use the smallest nearby block containing a relevant keyword.
-            parent = anchor
-            for _ in range(4):
-                parent = parent.parent
-                if not parent:
-                    break
-                candidate = " ".join(parent.get_text(" ", strip=True).split())
-                if candidate and len(candidate) <= 700 and any(k in candidate.lower() for k in KEYWORDS):
-                    context = candidate
-                    break
-            if not any(k in (link_text + " " + context + " " + href).lower() for k in KEYWORDS):
+            lower_label = link_text.lower()
+            relevant = any(k in lower_label for k in ("election", "nomination", "candidate", "result", "notification", "poll", "ward", "reservation", "contesting", "mptc", "zptc"))
+            if not relevant or len(link_text) < 8:
                 continue
-            title = link_text
-            if len(title) < 8 and context:
-                title = context[:240]
             item = {
-                "title": title[:240],
+                "title": link_text[:240],
+                "summary": "This is a link listed on an official election-related website. The notice text was not extracted automatically; open the official document to confirm its contents.",
                 "link": href,
                 "source": label,
                 "published": "",
                 "feed": "Official website monitor",
                 "status": "Official source",
-                "note": "Collected from an official government/commission website; verify the linked notice itself."
+                "note": "Official link collected; the linked notice itself still needs to be checked."
             }
             found.append(item)
     except Exception as exc:
@@ -134,18 +115,11 @@ def scrape_official_page(label, page_url):
 
 def main():
     items = []
+    official_items = []
     seen = set()
     checked = datetime.now(IST).strftime("%d %b %Y, %I:%M:%S %p IST")
 
-    # First, inspect official government/commission pages directly.
-    for label, page_url in OFFICIAL_PAGES:
-        for item in scrape_official_page(label, page_url):
-            key = item["link"] + "|" + item["title"]
-            if key not in seen:
-                seen.add(key)
-                items.append(item)
-
-    # Then gather broader media coverage through public RSS search feeds.
+    # Gather actual reported updates first so generic official-site links cannot crowd them out.
     for label, query in QUERIES:
         params = urllib.parse.urlencode({"q": query, "hl": "en-IN", "gl": "IN", "ceid": "IN:en"})
         url = FEED_BASE + "?" + params
@@ -160,27 +134,40 @@ def main():
                 seen.add(link)
                 source_node = node.find("source")
                 source = (source_node.text or "").strip() if source_node is not None else label
+                description_html = text_of(node, "description")
+                description = BeautifulSoup(description_html, "html.parser").get_text(" ", strip=True)
+                description = " ".join(description.split())
+                summary = description[:900] if description else "A news report matching this election topic was published. The headline alone does not establish whether the claims are verified."
                 items.append({
                     "title": title,
+                    "summary": summary,
                     "link": link,
                     "source": source or label,
                     "published": parse_date(text_of(node, "pubDate")),
                     "feed": label,
                     "status": "Reported",
-                    "note": "News-search result; not official confirmation."
+                    "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
                 })
         except Exception as exc:
             print(f"News feed fetch failed for {label}: {exc}")
 
-    # Keep a bounded feed file; prioritize official source links before media reports.
+    # Add specific official election links after reported updates; keep the feed useful and bounded.
+    for label, page_url in OFFICIAL_PAGES:
+        for item in scrape_official_page(label, page_url):
+            key = item["link"] + "|" + item["title"]
+            if key not in seen:
+                seen.add(key)
+                official_items.append(item)
+
+    combined = (items + official_items)[:100]
     payload = {
         "updated_at_ist": checked,
         "update_frequency": "Scheduled approximately every 3 hours; manual workflow runs are also supported",
-        "source_note": "Official-source links are collected from public government pages. Media headlines are reported items, not official confirmation.",
-        "items": items[:120]
+        "source_note": "Election reports include short summaries from publisher RSS descriptions. They remain reported, not official confirmation, unless backed by an official notice.",
+        "items": combined
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {len(payload['items'])} items to {OUT}; checked {len(OFFICIAL_PAGES)} official pages.")
+    print(f"Wrote {len(payload['items'])} items ({len(items)} news updates, {len(official_items)} official links) to {OUT}; checked {len(OFFICIAL_PAGES)} official pages.")
 
 
 if __name__ == "__main__":
