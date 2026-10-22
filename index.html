@@ -69,6 +69,48 @@ footer{margin-top:16px;border-top:1px solid #e3e8f1;background:#fff}
 .update-heading:before{content:"";width:8px;height:8px;border-radius:50%;background:#0b9d79;box-shadow:0 0 0 4px #0b9d791a}
 @media(max-width:800px){.card,.card.wide{grid-column:1/-1}.wrap{padding:14px}.overview-hero{grid-template-columns:1fr;padding:22px}.hero-side{max-width:none}header{padding:24px 17px 27px}.tabs{top:4px}.card{padding:16px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;scroll-behavior:auto!important}}
+
+/* Premium polish: editorial election-intelligence look */
+:root{--electric:#8ca5ff;--mint:#74e4c1;--glass:#ffffffd9}
+html{scroll-behavior:smooth}
+body{background:radial-gradient(ellipse at 8% 15%,#e9efff 0,transparent 29%),radial-gradient(ellipse at 95% 45%,#e7f8f3 0,transparent 24%),#f5f7fc}
+header{isolation:isolate;background:linear-gradient(120deg,#091326 0%,#132954 48%,#344db1 100%);box-shadow:0 18px 45px #152d5b1c}
+header:before{content:"";position:absolute;inset:0;z-index:-1;opacity:.18;background-image:linear-gradient(#ffffff12 1px,transparent 1px),linear-gradient(90deg,#ffffff12 1px,transparent 1px);background-size:34px 34px;mask-image:linear-gradient(90deg,#000,transparent 85%);pointer-events:none}
+header h1{background:linear-gradient(100deg,#fff 5%,#e1e9ff 65%,#b8c8ff);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none}
+header p{font-size:15.5px;line-height:1.75}
+.wrap{padding-top:25px}
+.statusline .pill{box-shadow:0 5px 16px #132a5008;transition:transform .18s ease,box-shadow .18s ease}
+.statusline .pill:hover{transform:translateY(-2px);box-shadow:0 8px 20px #132a5012}
+.tabs{border-color:#dce3f2;box-shadow:0 12px 35px #1c2e580d}
+.tabs button[aria-selected=true]{background:linear-gradient(135deg,#18294c,#3157d5);box-shadow:0 5px 13px #3157d53b}
+.card{position:relative;background:linear-gradient(155deg,#fff 0%,#fdfdff 100%);box-shadow:0 7px 24px #16294b08}
+.card:focus-within{border-color:#aabaff;box-shadow:0 0 0 3px #3157d512,0 12px 30px #16294b0b}
+.card h2{color:#162847}
+.overview-hero{background:radial-gradient(circle at 85% 10%,#5c76db66 0,transparent 30%),linear-gradient(120deg,#0b1730,#18366f 68%,#2f4cae);box-shadow:0 20px 45px #1c377b20}
+.overview-hero .action:not(.primary){background:#ffffff13;color:white;border-color:#ffffff3a}
+.overview-hero .action:not(.primary):hover{background:#ffffff22}
+.hero-side{box-shadow:inset 0 1px #ffffff12,0 15px 30px #08132a16}
+.stat-card{min-height:190px}
+.stat-card:after{width:110px;height:110px;right:-42px;top:-42px;background:radial-gradient(circle at 35% 65%,#dce4ff,#eef1ff 68%);box-shadow:0 0 0 10px #f4f6ff80}
+.stat-card:nth-of-type(3):after{background:radial-gradient(circle at 35% 65%,#c9f4e8,#e7fbf5 68%)}
+.stat-card:nth-of-type(4):after{background:radial-gradient(circle at 35% 65%,#ffe8ba,#fff5df 68%)}
+.number{font-variant-numeric:tabular-nums}
+.action{box-shadow:0 2px 5px #17284b08}
+.action.primary{background:linear-gradient(135deg,#3157d5,#4b66e7);box-shadow:0 5px 14px #3157d52b}
+.action.primary:hover{box-shadow:0 8px 20px #3157d544}
+.source{box-shadow:0 3px 12px #17284b04;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+.source:hover{transform:translateY(-3px);box-shadow:0 12px 25px #17284b0d;border-color:#cbd5ff}
+.source:before{background:linear-gradient(180deg,#6f8cff,#77d9c1)}
+.source a{color:#2f52c5}
+.notice{box-shadow:0 4px 16px #dba12a0a}
+.tablewrap{box-shadow:0 4px 15px #14284a05}
+tbody tr:hover td{background:#f8faff}
+.tag{border:1px solid #e8ecf4}
+footer{background:linear-gradient(180deg,#fff,#f8faff);line-height:1.9}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #8ea6ff;outline-offset:3px}
+@media(max-width:800px){header h1{font-size:clamp(29px,8vw,39px)}.overview-hero{border-radius:16px}.stat-card{min-height:160px}.statusline{gap:6px}.pill{font-size:10px}}
+@media(prefers-reduced-motion:no-preference){.overview-hero .hero-side{animation:soft-rise .55s ease-out both}.overview-hero>div:first-child{animation:soft-rise .45s ease-out both}@keyframes soft-rise{from{opacity:.4;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}}
+
 </style>
 </head>
 <body>
