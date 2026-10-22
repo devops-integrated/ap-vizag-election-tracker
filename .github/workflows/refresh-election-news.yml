@@ -15,7 +15,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -23,7 +23,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Fetch online election headlines
+      - name: Install HTML parser
+        run: python -m pip install beautifulsoup4
+      - name: Fetch official-source pages and online election headlines
         run: python scripts/fetch_news.py
       - name: Commit feed when changed
         run: |
@@ -33,6 +35,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No news feed changes to commit."
           else
-            git commit -m "Refresh online election news feed"
+            git commit -m "Refresh official sources and election news feed"
             git push
           fi
