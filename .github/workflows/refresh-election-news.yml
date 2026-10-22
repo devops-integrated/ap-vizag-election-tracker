@@ -1,0 +1,38 @@
+name: Refresh election news feed
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-election-news
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch online election headlines
+        run: python scripts/fetch_news.py
+      - name: Commit feed when changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          if git diff --cached --quiet; then
+            echo "No news feed changes to commit."
+          else
+            git commit -m "Refresh online election news feed"
+            git push
+          fi
