@@ -111,6 +111,56 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 @media(max-width:800px){header h1{font-size:clamp(29px,8vw,39px)}.overview-hero{border-radius:16px}.stat-card{min-height:160px}.statusline{gap:6px}.pill{font-size:10px}}
 @media(prefers-reduced-motion:no-preference){.overview-hero .hero-side{animation:soft-rise .55s ease-out both}.overview-hero>div:first-child{animation:soft-rise .45s ease-out both}@keyframes soft-rise{from{opacity:.4;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}}
 
+
+/* Distinctive election-desk command centre */
+.command-layout{--night:#0a1224;--night2:#111e37;--acid:#b8f28b;--sea:#74e3c2;--lav:#b7baff;color:#16213a}
+.command-topline{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:3px 3px 15px;color:#65728a;font-size:10px;letter-spacing:.14em;font-weight:800}
+.command-topline>div{display:flex;align-items:center;gap:9px}.live-dot{width:7px;height:7px;background:#19a982;border-radius:50%;box-shadow:0 0 0 4px #19a98218}.topline-right{font-weight:650;color:#8791a5}
+.command-hero{display:grid;grid-template-columns:1.08fr .92fr;min-height:390px;overflow:hidden;position:relative;border-radius:22px;background:radial-gradient(ellipse at 80% 12%,#293d6d 0,transparent 35%),linear-gradient(125deg,#091326 0%,#101c35 58%,#182a4b 100%);color:white;box-shadow:0 22px 55px #111e3726}
+.command-hero:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(110deg,transparent 30%,#ffffff04 65%,transparent 100%)}
+.hero-copy{position:relative;z-index:2;padding:37px 0 28px 39px;align-self:center}
+.hero-kicker{display:flex;align-items:center;gap:10px;color:var(--acid);font-size:10px;letter-spacing:.19em;font-weight:850}
+.kicker-line{height:1px;width:25px;background:var(--acid)}
+.command-hero h2{font-size:clamp(35px,4.6vw,58px);line-height:.99;letter-spacing:-.065em;font-weight:760;color:#f6f8ff;margin:20px 0 17px}
+.command-hero h2 em{font-family:Georgia,serif;font-weight:400;color:var(--acid);letter-spacing:-.06em}
+.command-hero .hero-copy>p{max-width:475px;font-size:13px;line-height:1.85;color:#c1cbe0;margin:0}
+.hero-actions{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-top:24px}
+.hero-actions .action.primary{border:0;border-radius:8px;padding:12px 16px;background:var(--acid);color:#101c2f;box-shadow:0 7px 20px #b8f28b20}
+.hero-actions .action.primary:hover{background:#d1ffad}
+.hero-ghost{border:0;background:transparent;color:#e1e7f5;font:700 12px inherit;cursor:pointer;padding:10px 0}
+.hero-ghost span{color:var(--acid);padding-left:4px}
+.hero-footnote{display:flex;align-items:center;gap:8px;margin-top:27px;font-size:10px;color:#9baac5;letter-spacing:.01em}
+.shield-mark{display:grid;place-items:center;width:17px;height:17px;border:1px solid #74e3c270;border-radius:50%;color:var(--sea);font-size:10px}
+.hero-art{position:relative;min-height:370px;overflow:hidden;background:radial-gradient(ellipse at 52% 49%,#1e3356 0%,#111e37 40%,transparent 72%)}
+.radar-halo{position:absolute;left:51%;top:47%;aspect-ratio:1;border:1px solid #9eb4e524;border-radius:50%;transform:translate(-50%,-50%)}
+.halo-one{width:155px;border-color:#b8f28b5e;box-shadow:0 0 45px #b8f28b0c,inset 0 0 30px #b8f28b0a}
+.halo-two{width:250px;border-style:dashed;border-color:#9eb4e53b}
+.halo-three{width:345px;border-color:#9eb4e51b;box-shadow:0 0 0 26px #9eb4e507,0 0 0 54px #9eb4e505}
+.radar-cross{position:absolute;background:#9eb4e516}.cross-x{height:1px;left:5%;right:2%;top:47%}.cross-y{width:1px;top:3%;bottom:3%;left:51%}
+.radar-core{position:absolute;left:51%;top:47%;transform:translate(-50%,-50%);width:91px;height:91px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(145deg,#b8f28b,#71d9b9);color:#0d1a2d;box-shadow:0 0 0 9px #b8f28b10,0 0 42px #b8f28b25}
+.radar-core span{font-size:28px;line-height:1;font-weight:900;letter-spacing:-.08em}.radar-core small{font-size:7px;line-height:1.3;letter-spacing:.14em;text-align:center;font-weight:900;margin-top:5px}
+.radar-point{position:absolute;width:7px;height:7px;border-radius:50%;background:var(--acid);box-shadow:0 0 0 5px #b8f28b15,0 0 16px #b8f28b7a}.point-a{left:73%;top:24%}.point-b{left:27%;top:61%;background:#a7b4ff;box-shadow:0 0 0 5px #a7b4ff16,0 0 16px #a7b4ff75}.point-c{left:76%;top:70%;width:5px;height:5px;background:var(--sea)}
+.radar-label{position:absolute;font-size:8px;letter-spacing:.12em;color:#9baac5;display:flex;align-items:center;gap:7px}.radar-label b{color:#eff3ff;font-size:10px;letter-spacing:.09em}.label-a{top:16%;left:55%}.label-b{bottom:22%;left:12%}.mini-dot{width:5px;height:5px;border-radius:50%;display:inline-block}.mini-dot.mint{background:var(--acid)}.mini-dot.blue{background:#a7b4ff}
+.radar-caption{position:absolute;right:20px;bottom:17px;text-align:right;font-size:8px;line-height:1.7;letter-spacing:.12em;color:#9baac5}.radar-caption span{color:#d2d9e9;letter-spacing:.02em}
+.metric-ribbon{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:14px 0 34px}
+.metric-tile{min-width:0;padding:17px 18px 15px;border:1px solid #e4e8f0;border-radius:13px;background:#fff;box-shadow:0 6px 20px #17284b06;position:relative;overflow:hidden}
+.metric-tile:after{content:"";position:absolute;right:-23px;top:-27px;width:74px;height:74px;border-radius:50%;background:#eff0ff}
+.metric-top{display:flex;align-items:center;justify-content:space-between;gap:7px;position:relative;z-index:1}.metric-icon{display:grid;place-items:center;width:28px;height:28px;border-radius:8px;font-size:16px;font-weight:800}.icon-violet{background:#efedff;color:#6550c9}.icon-mint{background:#e2f8f0;color:#16836b}.icon-amber{background:#fff2d7;color:#a66b00}.icon-slate{background:#eaf0f8;color:#51617b}.metric-label{font-size:9px;font-weight:850;letter-spacing:.13em;color:#8390a5}
+.metric-value{font-size:35px;font-weight:800;line-height:1.2;letter-spacing:-.06em;margin:11px 0 2px;color:#152441;font-variant-numeric:tabular-nums;position:relative;z-index:1}
+.metric-value small{font-size:14px;letter-spacing:-.02em;color:#66758a;font-weight:650}.metric-word{font-size:23px;letter-spacing:-.055em;padding-top:5px}.value-period{color:#6d5ae2}.metric-desc{min-height:20px;font-size:10px;color:#78859a}.metric-arrow{color:#7a68d8;margin-left:3px}
+.metric-link{margin-top:9px;padding:0;border:0;background:none;color:#4059b9;font:700 10px system-ui;cursor:pointer;text-align:left}.metric-link:hover{text-decoration:underline}.feed-tile .metric-value{font-size:19px;letter-spacing:-.03em}.feed-tile .metric-desc{overflow-wrap:anywhere}
+.briefing-grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(270px,.8fr);gap:31px}
+.briefing-main,.briefing-aside{min-width:0}.section-eyebrow{display:flex;align-items:center;gap:9px;color:#7b879b;font-size:9px;font-weight:850;letter-spacing:.15em}.section-index{color:#6255c7;border:1px solid #dedaf8;background:#f4f2ff;border-radius:5px;padding:3px 5px;font-size:9px}
+.briefing-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin:13px 0 16px}.briefing-heading h2,.briefing-aside>h2{font-size:25px;letter-spacing:-.055em;line-height:1.15;margin:0;color:#152441}.briefing-heading p,.aside-intro{font-size:11px;color:#7c879a;line-height:1.6;margin:7px 0 0}.text-button{white-space:nowrap;background:transparent;border:0;color:#435ac2;font:750 11px system-ui;cursor:pointer;padding:8px 0}.text-button span{color:#7968dc}
+.briefing-news .sources{display:flex;flex-direction:column;gap:10px}.briefing-news .source{padding:16px 18px 14px 21px;border-radius:12px;background:#fff;box-shadow:0 5px 18px #16294b05}.briefing-news .source:before{top:17px;bottom:17px;width:3px;background:#6d78dc}.briefing-news .source h3{font-size:13px;line-height:1.5;color:#1c2c49}.briefing-news .source p{font-size:11px;line-height:1.7;color:#66758a}.briefing-news .source p:last-child{margin-bottom:0}.briefing-news .source a{font-size:10px;font-weight:800}.briefing-news .tag{font-size:8px;letter-spacing:.06em;text-transform:uppercase}
+.briefing-aside{border-left:1px solid #e1e6ef;padding-left:25px}.briefing-aside>h2{margin-top:14px;font-size:22px}.aside-intro{margin-bottom:17px}
+.lens-card{display:flex;width:100%;align-items:center;gap:12px;padding:13px 0;text-align:left;background:transparent;border:0;border-top:1px solid #e6eaf2;cursor:pointer;color:#1a2945}.lens-number{flex:0 0 29px;width:29px;height:29px;display:grid;place-items:center;border-radius:8px;background:#eff0ff;color:#6559c6;font-size:10px;font-weight:850}.lens-copy{display:flex;flex-direction:column;gap:4px;flex:1}.lens-copy b{font-size:11px;font-weight:800}.lens-copy small{font-size:9px;line-height:1.5;color:#7b879a}.lens-arrow{color:#8b96a8;transition:transform .15s}.lens-card:hover .lens-arrow{transform:translate(3px,-2px);color:#5149bb}.lens-card:hover .lens-number{background:#e3e5ff}
+.method-note{display:flex;gap:11px;padding:14px;margin-top:17px;border-radius:11px;background:#eef8f4;border:1px solid #d8f0e7}.method-symbol{display:grid;place-items:center;flex:0 0 25px;height:25px;border-radius:7px;background:#d5f1e5;color:#16836b;font-size:15px}.method-note b{font-size:10px;color:#1e4b40}.method-note p{font-size:10px;line-height:1.65;color:#58766f;margin:5px 0 7px}.method-note button{padding:0;background:transparent;border:0;color:#137a66;font:800 10px system-ui;cursor:pointer}
+.bottom-band{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-top:36px;padding:19px 22px;border-radius:12px;background:#e9edf7;border:1px solid #dfe5f1}.bottom-band>div:first-child{display:flex;flex-direction:column;gap:5px}.band-label{font-size:8px;font-weight:850;letter-spacing:.16em;color:#7d899e}.bottom-band b{font-size:13px;letter-spacing:-.02em;color:#1c2c49}.bottom-band b span{color:#6b5ed0;padding:0 5px}.coverage-chips{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:6px}.coverage-chips span{padding:6px 9px;border-radius:6px;background:#fff;border:1px solid #dfe5f0;font-size:9px;color:#68758b;font-weight:700}
+@media(max-width:900px){.command-hero{grid-template-columns:1fr .75fr}.hero-copy{padding-left:25px}.hero-art{min-height:330px}.metric-ribbon{grid-template-columns:repeat(2,minmax(0,1fr))}.briefing-grid{grid-template-columns:minmax(0,1fr) minmax(240px,.8fr);gap:20px}.briefing-aside{padding-left:19px}}
+@media(max-width:650px){.command-topline{align-items:flex-start}.topline-right{font-size:8px;text-align:right}.command-hero{grid-template-columns:1fr}.hero-copy{padding:29px 23px 8px}.command-hero h2{font-size:43px}.hero-art{min-height:260px;margin-top:-3px}.radar-halo.halo-three{width:290px}.radar-halo.halo-two{width:210px}.radar-core{width:72px;height:72px}.radar-core span{font-size:23px}.label-a{top:9%;left:58%}.label-b{bottom:15%;left:10%}.radar-caption{font-size:7px}.metric-ribbon{gap:8px;margin-bottom:28px}.metric-tile{padding:13px}.metric-value{font-size:30px}.metric-label{font-size:8px}.metric-desc{font-size:9px}.briefing-grid{grid-template-columns:1fr;gap:27px}.briefing-aside{border-left:0;border-top:1px solid #e1e6ef;padding:24px 0 0}.bottom-band{align-items:flex-start;flex-direction:column}.coverage-chips{justify-content:flex-start}.hero-footnote{font-size:9px;line-height:1.5}.briefing-heading h2{font-size:23px}}
+@media(prefers-reduced-motion:no-preference){.metric-tile,.lens-card,.briefing-news .source{transition:transform .18s ease,box-shadow .18s ease}.metric-tile:hover{transform:translateY(-2px);box-shadow:0 12px 26px #17284b0d}.briefing-news .source:hover{transform:translateX(3px)}}
+
 </style>
 </head>
 <body>
@@ -121,19 +171,51 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 <button data-view="dashboard" aria-selected="true">Overview</button><button data-view="urban">Municipal / ULB</button><button data-view="mptc">MPTC / ZPTC</button><button data-view="panchayat">Gram Panchayat</button><button data-view="incidents">Election incidents & complaints</button><button data-view="vizag">Vizag / GVMC</button><button data-view="wards">Ward candidates</button><button data-view="state">Other AP elections</button><button data-view="liveNews">Live news</button><button data-view="calendar">Full calendar</button><button data-view="sources">Official sources</button>
 </nav>
 <section id="dashboard" class="view">
-<div class="grid">
-<article class="card overview-hero"><div><div class="eyebrow">Your election briefing</div><h2>Know what changed.<br>See what is verified.</h2><p>Follow Andhra Pradesh election developments and Visakhapatnam ward coverage with readable summaries, incident tracking and source-backed status labels.</p><button class="action primary" data-go="liveNews">Explore latest updates →</button> <button class="action" data-go="incidents">View incident tracker ↗</button></div><div class="hero-side"><div class="stat-label" style="color:#b9c9f4">MONITORING AREA</div><div class="big">AP + Vizag</div><p>Statewide elections, civic polls, nomination disputes and GVMC wards.</p><div style="height:1px;background:#ffffff24;margin:15px 0"></div><div class="stat-label" style="color:#b9c9f4">UPDATE CADENCE</div><div style="font-weight:750;margin-top:4px">About every 3 hours</div><p>Not second-by-second live coverage.</p></div></article>
-<article class="card stat-card"><div class="stat-label">Election updates</div><div class="number" id="updateCount">—</div><p class="muted">Summaries loaded from the latest feed.</p><button class="action" data-go="liveNews">Read updates →</button></article>
-<article class="card stat-card"><div class="stat-label">GVMC coverage</div><div class="number">120 wards</div><p class="muted">Browse the ward register; candidate names appear only when sourced.</p><button class="action" data-go="wards">Explore wards →</button></article>
-<article class="card stat-card"><div class="stat-label">Evidence standard</div><div class="number" style="font-size:24px">Source-first</div><p class="muted">Claims are attributed; allegations are not presented as proven facts.</p><button class="action" data-go="sources">Verification guide →</button></article>
-<article class="card wide"><div class="section-head"><div><div class="update-heading"><h2>Latest election updates</h2></div><p class="muted">A quick briefing first. Open the source only when you want to check the original report.</p></div><button class="action" data-go="liveNews">All updates →</button></div><div id="dashboardNews" class="muted">Loading latest updates…</div></article>
-<article class="card"><h2>Feed status</h2><div class="number" style="font-size:23px" id="feedStatusLabel">Connecting…</div><p id="lastChecked" class="muted">Last check not recorded</p><p class="small muted">The timestamp is taken from the published feed; it does not guarantee every source was reachable.</p></article>
-<article class="card full"><div class="section-head"><div><h2>Jump into a section</h2><p class="muted">Choose the part of the election picture you need.</p></div></div><div class="sources">
-<div class="source"><h3>Election incidents & complaints</h3><p class="muted">Reported clashes, nomination obstruction allegations, police action and court / SEC responses.</p><button class="action" data-go="incidents">Open incident tracker →</button></div>
-<div class="source"><h3>Municipal / ULB polls</h3><p class="muted">Current process status, schedule changes and local-body notices.</p><button class="action" data-go="urban">View municipal polls →</button></div>
-<div class="source"><h3>Vizag / GVMC wards</h3><p class="muted">A ward-by-ward register for sourced candidate updates.</p><button class="action" data-go="wards">Open ward list →</button></div>
-</div></article>
-</div></section>
+<div class="command-layout">
+  <div class="command-topline"><div><span class="live-dot"></span><span class="micro-label">ELECTION INTELLIGENCE / ANDHRA PRADESH</span></div><span class="topline-right">FIELD NOTES · SOURCE-LED · IST</span></div>
+  <div class="command-hero">
+    <div class="hero-copy">
+      <div class="hero-kicker"><span class="kicker-line"></span> THE ELECTION DESK</div>
+      <h2>Know the ground.<br><em>Read between</em><br>the headlines.</h2>
+      <p>One focused view of Andhra Pradesh election developments, local-body decisions, reported incidents and Visakhapatnam's 120-ward register.</p>
+      <div class="hero-actions"><button class="action primary" data-go="liveNews">Read the briefing <span aria-hidden="true">↗</span></button><button class="hero-ghost" data-go="incidents">Explore incident log <span aria-hidden="true">→</span></button></div>
+      <div class="hero-footnote"><span class="shield-mark">✓</span> Allegations stay attributed. Official records stay distinct from media reports.</div>
+    </div>
+    <div class="hero-art" aria-label="Abstract election intelligence radar illustration">
+      <div class="radar-halo halo-one"></div><div class="radar-halo halo-two"></div><div class="radar-halo halo-three"></div>
+      <div class="radar-cross cross-x"></div><div class="radar-cross cross-y"></div>
+      <div class="radar-core"><span>AP</span><small>FIELD<br>WATCH</small></div>
+      <div class="radar-point point-a"></div><div class="radar-point point-b"></div><div class="radar-point point-c"></div>
+      <div class="radar-label label-a"><span class="mini-dot mint"></span> STATEWIDE <b>AP</b></div>
+      <div class="radar-label label-b"><span class="mini-dot blue"></span> CITY WATCH <b>VIZAG</b></div>
+      <div class="radar-caption">SIGNAL ≠ CONFIRMATION<br><span>Check the source before sharing.</span></div>
+    </div>
+  </div>
+  <div class="metric-ribbon">
+    <article class="metric-tile"><div class="metric-top"><span class="metric-icon icon-violet">↗</span><span class="metric-label">IN THE FEED</span></div><div class="metric-value" id="updateCount">—</div><div class="metric-desc">Published update records <span class="metric-arrow">↗</span></div><button class="metric-link" data-go="liveNews">Open intelligence feed</button></article>
+    <article class="metric-tile"><div class="metric-top"><span class="metric-icon icon-mint">⌖</span><span class="metric-label">VIZAG REGISTER</span></div><div class="metric-value">120 <small>wards</small></div><div class="metric-desc">GVMC ward index <span class="metric-arrow">↗</span></div><button class="metric-link" data-go="wards">Browse ward register</button></article>
+    <article class="metric-tile"><div class="metric-top"><span class="metric-icon icon-amber">◎</span><span class="metric-label">SOURCE STANDARD</span></div><div class="metric-value metric-word">Evidence<span class="value-period">.</span></div><div class="metric-desc">Reported ≠ officially confirmed</div><button class="metric-link" data-go="sources">How we verify</button></article>
+    <article class="metric-tile feed-tile"><div class="metric-top"><span class="metric-icon icon-slate">◷</span><span class="metric-label">FEED CONDITION</span></div><div class="metric-value metric-word" id="feedStatusLabel">Connecting…</div><div class="metric-desc" id="lastChecked">Timestamp not loaded</div><button class="metric-link" id="feedReloadLink">Check feed again ↻</button></article>
+  </div>
+  <div class="briefing-grid">
+    <section class="briefing-main">
+      <div class="section-eyebrow"><span class="section-index">01</span> THE BRIEFING</div>
+      <div class="briefing-heading"><div><h2>What’s moving</h2><p>Readable summaries first. Original reporting one click away.</p></div><button class="text-button" data-go="liveNews">All updates <span>↗</span></button></div>
+      <div id="dashboardNews" class="briefing-news muted">Loading the latest published feed…</div>
+    </section>
+    <aside class="briefing-aside">
+      <div class="section-eyebrow"><span class="section-index">02</span> NAVIGATE THE SIGNAL</div>
+      <h2>Choose your lens.</h2><p class="aside-intro">Go straight to the part of the election picture you need.</p>
+      <button class="lens-card" data-go="incidents"><span class="lens-number">A</span><span class="lens-copy"><b>Incidents & complaints</b><small>Reported clashes, allegations, police and court action</small></span><span class="lens-arrow">↗</span></button>
+      <button class="lens-card" data-go="urban"><span class="lens-number">B</span><span class="lens-copy"><b>Municipal / ULB polls</b><small>Notices, nomination windows and schedule changes</small></span><span class="lens-arrow">↗</span></button>
+      <button class="lens-card" data-go="wards"><span class="lens-number">C</span><span class="lens-copy"><b>Vizag ward candidates</b><small>Ward-by-ward register; names only when sourced</small></span><span class="lens-arrow">↗</span></button>
+      <button class="lens-card" data-go="calendar"><span class="lens-number">D</span><span class="lens-copy"><b>Election calendar</b><small>Key dates and reported schedule developments</small></span><span class="lens-arrow">↗</span></button>
+      <div class="method-note"><span class="method-symbol">✳</span><div><b>Clarity over noise.</b><p>We label what is reported, separate official notices, and link back to the source. Empty records are not guesses.</p><button data-go="sources">Our source standard →</button></div></div>
+    </aside>
+  </div>
+  <div class="bottom-band"><div><span class="band-label">THE COVERAGE</span><b>Statewide AP <span>+</span> Visakhapatnam</b></div><div class="coverage-chips"><span>Local bodies</span><span>Nomination disputes</span><span>Official decisions</span><span>Ward register</span></div></div>
+</div>
+</section>
 <section id="liveNews" class="view hidden"><div class="grid"><article class="card full"><div class="section-head"><div><h2>Election updates — summaries</h2><p class="muted">This section summarises what each report says. Use the source link only when you need to verify details or read the full report.</p></div><button id="refreshNews" class="action">Reload feed</button></div><p id="feedMeta" class="small muted">Loading feed status…</p><div id="liveNewsList"></div><div class="notice" style="margin-top:14px"><strong>Important:</strong> Automatic collection is scheduled about every 3 hours. This is not second-by-second live data. Summaries are based on available publisher feed descriptions; reports may be incomplete or conflicting. Official notices take precedence.</div></article></div></section>
 <section id="urban" class="view hidden"><div class="grid">
 <article class="card full"><div class="section-head"><div><h2>Urban Local Body (ULB) elections</h2><p class="muted">Municipal corporations, municipalities and Nagar Panchayats across Andhra Pradesh, including GVMC.</p></div><span class="tag pending">Proceedings halted — check new order</span></div>
@@ -219,6 +301,7 @@ async function loadElectionNews(){
 function escapeHtml(value){return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function safeUrl(value){try{const u=new URL(value);return (u.protocol==='https:'||u.protocol==='http:')?u.href:'#';}catch(e){return '#';}}
 document.getElementById('refreshNews')?.addEventListener('click',loadElectionNews);
+document.getElementById('feedReloadLink')?.addEventListener('click',loadElectionNews);
 
 loadElectionNews();
 </script></body></html>
