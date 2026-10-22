@@ -7,22 +7,90 @@
 <style>
 :root{--navy:#10243a;--blue:#2459a9;--paper:#f4f7fb;--ink:#1b2635;--muted:#66758a;--line:#dce4ee;--green:#13795b;--amber:#93620b}
 *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}a{color:var(--blue)}header{background:linear-gradient(120deg,#10243a,#1b4770);color:white;padding:26px max(20px,calc((100vw - 1180px)/2)) 22px}header .eyebrow{letter-spacing:.12em;text-transform:uppercase;font-size:12px;opacity:.8}h1{margin:6px 0;font-size:clamp(25px,4vw,38px);line-height:1.15}header p{margin:8px 0 0;color:#d8e6f7}.wrap{max-width:1180px;margin:auto;padding:20px}.statusline{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 18px}.pill{background:white;border:1px solid var(--line);border-radius:999px;padding:6px 11px;font-size:12px;color:#40516a}.pill.warn{background:#fff7e5;color:#805600;border-color:#f1dfb4}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}.tabs button,.action{border:1px solid var(--line);border-radius:10px;background:white;color:var(--ink);padding:10px 14px;font:inherit;cursor:pointer}.tabs button[aria-selected=true],.action.primary{background:var(--blue);border-color:var(--blue);color:white}.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:14px}.card{grid-column:span 4;background:white;border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 3px 12px #152d4b08}.card.wide{grid-column:span 8}.card.full{grid-column:1/-1}.card h2,.card h3{margin:0 0 8px}.card h2{font-size:18px}.muted{color:var(--muted)}.number{font-size:30px;font-weight:750;letter-spacing:-.04em}.small{font-size:12px}.section-head{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:12px}.field{display:flex;gap:8px;flex-wrap:wrap}.field input,.field select{border:1px solid var(--line);border-radius:9px;padding:10px 12px;font:inherit;background:white;min-width:170px}.tablewrap{overflow:auto;border:1px solid var(--line);border-radius:12px}table{border-collapse:collapse;width:100%;min-width:650px;background:white}th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:12px;text-transform:uppercase;letter-spacing:.04em;background:#f7f9fc;color:#506078}tr:last-child td{border-bottom:0}.tag{display:inline-block;padding:3px 7px;border-radius:6px;font-size:11px;background:#eef2f7;color:#43536a}.tag.pending{background:#fff4d9;color:#805600}.sources{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}.source{border:1px solid var(--line);border-radius:12px;padding:13px}.source a{font-weight:650;text-decoration:none}.source a:hover{text-decoration:underline}.notice{border-left:4px solid #d49a21;background:#fff9ea;padding:12px 14px;border-radius:0 10px 10px 0}.hidden{display:none}footer{padding:24px 20px;text-align:center;color:var(--muted);font-size:12px}.list{padding-left:20px}.list li{margin:6px 0}@media(max-width:800px){.card,.card.wide{grid-column:1/-1}.wrap{padding:14px}header{padding:22px 16px}}
+/* Modern election intelligence dashboard */
+:root{--navy:#0b1730;--blue:#3157d5;--paper:#f4f6fb;--ink:#152238;--muted:#66748b;--line:#e2e7f0;--green:#087f68;--amber:#9a6200;--purple:#6c4fd3}
+body{background:radial-gradient(ellipse at 85% -10%,#e6ebff 0,transparent 38%),var(--paper);font-size:14px;line-height:1.6}
+header{position:relative;overflow:hidden;background:linear-gradient(115deg,#0b1730 0%,#142d58 55%,#264ab0 100%);padding:28px max(20px,calc((100vw - 1220px)/2)) 32px}
+header:after{content:"";position:absolute;width:300px;height:300px;border:1px solid #ffffff20;border-radius:50%;right:7%;top:-180px;box-shadow:0 0 0 36px #ffffff08,0 0 0 72px #ffffff06;pointer-events:none}
+header .eyebrow{display:flex;align-items:center;gap:9px;font-size:11px;letter-spacing:.16em;font-weight:750;color:#b9cbff}
+header .eyebrow:before{content:"";display:inline-block;width:8px;height:8px;background:#61e0bd;border-radius:50%;box-shadow:0 0 0 5px #61e0bd20}
+h1{max-width:780px;margin:12px 0 8px;font-size:clamp(30px,4vw,46px);letter-spacing:-.045em;font-weight:780}
+header p{max-width:700px;color:#d3def3;font-size:15px;margin:0}
+.wrap{max-width:1240px;padding:22px 22px 34px}
+.statusline{gap:8px;margin:0 0 16px}
+.pill{border-radius:9px;background:#fff;padding:7px 11px;font-size:11px;font-weight:650;box-shadow:0 2px 8px #12294a05}
+.pill:first-child:before{content:"◉ ";color:var(--green)}
+.pill.warn{background:#fff7e6;color:#805300;border-color:#f3dfb4}
+.tabs{position:sticky;top:8px;z-index:20;display:flex;gap:5px;flex-wrap:nowrap;overflow-x:auto;padding:7px;margin:0 0 22px;border:1px solid #e1e6f0;border-radius:14px;background:#ffffffed;backdrop-filter:blur(14px);box-shadow:0 8px 28px #14284a0a;scrollbar-width:thin}
+.tabs button{flex:0 0 auto;border:0;border-radius:9px;background:transparent;padding:9px 12px;font-size:12px;font-weight:680;color:#596780;white-space:nowrap}
+.tabs button:hover{background:#f0f3fb;color:#182a4a}
+.tabs button[aria-selected=true]{background:var(--navy);color:#fff;box-shadow:0 3px 9px #0b173025}
+.grid{gap:16px}
+.card{border:1px solid #e2e7f0;border-radius:17px;padding:20px;box-shadow:0 5px 20px #15284b06;transition:box-shadow .2s,border-color .2s,transform .2s}
+.card:hover{box-shadow:0 10px 30px #15284b0c;border-color:#d3dbeb}
+.card h2{font-size:17px;letter-spacing:-.02em}
+.card h3{font-size:14px;letter-spacing:-.01em}
+.card .number{font-size:30px;letter-spacing:-.055em;color:#17284b}
+.card.wide{grid-column:span 8}
+.card.full{grid-column:1/-1}
+.action,.tabs button{transition:background .15s,border-color .15s,transform .15s}
+.action{border-radius:9px;font-size:12px;font-weight:700;padding:9px 12px}
+.action.primary{background:var(--blue);border-color:var(--blue)}
+.action:hover{transform:translateY(-1px)}
+.section-head{align-items:flex-start}
+.field input,.field select{border-radius:10px;background:#fbfcff}
+.tag{border-radius:999px;padding:4px 9px;font-weight:700;letter-spacing:.01em}
+.tag.pending{background:#fff2d3;color:#8b5b00}
+.sources{grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.source{padding:16px;border-radius:13px;background:linear-gradient(160deg,#fff,#fcfdff);border-color:#e4e9f2;position:relative}
+.source:before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:3px;background:#b8c6ff}
+.source h3{line-height:1.45}
+.source p{line-height:1.65}
+.source a{font-size:12px}
+.notice{border-left-color:#dba12a;background:#fff8e9;border-radius:0 12px 12px 0}
+.tablewrap{border-radius:13px}
+th{background:#f5f7fc}
+footer{margin-top:16px;border-top:1px solid #e3e8f1;background:#fff}
+.hidden{display:none}
+.overview-hero{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(220px,.8fr);gap:24px;align-items:center;padding:28px;color:white;background:linear-gradient(120deg,#101d3b,#203f84 72%,#3c59bd);border:0;overflow:hidden;position:relative}
+.overview-hero:after{content:"";position:absolute;width:280px;height:280px;border:1px solid #ffffff1a;border-radius:50%;right:6%;top:-170px;box-shadow:0 0 0 32px #ffffff08,0 0 0 64px #ffffff06;pointer-events:none}
+.overview-hero h2{font-size:clamp(24px,3vw,34px);line-height:1.16;letter-spacing:-.04em;max-width:620px;margin:10px 0}
+.overview-hero p{max-width:600px;color:#d4def5;margin:0 0 18px}
+.overview-hero .eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.16em;color:#9ef0d6;font-weight:800}
+.overview-hero .action{position:relative;z-index:1}
+.hero-side{position:relative;z-index:1;padding:18px;border:1px solid #ffffff2a;border-radius:14px;background:#ffffff0d;backdrop-filter:blur(8px)}
+.hero-side .big{font-size:28px;font-weight:800;letter-spacing:-.04em}
+.hero-side p{font-size:12px;margin:2px 0 0}
+.stat-card{position:relative;overflow:hidden}
+.stat-card:after{content:"";position:absolute;width:66px;height:66px;border-radius:50%;right:-20px;top:-20px;background:#eef1ff}
+.stat-card .number{position:relative;z-index:1}
+.stat-label{font-size:11px;font-weight:750;text-transform:uppercase;letter-spacing:.09em;color:#77849b}
+.update-heading{display:flex;align-items:center;gap:8px}
+.update-heading:before{content:"";width:8px;height:8px;border-radius:50%;background:#0b9d79;box-shadow:0 0 0 4px #0b9d791a}
+@media(max-width:800px){.card,.card.wide{grid-column:1/-1}.wrap{padding:14px}.overview-hero{grid-template-columns:1fr;padding:22px}.hero-side{max-width:none}header{padding:24px 17px 27px}.tabs{top:4px}.card{padding:16px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;scroll-behavior:auto!important}}
 </style>
 </head>
 <body>
-<header><div class="eyebrow">Election monitoring • Andhra Pradesh, India</div><h1>AP & Vizag Election Intelligence</h1><p>One place for official notices, GVMC ward candidate updates, party announcements and verified results.</p></header>
+<header><div class="eyebrow">AP election intelligence desk</div><h1>Andhra Pradesh & Vizag<br>Election Tracker</h1><p>Election developments, nomination disputes, official decisions and ward-level candidate records — organized in one place.</p></header>
 <main class="wrap">
-<div class="statusline"><span class="pill">Coverage: Andhra Pradesh + Visakhapatnam / GVMC</span><span class="pill">Timezone: IST (Asia/Kolkata)</span><span class="pill warn" id="dataStatus">Candidate data: awaiting verified source entries</span></div>
+<div class="statusline"><span class="pill">Andhra Pradesh · Statewide</span><span class="pill">Visakhapatnam · GVMC 120 wards</span><span class="pill">Times shown in IST</span><span class="pill warn" id="dataStatus">Candidate data: awaiting verified source entries</span></div>
 <nav class="tabs" aria-label="Main sections">
 <button data-view="dashboard" aria-selected="true">Overview</button><button data-view="urban">Municipal / ULB</button><button data-view="mptc">MPTC / ZPTC</button><button data-view="panchayat">Gram Panchayat</button><button data-view="incidents">Election incidents & complaints</button><button data-view="vizag">Vizag / GVMC</button><button data-view="wards">Ward candidates</button><button data-view="state">Other AP elections</button><button data-view="liveNews">Live news</button><button data-view="calendar">Full calendar</button><button data-view="sources">Official sources</button>
 </nav>
 <section id="dashboard" class="view">
 <div class="grid">
-<article class="card"><h2>AP statewide</h2><div class="number">Tracking</div><p class="muted">Assembly, Parliament, local-body and by-election notices.</p><button class="action" data-go="state">Open AP updates →</button></article>
-<article class="card"><h2>Visakhapatnam / GVMC</h2><div class="number">120 wards</div><p class="muted">Ward-level candidate tracker; unverified names are not displayed as confirmed.</p><button class="action" data-go="wards">Browse wards →</button></article>
-<article class="card"><h2>Verification standard</h2><div class="number">Source-first</div><p class="muted">Official notice, party statement or reputable report linked to each update.</p><button class="action" data-go="sources">View sources →</button></article>
-<article class="card wide"><h2>Latest election updates</h2><p class="muted">Shows short update summaries from monitored sources. Claims remain labelled as reported until verified.</p><div id="dashboardNews" class="small muted">Loading latest headlines…</div><p><button class="action" data-go="liveNews">View all live news →</button></p></article>
-<article class="card"><h2>Last checked</h2><p id="lastChecked" class="muted">Not yet recorded</p><p class="small muted">This timestamp changes only when a real check is recorded; it is not a promise of automatic monitoring.</p></article>
+<article class="card overview-hero"><div><div class="eyebrow">Your election briefing</div><h2>Know what changed.<br>See what is verified.</h2><p>Follow Andhra Pradesh election developments and Visakhapatnam ward coverage with readable summaries, incident tracking and source-backed status labels.</p><button class="action primary" data-go="liveNews">Explore latest updates →</button> <button class="action" data-go="incidents">View incident tracker ↗</button></div><div class="hero-side"><div class="stat-label" style="color:#b9c9f4">MONITORING AREA</div><div class="big">AP + Vizag</div><p>Statewide elections, civic polls, nomination disputes and GVMC wards.</p><div style="height:1px;background:#ffffff24;margin:15px 0"></div><div class="stat-label" style="color:#b9c9f4">UPDATE CADENCE</div><div style="font-weight:750;margin-top:4px">About every 3 hours</div><p>Not second-by-second live coverage.</p></div></article>
+<article class="card stat-card"><div class="stat-label">Election updates</div><div class="number" id="updateCount">—</div><p class="muted">Summaries loaded from the latest feed.</p><button class="action" data-go="liveNews">Read updates →</button></article>
+<article class="card stat-card"><div class="stat-label">GVMC coverage</div><div class="number">120 wards</div><p class="muted">Browse the ward register; candidate names appear only when sourced.</p><button class="action" data-go="wards">Explore wards →</button></article>
+<article class="card stat-card"><div class="stat-label">Evidence standard</div><div class="number" style="font-size:24px">Source-first</div><p class="muted">Claims are attributed; allegations are not presented as proven facts.</p><button class="action" data-go="sources">Verification guide →</button></article>
+<article class="card wide"><div class="section-head"><div><div class="update-heading"><h2>Latest election updates</h2></div><p class="muted">A quick briefing first. Open the source only when you want to check the original report.</p></div><button class="action" data-go="liveNews">All updates →</button></div><div id="dashboardNews" class="muted">Loading latest updates…</div></article>
+<article class="card"><h2>Feed status</h2><div class="number" style="font-size:23px" id="feedStatusLabel">Connecting…</div><p id="lastChecked" class="muted">Last check not recorded</p><p class="small muted">The timestamp is taken from the published feed; it does not guarantee every source was reachable.</p></article>
+<article class="card full"><div class="section-head"><div><h2>Jump into a section</h2><p class="muted">Choose the part of the election picture you need.</p></div></div><div class="sources">
+<div class="source"><h3>Election incidents & complaints</h3><p class="muted">Reported clashes, nomination obstruction allegations, police action and court / SEC responses.</p><button class="action" data-go="incidents">Open incident tracker →</button></div>
+<div class="source"><h3>Municipal / ULB polls</h3><p class="muted">Current process status, schedule changes and local-body notices.</p><button class="action" data-go="urban">View municipal polls →</button></div>
+<div class="source"><h3>Vizag / GVMC wards</h3><p class="muted">A ward-by-ward register for sourced candidate updates.</p><button class="action" data-go="wards">Open ward list →</button></div>
+</div></article>
 </div></section>
 <section id="liveNews" class="view hidden"><div class="grid"><article class="card full"><div class="section-head"><div><h2>Election updates — summaries</h2><p class="muted">This section summarises what each report says. Use the source link only when you need to verify details or read the full report.</p></div><button id="refreshNews" class="action">Reload feed</button></div><p id="feedMeta" class="small muted">Loading feed status…</p><div id="liveNewsList"></div><div class="notice" style="margin-top:14px"><strong>Important:</strong> Automatic collection is scheduled about every 3 hours. This is not second-by-second live data. Summaries are based on available publisher feed descriptions; reports may be incomplete or conflicting. Official notices take precedence.</div></article></div></section>
 <section id="urban" class="view hidden"><div class="grid">
@@ -87,7 +155,10 @@ async function loadElectionNews(){
   const response=await fetch('./news.json?cache='+Date.now(),{cache:'no-store'});
   if(!response.ok)throw new Error('Feed file not published yet');
   const data=await response.json(),items=Array.isArray(data.items)?data.items:[];
-  if(meta)meta.textContent='Feed last checked: '+(data.updated_at_ist||'time not provided')+' · '+items.length+' items · Times shown as published by source where available.';
+  if(meta)meta.textContent='Feed last checked: '+(data.updated_at_ist||'time not provided')+' · '+items.length+' updates · Times shown as published by source where available.';
+  const count=document.getElementById('updateCount');if(count)count.textContent=items.length;
+  const statusLabel=document.getElementById('feedStatusLabel');if(statusLabel)statusLabel.textContent=items.length?'Feed loaded':'No updates';
+  const checked=document.getElementById('lastChecked');if(checked)checked.textContent=data.updated_at_ist||'Timestamp not provided';
   if(list)list.innerHTML=makeItems(items,50);
   if(dash)dash.innerHTML=makeItems(items,4);
   const ap=items.filter(x=>/andhra|state election commission|amaravati|assembly election|eci|election commission/i.test((x.title||'')+' '+(x.source||'')));
@@ -95,8 +166,11 @@ async function loadElectionNews(){
   if(state)state.innerHTML=makeItems(ap.length?ap:items,15);
   if(vizag)vizag.innerHTML=makeItems(vz.length?vz:items,20);
  }catch(err){
-  if(meta)meta.textContent='Feed not available yet. It will appear after the first successful scheduled run.';
-  const message='<p class="muted">Automatic news feed is waiting for its first successful update. You can still use the official source links.</p>';
+  if(meta)meta.textContent='Feed could not be loaded. Try again after the next deployment or scheduled run.';
+  const statusLabel=document.getElementById('feedStatusLabel');if(statusLabel)statusLabel.textContent='Unavailable';
+  const count=document.getElementById('updateCount');if(count)count.textContent='—';
+  const checked=document.getElementById('lastChecked');if(checked)checked.textContent='Feed timestamp unavailable';
+  const message='<p class="muted">The update feed could not be loaded right now. Use Reload feed to try again; this does not mean there are no election developments.</p>';
   if(list)list.innerHTML=message;if(dash)dash.innerHTML=message;if(state)state.innerHTML=message;if(vizag)vizag.innerHTML=message;
  }
 }
