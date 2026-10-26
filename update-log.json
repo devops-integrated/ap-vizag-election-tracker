@@ -1,0 +1,6 @@
+{
+  "updated_at_ist": null,
+  "update_frequency": "Scheduled approximately every 3 hours; manual workflow runs are also supported",
+  "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
+  "runs": []
+}
