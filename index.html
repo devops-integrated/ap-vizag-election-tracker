@@ -518,7 +518,18 @@ async function loadUpdateHistory(){
   const response=await fetch('./update-log.json?cache='+Date.now(),{cache:'no-store'});
   if(!response.ok)throw new Error('Refresh history is not published yet');
   const data=await response.json(),runs=Array.isArray(data.runs)?data.runs:[];
-  meta.textContent='History last updated: '+(data.updated_at_ist||'timestamp unavailable')+' · Showing '+runs.length+' recorded checks (up to 60 retained).';
+  const istStamp=data.updated_at_ist||'timestamp unavailable';
+  let easternStamp='Eastern time unavailable';
+  if(data.updated_at_ist){
+   const match=data.updated_at_ist.match(/^(\d{1,2}) ([A-Za-z]{3}) (\d{4}), (\d{1,2}):(\d{2}):(\d{2}) (AM|PM) IST$/);
+   if(match){
+    const months={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
+    let hour=Number(match[4])%12+(match[7]==='PM'?12:0);
+    const utc=Date.UTC(Number(match[3]),months[match[2]],Number(match[1]),hour-5,Number(match[5])-30,Number(match[6]));
+    easternStamp=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit',second:'2-digit',timeZoneName:'short'}).format(new Date(utc));
+   }
+  }
+  meta.textContent='History last updated: '+istStamp+' · Eastern time: '+easternStamp+' · Showing '+runs.length+' recorded checks (up to 60 retained).';
   if(!runs.length){list.innerHTML='<p class="muted">No scheduled run history is available yet. The first successful refresh will create the log.</p>';return;}
   list.innerHTML='<div class="sources">'+runs.map(run=>{
    const fresh=Array.isArray(run.new_items)?run.new_items:[];
