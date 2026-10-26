@@ -260,6 +260,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
   <div class="nav-primary" aria-label="Frequently used sections">
     <button data-view="dashboard" aria-selected="true"><span class="nav-emoji" aria-hidden="true">⌂</span> Overview</button>
     <button data-view="wards"><span class="nav-emoji" aria-hidden="true">♙</span> Ward candidates</button>
+    <button data-view="constituencies"><span class="nav-emoji" aria-hidden="true">⌖</span> By constituency</button>
     <button data-view="liveNews"><span class="nav-emoji" aria-hidden="true">◉</span> Live news</button>
     <button data-view="latestUpdates"><span class="nav-emoji" aria-hidden="true">↻</span> Latest updates</button>
     <button data-view="calendar"><span class="nav-emoji" aria-hidden="true">▦</span> Election calendar</button>
@@ -420,6 +421,17 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 <section id="wards" class="view hidden">
 <aside class="duties-panel"><div class="duties-kicker">CANDIDATE GUIDE · GVMC WARDS</div><h3>What residents can expect a ward corporator to do</h3><p>The elected corporator represents the ward in the municipal corporation, raises resident concerns, takes part in council and ward-committee decisions, and follows up with municipal officers on local services and approved works.</p><div class="duties-grid"><div><strong>Common ward issues</strong><p>Roads, drains, water supply, waste collection, streetlights, parks, markets and public-health services.</p></div><div><strong>What this list confirms</strong><p>Candidate names are shown with their source and status. A party announcement is not the same as the final official contesting-candidate list.</p></div></div><p class="duties-limit">The role is representative and oversight-focused; it does not mean one person can independently approve every project or order all departments.</p><p class="duties-source">Sources: <a href="https://www.gvmc.gov.in/" target="_blank" rel="noopener noreferrer">GVMC ↗</a> · <a href="https://sec.ap.gov.in/" target="_blank" rel="noopener noreferrer">AP State Election Commission ↗</a></p></aside>
 <article class="card full"><div class="section-head"><div><h2>GVMC ward-by-ward candidate tracker</h2><p class="muted">74 YSRCP names are loaded from the party announcement. These are party-announced names, not yet treated here as the SEC’s final contesting list. Filter by ward, name, zone or status.</p></div><div class="field"><input id="wardSearch" type="search" placeholder="Search ward or candidate…" aria-label="Search wards"><select id="wardStatus" aria-label="Filter by status"><option value="all">All statuses</option><option value="party-announced">Party-announced candidates</option><option value="pending">Awaiting sourced name</option><option value="final">Official final list</option></select></div></div><div class="tablewrap"><table><thead><tr><th>Ward</th><th>Candidate</th><th>Party</th><th>Status</th><th>Source / notes</th></tr></thead><tbody id="wardRows"></tbody></table></div><p id="wardCount" class="small muted"></p></article></section>
+<section id="constituencies" class="view hidden">
+<article class="card full">
+  <div class="section-head">
+    <div><h2>Candidate tracker by constituency</h2><p class="muted">Browse the currently sourced GVMC ward-level party announcements grouped under the constituency labels in the source. These are municipal corporator candidates—not Assembly candidates—and are not the final official contesting list.</p></div>
+    <div class="field"><input id="constituencySearch" type="search" placeholder="Search constituency or candidate…" aria-label="Search constituencies or candidates"><select id="constituencyFilter" aria-label="Filter by constituency"><option value="all">All available constituencies</option></select></div>
+  </div>
+  <div id="constituencySummary" class="sources"></div>
+  <div id="constituencyResults"></div>
+  <p id="constituencyCount" class="small muted"></p>
+</article>
+</section>
 <section id="calendar" class="view hidden">
 <aside class="duties-panel"><div class="duties-kicker">ELECTION CALENDAR · RESPONSIBILITY BY OFFICE</div><h3>Which office is being elected—and what it does</h3><p><strong>Gram Panchayat:</strong> village-level planning and local services. <strong>MPTC / ZPTC:</strong> mandal and district rural-development representation. <strong>Corporator / councillor:</strong> municipal ward representation and civic-service oversight. <strong>MLA / MP:</strong> state or national legislation, budgets and government scrutiny.</p><p class="duties-limit">This calendar tracks election events, not a promise that every date is final. The latest APSEC or ECI notification takes precedence; a court direction may change the process.</p></aside>
 <article class="card full"><h2>Full election calendar · October–December 2026</h2><p class="muted">Schedules can change. The municipal poll process has a reported court-directed halt; confirm every date with APSEC before acting.</p><div class="tablewrap"><table><thead><tr><th>Election</th><th>Previously announced polling</th><th>Counting / results</th><th>Current tracker status</th><th>Source</th></tr></thead><tbody>
@@ -482,7 +494,34 @@ announcedYSRCP.forEach(([ward,candidate,zone])=>Object.assign(wards[ward-1],{can
 const rows=document.getElementById('wardRows');
 function renderWards(){const q=document.getElementById('wardSearch').value.trim().toLowerCase();const status=document.getElementById('wardStatus').value;const shown=wards.filter(w=>(status==='all'||(status==='pending'?w.status==='pending':status==='party-announced'?w.status==='party-announced':w.status==='final'))&&(!q||String(w.ward).includes(q)||w.candidate.toLowerCase().includes(q)||w.party.toLowerCase().includes(q)||w.status.toLowerCase().includes(q)||w.source.toLowerCase().includes(q)));rows.innerHTML=shown.map(w=>'<tr><td><strong>'+w.ward+'</strong></td><td>'+(w.candidate?escapeHtml(w.candidate):'—')+'</td><td>'+(w.party||'—')+'</td><td><span class="tag '+(w.status==='pending'?'pending':'')+'">'+(w.status==='party-announced'?'Party announced':w.status==='final'?'Official final list':'Awaiting verified name')+'</span></td><td>'+(w.sourceUrl?'<a href="'+safeUrl(w.sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+escapeHtml(w.source)+' ↗</a>':escapeHtml(w.source||'No sourced candidate name loaded'))+'</td></tr>').join('');const count=wards.filter(w=>w.candidate).length;document.getElementById('wardCount').textContent='Showing '+shown.length+' of 120 wards · '+count+' sourced party-announced names loaded · final official contesting list still needs confirmation.';}
 function renderCandidatePreview(){const target=document.getElementById('candidatePreviewRows');if(!target)return;const known=wards.filter(w=>w.candidate).slice(0,8);target.innerHTML=known.map(w=>'<tr><td>Ward '+w.ward+'</td><td>'+escapeHtml(w.candidate)+'</td><td>'+escapeHtml(w.party)+'</td><td><a href="'+safeUrl(w.sourceUrl)+'" target="_blank" rel="noopener noreferrer">Party-announced · source ↗</a></td></tr>').join('');const count=document.getElementById('candidateFeatureCount');if(count)count.textContent=wards.filter(w=>w.candidate).length;}
-document.getElementById('wardSearch').addEventListener('input',renderWards);document.getElementById('wardStatus').addEventListener('change',renderWards);renderWards();renderCandidatePreview();
+function renderConstituencies(){
+ const search=(document.getElementById('constituencySearch')?.value||'').trim().toLowerCase();
+ const filter=document.getElementById('constituencyFilter')?.value||'all';
+ const grouped={};
+ wards.filter(w=>w.candidate&&w.source).forEach(w=>{
+   const match=w.source.match(/·\s*(.+)$/);
+   const constituency=match?match[1].trim():'Unspecified constituency';
+   (grouped[constituency]||(grouped[constituency]=[])).push(w);
+ });
+ const names=Object.keys(grouped).sort((a,b)=>a.localeCompare(b));
+ const select=document.getElementById('constituencyFilter');
+ if(select && select.options.length===1){
+   names.forEach(name=>{const option=document.createElement('option');option.value=name;option.textContent=name;select.appendChild(option)});
+ }
+ const active=names.filter(name=>(filter==='all'||name===filter)&&(!search||name.toLowerCase().includes(search)||grouped[name].some(w=>String(w.ward).includes(search)||w.candidate.toLowerCase().includes(search)||w.party.toLowerCase().includes(search))));
+ const summary=document.getElementById('constituencySummary');
+ if(summary) summary.innerHTML=active.map(name=>'<div class="source"><h3>'+escapeHtml(name)+'</h3><div class="number">'+grouped[name].length+'</div><p class="small muted">sourced party-announced ward candidates</p><button class="action" type="button" data-constituency="'+escapeHtml(name)+'">View candidates ↓</button></div>').join('')||'<p class="muted">No matching constituency or sourced candidate is available.</p>';
+ const results=document.getElementById('constituencyResults');
+ if(results) results.innerHTML=active.map(name=>'<div class="tablewrap" style="margin-top:14px"><table><thead><tr><th colspan="5">'+escapeHtml(name)+' · '+grouped[name].length+' sourced names</th></tr><tr><th>GVMC ward</th><th>Candidate</th><th>Party</th><th>Status</th><th>Source</th></tr></thead><tbody>'+grouped[name].map(w=>'<tr><td>'+w.ward+'</td><td>'+escapeHtml(w.candidate)+'</td><td>'+escapeHtml(w.party)+'</td><td><span class="tag pending">Party announced</span></td><td><a href="'+safeUrl(w.sourceUrl)+'" target="_blank" rel="noopener noreferrer">Open source ↗</a></td></tr>').join('')+'</tbody></table></div>').join('');
+ const count=wards.filter(w=>w.candidate).length;
+ const shown=active.reduce((n,name)=>n+grouped[name].length,0);
+ const counter=document.getElementById('constituencyCount');
+ if(counter) counter.textContent='Showing '+shown+' of '+count+' sourced ward-level names across '+active.length+' constituency groups. Other constituencies are not shown because no sourced candidate entries are loaded here yet.';
+ summary?.querySelectorAll('[data-constituency]').forEach(button=>button.addEventListener('click',()=>{const target=[...document.querySelectorAll('#constituencyResults table')].find(table=>table.querySelector('thead')?.textContent.includes(button.dataset.constituency));target?.scrollIntoView({behavior:'smooth',block:'start'});}));
+}
+document.getElementById('constituencySearch')?.addEventListener('input',renderConstituencies);
+document.getElementById('constituencyFilter')?.addEventListener('change',renderConstituencies);
+document.getElementById('wardSearch').addEventListener('input',renderWards);document.getElementById('wardStatus').addEventListener('change',renderWards);renderWards();renderCandidatePreview();renderConstituencies();
 async function loadElectionNews(){
  const meta=document.getElementById('feedMeta'),list=document.getElementById('liveNewsList'),dash=document.getElementById('dashboardNews'),state=document.getElementById('stateUpdates'),vizag=document.getElementById('vizagUpdates');
  const makeItems=(items,limit=20)=>{if(!items||!items.length)return '<p class="muted">No election updates are available yet. Try Reload feed after the next successful check.</p>';return '<div class="sources">'+items.slice(0,limit).map(item=>'<div class="source"><span class="tag '+(item.status==='Reported'?'pending':'')+'">'+escapeHtml(item.status||'Source item')+'</span><h3 style="font-size:16px;margin:8px 0">'+escapeHtml(item.title)+'</h3>'+(item.summary?'<p>'+escapeHtml(item.summary)+'</p>':'<p>'+escapeHtml(item.note||'A source page was checked, but no readable update summary was available.')+'</p>')+'<p class="small muted">'+escapeHtml(item.source||'Online source')+(item.published?' · '+escapeHtml(item.published):'')+'</p><p><a href="'+safeUrl(item.link)+'" target="_blank" rel="noopener noreferrer">Open source / verify ↗</a></p></div>').join('')+'</div>'};
