@@ -260,7 +260,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
   <div class="nav-primary" aria-label="Frequently used sections">
     <button data-view="dashboard" aria-selected="true"><span class="nav-emoji" aria-hidden="true">⌂</span> Overview</button>
     <button data-view="wards"><span class="nav-emoji" aria-hidden="true">♙</span> Ward candidates</button>
-    <button data-view="constituencies"><span class="nav-emoji" aria-hidden="true">⌖</span> By constituency</button>
+    <button data-view="constituencies"><span class="nav-emoji" aria-hidden="true">⌖</span> AP-wide elections</button>
     <button data-view="liveNews"><span class="nav-emoji" aria-hidden="true">◉</span> Live news</button>
     <button data-view="latestUpdates"><span class="nav-emoji" aria-hidden="true">↻</span> Latest updates</button>
     <button data-view="calendar"><span class="nav-emoji" aria-hidden="true">▦</span> Election calendar</button>
@@ -422,15 +422,28 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 <aside class="duties-panel"><div class="duties-kicker">CANDIDATE GUIDE · GVMC WARDS</div><h3>What residents can expect a ward corporator to do</h3><p>The elected corporator represents the ward in the municipal corporation, raises resident concerns, takes part in council and ward-committee decisions, and follows up with municipal officers on local services and approved works.</p><div class="duties-grid"><div><strong>Common ward issues</strong><p>Roads, drains, water supply, waste collection, streetlights, parks, markets and public-health services.</p></div><div><strong>What this list confirms</strong><p>Candidate names are shown with their source and status. A party announcement is not the same as the final official contesting-candidate list.</p></div></div><p class="duties-limit">The role is representative and oversight-focused; it does not mean one person can independently approve every project or order all departments.</p><p class="duties-source">Sources: <a href="https://www.gvmc.gov.in/" target="_blank" rel="noopener noreferrer">GVMC ↗</a> · <a href="https://sec.ap.gov.in/" target="_blank" rel="noopener noreferrer">AP State Election Commission ↗</a></p></aside>
 <article class="card full"><div class="section-head"><div><h2>GVMC ward-by-ward candidate tracker</h2><p class="muted">74 YSRCP names are loaded from the party announcement. These are party-announced names, not yet treated here as the SEC’s final contesting list. Filter by ward, name, zone or status.</p></div><div class="field"><input id="wardSearch" type="search" placeholder="Search ward or candidate…" aria-label="Search wards"><select id="wardStatus" aria-label="Filter by status"><option value="all">All statuses</option><option value="party-announced">Party-announced candidates</option><option value="pending">Awaiting sourced name</option><option value="final">Official final list</option></select></div></div><div class="tablewrap"><table><thead><tr><th>Ward</th><th>Candidate</th><th>Party</th><th>Status</th><th>Source / notes</th></tr></thead><tbody id="wardRows"></tbody></table></div><p id="wardCount" class="small muted"></p></article></section>
 <section id="constituencies" class="view hidden">
-<article class="card full">
-  <div class="section-head">
-    <div><h2>Candidate tracker by constituency</h2><p class="muted">Browse the currently sourced GVMC ward-level party announcements grouped under the constituency labels in the source. These are municipal corporator candidates—not Assembly candidates—and are not the final official contesting list.</p></div>
-    <div class="field"><input id="constituencySearch" type="search" placeholder="Search constituency or candidate…" aria-label="Search constituencies or candidates"><select id="constituencyFilter" aria-label="Filter by constituency"><option value="all">All available constituencies</option></select></div>
+<div class="grid">
+ <article class="card full">
+  <div class="section-head"><div><h2>Andhra Pradesh statewide election tracker</h2><p class="muted">Coverage is statewide—not just Visakhapatnam. The 2026 schedule covers urban local bodies, MPTC/ZPTC constituencies and Gram Panchayats. These are local-body elections, not a statewide Assembly general election.</p></div><a class="action" href="https://sec.ap.gov.in/" target="_blank" rel="noopener noreferrer">Official AP State Election Commission ↗</a></div>
+  <div class="notice"><strong>Schedule caution:</strong> the previously announced urban local-body polling date has been reported as halted pending further directions. Check APSEC for the latest order before treating any date or candidate list as final.</div>
+  <div class="grid" style="margin-top:14px">
+   <article class="card"><h3>Urban local bodies</h3><div class="number">100</div><p class="muted small">13 municipal corporations, 77 municipalities and 10 Nagar Panchayats in the announced schedule.</p></article>
+   <article class="card"><h3>MPTC / ZPTC</h3><div class="number">Statewide</div><p class="muted small">Mandal and district-level rural constituencies; announced polling date was 3 November 2026, subject to official updates.</p></article>
+   <article class="card"><h3>Gram Panchayats</h3><div class="number">3 phases</div><p class="muted small">Village Sarpanch and ward-member elections; announced dates span 26 November–2 December 2026.</p></article>
   </div>
-  <div id="constituencySummary" class="sources"></div>
-  <div id="constituencyResults"></div>
-  <p id="constituencyCount" class="small muted"></p>
-</article>
+ </article>
+ <article class="card full">
+  <div class="section-head"><div><h2>Municipal corporations across Andhra Pradesh</h2><p class="muted">All 13 corporations included in the announced urban local-body schedule. Candidate names must be populated from official ward-wise lists; only sourced entries are shown below.</p></div><div class="field"><input id="apAreaSearch" type="search" placeholder="Search corporation or election type…" aria-label="Search statewide election areas"></div></div>
+  <div id="apAreaList" class="sources"></div>
+  <p id="apAreaCount" class="small muted"></p>
+ </article>
+ <article class="card full">
+  <div class="section-head"><div><h2>Currently loaded sourced candidate names</h2><p class="muted">This data currently contains Visakhapatnam GVMC ward-level YSRCP announcements only. Other districts and local bodies are not assumed to have no candidates; their verified lists have not yet been loaded.</p></div>
+   <div class="field"><input id="constituencySearch" type="search" placeholder="Search constituency or candidate…" aria-label="Search loaded candidate entries"><select id="constituencyFilter" aria-label="Filter by loaded constituency"><option value="all">All loaded constituency groups</option></select></div>
+  </div>
+  <div id="constituencySummary" class="sources"></div><div id="constituencyResults"></div><p id="constituencyCount" class="small muted"></p>
+ </article>
+</div>
 </section>
 <section id="calendar" class="view hidden">
 <aside class="duties-panel"><div class="duties-kicker">ELECTION CALENDAR · RESPONSIBILITY BY OFFICE</div><h3>Which office is being elected—and what it does</h3><p><strong>Gram Panchayat:</strong> village-level planning and local services. <strong>MPTC / ZPTC:</strong> mandal and district rural-development representation. <strong>Corporator / councillor:</strong> municipal ward representation and civic-service oversight. <strong>MLA / MP:</strong> state or national legislation, budgets and government scrutiny.</p><p class="duties-limit">This calendar tracks election events, not a promise that every date is final. The latest APSEC or ECI notification takes precedence; a court direction may change the process.</p></aside>
@@ -494,6 +507,34 @@ announcedYSRCP.forEach(([ward,candidate,zone])=>Object.assign(wards[ward-1],{can
 const rows=document.getElementById('wardRows');
 function renderWards(){const q=document.getElementById('wardSearch').value.trim().toLowerCase();const status=document.getElementById('wardStatus').value;const shown=wards.filter(w=>(status==='all'||(status==='pending'?w.status==='pending':status==='party-announced'?w.status==='party-announced':w.status==='final'))&&(!q||String(w.ward).includes(q)||w.candidate.toLowerCase().includes(q)||w.party.toLowerCase().includes(q)||w.status.toLowerCase().includes(q)||w.source.toLowerCase().includes(q)));rows.innerHTML=shown.map(w=>'<tr><td><strong>'+w.ward+'</strong></td><td>'+(w.candidate?escapeHtml(w.candidate):'—')+'</td><td>'+(w.party||'—')+'</td><td><span class="tag '+(w.status==='pending'?'pending':'')+'">'+(w.status==='party-announced'?'Party announced':w.status==='final'?'Official final list':'Awaiting verified name')+'</span></td><td>'+(w.sourceUrl?'<a href="'+safeUrl(w.sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+escapeHtml(w.source)+' ↗</a>':escapeHtml(w.source||'No sourced candidate name loaded'))+'</td></tr>').join('');const count=wards.filter(w=>w.candidate).length;document.getElementById('wardCount').textContent='Showing '+shown.length+' of 120 wards · '+count+' sourced party-announced names loaded · final official contesting list still needs confirmation.';}
 function renderCandidatePreview(){const target=document.getElementById('candidatePreviewRows');if(!target)return;const known=wards.filter(w=>w.candidate).slice(0,8);target.innerHTML=known.map(w=>'<tr><td>Ward '+w.ward+'</td><td>'+escapeHtml(w.candidate)+'</td><td>'+escapeHtml(w.party)+'</td><td><a href="'+safeUrl(w.sourceUrl)+'" target="_blank" rel="noopener noreferrer">Party-announced · source ↗</a></td></tr>').join('');const count=document.getElementById('candidateFeatureCount');if(count)count.textContent=wards.filter(w=>w.candidate).length;}
+const apElectionAreas=[
+ {name:'Greater Visakhapatnam (GVMC)',type:'Municipal corporation',district:'Visakhapatnam'},
+ {name:'Vijayawada',type:'Municipal corporation',district:'NTR'},
+ {name:'Vizianagaram',type:'Municipal corporation',district:'Vizianagaram'},
+ {name:'Eluru',type:'Municipal corporation',district:'Eluru'},
+ {name:'Machilipatnam',type:'Municipal corporation',district:'Krishna'},
+ {name:'Guntur',type:'Municipal corporation',district:'Guntur'},
+ {name:'Ongole',type:'Municipal corporation',district:'Prakasam'},
+ {name:'Nellore',type:'Municipal corporation',district:'SPSR Nellore'},
+ {name:'Tirupati',type:'Municipal corporation',district:'Tirupati'},
+ {name:'Chittoor',type:'Municipal corporation',district:'Chittoor'},
+ {name:'Kadapa',type:'Municipal corporation',district:'YSR Kadapa'},
+ {name:'Kurnool',type:'Municipal corporation',district:'Kurnool'},
+ {name:'Anantapur',type:'Municipal corporation',district:'Anantapur'},
+ {name:'77 municipalities',type:'Municipalities statewide',district:'All districts'},
+ {name:'10 Nagar Panchayats',type:'Nagar Panchayats statewide',district:'All districts'},
+ {name:'MPTC constituencies',type:'Rural local-body constituencies',district:'All districts'},
+ {name:'ZPTC constituencies',type:'Rural district-level constituencies',district:'All districts'},
+ {name:'Gram Panchayats',type:'Village Sarpanch and ward-member elections',district:'All districts'}
+];
+function renderAPAreas(){
+ const target=document.getElementById('apAreaList');if(!target)return;
+ const q=(document.getElementById('apAreaSearch')?.value||'').trim().toLowerCase();
+ const shown=apElectionAreas.filter(a=>(a.name+' '+a.type+' '+a.district).toLowerCase().includes(q));
+ target.innerHTML=shown.map(a=>'<div class="source"><span class="tag">'+escapeHtml(a.type)+'</span><h3 style="font-size:16px;margin:8px 0">'+escapeHtml(a.name)+'</h3><p class="small muted">Coverage: '+escapeHtml(a.district)+'</p><p class="small">Election status: refer to the latest APSEC notification. Candidate roster: not yet loaded for this area unless listed in the sourced candidate section below.</p><a href="https://sec.ap.gov.in/" target="_blank" rel="noopener noreferrer">Check official notices ↗</a></div>').join('')||'<p class="muted">No matching area found.</p>';
+ const count=document.getElementById('apAreaCount');if(count)count.textContent='Showing '+shown.length+' of '+apElectionAreas.length+' statewide election coverage groups. The 77 municipalities and 10 Nagar Panchayats are grouped until their individual official ward lists are loaded.';
+}
+document.getElementById('apAreaSearch')?.addEventListener('input',renderAPAreas);
 function renderConstituencies(){
  const search=(document.getElementById('constituencySearch')?.value||'').trim().toLowerCase();
  const filter=document.getElementById('constituencyFilter')?.value||'all';
@@ -521,7 +562,7 @@ function renderConstituencies(){
 }
 document.getElementById('constituencySearch')?.addEventListener('input',renderConstituencies);
 document.getElementById('constituencyFilter')?.addEventListener('change',renderConstituencies);
-document.getElementById('wardSearch').addEventListener('input',renderWards);document.getElementById('wardStatus').addEventListener('change',renderWards);renderWards();renderCandidatePreview();renderConstituencies();
+document.getElementById('wardSearch').addEventListener('input',renderWards);document.getElementById('wardStatus').addEventListener('change',renderWards);renderWards();renderCandidatePreview();renderConstituencies();renderAPAreas();
 async function loadElectionNews(){
  const meta=document.getElementById('feedMeta'),list=document.getElementById('liveNewsList'),dash=document.getElementById('dashboardNews'),state=document.getElementById('stateUpdates'),vizag=document.getElementById('vizagUpdates');
  const makeItems=(items,limit=20)=>{if(!items||!items.length)return '<p class="muted">No election updates are available yet. Try Reload feed after the next successful check.</p>';return '<div class="sources">'+items.slice(0,limit).map(item=>'<div class="source"><span class="tag '+(item.status==='Reported'?'pending':'')+'">'+escapeHtml(item.status||'Source item')+'</span><h3 style="font-size:16px;margin:8px 0">'+escapeHtml(item.title)+'</h3>'+(item.summary?'<p>'+escapeHtml(item.summary)+'</p>':'<p>'+escapeHtml(item.note||'A source page was checked, but no readable update summary was available.')+'</p>')+'<p class="small muted">'+escapeHtml(item.source||'Online source')+(item.published?' · '+escapeHtml(item.published):'')+'</p><p><a href="'+safeUrl(item.link)+'" target="_blank" rel="noopener noreferrer">Open source / verify ↗</a></p></div>').join('')+'</div>'};
