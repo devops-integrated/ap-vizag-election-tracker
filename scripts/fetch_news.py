@@ -17,6 +17,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "news.json"
+LOG = ROOT / "update-log.json"
 IST = ZoneInfo("Asia/Kolkata")
 USER_AGENT = "Mozilla/5.0 (compatible; AP-Vizag-Election-Tracker/1.0)"
 KEYWORDS = (
@@ -166,8 +167,53 @@ def main():
         "source_note": "Election reports include short summaries from publisher RSS descriptions. They remain reported, not official confirmation, unless backed by an official notice.",
         "items": combined
     }
+
+    # Compare this successful collection with the previously published feed.
+    previous_payload = {}
+    if OUT.exists():
+        try:
+            previous_payload = json.loads(OUT.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            previous_payload = {}
+    previous_items = previous_payload.get("items", []) if isinstance(previous_payload, dict) else []
+    previous_keys = {
+        (str(item.get("link", "")).strip() or str(item.get("title", "")).strip())
+        for item in previous_items if isinstance(item, dict)
+    }
+    is_baseline = not isinstance(previous_payload, dict) or not previous_payload.get("updated_at_ist")
+    new_items = [] if is_baseline else [
+        item for item in combined
+        if (str(item.get("link", "")).strip() or str(item.get("title", "")).strip()) not in previous_keys
+    ]
+
+    history = {"updated_at_ist": checked, "runs": []}
+    if LOG.exists():
+        try:
+            existing_history = json.loads(LOG.read_text(encoding="utf-8"))
+            if isinstance(existing_history, dict):
+                history = existing_history
+        except (OSError, json.JSONDecodeError):
+            pass
+    runs = history.get("runs", [])
+    if not isinstance(runs, list):
+        runs = []
+    runs.insert(0, {
+        "checked_at_ist": checked,
+        "baseline": is_baseline,
+        "new_count": len(new_items),
+        "total_items": len(combined),
+        "new_items": new_items,
+        "note": "Initial baseline; new items are not assessed on the first run." if is_baseline else ("New feed items compared with the previous successful run." if new_items else "Check completed; no additional feed items detected.")
+    })
+    history = {
+        "updated_at_ist": checked,
+        "update_frequency": "Scheduled approximately every 3 hours; manual workflow runs are also supported",
+        "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
+        "runs": runs[:60]
+    }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {len(payload['items'])} items ({len(items)} news updates, {len(official_items)} official links) to {OUT}; checked {len(OFFICIAL_PAGES)} official pages.")
+    LOG.write_text(json.dumps(history, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Wrote {len(payload['items'])} feed items and logged this check ({len(new_items)} newly seen items) to {LOG}; checked {len(OFFICIAL_PAGES)} official pages.")
 
 
 if __name__ == "__main__":
