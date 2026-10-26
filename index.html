@@ -207,6 +207,49 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 #moreSections:focus-visible{outline:3px solid #8ea6ff;outline-offset:3px}
 @media(max-width:700px){.tabs{gap:8px;padding:10px}.nav-primary{flex:1 1 100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.tabs .nav-primary button{justify-content:flex-start;white-space:normal;text-align:left;padding:10px;font-size:11px}.more-nav-label{margin-top:3px}#moreSections{flex:1 1 100%;max-width:none;width:100%}}
 
+
+/* Final UI pass: plain-language hierarchy, task-first overview and responsive status cards */
+.command-layout{max-width:100%;min-width:0}
+.command-topline{letter-spacing:.11em}
+.command-hero{min-height:350px}
+.hero-copy{padding-top:31px;padding-bottom:28px}
+.command-hero h2{max-width:550px;font-size:clamp(38px,4.3vw,55px);line-height:1.02}
+.command-hero .hero-copy>p{max-width:520px;font-size:14px}
+.hero-actions{gap:10px 17px}
+.hero-ghost{font-size:11px}
+.metric-ribbon{margin-bottom:28px}
+.metric-tile{padding:16px}
+.metric-value{margin-top:9px}
+.dashboard-election-status{margin:0 0 30px;padding:21px;border:1px solid #e1e6f0;border-radius:16px;background:linear-gradient(135deg,#fff 0%,#f8faff 100%);box-shadow:0 7px 23px #17284b06}
+.status-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:14px}
+.status-heading h2{font-size:22px;line-height:1.2;letter-spacing:-.045em;margin:9px 0 0;color:#152441}
+.dashboard-election-status>.card{margin:0!important;border:0;border-radius:12px;padding:16px;background:#fff!important;box-shadow:none}
+.dashboard-election-status>.card>.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.dashboard-election-status>.card>.grid>.card{grid-column:auto!important;margin:0;border:1px solid #e5e9f1;border-radius:11px;padding:15px;box-shadow:none!important}
+.dashboard-election-status>.card>.grid>.card h3{font-size:13px}
+.dashboard-election-status>.card>.grid>.card p{font-size:11px;line-height:1.7}
+.dashboard-election-status>.card>.grid>.card p:last-child{margin-bottom:0}
+.dashboard-election-status>.card>p{margin:12px 0 0;line-height:1.7}
+.candidate-feature{margin-bottom:30px}
+.candidate-feature-head{align-items:flex-start}
+.briefing-grid{gap:28px}
+.briefing-heading{align-items:center}
+.briefing-aside{padding-left:23px}
+@media(max-width:700px){
+ .command-hero{min-height:0}
+ .command-hero h2{font-size:42px}
+ .hero-copy{padding:27px 21px 8px}
+ .hero-actions{gap:8px 14px}
+ .dashboard-election-status{padding:14px}
+ .status-heading{align-items:flex-start;flex-direction:column}
+ .status-heading h2{font-size:20px}
+ .dashboard-election-status>.card{padding:10px}
+ .dashboard-election-status>.card>.grid{grid-template-columns:1fr}
+ .dashboard-election-status>.card>.grid>.card{grid-column:1/-1!important}
+ .metric-ribbon{margin-bottom:22px}
+ .candidate-feature-head{flex-direction:column}
+}
+
 </style>
 </head>
 <body>
@@ -242,32 +285,17 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
   </select>
 </nav>
 <section id="dashboard" class="view">
-<aside class="duties-panel"><div class="duties-kicker">PUBLIC OFFICE · QUICK GUIDE</div><h3>What elected representatives are responsible for</h3><div class="duties-grid"><div><strong>Local bodies</strong><p>Represent residents, raise local service problems, take part in meetings and plans, and follow up on approved civic or village works.</p></div><div><strong>MLAs and MPs</strong><p>Make and scrutinise laws and budgets at state or Union level, raise public concerns, and hold the relevant government to account.</p></div><div><strong>Important limit</strong><p>Representatives do not personally control every department or guarantee a project. Powers depend on the law, the office, available funds and the responsible administration.</p></div></div><p class="duties-source">Role summaries are simplified. See <a href="https://cdma.ap.gov.in/about/powers-and-functions/" target="_blank" rel="noopener noreferrer">AP municipal administration functions ↗</a> and the <a href="https://zpananthapuramu.ap.gov.in/assets/pdf/Panchayathraj_Act.pdf" target="_blank" rel="noopener noreferrer">Andhra Pradesh Panchayat Raj Act ↗</a>.</p></aside>
 
-<article class="card full" style="margin-bottom:16px;border-left:4px solid #d59b22;background:linear-gradient(120deg,#fffaf0,#fff)">
-  <div class="section-head"><div><span class="tag pending">Election desk · 26 Oct 2026</span><h2 style="margin-top:9px">Two local-election updates to keep separate</h2></div><span class="tag">Source-linked status</span></div>
-  <div class="grid">
-    <div class="card" style="grid-column:span 6;box-shadow:none;background:#fffdf8">
-      <h3>Urban local bodies, including GVMC</h3>
-      <p><strong>Reported status: proceedings on hold.</strong> The previously announced 28 October polling date should not be treated as confirmed while the State Election Commission follows court directions and issues any revised order. This affects the notified urban local-body process; check for a new official schedule before relying on dates.</p>
-      <p class="small"><a href="https://sec.ap.gov.in/" target="_blank" rel="noopener noreferrer">Check APSEC notices ↗</a> · <a href="https://indianexpress.com/article/political-pulse/andhra-pradesh-civic-polls-test-tdp-ysrcp-rivalry-10936027/" target="_blank" rel="noopener noreferrer">Read reporting on the court directions and dispute ↗</a></p>
-    </div>
-    <div class="card" style="grid-column:span 6;box-shadow:none;background:#fbfcff">
-      <h3>MPTC / ZPTC rural local bodies</h3>
-      <p><strong>Reported schedule: polling 3 November; counting 5 November 2026.</strong> Repolling, if required, has been reported for 4 November. Keep this schedule separate from the urban-body pause and verify any changes against the latest APSEC notification.</p>
-      <p class="small"><a href="https://sec.ap.gov.in/" target="_blank" rel="noopener noreferrer">Check APSEC official site ↗</a> · <a href="https://timesofindia.indiatimes.com/city/vijayawada/andhra-pradesh-mptc-zptc-election-schedule-announced-voting-to-be-held-on-nov-3/articleshow/135055567.cms" target="_blank" rel="noopener noreferrer">Read schedule report ↗</a></p>
-    </div>
-  </div>
-  <p class="small muted">Editorial note: the urban-body status above is based on recent reporting about court directions; the MPTC/ZPTC dates are reported schedule details. The issuing authority’s latest order takes precedence. Allegations about nomination obstruction remain attributed claims unless independently established.</p>
-</article>
+
+
 <div class="command-layout">
   <div class="command-topline"><div><span class="live-dot"></span><span class="micro-label">ELECTION INTELLIGENCE / ANDHRA PRADESH</span></div><span class="topline-right">FIELD NOTES · SOURCE-LED · IST</span></div>
   <div class="command-hero">
     <div class="hero-copy">
       <div class="hero-kicker"><span class="kicker-line"></span> THE ELECTION DESK</div>
-      <h2>Know the ground.<br><em>Read between</em><br>the headlines.</h2>
-      <p>One focused view of Andhra Pradesh election developments, local-body decisions, reported incidents and Visakhapatnam's 120-ward register.</p>
-      <div class="hero-actions"><button class="action primary" data-go="liveNews">Read the briefing <span aria-hidden="true">↗</span></button><button class="hero-ghost" data-go="incidents">Explore incident log <span aria-hidden="true">→</span></button><button class="hero-ghost" data-go="latestUpdates">Latest updates & refresh history <span aria-hidden="true">↻</span></button></div>
+      <h2>Andhra Pradesh<br><em>election desk.</em></h2>
+      <p>Follow election developments across Andhra Pradesh and Visakhapatnam. Check ward candidates, compare reports with official notices, and see what changed at the latest refresh.</p>
+      <div class="hero-actions"><button class="action primary" data-go="liveNews">Read latest updates <span aria-hidden="true">↗</span></button><button class="hero-ghost" data-go="wards">Find ward candidates <span aria-hidden="true">→</span></button><button class="hero-ghost" data-go="calendar">Check election dates <span aria-hidden="true">↗</span></button></div>
       <div class="hero-footnote"><span class="shield-mark">✓</span> Allegations stay attributed. Official records stay distinct from media reports.</div>
     </div>
     <div class="hero-art" aria-label="Abstract election intelligence radar illustration">
@@ -286,19 +314,38 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
     <article class="metric-tile"><div class="metric-top"><span class="metric-icon icon-amber">◎</span><span class="metric-label">SOURCE STANDARD</span></div><div class="metric-value metric-word">Evidence<span class="value-period">.</span></div><div class="metric-desc">Reported ≠ officially confirmed</div><button class="metric-link" data-go="sources">How we verify</button></article>
     <article class="metric-tile feed-tile"><div class="metric-top"><span class="metric-icon icon-slate">◷</span><span class="metric-label">FEED CONDITION</span></div><div class="metric-value metric-word" id="feedStatusLabel">Connecting…</div><div class="metric-desc" id="lastChecked">Timestamp not loaded</div><button class="metric-link" id="feedReloadLink">Check feed again ↻</button></article>
   </div>
+  <div class="dashboard-election-status">
+    <div class="status-heading"><div><span class="section-eyebrow"><span class="section-index">STATUS</span> ELECTION WATCH</span><h2>Know what is scheduled—and what needs rechecking</h2></div><button class="text-button" data-go="calendar">Full election calendar <span>↗</span></button></div>
+    <article class="card full" style="margin-bottom:16px;border-left:4px solid #d59b22;background:linear-gradient(120deg,#fffaf0,#fff)">
+  <div class="section-head"><div><span class="tag pending">Election desk · 26 Oct 2026</span><h2 style="margin-top:9px">Two local-election updates to keep separate</h2></div><span class="tag">Source-linked status</span></div>
+  <div class="grid">
+    <div class="card" style="grid-column:span 6;box-shadow:none;background:#fffdf8">
+      <h3>Urban local bodies, including GVMC</h3>
+      <p><strong>Reported status: proceedings on hold.</strong> The previously announced 28 October polling date should not be treated as confirmed while the State Election Commission follows court directions and issues any revised order. This affects the notified urban local-body process; check for a new official schedule before relying on dates.</p>
+      <p class="small"><a href="https://sec.ap.gov.in/" target="_blank" rel="noopener noreferrer">Check APSEC notices ↗</a> · <a href="https://indianexpress.com/article/political-pulse/andhra-pradesh-civic-polls-test-tdp-ysrcp-rivalry-10936027/" target="_blank" rel="noopener noreferrer">Read reporting on the court directions and dispute ↗</a></p>
+    </div>
+    <div class="card" style="grid-column:span 6;box-shadow:none;background:#fbfcff">
+      <h3>MPTC / ZPTC rural local bodies</h3>
+      <p><strong>Reported schedule: polling 3 November; counting 5 November 2026.</strong> Repolling, if required, has been reported for 4 November. Keep this schedule separate from the urban-body pause and verify any changes against the latest APSEC notification.</p>
+      <p class="small"><a href="https://sec.ap.gov.in/" target="_blank" rel="noopener noreferrer">Check APSEC official site ↗</a> · <a href="https://timesofindia.indiatimes.com/city/vijayawada/andhra-pradesh-mptc-zptc-election-schedule-announced-voting-to-be-held-on-nov-3/articleshow/135055567.cms" target="_blank" rel="noopener noreferrer">Read schedule report ↗</a></p>
+    </div>
+  </div>
+  <p class="small muted">Editorial note: the urban-body status above is based on recent reporting about court directions; the MPTC/ZPTC dates are reported schedule details. The issuing authority’s latest order takes precedence. Allegations about nomination obstruction remain attributed claims unless independently established.</p>
+</article>
+  </div>
   <section class="candidate-feature" aria-labelledby="candidateFeatureTitle">
-    <div class="candidate-feature-head"><div><div class="section-eyebrow"><span class="section-index">01</span> THE WARD REGISTER</div><h2 id="candidateFeatureTitle">Real names. Real sources.</h2><p>YSRCP’s published ward announcement is loaded below. Party-announced does not mean SEC-final.</p></div><div class="candidate-count"><strong id="candidateFeatureCount">74</strong><span>sourced names<br>from party announcement</span></div></div>
+    <div class="candidate-feature-head"><div><div class="section-eyebrow"><span class="section-index">01</span> CANDIDATES & WARDS</div><h2 id="candidateFeatureTitle">Real names. Real sources.</h2><p>YSRCP’s published ward announcement is loaded below. Party-announced does not mean SEC-final.</p></div><div class="candidate-count"><strong id="candidateFeatureCount">74</strong><span>sourced names<br>from party announcement</span></div></div>
     <div class="candidate-preview-wrap"><table class="candidate-preview"><thead><tr><th>Ward</th><th>Candidate</th><th>Party</th><th>Evidence status</th></tr></thead><tbody id="candidatePreviewRows"></tbody></table></div>
     <div class="candidate-feature-foot"><span><span class="live-dot"></span> Names link back to the published announcement</span><button class="text-button" data-go="wards">Open all 120 wards ↗</button></div>
   </section>
   <div class="briefing-grid">
     <section class="briefing-main">
-      <div class="section-eyebrow"><span class="section-index">01</span> THE BRIEFING</div>
+      <div class="section-eyebrow"><span class="section-index">02</span> LATEST REPORTS</div>
       <div class="briefing-heading"><div><h2>What’s moving</h2><p>Readable summaries first. Original reporting one click away.</p></div><button class="text-button" data-go="liveNews">All updates <span>↗</span></button></div>
       <div id="dashboardNews" class="briefing-news muted">Loading the latest published feed…</div>
     </section>
     <aside class="briefing-aside">
-      <div class="section-eyebrow"><span class="section-index">02</span> NAVIGATE THE SIGNAL</div>
+      <div class="section-eyebrow"><span class="section-index">03</span> QUICK LINKS</div>
       <h2>Choose your lens.</h2><p class="aside-intro">Go straight to the part of the election picture you need.</p>
       <button class="lens-card" data-go="incidents"><span class="lens-number">A</span><span class="lens-copy"><b>Incidents & complaints</b><small>Reported clashes, allegations, police and court action</small></span><span class="lens-arrow">↗</span></button>
       <button class="lens-card" data-go="urban"><span class="lens-number">B</span><span class="lens-copy"><b>Municipal / ULB polls</b><small>Notices, nomination windows and schedule changes</small></span><span class="lens-arrow">↗</span></button>
