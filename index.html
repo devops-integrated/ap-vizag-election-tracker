@@ -374,8 +374,8 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 <aside class="duties-panel"><div class="duties-kicker">LIVE NEWS · WHAT THE DESK TRACKS</div><h3>From headline to usable election update</h3><ul><li>Summarise the reported development and identify the date, place, people and institution involved.</li><li>Separate official notifications and court orders from party statements and media reporting.</li><li>Link to the original source, label unverified or disputed details, and avoid presenting old schedules as current without checking for a newer order.</li><li>Use the latest official APSEC or ECI notice for election dates, nominations and results.</li></ul></aside>
 <div class="grid"><article class="card full"><div class="section-head"><div><h2>Election updates — summaries</h2><p class="muted">This section summarises what each report says. Use the source link only when you need to verify details or read the full report.</p></div><button id="refreshNews" class="action">Reload feed</button></div><p id="feedMeta" class="small muted">Loading feed status…</p><div id="liveNewsList"></div><div class="notice" style="margin-top:14px"><strong>Important:</strong> Automatic collection is scheduled about every 3 hours. This is not second-by-second live data. Summaries are based on available publisher feed descriptions; reports may be incomplete or conflicting. Official notices take precedence.</div></article></div></section>
 <section id="latestUpdates" class="view hidden">
-<aside class="duties-panel"><div class="duties-kicker">AUTOMATED CHECK HISTORY</div><h3>What changed at each scheduled refresh</h3><ul><li>Each scheduled run records the check time in Indian Standard Time (IST), how many feed items were available, and how many items were newly discovered since the previous check.</li><li>When no new items are found, the run is still recorded so you can see that a check happened.</li><li>New headlines are reported-source items, not automatically verified facts. Open the original source and official notices before relying on dates or claims.</li></ul></aside>
-<div class="grid"><article class="card full"><div class="section-head"><div><h2>Latest updates — refresh-by-refresh log</h2><p class="muted">A history of automated checks, including checks that found no new items. The log updates after a successful workflow run.</p></div><button id="refreshUpdateLog" class="action">Reload history</button></div><p id="updateLogMeta" class="small muted">Loading refresh history…</p><div id="updateLogList"></div><div class="notice" style="margin-top:14px"><strong>Scope:</strong> The automation collects matching online headlines and links from selected official pages. It does not automatically verify every story, produce a complete candidate list, or guarantee that every election development will appear.</div></article></div></section>
+<div class="grid"><article class="card full"><div class="section-head"><div><h2>Latest updates</h2><p id="latestUpdatesMeta" class="small muted">Loading latest updates and last-updated time…</p></div></div><div id="latestUpdatesList"></div></article></div>
+</section>
 <section id="urban" class="view hidden">
 <aside class="duties-panel"><div class="duties-kicker">ROLE GUIDE · URBAN LOCAL BODIES</div><h3>What a corporator or municipal councillor does</h3><ul><li>Represent the ward and raise residents’ concerns in council and ward-committee meetings.</li><li>Help identify priorities and scrutinise local plans, resolutions and budgets.</li><li>Follow up with municipal officials on sanitation, garbage, drainage, water supply, streetlights, roads, parks and public-health services.</li><li>Ask for information and monitor whether approved works and schemes are being carried out.</li></ul><p class="duties-limit">A corporator or councillor does not independently run the whole corporation or municipality; implementation and approvals are shared with the relevant officers and governed by law and budgets.</p><p class="duties-source">Sources: <a href="https://cdma.ap.gov.in/about/powers-and-functions/" target="_blank" rel="noopener noreferrer">AP Commissioner & Director of Municipal Administration ↗</a> · <a href="https://indiankanoon.org/doc/109157680/" target="_blank" rel="noopener noreferrer">AP Municipal Corporations Act — ward committees ↗</a></p></aside>
 <div class="grid">
@@ -491,6 +491,20 @@ async function loadElectionNews(){
   if(!response.ok)throw new Error('Feed file not published yet');
   const data=await response.json(),items=Array.isArray(data.items)?data.items:[];
   if(meta)meta.textContent='Feed last checked: '+(data.updated_at_ist||'time not provided')+' · '+items.length+' updates · Times shown as published by source where available.';
+  const latestMeta=document.getElementById('latestUpdatesMeta'),latestList=document.getElementById('latestUpdatesList');
+  if(latestMeta){
+   let easternStamp='Eastern time unavailable';
+   const stamp=data.updated_at_ist||'';
+   const match=stamp.match(/^(\\d{1,2}) ([A-Za-z]{3}) (\\d{4}), (\\d{1,2}):(\\d{2}):(\\d{2}) (AM|PM) IST$/);
+   if(match){
+    const months={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
+    const hour=Number(match[4])%12+(match[7]==='PM'?12:0);
+    const utc=Date.UTC(Number(match[3]),months[match[2]],Number(match[1]),hour-5,Number(match[5])-30,Number(match[6]));
+    easternStamp=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(new Date(utc));
+   }
+   latestMeta.textContent='Last updated: '+easternStamp+(stamp?' · '+stamp:'');
+  }
+  if(latestList)latestList.innerHTML=makeItems(items,20);
   const count=document.getElementById('updateCount');if(count)count.textContent=items.length;
   const statusLabel=document.getElementById('feedStatusLabel');if(statusLabel)statusLabel.textContent=items.length?'Feed loaded':'No updates';
   const checked=document.getElementById('lastChecked');if(checked)checked.textContent=data.updated_at_ist||'Timestamp not provided';
@@ -511,43 +525,9 @@ async function loadElectionNews(){
 }
 function escapeHtml(value){return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function safeUrl(value){try{const u=new URL(value);return (u.protocol==='https:'||u.protocol==='http:')?u.href:'#';}catch(e){return '#';}}
-async function loadUpdateHistory(){
- const meta=document.getElementById('updateLogMeta'),list=document.getElementById('updateLogList');
- if(!meta||!list)return;
- try{
-  const response=await fetch('./update-log.json?cache='+Date.now(),{cache:'no-store'});
-  if(!response.ok)throw new Error('Refresh history is not published yet');
-  const data=await response.json(),runs=Array.isArray(data.runs)?data.runs:[];
-  const istStamp=data.updated_at_ist||'timestamp unavailable';
-  let easternStamp='Eastern time unavailable';
-  if(data.updated_at_ist){
-   const match=data.updated_at_ist.match(/^(\d{1,2}) ([A-Za-z]{3}) (\d{4}), (\d{1,2}):(\d{2}):(\d{2}) (AM|PM) IST$/);
-   if(match){
-    const months={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
-    let hour=Number(match[4])%12+(match[7]==='PM'?12:0);
-    const utc=Date.UTC(Number(match[3]),months[match[2]],Number(match[1]),hour-5,Number(match[5])-30,Number(match[6]));
-    easternStamp=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit',second:'2-digit',timeZoneName:'short'}).format(new Date(utc));
-   }
-  }
-  meta.textContent='History last updated: '+istStamp+' · Eastern time: '+easternStamp+' · Showing '+runs.length+' recorded checks (up to 60 retained).';
-  if(!runs.length){list.innerHTML='<p class="muted">No scheduled run history is available yet. The first successful refresh will create the log.</p>';return;}
-  list.innerHTML='<div class="sources">'+runs.map(run=>{
-   const fresh=Array.isArray(run.new_items)?run.new_items:[];
-   const title=run.baseline?'Initial baseline saved':(run.new_count>0?'New items found':'No new items found');
-   const badge=run.baseline?'Baseline':(run.new_count>0?'New items':'No changes');
-   const statusClass=run.new_count>0?'':'pending';
-   const items=fresh.length?'<div style="margin-top:12px">'+fresh.map(item=>'<div style="padding:10px 0;border-top:1px solid var(--line)"><strong>'+escapeHtml(item.title||'Untitled update')+'</strong><p class="small muted" style="margin:4px 0">'+escapeHtml(item.source||'Online source')+(item.published?' · '+escapeHtml(item.published):'')+'</p><a href="'+safeUrl(item.link)+'" target="_blank" rel="noopener noreferrer">Open source ↗</a></div>').join('')+'</div>':(run.baseline?'<p class="small muted">This first run establishes the comparison baseline; it is not labelled as new news.</p>':'<p class="small muted">The feed was checked, but no additional items were detected compared with the previous successful run.</p>');
-   return '<div class="source"><span class="tag '+statusClass+'">'+escapeHtml(badge)+'</span><h3 style="font-size:16px;margin:9px 0 4px">'+escapeHtml(title)+'</h3><p class="small muted" style="margin:0 0 9px">'+escapeHtml(run.checked_at_ist||'Check time unavailable')+'</p><p style="margin:0"><strong>'+Number(run.new_count||0)+'</strong> new item(s) · <strong>'+Number(run.total_items||0)+'</strong> total feed items</p>'+items+'</div>';
-  }).join('')+'</div>';
- }catch(err){
-  meta.textContent='Refresh history could not be loaded. It will appear after the first successful scheduled run.';
-  list.innerHTML='<p class="muted">No published history file is available yet. Check the GitHub Actions workflow status if this persists.</p>';
- }
-}
+
 document.getElementById('refreshNews')?.addEventListener('click',loadElectionNews);
 document.getElementById('feedReloadLink')?.addEventListener('click',loadElectionNews);
-document.getElementById('refreshUpdateLog')?.addEventListener('click',loadUpdateHistory);
 
 loadElectionNews();
-loadUpdateHistory();
 </script></body></html>
