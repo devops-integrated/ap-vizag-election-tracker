@@ -492,19 +492,30 @@ async function loadElectionNews(){
   const data=await response.json(),items=Array.isArray(data.items)?data.items:[];
   if(meta)meta.textContent='Feed last checked: '+(data.updated_at_ist||'time not provided')+' · '+items.length+' updates · Times shown as published by source where available.';
   const latestMeta=document.getElementById('latestUpdatesMeta'),latestList=document.getElementById('latestUpdatesList');
+  const easternDateTime=(value)=>{
+   if(!value)return '';
+   const d=new Date(value);
+   if(Number.isNaN(d.getTime()))return '';
+   return new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(d);
+  };
+  const istToEastern=(value)=>{
+   const m=String(value||'').match(/^(\d{1,2}) ([A-Za-z]{3}) (\d{4}), (\d{1,2}):(\d{2}):(\d{2}) (AM|PM) IST$/);
+   if(!m)return '';
+   const months={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
+   const h=Number(m[4])%12+(m[7]==='PM'?12:0);
+   const utc=Date.UTC(Number(m[3]),months[m[2]],Number(m[1]),h-5,Number(m[5])-30,Number(m[6]));
+   return easternDateTime(utc);
+  };
   if(latestMeta){
-   let easternStamp='Eastern time unavailable';
-   const stamp=data.updated_at_ist||'';
-   const match=stamp.match(/^(\\d{1,2}) ([A-Za-z]{3}) (\\d{4}), (\\d{1,2}):(\\d{2}):(\\d{2}) (AM|PM) IST$/);
-   if(match){
-    const months={Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
-    const hour=Number(match[4])%12+(match[7]==='PM'?12:0);
-    const utc=Date.UTC(Number(match[3]),months[match[2]],Number(match[1]),hour-5,Number(match[5])-30,Number(match[6]));
-    easternStamp=new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'}).format(new Date(utc));
-   }
-   latestMeta.textContent='Last updated: '+easternStamp+(stamp?' · '+stamp:'');
+   const eastern=istToEastern(data.updated_at_ist);
+   latestMeta.textContent='Last updated: '+(eastern||data.updated_at_ist||'Time unavailable');
   }
-  if(latestList)latestList.innerHTML=makeItems(items,20);
+  if(latestList){
+   latestList.innerHTML=items.length?'<div class="sources">'+items.slice(0,30).map(item=>{
+    const published=easternDateTime(item.published);
+    return '<div class="source"><span class="tag '+(item.status==='Reported'?'pending':'')+'">'+escapeHtml(item.status||'Update')+'</span><h3 style="font-size:17px;margin:9px 0 6px">'+escapeHtml(item.title||'Election update')+'</h3>'+(item.summary?'<p>'+escapeHtml(item.summary)+'</p>':'')+'<p class="small muted">'+escapeHtml(item.source||'Online source')+' · '+escapeHtml(published||item.published||'Published time unavailable')+'</p><p><a href="'+safeUrl(item.link)+'" target="_blank" rel="noopener noreferrer">Read update ↗</a></p></div>';
+   }).join('')+'</div>':'<p class="muted">No election updates are available right now.</p>';
+  }
   const count=document.getElementById('updateCount');if(count)count.textContent=items.length;
   const statusLabel=document.getElementById('feedStatusLabel');if(statusLabel)statusLabel.textContent=items.length?'Feed loaded':'No updates';
   const checked=document.getElementById('lastChecked');if(checked)checked.textContent=data.updated_at_ist||'Timestamp not provided';
