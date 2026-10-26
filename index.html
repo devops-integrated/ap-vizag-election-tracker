@@ -193,6 +193,20 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .duties-source a{font-weight:700}
 @media(max-width:760px){.duties-panel{padding:15px}.duties-grid{grid-template-columns:1fr}.duties-panel h3{font-size:16px}}
 
+
+/* Simplified, task-first navigation: keep common actions visible and group the rest */
+.tabs{position:relative;top:auto;z-index:10;display:flex;align-items:center;gap:12px;flex-wrap:wrap;overflow:visible;padding:12px;margin:0 0 24px;border:1px solid #e0e6f1;border-radius:16px;background:#ffffffed;box-shadow:0 8px 24px #14284a09}
+.nav-primary{display:flex;align-items:center;gap:5px;flex:1 1 720px;flex-wrap:wrap;min-width:0}
+.tabs .nav-primary button{display:inline-flex;align-items:center;gap:7px;flex:0 0 auto;padding:10px 12px;border:1px solid transparent;border-radius:9px;font-size:12px;font-weight:750;color:#53627b;background:transparent;white-space:nowrap}
+.tabs .nav-primary button:hover{background:#f0f3fb;color:#17294a}
+.tabs .nav-primary button[aria-selected=true]{background:linear-gradient(135deg,#18294c,#3157d5);color:#fff;box-shadow:0 4px 11px #3157d52a}
+.nav-emoji{font-size:14px;line-height:1;color:#6877d8}
+.tabs .nav-primary button[aria-selected=true] .nav-emoji{color:#c8f5a5}
+.more-nav-label{font-size:10px;letter-spacing:.09em;text-transform:uppercase;font-weight:850;color:#7b879b;white-space:nowrap}
+#moreSections{max-width:230px;min-width:190px;flex:0 1 230px;padding:10px 34px 10px 12px;border:1px solid #dce3f0;border-radius:10px;background:#f9faff;color:#243553;font:700 12px system-ui,sans-serif;cursor:pointer}
+#moreSections:focus-visible{outline:3px solid #8ea6ff;outline-offset:3px}
+@media(max-width:700px){.tabs{gap:8px;padding:10px}.nav-primary{flex:1 1 100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.tabs .nav-primary button{justify-content:flex-start;white-space:normal;text-align:left;padding:10px;font-size:11px}.more-nav-label{margin-top:3px}#moreSections{flex:1 1 100%;max-width:none;width:100%}}
+
 </style>
 </head>
 <body>
@@ -200,7 +214,32 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 <main class="wrap">
 <div class="statusline"><span class="pill">Andhra Pradesh · Statewide</span><span class="pill">Visakhapatnam · GVMC 120 wards</span><span class="pill">Times shown in IST</span><span class="pill warn" id="dataStatus">Candidate data: awaiting verified source entries</span></div>
 <nav class="tabs" aria-label="Main sections">
-<button data-view="dashboard" aria-selected="true">Overview</button><button data-view="urban">Municipal / ULB</button><button data-view="mptc">MPTC / ZPTC</button><button data-view="panchayat">Gram Panchayat</button><button data-view="incidents">Election incidents & complaints</button><button data-view="statements">Leaders’ statements</button><button data-view="vizag">Vizag / GVMC</button><button data-view="wards">Ward candidates</button><button data-view="state">Other AP elections</button><button data-view="liveNews">Live news</button><button data-view="latestUpdates">Latest updates</button><button data-view="calendar">Full calendar</button><button data-view="sources">Official sources</button><button data-view="electionGuide">Election types explained</button>
+  <div class="nav-primary" aria-label="Frequently used sections">
+    <button data-view="dashboard" aria-selected="true"><span class="nav-emoji" aria-hidden="true">⌂</span> Overview</button>
+    <button data-view="wards"><span class="nav-emoji" aria-hidden="true">♙</span> Ward candidates</button>
+    <button data-view="liveNews"><span class="nav-emoji" aria-hidden="true">◉</span> Live news</button>
+    <button data-view="latestUpdates"><span class="nav-emoji" aria-hidden="true">↻</span> Latest updates</button>
+    <button data-view="calendar"><span class="nav-emoji" aria-hidden="true">▦</span> Election calendar</button>
+    <button data-view="sources"><span class="nav-emoji" aria-hidden="true">✓</span> Official sources</button>
+  </div>
+  <label class="more-nav-label" for="moreSections">More sections</label>
+  <select id="moreSections" aria-label="Open another tracker section">
+    <option value="">Choose a section…</option>
+    <optgroup label="Election types">
+      <option value="urban">Municipal / ULB elections</option>
+      <option value="mptc">MPTC / ZPTC elections</option>
+      <option value="panchayat">Gram Panchayat elections</option>
+      <option value="electionGuide">Election types explained</option>
+    </optgroup>
+    <optgroup label="Regional coverage">
+      <option value="vizag">Vizag / GVMC</option>
+      <option value="state">Other Andhra Pradesh elections</option>
+    </optgroup>
+    <optgroup label="Monitoring">
+      <option value="incidents">Election incidents & complaints</option>
+      <option value="statements">Leaders’ statements</option>
+    </optgroup>
+  </select>
 </nav>
 <section id="dashboard" class="view">
 <aside class="duties-panel"><div class="duties-kicker">PUBLIC OFFICE · QUICK GUIDE</div><h3>What elected representatives are responsible for</h3><div class="duties-grid"><div><strong>Local bodies</strong><p>Represent residents, raise local service problems, take part in meetings and plans, and follow up on approved civic or village works.</p></div><div><strong>MLAs and MPs</strong><p>Make and scrutinise laws and budgets at state or Union level, raise public concerns, and hold the relevant government to account.</p></div><div><strong>Important limit</strong><p>Representatives do not personally control every department or guarantee a project. Powers depend on the law, the office, available funds and the responsible administration.</p></div></div><p class="duties-source">Role summaries are simplified. See <a href="https://cdma.ap.gov.in/about/powers-and-functions/" target="_blank" rel="noopener noreferrer">AP municipal administration functions ↗</a> and the <a href="https://zpananthapuramu.ap.gov.in/assets/pdf/Panchayathraj_Act.pdf" target="_blank" rel="noopener noreferrer">Andhra Pradesh Panchayat Raj Act ↗</a>.</p></aside>
@@ -377,8 +416,8 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 </main><footer>AP & Vizag Election Intelligence • Source links are provided for verification. Always check the issuing authority for the latest official notice.</footer>
 <script>
 const views=[...document.querySelectorAll('.view')];
-function showView(id){views.forEach(v=>v.classList.toggle('hidden',v.id!==id));document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.view===id)));window.scrollTo({top:0,behavior:'smooth'});}
-document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>showView(b.dataset.view)));
+function showView(id){views.forEach(v=>v.classList.toggle('hidden',v.id!==id));document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.view===id)));const more=document.getElementById('moreSections');if(more)more.value=[...more.options].some(o=>o.value===id)?id:'';window.scrollTo({top:0,behavior:'smooth'});}
+document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>showView(b.dataset.view)));document.getElementById('moreSections')?.addEventListener('change',e=>{if(e.target.value)showView(e.target.value)});
 document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>showView(b.dataset.go)));
 const ysrcpSource='https://ysrcpconnect.com/news/ysrcp-announces-corporator-candidates-for-maha-visakha/';
 const wards=Array.from({length:120},(_,i)=>({ward:i+1,candidate:'',party:'',status:'pending',source:'',sourceUrl:''}));
