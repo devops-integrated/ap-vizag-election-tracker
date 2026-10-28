@@ -1,4 +1,4 @@
-name: Refresh election news feed
+name: Refresh AP election intelligence
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: refresh-election-news
+  group: refresh-election-intelligence
   cancel-in-progress: false
 
 jobs:
@@ -19,22 +19,29 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Install HTML parser
         run: python -m pip install beautifulsoup4
-      - name: Fetch official-source pages and online election headlines
+
+      - name: Refresh election feed and update timestamp
         run: python scripts/fetch_news.py
-      - name: Commit feed when changed
+
+      - name: Publish refreshed data to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add news.json update-log.json
           if git diff --cached --quiet; then
-            echo "No news feed changes to commit."
+            echo "No changes to publish."
           else
-            git commit -m "Refresh election news and record scheduled check history"
-            git push
+            git commit -m "Refresh AP election intelligence"
+            git push origin main
           fi
+
+      - name: Confirm Vercel source update
+        run: echo "Vercel should deploy the main branch automatically; the public URL remains the project domain, not this deployment's generated URL."
