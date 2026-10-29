@@ -1,8 +1,57 @@
 {
-  "updated_at_ist": "29 Oct 2026, 01:46:31 AM IST",
+  "updated_at_ist": "29 Oct 2026, 06:27:25 AM IST",
   "update_frequency": "Scheduled approximately every 3 hours; manual workflow runs are also supported",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "29 Oct 2026, 06:27:25 AM IST",
+      "baseline": false,
+      "new_count": 4,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "AP municipal polls: Supreme Court moots broad guidelines but says can't order roving inquiry into YSRCP's allegations - Bar and Bench",
+          "summary": "AP municipal polls: Supreme Court moots broad guidelines but says can't order roving inquiry into YSRCP's allegations Bar and Bench",
+          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQWnoxX1hnWllnamhBa3o5VUNKTEY3bjl1RTVfMi1BVkgzNjNuS1lxbFZZR1IxMWxfSWtIQW55YWtzdU1PZkxXSWw1dEI2T1QzUXVLRzdyVmVSVjBGSm1jZncwR0drcXlGQ2w4bjh2N2l4a3BtWEFQN0p3OXVidDRiWmVjbnRTVWNjUEw3Z1FxaTllaGN1MWcyX1puTUZzVzdVRElZcldmMXhCLVdzbXdlRXhJWWFpMTMzSENMOTRYem1mYjU1WkpWN3lKV2w5eFcyQUpuZHNPdkFLY0VkSTlFWC1wUWpuN2Yyclg0Rlh2TXFlMmgxSkRjclo0dGjSAfwBQVVfeXFMUFp6MV9YZ1pZZ2poQWt6OVVDSkxGN245dUU1XzItQVZIMzYzbktZcWxWWUdSMTFsX0lrSEFueWFrc3VNT2ZMV0lsNXRCNk9UM1F1S0c3clZlUlYwRkptY2Z3MEdHa3F5RkNsOG44djdpeGtwbVhBUDdKdzl1YnQ0YlplY250U1VjY1BMN2dRcWk5ZWhjdTFnMl9abk1Gc1c3VURJWXJXZjF4Qi1Xc213ZUV4SVlhaTEzM0hDTDk0WHptZmI1NVpKVjd5SldsOXhXMkFKbmRzT3ZBS2NFZEk5RVgtcFFqbjdmMnJYNEZYdk1xZTJoMUpEY3JaNHRo?oc=5",
+          "source": "Bar and Bench",
+          "published": "27 Oct 2026, 01:59 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "AIMIM Andhra Pradesh Civic Polls: Kadapa Mayor Race - Urban Acres",
+          "summary": "AIMIM Andhra Pradesh Civic Polls: Kadapa Mayor Race Urban Acres",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQR3k3SEREVXZKUXBJOWxOTWExX084NzR1U2p3R184T3NOYlNYOFhlTDJLRk9ER2hldmlaUjJ0LU9jNnVUSWxCYlpxMDlQM3c0eE9vVk5jVDllZ0xzaXhvcVhQNm52U21kSl9mRTdZT2JraUVNTUlmZE1CVW0yVnVJLXFuUm5iUzNkX1dMZDF3?oc=5",
+          "source": "Urban Acres",
+          "published": "28 Oct 2026, 09:57 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "AP Local Body Polls in Phased Manner from Oct 28 - Deccan Chronicle",
+          "summary": "AP Local Body Polls in Phased Manner from Oct 28 Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLUpyZC1VMmZSZjR2aVBld19IQkRUUTVTODdNb0hXVGdpMEhzRVE3aFhySk9iT01LajlzNDhwaVhEcTJ5TzllTlRCYlR3aUZFYmRyRHpQdXNhRU91ZVNOX3JRN1ZOdFJRME5mRHRaRVhsTndTT2E2UW8wbjE5eEJyd194WEpRVWZMd0o2WGNYV0UzeTlMcXR5elBMekdRUldCSzVwQlh5LUpJa045WEoyUVcxd9IBuAFBVV95cUxPMWNIc0VSdnFZUC1QTU1UTkZTQkNkZnBYRUxXZnF6ZDY5aHRNUGNKdHA5ZHExV1dSb1pzVE9CZTBHTW40NTdKdjJndGVLYTlhdFk5N2hWd3hNOXdjeGZ3U2FvcXp2aUJoVVVmbC05MEpiQVQ2S0tNMkMtVVk4UmRUNEQzZHlmQ3BVd2xqdkxGYnNlQkY3dm4tRlFoVHdaNjVFVGtxbWR6QlJtSzJrNXpvdzRIX1ZySnJO?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "14 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh Finalises Reservations for Municipal Chairpersons and Mayors Ahead of Local Body Elections - AP7AM",
+          "summary": "Andhra Pradesh Finalises Reservations for Municipal Chairpersons and Mayors Ahead of Local Body Elections AP7AM",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTmVyR1hXZXVMSFF3YVYxbXFSVUluWlVRajV0WEpybU9qVWlpZktOV2VOc0VqSnJDRjU0N3gxeU9tNXJLODZELWZ4SDNkdDlZeWg0ZGpiNEs5WFJyWmc4RUd1U3NKZzYtU3NOWFdBeE8tWTNrZFpkZWJFWW9sZTJTWGU4WU1YeHBJVzhFRjVlbTYwSDBJZEVqbG5yMGM0TkdVN293MFB5c1dXMFNkVXlsa1NPbWZmOVJpS3lsRTlHcEEyQWN3TUxhTDZ2MFRzNlprb0VR0gHYAUFVX3lxTE1CUkZ4Q2hQbjN6U3BBVjNKdEJ0dXk3cW1DeFBjWEhtV0VGbVBCUU42WEwtNDZ5UmhYbFFzTXlQMldBMW9paVJkb3B4ZjJKZzdrV0pmT3JiX1N4aHUxd3FINGJmNjlHMW02d3lXWl96aEdfRE5mWWRLQ1lQUFhPcVFQY3VZc1VXd3FVTlVLVlo4bEJuV2VTY2owRUZ1a2V3WjI3VFZ6U1k5dXBpbWVMNzZPNFdLMjFnRkUtTjQ2TXY5UGVMRXRxekFLMVZrSjVENUdxdmJPZWZTMA?oc=5",
+          "source": "AP7AM",
+          "published": "12 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "29 Oct 2026, 01:46:31 AM IST",
       "baseline": false,
