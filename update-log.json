@@ -1,8 +1,137 @@
 {
-  "updated_at_ist": "30 Oct 2026, 06:30:15 AM IST",
+  "updated_at_ist": "30 Oct 2026, 03:31:27 PM IST",
   "update_frequency": "Scheduled approximately every 3 hours; manual workflow runs are also supported",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "30 Oct 2026, 03:31:27 PM IST",
+      "baseline": false,
+      "new_count": 12,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "Andhra Pradesh Local Polls: CPI(M) Condemns Attacks on Candidates, Accuses TDP Alliance of Violence - Peoples Democracy",
+          "summary": "Andhra Pradesh Local Polls: CPI(M) Condemns Attacks on Candidates, Accuses TDP Alliance of Violence Peoples Democracy",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU2RjMFN4eG9JQjFLVjgzY2Y4QTZGVHBCYnJwTW8zMzNZRmZPbk9PNHlCb245bkpzZTViVzB0Z1BBOTZiMHdYaHJudmt6ZmlPeWdNZHlWYkRXUmtjLXZSOXV3VU9NQnNkNmVEUEtFWkVrOUNtYTFwT3k1YThqelZWTFdNS3pSNF9icXZrUi1BclY4MG9tQkh0M1pJemx2MkN4NDhvUjRkUEVYY18xSmdyMVM3Q05RRlFvcGhLNmZB?oc=5",
+          "source": "Peoples Democracy",
+          "published": "30 Oct 2026, 08:25 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "AP urban local body polls: Campaigning ends at 5 PM; EC tells HC candidate details to go online - The South First",
+          "summary": "AP urban local body polls: Campaigning ends at 5 PM; EC tells HC candidate details to go online The South First",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONDB5X3Y5eDg5Z2IyLUpyYVRyX3hfblZfR01fMlZ3RWxPRm4xcXRUQnc4UXJySGVITU45V1FSb2tmQU1pMkFPUDVuYnp0dEtETkdzZGhMS1A5eWhvY1hXOEJXdG5qZDdQTU1MY1VlYV9idXBMdlY0aXFfQWRrTXlzMnl4YWVMWmZVeDRDTWhsN0w2ZWhxRFFEQmlrSzh3NkkxTXEyc2pXS0hSZ0dSdnpYeHVaazJuNFNUNlFWeGRiSkJyNUVxTk5tMmU1Y3hXNE0?oc=5",
+          "source": "The South First",
+          "published": "30 Oct 2026, 09:29 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh SEC halts election process for 100 ULBs after Supreme Court order - The Hindu",
+          "summary": "Andhra Pradesh SEC halts election process for 100 ULBs after Supreme Court order The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQkx0bXNlTGNZMGl0dDBNMWZJVEMwU3Y0YV9ZTjJmcEFaTUE5Z2hvTlEyTHFNRnRtOHQ0NmU4WV9iVkFfQ0E2RFB2VGZMdGxXNm44eUloVnZ0Z0R3RUhWSkNabVRENmxFekhMOVI1LXVEdDZiRHIyU2JBeXRwcE82Q1V6TUVqYTViOEk0TllGbjcwdmRyQk5jd0dvNmNpVHRBRFZTVjdPT1Y4X21rb2VvWkFoRW13MDFBQzNIQkc0eG9Hd29rTGdybkxESFBlQlhXYVlHWklhZWZ3WTBPNk1oZWZSZlFqVWZi0gHvAUFVX3lxTE5DbTB5U2dEUmZUOUZxVmE5SDN6VHBBNk5sMGNWRlE4LTVuZm9wNW9DYTQ5M1YzcDNuZHNFSTdqc1hQU00zdlJneEc1UlJvUEgyVVUwd3dqeVdOekJyS3JacUh2YmRQQkdLYzBPUGYxZXRfck5lOWlxUkE5U05MRzgyYWtKdHo5b0lHQWJ4Q2E3ZkxtY2JzcmM3NjRDOXBxTkcwbDVBeTd6RS15Z3dTMmpKVmdnV3E2RWhRM0QwZjJWRnR5eXpWcDZSYnY4YWc4WXJNbVlraDlaVjgwdTV1VFJ0MEdiMEl6S0dRSXp2b2pR?oc=5",
+          "source": "The Hindu",
+          "published": "21 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh revises urban local body election schedule after Supreme Court directive | India News - Hindustan Times",
+          "summary": "Andhra Pradesh revises urban local body election schedule after Supreme Court directive | India News Hindustan Times",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZE02em1JZmxoWHJVUFBMOHpLQTdTTHlzV25aUjRVQl90UmZzQ3dyV1loX3YzMzV4b0tRUnptRENHRHF1OXdXTHgwcmYxVVotWExaZ3V2SExtQWROZW5qUVRBek52emg1LWF3UkVMcFZ5SkJ4NTVqTFFsRDBZOFZTRE1tenpyaXVBOWRIVDBaRW9xb1NDeDY4a0JIWlBHQ2tQc3V6NW96TDQtWTZPZThPTERjM1BwZVpCMjFlMXZzTWxJV1gzbmJKR1hfeTRTUlptRkFqcHhaQmZKRVZVY2pEUXBfbXPSAeoBQVVfeXFMTXRYUl82VUU0UF9EZzUyU3hvTUhWT1hlUTBKSzhHOFZCWkFGTTR6eHRoVmZhUV9EaWZ1QjluZXZlWTBDM3dEOHBpODNKUjloZUdDV2FWeFE1ZkwzbXlxazNlY0NNVzFLOEdSOTZDWFBaY2hVRGVrNU9zRWdCdl9MaE0wc3Q5eEtpdFQtcm9fMGM5NlYzekwyNkJBT25KRkhMVHh4bFZRN01ZTUNMS0c1bVQzdXNTT0U3RGtQMkszQ29qSE9jTmFXQlpwa2hHSzJNemU3Unp1NmpPZXNtT2gtZVdqZWxXUzVuWkZR?oc=5",
+          "source": "Hindustan Times",
+          "published": "23 Oct 2026, 01:58 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Over 75,000 people bound over ahead of local body polls in A.P. - The Hindu",
+          "summary": "Over 75,000 people bound over ahead of local body polls in A.P. The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWnQzenB5VDJ2MjdnQ3ZwdU9leHZ0VFpHRklDRzhCTS1fWEdHWDZZd29TZlduWm1TeE1HZnE3X3pRTjliTVJGaC1xX3BnS0xRQWU3RUpyclNVS3NtVzJHSlV3UFdGVlhMdnVSMEhINUVEcDE5bUk5NlpqNGFmWjVnTW1CcGFKa09mVWlIamc1T3RJeHpsSm9zTHB4NDNBWlVhdXVVUjYzbUhfVUpnejFta09LY0FBWXJ4VVplbTBYSmFVZ3RlekRvRTlQd2ZDNVEyLWhmaFhqem1FMDlR0gHjAUFVX3lxTE5UN0Y2YkZqU0RSbHZnYmY3eGVrUUh1bnhjUnRld05MV1Bxd0FqS0hxZGNMZmlFcE5mdm96b2tQdlZHNTVJU1ZHSnNFLUY2VXlzS29sNHdoRkdaeDB4WWxrOXUwOGJhcWhGeFhJZE1oVm1YQU1LOG1laGZYSURzRUFNeHhPbC1zdm1nY0E4MTJUMlNjaFJwTzBsWTVGNG4yMVc5MHp6OXUzRzVpSlBOeUNGN2dheWEzZ3FzSE5WODFZQzZNYjZmbWJfTWNFRHdDM0g1QWFSX2pMOWZ4RWZFeXdmOW4w?oc=5",
+          "source": "The Hindu",
+          "published": "24 Oct 2026, 09:51 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Local Body Polls Marred by Nomination Violence, Court Intervention - NewsGram",
+          "summary": "Andhra Local Body Polls Marred by Nomination Violence, Court Intervention NewsGram",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQREt1WkRwQ2NtWXFjU2NyOFJ1TWxYS2lIQ0Q3RDhab0EtME16ai1ibl9fUG5MZWx3eW9KS2VadG9ibmg4MXM5SVZWTy1aUF90dkItM1B6eU4xVXIxRlVIUHZEeGIyVFNDUjRwVlkwWFJIV2JDWlB3dFpJZnI2UmdsdFpXVkZuZXNQN0UwdWYtRFpzdzUxeGs5XzZjMjc3SFJvaXNtUNIBsgFBVV95cUxOU1hrYVlxUFlxNnlyXzJwRkhpUUdkUDBObXp3S0ppOHZtM1I1VDNCZm95VlYwQnVRWFdzMW5HSnNXVmFCeHlrTjVKcHRNdV96VnRFZ3A1eGVkWXNSLWpJV0l5MVdDbC1ZSTFvTG5WZWJpUzU4ZFZVYU82cW96eDlJNW53d2hrUFdPOFd2b0JFQWw5cml0ejU3THRUVDlUc3Eyb1o0YXdsYm90TE5VVURLV0VR?oc=5",
+          "source": "NewsGram",
+          "published": "28 Oct 2026, 10:30 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra: How Jagan’s family feud has resurfaced amid allegations of poll violence - The News Minute",
+          "summary": "Andhra: How Jagan’s family feud has resurfaced amid allegations of poll violence The News Minute",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS21ZMkFxT2t3d1BlZDBnRHI0czRORF9NM1E5Wk5KdnFXUXpyaXZnN3pzWm5tOFZNNUpiLUJRLUQ3b3dsWXNZQ2IxaHRiaktMNUt5R3Z2UVVGLThKODR1UlRwc3FheFViVUxtOFZudWFsTlRQR2RTSjB3RFV0UlhOMnRGU1FMdFI3Uml1clR6a3J4NGptOUZlV3JtUGZCcWtBVXhIT1k2REpnRW4yQkx5RnA0U2NTcEdsc2FUcnI0aUnSAc4BQVVfeXFMTWYwSTMzMkNyaEc0a21zaEJqSHRNMDZhbkFMMVRHNmNfSnJmX2JYekh3Wm1HZUNpdUtrSmJDTzUyMGR4a1NyLTNYZVRPTHNYNWdONm1kWHhoaXA0LTdMelkwd2J1NEkwYXNMMkZlOGlfbDdxWnlZWmhqTGFRM1dfQWdRTkxyNDVIUlZEaWhKaUU5dFBiaHJyY3pxNVhoVU1Gb1NteWFQWkY5N09Bc181RHd2M29JVVl1em50RkJiaXNXNjFEamJvcWR1MGdobmc?oc=5",
+          "source": "The News Minute",
+          "published": "27 Oct 2026, 11:38 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Operation Of Model Code Of Conduct For Local Body Elections Can't Impede Implementation Of Promotion: AP... - Live Law",
+          "summary": "Operation Of Model Code Of Conduct For Local Body Elections Can't Impede Implementation Of Promotion: AP... Live Law",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOanFUNzk0dEk4ejd0UG5KdVh3bkl5SHV6cTdwWkdyNTdOc1dBamV0Q3RYQ09vYXFjTU9NemU2UWNyZXRCSWlOekdfWU5YSS1iQWJmSjNuVmlPMTBwWGJKdmU2b1E2cjd5ak8xcDhodEpnYXlHV2pBQ18yOGtiV3lsRE9zUnFCSUpFUjdFdGlGekU2RmFoM1ZNMnZqUmNFMko0bklZSGx5T2hOLWtPZ0NHZVV0MEZ0eU01RVNBT1pEQnM4UjRZR2hXc0xSYUhvQ3VhSGVfd2FUZzNweFc4R2V30gHkAUFVX3lxTE52enpfV3NUX3RpYkdwMFU4WEFCeFlZbkV5Vkk3Zy1mRS1SWkJMR3VfbUJFRDVHRC1NYXVpQ2dGUzRXQTJLNGIxaUNHTktUck83T0M4RmRic2E0cFJKMi1DN3F5eVFqOU5LYU5ES25VbkFoRGhNbjBGVHFKNU1MUnRhNWxTSFJNS1VxOWpLM0tfM3dBRC00eVd4SnBHSk8yNjhBRDcyNE9BM244c2xIRDY1aW5EQkJYMXRUZ2Njd01oNFk2ZTRfa2xnZmIxOVlZOTBwRnpwRzBKdVJtMzRxNnZxOXo4Mw?oc=5",
+          "source": "Live Law",
+          "published": "26 Oct 2026, 10:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Supreme Court rejects YSRCP plea to extend Andhra civic poll nominations - India Today",
+          "summary": "Supreme Court rejects YSRCP plea to extend Andhra civic poll nominations India Today",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQc3VsOWlrSDdINFBQY0NaZ2NRWWhTd3haMU5SZFQwV3MxczFQTHdZLTY2Sm5waVRjcFl3WGFPaXdZZGQtVUxTTXd2X2FBNmpCa3pQdl9uSWtNNElFbTdGN1NnSHhGZWNhWUtHZHoyTmdvZFg3aVdHbVNIaHBxd0kxNUNuUEdwWnRvRTYxM1NicGNxVGQzUmU2c1h6OVRhODRjUFFGaTZMalR4eTZUTXlTSURlenRhTy1NYVFFM1BYMG1XcW4tWV9Ed1NxLWpBaEc1cVlhVkNlN2M4WDV1TnhmMG53aUR4Ym0t0gHuAUFVX3lxTE5nR1RqU2w3cWVoTEk1T3NkUXlmVHFEWmNtN0tQRlhCOTRJTFlNczNnWlNLRHB3QVhXWjdtMFNXYlVEVXhXQ0xaSmtZOTBRVk5zamxHcTNoRE5ta25LdTN3NW9VOG8yaXlGb1dtZjRIbkZjM0o4bHUySFV6Mng5ZGxPUGg3QVdEZUszaDZmbmloQ0lLelp6czlLSFk0cnU1aXhtSE53VWwyWUVNU184ajdOTXRvNGZIdmR1U1o2TTltVlBqLXc2eENxUzV1c1h6M1ZwZ09YS2JOMEN0QkxLYUt4N1NESHg1VnZXRDA4ZlE?oc=5",
+          "source": "India Today",
+          "published": "27 Oct 2026, 03:32 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Can’t order probe into YSRCP allegations that candidates blocked from filing Andhra poll papers: SC - Scroll.in",
+          "summary": "Can’t order probe into YSRCP allegations that candidates blocked from filing Andhra poll papers: SC Scroll.in",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSGh1YkdrNVhzaDhORkJBTXd1NXpMem12UzVOR1RCOUhNMjNfTzFmaEppWU5Ub2RYb25wR2pFZGpkeWVoRWYtZkNmZ21sN3czTU0zNHZTaEJvNUdnaE0tTExqVGpTblZremJXUGZfRGN0b3ZlSGl0UkFxaHZzaGVaRnkxd2otXzhTVk9wTDgzNUR3RGM0aDZuX1JHZi03MHRrUjVPa0pYM0tzeXE3eGQ5R3dBbjRzVDl3djN0bjU2RmVFYVR5dU1vUEtTOW5UNE3SAc8BQVVfeXFMTUhodWJHazVYc2g4TkZCQU13dTV6THptdlM1TkdUQjlITTIzX08xZmhKaVlOVG9kWG9ucEdqRWRqZHllaEVmLWZDZmdtbDd3M01NMzR2U2hCbzVHZ2hNLUxMalRqU25Wa3piV1BmX0RjdG92ZUhpdFJBcWh2c2hlWkZ5MXdqLV84U1ZPcEw4MzVEd0RjNGg2bl9SR2YtNzB0a1I1T2tKWDNLc3lxN3hkOUd3QW40c1Q5d3YzdG41NkZlRWFUeXVNb1BLUzluVDRN?oc=5",
+          "source": "Scroll.in",
+          "published": "28 Oct 2026, 09:26 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "AP MPTC, ZPTC poll schedule revised: Polling on 5 November, counting on 7 November - The South First",
+          "summary": "AP MPTC, ZPTC poll schedule revised: Polling on 5 November, counting on 7 November The South First",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONzlISzFCcHJYNy1yN2hBdHBUdUgtZFhkYWpVUWVmLVRrUHJQYzhHVTBNa3NUUTEtSmVrVDFxd3ZnRkh2UDBSOG9KTXROQXViRUdoX19VcTgxMGhiUURrc285Q2hMWDU0RHgyTmR4djdGM1diS0ZhVkMwM01jQlNDTzJ6cV9TNElnQUNudi1BbUljWHduXzFFMzRYY0xiUnAtaFh6bXVDdnRsMEpPWUkzV1ZRb0tzM2EzY0ZSaA?oc=5",
+          "source": "The South First",
+          "published": "28 Oct 2026, 12:10 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Support alliance candidates in local body polls to achieve triple-engine pace of development: Andhra CM Naidu - ANI News",
+          "summary": "Support alliance candidates in local body polls to achieve triple-engine pace of development: Andhra CM Naidu ANI News",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQd2hSMDQ3ZWxwTDdLSzBfTUZ4MUh1a0VwdzBqQjlVeW55X19IckNYNTNHRk52U2RQVURVT2RXcFhFeVpGd1BiMVVqSGt6SkhET0RWRHo5cmxld092cEdtSTUtZjc3a0ZoVlpRaE1CRG5tcWc4anEtMzlLd0RqWkJhZXV6QkhlZm9mZUUzcUs4NmpiaEJhLVVFYmVVUkZOQ2tHZnRWSWFIOGh5enQ5UkRoSUxWc0huTE1kQVlETFBheWdZb2t6aVRfMmdWTEZjdjhNcU5tZTM3bnVoTG9na3FMdXFxNW1vTEFpd2dDNEJlbkZLaDAwNGs5cmtMT1lyMjQyZmc?oc=5",
+          "source": "ANI News",
+          "published": "27 Oct 2026, 02:52 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "30 Oct 2026, 06:30:15 AM IST",
       "baseline": false,
