@@ -1,8 +1,117 @@
 {
-  "updated_at_ist": "30 Oct 2026, 11:30:23 PM IST",
+  "updated_at_ist": "31 Oct 2026, 03:50:55 AM IST",
   "update_frequency": "Scheduled approximately every 3 hours; manual workflow runs are also supported",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "31 Oct 2026, 03:50:55 AM IST",
+      "baseline": false,
+      "new_count": 10,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "SEC directs officials to ensure free, fair and peaceful local body polls in AP - The Times of India",
+          "summary": "SEC directs officials to ensure free, fair and peaceful local body polls in AP The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPWXdkNFhfaVF3dEdETlFwY0NkQ2kzMXNqdUNZUVMwNW8zV2NkSXVReF9SMGFMSmEwUkVZTTdUaVlVWjh4MU00S1FGN2V3Mi1reEpTWUpJWGMzN0dIcmdMOXZ0dmdqR0FQc19VWERTcmdHWWoyRlhzZVB6MnBBaGdYbjlWRGtrSkljUlN0MjBYSkhBbEVSUmZ3NkFOS3c1RDRlSzRCSzB4VHlnX1dHZEQ2UzBiaVJCVm1PTDF0S19sY0pSR2JxaTVYX0V2VHBHcjVqSnZFUENlNnBrY1FHd0p4NUY5dlpMTUNlM2RuVWZJbVPSAfABQVVfeXFMT1l3ZDRYX2lRd3RHRE5RcGNDZENpMzFzanVDWVFTMDVvM1djZEl1UXhfUjBhTEphMFJFWU03VGlZVVo4eDFNNEtRRjdldzIta3hKU1lKSVhjMzdHSHJnTDl2dHZnakdBUHNfVVhEU3JnR1lqMkZYc2VQejJwQWhnWG45VkRra0pJY1JTdDIwWEpIQWxFUlJmdzZBTkt3NUQ0ZUs0QksweFR5Z19XR2RENlMwYmlSQlZtT0wxdEtfbGNKUkdicWk1WF9FdlRwR3I1akp2RVBDZTZwa2NRR3dKeDVGOXZaTE1DZTNkblVmSW1T?oc=5",
+          "source": "The Times of India",
+          "published": "30 Oct 2026, 06:22 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Local poll candidates’ affidavits to be available online, SEC informs AP high court - The Times of India",
+          "summary": "Local poll candidates’ affidavits to be available online, SEC informs AP high court The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNa0s4Q280N1NKYV9sTHJhdEhkS1BIZjhMRmNFa3lHU1k4Q1Q4MmQ0cWFkd3VFcXZGbXlJSmQyNkFIS0dxejhxXzRGX1BWTy03TXFXT0VTZDVMY2hXN3pfTG9ZbENMcUNVNmw4UnhpTnR1UVpQMXNiOW5Cc3cxX2g2VG9VZ2lGQXg4Q2J3SWpYZ0U2OUdPUWZ4WnZyWUxwNUtFSlFfYzVYelFDNGl6aFVPbjhwU1VfaGVaU1hKb1RncTV0b2tWZXpiOW91YmdKWEMzeERIS0VjS0kyakN2TzRRX0lqSWgwSFV3RFBtY0dWM2_SAfYBQVVfeXFMTkNla3FvcllUbkpXTjd2LUctWmxIczFpV0VKSWZlemNScTF3N09GNzQ1Z2J4TmFIa3E0bmF5Y19JYjhKWklRVDVQYlUzSjNTbktMUWdrR2JfdXNOQUlvaGs1TzRzOHhJSm1XT1ZJOUVacmo4NVc4SkQyNHhTZDVUT2RiVHRqTHUwMHBmY2JzSlNQTkZVTVphd1V2RjNDZU5yOWlab2hjcU43UUhFZnBRTHNQTzYtRGJaOUcyY2JXZFNrTUJKOVZwelpEaFBNYWhkRUZIM1pzQmozMXNUUFhUSkZtUk50YV84Z3JFZEhTcldjeERrajN3?oc=5",
+          "source": "The Times of India",
+          "published": "30 Oct 2026, 05:59 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Over 36,000 police personnel deployed across AP to ensure peaceful municipal polls on Sunday - The Times of India",
+          "summary": "Over 36,000 police personnel deployed across AP to ensure peaceful municipal polls on Sunday The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOQS1WSVV3SXcza25XaDNuaHB5c3RpTGFwSGpBRzUxd2lBZWdaWXhxZDlHbVF5ejlaLXdDa2JHMDRTRGZOT1M2Nno5Mkdyclk5Nl9MejVVbHhGS2RpQzJmVEFTLTNKbEliSk9jazc3NWxOb1NLN242aGs2UFJHbUN5TGh5WEFfNEpyNWdhQldXSGRsUVdSY2FGRkhrblNQVzhuQ2dLaEp3alpfbWpzRGk4aHA1UExRekJHSmZTWWxpZE5JcDRsWVc0T2x4N1M3c0Nvc2tfcGMyWm96cUY1U05jQUp4RFdyeHdWcnpwdG5IeG5Da1pxem5QdWdBbnhjd9IBgwJBVV95cUxQT0dhWkRfak05cHVQM3B5eWpzdTU1ZlI3SUxHX0cyUElXdnduVUtkLUIzRHA4RTloRlJ3WExnVkVnQkxueGNPbEJrbmtaUkZfRV91STBHbEhpVFhVRDVITWo0Mmc2aE5BQkdyZEZldTVRWmpKaE53MkNRNnExWWNnX25VakUtY1U2Z0lYNkwyQ19la0V1MlZXdGFmR2VQNzFLUDFTd0RScE9lNEVDRm5rWXZidTZFV0ZDd0pDR3ZhcDU0dlloQVA5Um9UZ0QzZGN2Vjd0azlxcHZieTRFdHJXaTcyS2FHbEkwV1dxZm5uWnp4eVhmVWdoWTJtbzdOWDRqaXpZ?oc=5",
+          "source": "The Times of India",
+          "published": "30 Oct 2026, 05:38 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "36,351 Police Personnel Deployed For Peaceful Local Body Polls - Deccan Chronicle",
+          "summary": "36,351 Police Personnel Deployed For Peaceful Local Body Polls Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdi1iS0daLTBpR3NuZVRtNURfTzRLamVuMWZYTndGTGtLTWstUTVSUjFEMm1BZmpDc3BZaHVWT3UxVXVLZm1rVzRkNk5lLS1sOW9hOHhPN2cwQzJPQ29MeXJCNGNxQ0tTdk9VUXV5UWVSaXkxWFZTXzF4UzdXNGU0UVBtV1hYU2dmbk5CTFVZVFV0bUxVVkxIWEJGZGlacDlsWk4wY2hocUxOTjZqQkdJV2J1YlF4MFk4S1ltUWwyUHJ4RFgwQmxsTUMxMDDSAdIBQVVfeXFMT0lMZmZ0Y1JTdkVxSE1KOWZVNVZwd3FxaGFUNUNYYlBQQk9DTTE3a3k2cHBublpPRDF3ZWlfVW8wR0ZJOEVMNWR0S2xMWndzQjhCUjltajBPeV85ZUd3SGlOLXNZNHJMMFljUUNPV0FnajYxMkNPN1BRWUVVWEpNMmQ2eTBPUi02dFM4SkZfVlRIalRPcjRiTURPemZOOEp5WWZ5eU02NjhCNnE3dnpReEo2LV8zZkk0NTNSZ1h0bDZDY2EtT0hQcVJ5MmVDXzJhYmtR?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "30 Oct 2026, 06:18 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Local Body Polls: SEC promises HC To Upload Nominations, Self-Affidavits Of Contestants On Its Website - Deccan Chronicle",
+          "summary": "Local Body Polls: SEC promises HC To Upload Nominations, Self-Affidavits Of Contestants On Its Website Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQNGFJSXBCcllrNm5ZRS15Z1poUG5pbVgwekpzdm1FTDdwTjNIV1ZJNWpYNFdlWGk2SlRWM3BBdFRqX0ZMN2MyT0Zqc0F6SE5BSUJYcFZleU9vNkdKRG5oU3p5UW90dTEwZkNRSFUyd2Q2ajNmQ2pjR3dpeXZxNm5NeGxtMENYcVg2QWhjU3ZSdHhkYjdTX3ZIMUlKY1VLVUZvU1NDdTB0SlVXUG9rek9Rb1lVaFo3dC1uZmF2eFFaeW5naGdNcmtlMGJrcXcwNXo4aVZnSmVWc3UyanNITFRmNXdWN2paaXBHTjlGX2FneWU4d2gyVEN4N0ZKeXliNDl20gGGAkFVX3lxTE9JZ3FHdzZUOTdfdFdxU2dnbDR4Z0piVFhYV1I5S085MWxQdGp5Umg0UVZSenBrRDRaMkJUTmlMZDQxdW5xaEVLOTV2SFIwdE5WMWlKSHlKREpKM21qUE5ucFRxaDFGTWh6bG1zWFAyUS1uSWUxWEwtWGpfMm5JUnE3QTVxS2RnbnN1NXBTQ1N3NGxiU2NiVjZlNlVkNnZ4bll0eEJGbnhJOUFHekxCNEktZTIxeUduX1dBWXRQYndVLWY1b3lkYWtQb0hVRWVmcWNQdFUtcVRlRUJJMFBfTm4zMjRkTGtNYUMxUWFhZk51blpMdlJfSmlxVWl0VlNzX0FKTDA1cHc?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "30 Oct 2026, 06:55 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Civic Polls Face Violence Concerns as SEC Orders Tight Security - Urban Acres",
+          "summary": "Andhra Civic Polls Face Violence Concerns as SEC Orders Tight Security Urban Acres",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd2g1bXMxVnNxNFVEaWRlblF6dGxFeEx4alVCRy16d05GVmQ3MnBYN28yOTNvN3lraDV0SjluTFlTOXZzT093RXJuR2gyeVlEbXVoa1NhTGxnejVHWFJaaE5vMHFiYUt1MUEwNkp4dEh3a2FBZ2lLbzA0OENuamp6Umc5ZVV5Y0JRM3BKUTdXRnpLQU8xMEtaTQ?oc=5",
+          "source": "Urban Acres",
+          "published": "30 Oct 2026, 09:17 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "SC declines to stall AP local body polls - The Times of India",
+          "summary": "SC declines to stall AP local body polls The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQ3RIa2dUaFdwd0hKdWdNRVZNc2FTdkpOX3dxeXBnRHJzdWhUeUlfd2MxMWlIRVJlOEdFblBSbjZZbllsNDhoUS1vNGl1NFB0cHR0WFFUdlBFdkoxSXhkM21vUFZoZmJyWTBfWXowZVZyWjV3NmZnQ05pRklSR3NIY2Npay1KVmxYWlFZM0RQZW1Sdkh6c09RSVdqeTNYQzJZVTV4TnE0dEJEN1Z0a1RpZTFHUGxSalZ5SFFWamNwSdIBvwFBVV95cUxPQ3RIa2dUaFdwd0hKdWdNRVZNc2FTdkpOX3dxeXBnRHJzdWhUeUlfd2MxMWlIRVJlOEdFblBSbjZZbllsNDhoUS1vNGl1NFB0cHR0WFFUdlBFdkoxSXhkM21vUFZoZmJyWTBfWXowZVZyWjV3NmZnQ05pRklSR3NIY2Npay1KVmxYWlFZM0RQZW1Sdkh6c09RSVdqeTNYQzJZVTV4TnE0dEJEN1Z0a1RpZTFHUGxSalZ5SFFWamNwSQ?oc=5",
+          "source": "The Times of India",
+          "published": "27 Oct 2026, 04:52 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "SC tells Andhra SEC to hold final candidate list for local body polls until Oct 25 - The News Minute",
+          "summary": "SC tells Andhra SEC to hold final candidate list for local body polls until Oct 25 The News Minute",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZVhxYlZYVDBHY21VajJ6YWRSbEd4UHJvdEhyRVZKZlFycnF0T2E2Rk5TSU1CMDdmRm1YN2lEYkZDRzlBTzBIRFFtNFFkNTFBWWxmV1NFLVJ1VE9tQ1V2MUdYRGo3VkVWeVRSWm94eVNPdkYxUWxTNWpUZTZldHRJMDJqMUFXZFBtTUNpNGMzOXpsUVJ4TnVWNnVmRG9JWUh5WUphN3BHTHlLZFpVNHBveXpNT1B4ZFVZY3Y1T3hBR21LdjRyZmfSAdMBQVVfeXFMTVJGWTRBckE3NEZoTzVMczFnTUxIUEJtaEtsMzJhZ1l5bldtY2d6OEFFTGlPMGFhZ014cWkzbzNQbHBjVFNDYlA2alhZNkFINXlhMmNaLUYzLXJ1cFF3UF80RkdZWE9pbUpFTU41ckNPVlN5V0Jvb2owRGNTSUxoN2N4VGFlUFZlS0xXb2hYMEdDRUoycjluWTVoaDFxNUYtemo2VG1DTkdMOHQzMzRCZHMxOExWWS01SWJNdW9LQkZ4OGNoN1k5YnFhd3p4ZlpSUHl0VQ?oc=5",
+          "source": "The News Minute",
+          "published": "21 Oct 2026, 08:39 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "9 FIRs, 1,177 Cases of Violation of Poll Code Booked in AP - Deccan Chronicle",
+          "summary": "9 FIRs, 1,177 Cases of Violation of Poll Code Booked in AP Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZUtmTm5OTVF2Y2J2b3NITzFwVkNPY2JzY0lJbnhZWHlxNl9sOFlyZkdJeHdFMnlUUnV4TjlzYy1RaG9GQzhvWUpSQ3NZb2JMaFBaclotM3B4eGVqVkt5ZTlhNVJGd19CMXJzM0ZRSlZsMFFGYmxUMzBwdXN1LVRtRDNXVXRUS1lRWXR6cGdUVHZTYVJEZzZ0V25lVGNxcDU3bXhCN3FsZjFYTE02czduQmxwSjJ5aHd1bENqN3dyV1RTUldodmfSAcsBQVVfeXFMTTdDeFNaV05NZEg3cEVNZFJWOEVoWVlJazYxRWlqSjlEM3NBRUh4SVYwX1VkeHdYUGRmWXFMcHNBTlBMbWw2T2x5LWNXelk0aGRPTWJlOFBNQkViTnROVGxTOExQRndGaVlTOUY2VFh0blNnX1hScHhGbWR5Sk1mNGNqZ0tjY1lSLUpYZ1lRc0xsTlNiRUhZdFY5ZHVCU2p2TUdlMURlc1VmNGk1WWJKdEI4MXNhOC1aOGE5S2s2R1Y0Xy1PTDIzT2xyQ28?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "27 Oct 2026, 05:48 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "AP civic polls: Granite-rich Chimakurthy braces for high-stakes battle as civic neglect dogs town - The Times of India",
+          "summary": "AP civic polls: Granite-rich Chimakurthy braces for high-stakes battle as civic neglect dogs town The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQRDVadWxGc3RSWmQxS19hN1VpSlhmUS03QUE2TF9VcE1LODJ4Q01oWTdjU0xvU0RkRnItcVJERDV5Z3E5S1gzZnBSa0VIRnoxaHZIMUFDSjZQcGVoYUJEZ1FpdzVaeUV3OUplZWhqY3lDNnNPSmxLU1B6Tk5wTjhrSFFLZzRyX1lNemxRSkEzaGJHV3B3WW5DSjJvMl9ONGxsTDRZRFY0RUxvZmFiYXIwNDFpR09XalJub2VqUWdqYm9aSEQyQVFmbnVzV1U2MUwzUER3VDZlSGJzSDlnMm1fYlhKN21pbF8tZGZWSGh3RGtQRTJHcUtQTTBuNmkwZEtfM3FzVdIBigJBVV95cUxPMTQzREZhZWhmQ2FwT1N1UjJjVlExNGJ0Q2lIaTRCeS1WeXVxVy1hWGgzMUE5cF90bVE4ek9iQlNwVV8tQmctZDdPTU1JSTVrQTVXR3NPQkQ5ejBsa19mQjhKcDRHdUFhdzg4UTBBVWhpZmpBenhkNjdmT3RMS2FZZUFIb1Q2Nnh4SXdHZ1M2akdPTDZGcDdkU21IcXF2cFJ2UWZ1WHR0LXVMamwtRmdISGk2N0o5d1BKNGkwRXc4QVVCc3hobFc5c28zbGZNTXJDU3hWVEQxb08xZEFnbjBsTlJJeDl5OF9TX2tzTldvMXc2Vk5MaUd2UjR4ZWM2STFWSmlkekUyMHpLZw?oc=5",
+          "source": "The Times of India",
+          "published": "29 Oct 2026, 06:33 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "30 Oct 2026, 11:30:23 PM IST",
       "baseline": false,
