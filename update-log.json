@@ -1,8 +1,147 @@
 {
-  "updated_at_ist": "31 Oct 2026, 11:12:06 AM IST",
+  "updated_at_ist": "31 Oct 2026, 05:59:52 PM IST",
   "update_frequency": "Scheduled approximately every 3 hours; manual workflow runs are also supported",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "31 Oct 2026, 05:59:52 PM IST",
+      "baseline": false,
+      "new_count": 13,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "Supreme Court mandates CCTV and videography across all local body elections in Andhra Pradesh - ysrcongress - ysrcongress",
+          "summary": "Supreme Court mandates CCTV and videography across all local body elections in Andhra Pradesh - ysrcongress ysrcongress",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNEtMZl9VRTVlOFFSZTVKVXlHRXJoSDkzUm1aVFZYX2FPbGExNUhKWFJGeDltNjVlcjlPY0lLTUIxcUtOemFITGtHRDNCcDJOYm1UWHBtWXdoQnhLTGFFZExBUkJDOXJpS0xscDhmSEhJUHEyb0oxazR5eVFvTWJIRWI0SnMwa2ctNXEzTzlRQm1BZUlVckE1Ty1IWkF2TGt3ZWJXcnAwUndsQzllOUVyMGRsWXJTdjdwaGfSAboBQVVfeXFMTTRLTGZfVUU1ZThRUmU1SlV5R0VyaEg5M1JtWlRWWF9hT2xhMTVISlhSRng5bTY1ZXI5T2NJS01CMXFLTnphSExrR0QzQnAyTmJtVFhwbVl3aEJ4S0xhRWRMQVJCQzlyaUtMbHA4ZkhISVBxMm9KMWs0eXlRb01iSEViNEpzMGtnLTVxM085UUJtQWVJVXJBNU8tSFpBdkxrd2ViV3JwMFJ3bEM5ZTlFcjBkbFlyU3Y3cGhn?oc=5",
+          "source": "ysrcongress",
+          "published": "31 Oct 2026, 11:03 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh Local Polls: CPI(M) Condemns Attacks on Candidates, Accuses TDP Alliance of Violence - Countercurrents",
+          "summary": "Andhra Pradesh Local Polls: CPI(M) Condemns Attacks on Candidates, Accuses TDP Alliance of Violence Countercurrents",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNDdEMnRMSUlSTm9OM3N1Q2ZOaGFrUU9aTlZjcFlhMElpWWZuSU11RDEwZUtiVkhiVER0MzdkT1k2ZWtsNzd0ZFFidl9QSUdNU29BOVVhT1hHM0JTdDVFM1poS1dvZFdoQ2d6OTFSZ0tqT0JjN185aU9zV29xTVFXdnhnZGFRLU5VOWRZSWNiV3dHLUVNdWhETFp3NlVBTUpjUnIwMlVDTzc0OVp4WVQyUXlMS3hrR3JUZWxfM3doczg0UU1KeVdnWFlMeFc?oc=5",
+          "source": "Countercurrents",
+          "published": "31 Oct 2026, 08:05 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh High Court Denies Arrest Protection To YSRCP MP Mithun Reddy In Punganur Violence Cases - ETV Bharat",
+          "summary": "Andhra Pradesh High Court Denies Arrest Protection To YSRCP MP Mithun Reddy In Punganur Violence Cases ETV Bharat",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPY0lCZFpFMVpiZktZaTRBdjZ1TnM3VkFTbURTbF8waVFKNkhnOU5KWW5wdkZmOUxSdktWYUI2ek14TnVrdE1tMHlRNFF5YWNDLVpCRUJkQ3g1ZDlVajZVYUM5S2VSSlpMMk9COFhESWFOVW5PY2xQY1lCS1NjWGpLVlVJd0gtbUZ2NEFOTDFyRHg5SUVYT3kxN1JDY2R1ZWpIN3c1Zk9ROEw0eTQ4V2JLTlJYRkRZTEFITVoyd0NDT2FYZHNtSmE3T3hsSmJWdkZaZEhIZzRaX2pFX2RrMi1yZDFwUzhjcnPSAewBQVVfeXFMTkNMVkg0ellEenN6WXpfLW9hTnpGWF9ERjdOVnpVN2FEWVFNUVl1aWpSb1VVb2FrSFR1T0paVks0bV9TWDU5ZnpLYjBpVTRDTGJWenBHNEF3d2hlaHVtbldGVXlORTNoUmdXWWdfTjlhb0UxX3V4ODVUanRvSngtUHdXTEE1aHdQQnBTNmZyNXk1ZHNkaFgzSk9JMUdxQ1hVTEF1dlhiWE1oN3kwaUtyV1d0UEE4VlctaGJQVTVqbEJ2cUFOMWkxaEpnU2FVVTRQYjFWYlNBUUJBdFN1cHJMdWpWblBybWRXN0g5cHc?oc=5",
+          "source": "ETV Bharat",
+          "published": "31 Oct 2026, 11:02 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Local body polls: liquor sales suspended from 5 p.m. on October 30 in Guntur - The Hindu",
+          "summary": "Local body polls: liquor sales suspended from 5 p.m. on October 30 in Guntur The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVVdqb0ZQQ1FoQUp0X0lkZ2NncmQ5YUZ1LWNYNTBiY3lQZmpBRWxhTV9xVGlwNEl3aER3OWdKM0N1cEgwQWNpS0paTEdJeU92Sy0xcTVjMnZ0cW9uR2tlbklMWkhsQXRkeUlHekpEdXRyMk05bTNmaXh3ZnVBTGF4LVYzVmdlYV9QVXpUamxEajZxOVNlb1pjT2NoRGNGVWF6MXc5bHRIdGI5WnBmWmt6eTBnTGc3a0gybWZ4ZkFtNzhCblYxdl9jZVJ3bDRtWUFKLVVlTVR2dFBTczNTQ3hKNdIB5wFBVV95cUxOY1R6TWFXWVR5QlBHcldxck5ldUNfVmtGbm5Kd084eXJMNUxfSWh1UWJ5M2VTdDVIYmFvcGVUX25SbDBBbEh1cENTYmtfSTJtZXJ2d2xNSExXQi1rRDJ5d01taE5rcnVCaVlYaE9ocjRxdW5NbThpYXVYb3FDZks4dWJjdTJDdWpHSlk4VkM3RVQxeW14ODlUNGZaWmgtU2VIX0JJTEhIaFNUN3Bhd2lZWmdDUkZzbWpTVk40cEJtOWpsbDVzSzB5bnJsSk9aMHlwTGpZQmNsNVRuVzFJaDlYalMzYVAtTUE?oc=5",
+          "source": "The Hindu",
+          "published": "26 Oct 2026, 01:27 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "596 polling stations set up for civic body polls in Guntur on November 1 - The Hindu",
+          "summary": "596 polling stations set up for civic body polls in Guntur on November 1 The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcHdWdEVTejcxYXVkTEJZRHM3QmJhNHVuNmFXWmVNRWVTZVp6dndDUk1tcm1BX3dSc2pjX3UtbmlVa2w4QlNtVF9rTkhqMGxKZ0R0eTUwdF96U1hRRUJNd2h0d1dVRkNlSzZ5c0pfZHF0TXhfcnBoQm45dUd2Nk1iWnVIVm9pa0hHNGlObVdHdFdHMlhycHZiTXpDakluT2tzSWd4UXpkU1B0dFpxUS1EdG03OFJERncyVF9FOEZRWFdjcVRQLXJ1RXpNNDVoU3djU05oU3FxaWstMURtVzl30gHmAUFVX3lxTE13RWhubDYwVzFEZHd1c3lEcFltZV8tYk9kMUtIeTQ4T1RuQXpUbGpFU0NLS3VGa0tTQVl1WmpJQnlvY3BxS01aUWNOQ0hFWVRMUFJpRjdOWk1zdlFIcUtZYS1OZTJxSmpWb0lzZDVPLWp0TG1OdUdiV0x1MjFQUjB2S2N4SGdCZm9EN0xoVlNELVBuWm5vYVdxYTRhbmNGTUQwVnFhc2w5bEdkb1lYRmJYVE9PSlVObTZ6UnZzazlsRFk5ZWIxQU1yMTlXLUppRHpGYWJYYllHcG1lVTBmM2F6Z01zUVln?oc=5",
+          "source": "The Hindu",
+          "published": "30 Oct 2026, 07:21 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Jagan to move Supreme Court again over ‘obstruction’ of YSRCP nominees in Andhra local body polls - The Hindu",
+          "summary": "Jagan to move Supreme Court again over ‘obstruction’ of YSRCP nominees in Andhra local body polls The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNaWF1NUFMSFQ2NHNWZmZwQkFwc0JJbk44OHhxSmdXeUNlanVVQ2NpeXo5T2tBNkRHblZGSFladUNLeUtFNDdZdXdrT3JvVUtxbklEdmJrcGtYb0QwdVhjTERBdFp2T2pVc3ZTMzR3cFpJTXVTT3hxb1JkendGRDVjNVgxYjNiWUV0YnBnd3JpOUVialhpZmhxUEhFckt3ZHV1OWVNYzlmZ3MzaFI3X213MW9SdnpwdWZiZGxxc2RubmJ5R3BaSUJGdHhrZ2xKNGpKYklrV2wzc2JyNGpSWUFkVXozWGdhdGdJTkV4VWNLdy0weURHVFFlQmJDUDB4UQ?oc=5",
+          "source": "The Hindu",
+          "published": "23 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Election staff in Vijayawada can vote by postal ballot till 5 p.m. on October 30 - The Hindu",
+          "summary": "Election staff in Vijayawada can vote by postal ballot till 5 p.m. on October 30 The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdlJ6WHowa3I3OVJFeVhyREdCNl8zN3NvY3JLTHEwWVlXN0RHeTJBZHZpZkg0aFNrSVZiZ3JrWXhiZW5rZ3ZON1pfQXBOLUpVQ3FIOTRWQnhTN1M5Y3JmVTBlQkdKczBqa3g1SUl3LTM5MWY5NzA3SmZJRm95SWUwUGpKMnpoV1JFU2I4ZTFlRnpZWjJsODVJY3Nac1lWTDZiaWtpWnMtTEpNWk5RemJJdEUwb2ZQWUhCSUwyd3dFQUhKRDRKUzctTVpydkMxQkx2V0ZDQlE2RnBNMXRUb2xZUHRYamFVajjSAe4BQVVfeXFMTjJMVUhNc3JyUGF6THZVbGZkbHl6U3JNQkVHSE04REpoeGU1ZDFsbU5VZEpndVZYclJTaTRKN0J2TFNfbjY5dll1Rkh4N3lKTk9oSHNWcnZvQzdzcTJKNjZLSlRrNktaZVI5UUdxVzFNS3BYOXM1Tnk5ZTNYdlVkVS1MWHJkMHFPaWpBUGFuTzZrQkhWVU4xSGl1OVd6M0ZMSWJjSWUzV3pJa3pOY3A5QzEzRVNjSnhNTGM2S19tSmlRdlNINnJKaVNpSWZoejlvdy1PTEFCYTlEcDZYZFdiaWo5Tlo1MlF0VUxsdVE1Zw?oc=5",
+          "source": "The Hindu",
+          "published": "30 Oct 2026, 06:52 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh Excise Department Tightens Liquor Surveillance Ahead of Local Body Elections - Aabkari Times",
+          "summary": "Andhra Pradesh Excise Department Tightens Liquor Surveillance Ahead of Local Body Elections Aabkari Times",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYzZkZ2daMGgzcms1ODQ2b2F6YnpRbEhkR0JBSl9CYVpidm1wYnJMMVkxMEZhRXltWE8zQmFnUjZLWjVIQWl4b0ViR3hrYnFOMWlaMGcybDVISWhKX3ZuNzhZWWNKVHRkUlh4MS1oR2o5NEZXUXd3V2FMS2h4ZmJsNmVDX1F3bHQxejBiTzFBd1BPZzlKZm1PeU15TUJ5aF9neUM0?oc=5",
+          "source": "Aabkari Times",
+          "published": "31 Oct 2026, 04:54 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "SIR Electoral Roll Revision Final Publication On Nov 30: AP SEC - Deccan Chronicle",
+          "summary": "SIR Electoral Roll Revision Final Publication On Nov 30: AP SEC Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNjQxTzZVOXpBNktOdE1aZzFFWG9nbmlyVHQyUXB4dlJIQk15emRyTXdZRVVJR1VhdlFTZ3IyREpDMzNra3B2aXVBbFFscXZoLXY3cW43djVQZURIMV9UWDE3Rkk0aFNXM0E4SHZWLWhpZEd2SmZxNDhVdDBYTzNXeVdrQ3AxS0ZUQWJjaHUwOFJ6UEVMZFNwb2hmREd3cUtLWmhQUndOYi1lVFBNQmI0QXU5N2ZjZjNiakYyS0dqX0xRQ21Zam50Z3d4dzZEU1pxNW1JOWxubzN0eU1xb2UxVWVOdmw4aDVNbkZNazRTWjZYWHhpNWfSAfYBQVVfeXFMUDY0MU82VTl6QTZLTnRNWmcxRVhvZ25pclR0MlFweHZSSEJNeXpkck13WUVVSUdVYXZRU2dyMkRKQzMza2twdml1QWxRbHF2aC12N3FuN3Y1UGVESDFfVFgxN0ZJNGhTVzNBOEh2Vi1oaWRHdkpmcTQ4VXQwWE8zV3lXa0NwMUtGVEFiY2h1MDhSelBFTGRTcG9oZkRHd3FLS1poUFJ3TmItZVRQTUJiNEF1OTdmY2YzYmpGMktHal9MUUNtWWpudGd3eHc2RFNacTVtSTlsbm8zdHlNcW9lMVVlTnZsOGg1TW5GTWs0U1o2WFh4aTVn?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "30 Oct 2026, 12:00 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Uttar Pradesh MLC polls: BJP wins five seats, SP three; counting underway - The Hindu",
+          "summary": "Uttar Pradesh MLC polls: BJP wins five seats, SP three; counting underway The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSFJKSWREZ0VjSkFtWTlWcE1WcGQ2T2ozTlEybEs3WkpXdnV0a2dzNGZ3bUFxalJWZlI1ZzZjNDhNM0YzU2VMMkhGaklsZDc5a0MyR0ItbU00QVF1ZzVNc08zZlFiSkM3ZVVXSXlSTVVKS3RtTUFNbHlWc2FHMEFkSzVIWkRmWHVvU3c1M0d5ZkJGSzBsZ0FJM0V1ckd4bWNkWkFSYzE2R0lEY1hFdGZMWTJ0R25DMjNIbGtEWU1jbDZiM1pzNzFZZ1Y1S2VlV2k5N3ZZNNIB2wFBVV95cUxON3lhakg3a3RtYlE4dC1aVXVrQUx4ZzR1R1FCY0p0eHRGS3o4d1N2X0Y1MTEtZTlZdVVmeGdSU2I1bUFwUnpRSklHbkRZSy1QdE9YeTl6NGI2X2RPdnVSNlc2SVNmSVEtNDRsNDEtejZRaUNieE1ud0YwUWFQaHV5S2dvLWRMbGxhMU1mQjE2UnhWTVJLQmJCWnExc1RRY0FJTldGQlVKdEk5V1NxcTlnMFdjLUYwZThBbjVWOS0tcU80TTgteEdHNkJzMVpGOVNucGkzamFhUVlneXM?oc=5",
+          "source": "The Hindu",
+          "published": "28 Oct 2026, 05:18 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "410 Poll Code Violation Cases Booked in State - Deccan Chronicle",
+          "summary": "410 Poll Code Violation Cases Booked in State Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOeXozTGpMVjZNSFlYRjgyNFBUQ0s1ZGpwSV96ekRSSFVHMF9yYUtQZHNQOHIwUzBuYjFfbUc0d09kN2dJa3hYdHktUklCRHFTS01adVNkSTB6VlllalFOWllob1JrdG1Zb1lOVVNiU2tMNnhraDhDdnFtZk9DaThEYmFzMDZSbldyUFNYNFg2OWQ4N1o0MXJVTk9tWnZKV1pWekdHRU9FN1JmVWtIOUNhai1IellOdVHSAbwBQVVfeXFMTk1obEt0NVFNcWhfT0Q1bDkxczFWVlc1UFJQSEd5UWR5b1NsNVozcGNxWnZCekp5QTE3a1Zqay1taHZuTVFLX2VLaDZibjJUNWF2aTRTb20zN0VfOXN4SWEwTDk0ZnRSM0hTZE5abFBHNmRwc1BESF9nYjNoRUdZSDVibC1vMzVxWElrZW5UeHBjS3oxTjZ6OU1YQVoyME9LRmdNVTZhM0hrNFg1TGVkaWtMTXJ5czRKMFBzRXQ?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "28 Oct 2026, 05:46 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "CPI(M) warns against undermining democratic processes in local body elections - The Hindu",
+          "summary": "CPI(M) warns against undermining democratic processes in local body elections The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNU9NaEpXc2ptZGdBMHM5dFVqWGxDVUNwcVFCc0FOdl83QmFpNlg2elFjeTdSRW5FdVdWX09sdjF5bnhxTXo2U1hyR1c4cFNDZUhRak1pNVNJZlJCNGNTQlpMU2ZBZmlXWU5kdnh5SVpfNUZ4MV9aRUU0ZFVRdFVhUzRLRnhuRFU2dHdDZU5GVWFqRXRNOWZkdmZiWGRaTEhLQlhLNk1VdWg1SHdEMVVkQzhjcEJKbG9famVBRWlvYlVtRHE0bXVEMWhGX2pPd1RHVDRuM2M1RkY4THR4T1lMN0RjMNIB6gFBVV95cUxNMjBERnlkakJ3ckdXSXV4Z0p2RWZpemlqRjZHYzdDbEpTZFQ0ZURNZnBMa2UwRk9HeUk5WUptSlBuNUxHcGxDSlFwOTJCOHdQR2trS1RpaW9jT3ZyZnk3X2kzbUtPb2x1bXdVQk5pSTRKbF9oYVE3WWVPaURLUXE2Vmd2RndudHNFZ0toNWVoRFNoel8za1dRYnBuaTlfVEw2OF9oeGVuSTEwd1Z0bkxLNkdfWFpNUXkzcDZ5RWh5eExaQVVzVE5VYlU5YWF0OFVYMmVkbFdQdUdoMUExTnhtNDVuemVKLU8ydkE?oc=5",
+          "source": "The Hindu",
+          "published": "21 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra local body polls: Naidu alleges YSRCP disrupted nominations; Jagan’s party cries foul - The Federal",
+          "summary": "Andhra local body polls: Naidu alleges YSRCP disrupted nominations; Jagan’s party cries foul The Federal",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTDlraWdzeVVxdFVRd1lHNV90eHZMaUE3VHV1dHNGQjJzX0FqbFQwaS0zeXA3ei1QVWlEN2N5TVI5VmVGYXYzc05COGVVd2RKS2FpeU9Ed1lycU5XMVhVNmpaR2RKWEVnM2lRcjczWnJUZHJGQUFVYkJSVUwxYzIyZThjVERQMXR2WnExLWFybUlZNUVPaXhleDhnR2VTZmdITzRKR3U2d0JIU3BUa2ZScVlfUFRJb0RJbUhPWVBRSnlMazh1UTJBSDlVTkVBSXhM?oc=5",
+          "source": "The Federal",
+          "published": "28 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "31 Oct 2026, 11:12:06 AM IST",
       "baseline": false,
