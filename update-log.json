@@ -1,8 +1,287 @@
 {
-  "updated_at_ist": "01 Nov 2026, 11:35:16 AM IST",
+  "updated_at_ist": "01 Nov 2026, 06:55:04 PM IST",
   "update_frequency": "Scheduled approximately every 3 hours; manual workflow runs are also supported",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "01 Nov 2026, 06:55:04 PM IST",
+      "baseline": false,
+      "new_count": 27,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "Urban local body elections begin in Andhra Pradesh - The Hindu",
+          "summary": "Urban local body elections begin in Andhra Pradesh The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZTZxMi15RWFXRzQ5YzdMQ2lVQUVLUnZ3UVNVU0pPM2toUE1QQnk5ZU1yTGZiRUZpYjc0TE5ZNnVZWU9CNUlqdWhJTGY0eDFoakFFTU10ZjBnUi1wd0NHMVgwZjMwem9BUk9ud0x6SmNJZkU0WExQS1FwVDBCOWl0ZF9QN241YzlELUdCZDNIUGd1SHpRWnlpdmlfNUppbE1US0JVM3VjZDMtNjcyaHBtb2tfbVlmQdIBvAFBVV95cUxQWWk2THBlLVdrZExxLTc5bzV2SE4yU2c5LU5sWDJNNFc1NDhGVVFhMVlUdnB5dGVxX0V5amY4cm9HQW93V0tnc21sNjVwSzRwcXI2clhaNE96dGRpSHN6SEtvdmR6bktLZWdSOXAyNGIwa3J1NGRYVDVzbnc3TE44TS1xNzM3NkY0VDZpUENHZG9Tc2RBbldMUXBGSkdsZGgwMTJQYTRIUWtZVjRkRDQtOUJwMExkUnhCZ2J0MA?oc=5",
+          "source": "The Hindu",
+          "published": "01 Nov 2026, 06:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Jagan Reddy Alleges Violence In Andhra Local Body Elections, Demands Re-Polling - NDTV",
+          "summary": "Jagan Reddy Alleges Violence In Andhra Local Body Elections, Demands Re-Polling NDTV",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSmlWdUNXMUllQl83TmltUElleFBHMmtHcHVzamIteXBQSWNWcDFmVUxYY2FSbTlhMHZwdEl1MG95d05GMEprbEFxUnFHbUpFOG9VOGNNQzFyX25LNDA2SlZsdnRYUElSdkJCRzdwTFozdVkzUkQzSjJtaFpYX3o1OXA1dnZpNDdxSW5zZk9mbXlpeWtJMUQzYUl0ME1iRm8tb19VTkxYRUN0djNwTXhkY1NOdmptb0s2RmVzcnhWdHJEZERxUlhvemctVXU5TTBnYk1IZlY2SUxLd9IB4gFBVV95cUxOekl6TmxqS2wyTjg2cnRnQjZmX0FUNDdZLWtmaFh0OGR2RGFUazNQcmtBc2REY3lyVXRDempkOGhiR2pRbGZaNkRnTF82M3hVZmJRLUZ2THRmMDZ6OEo2ZGhCWnZBRU9uVmIwcnlPVDNkcVA5WW5zMng0NEcxbDdmTEZMWVpUVTZUbmx0WDQtajEyWVloVjZ4ejBLakZISGZfNGU0bGYzTnpkTnRMUmZZcEFPZC1vam0zT1NlWkV0RUFKaUhLTWdTUVZBX2FTQmlfSkdlaHNBZU4wUUd3cndVMXNR?oc=5",
+          "source": "NDTV",
+          "published": "01 Nov 2026, 07:55 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "AP civic polls: Reporters attacked, threatened to leave from polling booths - The News Minute",
+          "summary": "AP civic polls: Reporters attacked, threatened to leave from polling booths The News Minute",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWjd2OC1KSlh6SGgxRnNKdk13SWI5QmlTaGV2a2pYY24zaGNuaDBnYlN2WTlURlF5ak5mUDhDd1J1NE9qaE12VVJCdzZVaE9LX0NLYnhNRUF0Z3NyTFZWbXpvQUpsb2lUSjVsZERTaHNOR1k5OFlOU2RROFlqdnM0ZEJwVXlkb1VtblpObjFvbGZNcmpfZ0xieVZpbXo1TmJvbVhONWFmWTNkNngyMGZzdXNHdEZ6d1VVLWfSAccBQVVfeXFMUGFwRHpReDZ2TEMtR3BVdUJfakMtXzY3MGRyVGViSmdvNWJHRUNLeE8yTGtPRm5nWmtYRnUzWlhwbHVvZWFLWS1rNlMtVHhPTDlCSHJGVnJEdDJPZzVfSDRYdUNXeWQ4MHlVWE5UR2Zwb2N5UzUwREhxUUJWeGdmc1FvWWVYaldCa2ROenBtRlhyMDFwTlN4Rk14T2F5bEdtTlhSZFdPa2xkN3ZiM1VRdGhheVVxeHRwWG1IY0p1NXFfRjgxdUlmdw?oc=5",
+          "source": "The News Minute",
+          "published": "01 Nov 2026, 09:16 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "India Today Crew Attacked in Pulivendula During Andhra Pradesh Local Body Polls - India Today - India Today",
+          "summary": "India Today Crew Attacked in Pulivendula During Andhra Pradesh Local Body Polls - India Today India Today",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQckhqS2tRNVlSXy15bUUyQ1Q1TEttb2h2UDhoX1BkN1hNQUMzV0lvNmk4Y2hEeEltd2paQjVTMDNhNmlaRmtaTnhtR3NJLU5Rb0dFb0ZLay1ocnpFSlJZV0RhWTJ3VXJSY2t2QXB5WFNBQ0pKVzBnX1E0RHY4bXUzN3NVOE41WVhab1FQdTNqY2FXLUpzX2Y5VkZvSE9ka1BzNmNGNTlYcGZJY290MzFBenZlQmFVZXBtbGk0NFZCc2p6dzdHSXFpSHNCWDdwcmVMa3dES3FYd23SAd4BQVVfeXFMT1RnZDU2SVFkYU5sb2V0RU02aDhvcWVaVk1kNkxpTFRpUmJGMnVENDBya3VKZWF2YmNXSlJsMS1fUlhBS3BFQ2I2T0xBbXdfWnFsWS1RUWEtTko5Nk5FYkRrYVI4cUNkSlJnaUxTXzF4ZmdfQmdmT2FNOGloMVlhTjVWRjItWmQ1OEJBMDV1ajZsQ2N3RE1aWmt6eHZWVU9NNW5hY1d0UnJibEhjdFJmckNoWVdlQXlZUDE3d1prNERkZGpzdnRIUVZvc2FYUWlqaEt1Ul9WXzdYWHlTUVpR?oc=5",
+          "source": "India Today",
+          "published": "01 Nov 2026, 01:04 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Local body polls underway in Andhra Pradesh, TDP-YSRCP workers clash in Pulivendula | India News - Hindustan Times",
+          "summary": "Local body polls underway in Andhra Pradesh, TDP-YSRCP workers clash in Pulivendula | India News Hindustan Times",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSlFDNEcwaTBNWFhidFp5dXJKU1RyeFBDSHFHdVh2Wlh3am5GREw4OTZXay00ai1Zd1h0Z0U1UDlCd0ZwZ1J2MHA2bm1JVmlURnQ5aXVTbjdSUE5FcnllSWRBYmF2T3hLV2tBQUY4dGJ0d1BFcDl2N01WdkE5Z0syMlJWQW9yQktQOGp4ZVU5U3FTWl9fcFVVaUhXNEtxRDFYZEJ0QmZTN1BCeTNSNHBnZ0FwZDB4VTIyU0JIOFJCRzFpUU93S202a3FjdGl2ZWMxbGZycHpkOFB4RjFwQXfSAeMBQVVfeXFMUHhxOUJVb1pVZm5SSVFFU2RLOV9jdHZoYndoU0F0SmlkZXBfZEIwU0ZzSUVZQU1oSVdJY2dPRG00OWVWemo1d0czOTUxOTQyeTNnVDJzb0U1NUpKb0RURW9ZN1VtbzZYRG5QNEZLQWNBMkdXVC1HZXFydkRsdVJ0aDRVeFo4eXJ2WGFNMFo4eGQ5aVYzeFZOeFRPOEl6Vy1Xc3kyVzlESm5WcHQwbUQ4bFNacHJZZDNQS29xb3BnYmk0RVNZSDM5RmhMeW1od05JaUtOTmZTZEozZUpoSmJJOGFseDg?oc=5",
+          "source": "Hindustan Times",
+          "published": "01 Nov 2026, 07:25 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra local body polls: Who gets to count Kotia’s votes? - The Federal",
+          "summary": "Andhra local body polls: Who gets to count Kotia’s votes? The Federal",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeF9nVkF2OU9reVUtYzIybktzOUx2eGd5Vk5GZkViTGszcV9SZ3h5QTZ3MURiZUN3a3VmejNqNXBpVGt0Zk1zWnJDaFcxY01BbElIbm56S1NIbHRMUEZzSG9QR2wtT3ZSM1hjOGZ2NU1BMWpWeC1CVnUtck10RXZIaHhxQlMxQXltXzRyUlc0MG96SllpZkNfTVdnMFg1b1R0dDVpbA?oc=5",
+          "source": "The Federal",
+          "published": "01 Nov 2026, 08:10 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra civic polls see clashes in Kadapa, journalists attacked; YSRCP alleges booth capturing - The New Indian Express",
+          "summary": "Andhra civic polls see clashes in Kadapa, journalists attacked; YSRCP alleges booth capturing The New Indian Express",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOZXk3QTZtaVBsODRjQk1FNnNFNG5MNVlTamlLUzY3MmxHeVc2aWk1dlBES0RXai1aX215ZWJfZzA1NUZYYldlU3A0NFJCbDMyLTJJLUdQclZsS2FIdXB3cDZDVEhxODFVTUw4MDlGVTMxWC0tQWZ3NGhGQWg4QTlsQW9RdjVFVlZtME15ZkV2cmljT2VGa1JBOGYwUzg2bkFLWm5xQklHUHVyU2dZd2xkbEppZzNuWWNsVWlUTVVuaTVCMjBSd2ZWckd1RW5icG9qdnhRVHMxeVlteDRjWWhuTDJDRnotTzI2WF8xZlBJNNIB_AFBVV95cUxPaW5YdHFPZGRULW9hV3JBMWVtVnF6am1lVXNqYlY0T20xWWJ4U29mZXVlWHV3VjRYTmN6V3RkRUgtdmhBMzlXTnpiSkNCaGJMZG9OM2FMcE5DenJnRUUySU8wWGxxLU91YlR3MWtTNHFHMXNsdExRbl9CRkJPRVhKN3JEUTlWeVZjNWpYQVVJNlZUR21WVDBTWXBJSW1wYXZVV3h5b1RrWGUxUC02dDJmdDFycjQxb1VRX3hDLWE3ZkRaZGFOb2d3MjM5eS1zUGI0Mm94R19oUzdJSDZ4bC1nMUxTMEk4YXZKRFlGZFZEa3VGcGpYcW1MVjVIQ1Y?oc=5",
+          "source": "The New Indian Express",
+          "published": "01 Nov 2026, 10:33 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Visakhapatnam reports 3.34% voting in first two hours; Voter participation in core urban areas yet to gather pace - The Hindu",
+          "summary": "Visakhapatnam reports 3.34% voting in first two hours; Voter participation in core urban areas yet to gather pace The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPbk85aExhcmJOWDR1NTFDemItSFhZajA3a3pkSDQxNlpxbi0xS0hUeWVvaXRIaGtKZTdQVGIyZFNWZ01jVTJsc0FpOVl3Z2RhQnplYTY3UEV3MzE2M0NIc3dJS3BpX2treFNEYzBodll6TXoyVWpDNFVjbS1adERWVnhHT1dubUJKNDVhMjE4VkFWYXRZNXRQQzhhWkZxd0NhTDJ1bTNzZWRTTkR5N0ppbVpfZHFTZHBkT2VKcVc4RVRPc0tTallWS3ZjUWhYUXJ2bUFWNERURE93djFYZU1fYm1QdkMzM3VDaG5oRnZBUzZlZXgxRm01VWpsdlZWaDJGZnJGSXFFdVBTTVJTQVQ5cjNRWVfSAZsCQVVfeXFMUHh6R3hiREdjREdBVVVaSUNPZEJubjNXcF8yM3lpYm42ekZTTlNEeVZpMGxXR3NmOGY5WHVCNk9ZOUtWS0VmUlpBWjFKQUhCc2NUMDN6ZEwtNmh2bl9VQkZsdnRsOHV3eDlVcXZkRzlPOEt2bFhvNUp1SmJ1NFRzcjBSS29IZnJ1VldCaWNpbHJTS2VIalBya01ZRTlLMldwel80cWRXWVFEcTBFTnlsVFZheVc4RTNLaGxlOXYxOE9CT0Iyb0lHX3dyR2VISFpXYTJ5TXlyT3dUSlpnUlR3cmFlZ05jd3MtRzBhdFFpWThDRXFvY0l6cjZDUE1GNlIyVjJCdDNIQnQxeWQzQXBpLVlVWEN4RDJoSFMwVQ?oc=5",
+          "source": "The Hindu",
+          "published": "01 Nov 2026, 05:40 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Election-material distribution finishes peacefully in Guntur, Tenali - The Hindu",
+          "summary": "Election-material distribution finishes peacefully in Guntur, Tenali The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOOWgyV2xhNU1JYWdyeHQ4ME9XdnJ2bkpDSG1Cd1liVjhtYklDUzR3XzB3alpLNmVfRFEyd3huZFE2V1MyNTN1cHYtWlotQldoLXo1YXB2T2J3VHJmckMzaGp0NVZFeENPWXpGTjlORjBZRWJVVEpXaEpFOFpidlJGRFVOR1dqaW5qaFZOMzZKTTlpZ3FDWjNQVXpfQTNsRWJxeUdOM3o0VVNXVm9wd2F6ZzI1VkRtQ0p2UkYwX3pMSGV1Nlp0SGhDY3FyU1c1OWM5TGxvOGwtcTE?oc=5",
+          "source": "The Hindu",
+          "published": "31 Oct 2026, 02:02 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Supreme Court mandates CCTV and videography across all local body elections in Andhra Pradesh - ysrcongress - ysrcongress",
+          "summary": "Supreme Court mandates CCTV and videography across all local body elections in Andhra Pradesh - ysrcongress ysrcongress",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MRW5fbzc2RWtmRmZhY3E2MlJ3dFZZRGJmUXRGcDRnLTNRUnRIYkhMSXNUeTBjVlhHMDNSZU5GNnRxcWd0OW03NkdDVm5kQXpfVmppV0xIZ1ZfQnZJOGtvNE10cTg4U25mbDhoMzhNelR0bmlGQk8tRV9sMnczT2vSAboBQVVfeXFMTTRLTGZfVUU1ZThRUmU1SlV5R0VyaEg5M1JtWlRWWF9hT2xhMTVISlhSRng5bTY1ZXI5T2NJS01CMXFLTnphSExrR0QzQnAyTmJtVFhwbVl3aEJ4S0xhRWRMQVJCQzlyaUtMbHA4ZkhISVBxMm9KMWs0eXlRb01iSEViNEpzMGtnLTVxM085UUJtQWVJVXJBNU8tSFpBdkxrd2ViV3JwMFJ3bEM5ZTlFcjBkbFlyU3Y3cGhn?oc=5",
+          "source": "ysrcongress",
+          "published": "31 Oct 2026, 11:03 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Polling begins for 100 urban local bodies in Andhra Pradesh - The Federal",
+          "summary": "Polling begins for 100 urban local bodies in Andhra Pradesh The Federal",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTktnWVh4OXMtOTFxMVJ6akJrSmdJVlZNRS00VTQ2XzdFZ0JBQzhlM2ZuWU1HRjVpU3BvYjF0NjRnSDRsaDlXX1loR0tkSnduU0otblpnWkp2UWpYblIxcXBoMGxNU3ZMYlVvQkZFckl4b2RDUXN1QXBMU1ZWTVpBZmw4aHpoUl9PdUdhSkJ5VWRnX0h4WGk1ZmJhdng0cnFvbEpMdktNUkktWG1OclR2a2Y2eVR5U0VpaVNfTkNVUHB1cDBH?oc=5",
+          "source": "The Federal",
+          "published": "01 Nov 2026, 03:40 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Local body polls underway in Andhra, TDP-YSRCP workers clash in Pulivendula - ThePrint",
+          "summary": "Local body polls underway in Andhra, TDP-YSRCP workers clash in Pulivendula ThePrint",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS2hLazVtT244Uk5VSGJ6cm11UVRCd1BWbG1LUENPMWNVWUw2UWtmWEZOdlptblhESWtGQTBVVXZtWG9EUkdTTUdGb0ktd3BxaDFEQjBkUUd5MjlhaW9BSEdIMlBqZ1pyVWRxbFJKeFVhdUNIU0pnelFhek1SOUROeDdndkU3WXpRRlV6LTJzSVI0RlBjYlBmbXFXM2J5QzV1RW93Sm5nUEhUWjdHSUHSAbMBQVVfeXFMTU9tdF85Sl9HWGpmOVNabzRoUVlvNUNIN0l5eloydUhKTUNiS3BSeEExY1JLMDBmQU14NXg0Vkl5SWNOZHlXb2FUSVdKSEZBbWZ5LUZJWFlOLUhINGlqM1NxUk15MjcxM3hJMkFVWWNhdC1SZERaWG42eV9XVXZET3JKMmdKS2JtZE5WWU9RbnRCZTJEM1d4Q0w0RlVuYzd5YlRVdzVtV29DSmdZVnAydlM5dU0?oc=5",
+          "source": "ThePrint",
+          "published": "01 Nov 2026, 05:46 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "AP municipal polls: Voters turn out in large numbers, political rival groups clash in some areas - NewsMeter",
+          "summary": "AP municipal polls: Voters turn out in large numbers, political rival groups clash in some areas NewsMeter",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZEs5dUdRUExiNDMxOUVfWVpQUUhQTmN3dTBoTWtxWEluaGJMZXpSVWhSclJwbkVsdnItejR2c05QU1dBOERLcHBfQWJmenVBd3hHd2xaOUhuZVl1SW01OWU5VW9TbXZMLUtJaldvZ3RuaXhuQ2JiSkh3d0oxREFJRTFSWnl4UVZPVVhaVnM1SklxZGxBcURtZjU1dWJuT0xlc2dUZ3M5R2c5YjQ1ZnZ2WTFhRWNnSEhZQWRJbEttOVpRSnhwQ3NaNGx2M2YtZGhocHJzc1ItOWoySjE3TDNJ?oc=5",
+          "source": "NewsMeter",
+          "published": "01 Nov 2026, 10:03 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh Municipal Elections See 37.13% Turnout by 1 pm - Urban Acres",
+          "summary": "Andhra Pradesh Municipal Elections See 37.13% Turnout by 1 pm Urban Acres",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMUNuNWdxZms4RlJ1S05PSTBsQTdaemxXS1ZmXzlkM0tELTVfdVVYdVpCRENUMHZ5YkxLcXpfSlhJdVVOSkhMN0hpOWlSQWZKd0ZCNEZVZnc4amlKanRqMnhUcWVQQnFjWU82UHhtUXJqTzc5Qlo4b1poaFdhNVNWalFaT1cwZ0t1LUU4?oc=5",
+          "source": "Urban Acres",
+          "published": "01 Nov 2026, 12:35 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh governor and MP vote, urge higher turnout in polls - The News Mill",
+          "summary": "Andhra Pradesh governor and MP vote, urge higher turnout in polls The News Mill",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPczBkMUpuNW4yc2thLXB3bUtYVnZfUG1yZWdJVEhpQmRtUDdiSDlvRmwxMnY1VWxVQmliMl9lRjlCNVg0R0xpOXNoODZHVE8xbnBQQjJDcWY2YkQtaGZ1SjFubEpWZUlqZG93bGd2RkIxQ1NtUEk1ZUkwSExXWGpwR3BQejZZUE5iQlRmQlJONEd6ajVZVmlZRFp5dXRxdw?oc=5",
+          "source": "The News Mill",
+          "published": "01 Nov 2026, 08:12 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh Civic Polls: Jagan Alleges TDP Supporters Attacked YSRCP Agents, Women - News18",
+          "summary": "Andhra Pradesh Civic Polls: Jagan Alleges TDP Supporters Attacked YSRCP Agents, Women News18",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdmRNTEktUDdIZzg2WV82cG5wRUtwYnVsbFVIaC03UHhTaTJiMmFmZVZ3Z3ZiTmdRN0VuRkxxMkEydS1MczNEczFVbkM3bkozLWxuYmp3cWkwckNSNXZHekN5X0JUeEh0d2dnb3lBRzBicXFzWEdQTHZ6TDItbVdTZXV5Zi1fTkNuZjk4R3hpUDVFUkRoSDFRWVhRVWdYM25KdEpOYmcxZGQ5WFYyQlFEYkFtUzgwa2NzZ01JaU9pVDhuNlhMQVpQRXR2NmrSAdIBQVVfeXFMTWVBXzRtUGhmbUpOOUlPZDdMNmNaczJpTjBpa0dfNEVQbjRnSnEyNHFUUU1YSmNHLWpwT0EwckdsaGF4c1VhbkFHRXFtenBvQ0hIX1RJRmJTUk4xSEFDZzVmelBJekRwN1R5ZGRpcnlfY2ZTcUlhbGlESXdyVFVUUlBjYUVaMnUxUDBtT2p5WW95Y3gyRmlkM0ZVLUVLaVZqcFNnVlF6a2JfVGllUl80MUVla2ppaEhMUVBtcUEzSmtpRVhNOFpHa1hoRmV0cnpKcHdn?oc=5",
+          "source": "News18",
+          "published": "01 Nov 2026, 09:05 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "YSRCP MP Avinash Reddy alleges violence and irregularities in Andhra Pradesh civic polls - The News Mill",
+          "summary": "YSRCP MP Avinash Reddy alleges violence and irregularities in Andhra Pradesh civic polls The News Mill",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUHpLVkVpOWRlR21hZmhrdGtSTlpGcjRNVEFZQy1DN1kwWXF3M3pYcnREWElScE40cm5ieEtqSTJtLU9sSlNTQzFxTHcxZU9Ba1ktcnhsVjk1RTJlMmFlMXpha3k3Q18yQmRYMWctclQtRGVibDZ1c3hzd2Q2VDVlRW02ZDM1V3c5dWw5U0YxcVRVbUNtb3lfUGtPdFZ2S0NBcFlEWTY0QzBMYlVQWkxqNHE4MVNSdkp3bUZheWtR?oc=5",
+          "source": "The News Mill",
+          "published": "01 Nov 2026, 07:32 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra State Election Commission agrees to publish candidate affidavits online following PIL - The News Minute",
+          "summary": "Andhra State Election Commission agrees to publish candidate affidavits online following PIL The News Minute",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOODdfX19sbjRoYmtYUElLbWFnNk9ybE9xWXEyVzh5SnJqZVNXUlBjLUpGaW96SHJLOGtVTldYRkZEOEpPSWVVMmEyMjV0aTZ4Yk8tdmZHS0s0QW5QNVNFbWlPSE5INlhOdlJwZXE3SWd5LWJZcUNXZ19QNktYZ1VzencxRnFXZ1VGLXF6QllMUXNscFZTcGY3c3hSamt4S08zNFVMLVpDck1pMFE1eVRBQWhQalg4czhBekoyQjBmWXhBU2ZHY180clRVelVJdEZSU1o00gHgAUFVX3lxTE40QzdQalNGSUdxVDNsQVBvU3BMdEZmaVhBSDlXYmdaSWUtNVY3R1dMRldja2ZTQVRpbTN5OXowalhKdlhJcms3RWF4MG1lcFc5WUhlVXN0eTViMUQ3aUswa25USlp4QmU5LWRUNy16d19CWl9nNTRTV3BwQjFEVmMxaDQzQzcyVmNtTG1oZ0FVdTVfVndFalB2SjB0SWhLdHM2MjcydDYzWkhscVVLTjVmMXFVaUJ5X3hlVUNRbDd3SEpPSHdmS2xMdVdUX1dtaTZlNmozX2JNWUlNMXlGS1Js?oc=5",
+          "source": "The News Minute",
+          "published": "30 Oct 2026, 12:10 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Local Body Polls: 37.13% Voter Turnout Recorded by 1 PM - Telugu360",
+          "summary": "Andhra Local Body Polls: 37.13% Voter Turnout Recorded by 1 PM Telugu360",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMmYxNnVLX25YWllzbmZaUFJPT21DamtpZktORzI4Y0hnWThNSjU5RGhlcXlrd0lsQnlIQ2RTQmgwQkhwWkJpMkJlNVBhTkdBcXR2M0FrRlR3blFCNVJpR2NjSXdkMWJncE1HeXVxRlh0OURGYUZQbWZJZ2VVYlpPNUFkcjVOSjdjNGc4Ti14T04?oc=5",
+          "source": "Telugu360",
+          "published": "01 Nov 2026, 09:46 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Polling Arrangements Completed for Urban Local Body Elections Across North Andhra - Deccan Chronicle",
+          "summary": "Polling Arrangements Completed for Urban Local Body Elections Across North Andhra Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNV3lMRlpTTF9wS3BxWV9JVnVaX0k0TkQ0UTJma1l0OWlMRHRrUWJXWVlXbXVyeEFpLTdmMDFmTGVkb2w3djRsRno4Xy1jdHh6Q0lIVlV5ZVpOMzZMRWxhQ0o4ank5ajdwYlBacjdfbHA0Y0twYlVHVnV6R0RoaHcyR0ZUcFc4VWxVU1Jzc0x0bERMZDlHYnM2cG5ZY2ZVdF9IdS1TSHdGT3RvVHd2NG03SmJGNlMwX1duTW44TC1GQ0xDZ1hvZ1RoSlNlWklwM2tNSTh0S1JxaHFhdHpkMHpfZ0E4UmFfbEnSAewBQVVfeXFMT2ppZ01hNTdJSVJIdkZyZDNUXzVOaC1aNlNaT2swbDhvUTVMYmM5eUdRSzVfalhUS2ptYWh0cWdBbmNyWUJKQ2lwZ3p3Y2laMnpsRE5wLUItQ0lUdUNLNUUtaVVtdjNBWnkxN1NIMkJTLTFoU21EczBJWWJfUU12RWhTSjNLVTUtbExfWVR2NTd3dWt5Q2NaaVM5aHp0aTg5TUEtdTFHZkJqVVNmLUsxTHZyeWhzUFRJRTh1eF91N2h0T2xCUlNSbmY3V05uWWdyeGFZdV9DemFzckswczJuM3QxNHVyRWF0WmNjT3I?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "31 Oct 2026, 05:12 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Pulivendula Civic Polls Turn Violent: India Today Crew Assaulted, Camera Smashed - India Today - India Today",
+          "summary": "Pulivendula Civic Polls Turn Violent: India Today Crew Assaulted, Camera Smashed - India Today India Today",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeWszeWliUFhSLXhRbW04eTQtaWZXN1kxNndYUS1uUUxOcmYycUNhaTRfdXEzVmhfX3FhZURTQV9xdTdpNGR2X2lZSE9mOGdYUE5Ga0J1Q29Id1p4WVRQZ2tPYlVFOTVSSHhnZGdnejFwMGlyeDJRTzktTWNsbm5yZGxrbG9vNGNac1JrTkJBalc1LU44ekhzeTJQRTNaaUx0TzlNb3JPMV83eFRiSk9FNU95Rmt3dmRUVnFiQ1Z5Rjdud0JGTWdDWVpIbW1adndBdmVpVS16UdIB3AFBVV95cUxQNVdGTlRfS3V4T3dWUmFyMHM2d01DeU5SR2tCOVdibVVMeUpmcXFERXpjekUxa0xJY1FXNE9yT2NwSDZiSC1lQ0M1MTd6QkcyZjZweV95WlJLUi1SUmxmdC03UlRiZTlwb3pCNnVYM254VExTM3dCODg0RGpPVVdRY09ROGpVOWtxUVY4V0VwUW9oT01zRk9iUWRXRXp5d0pKTWtkUkdtT3hTVnh1elMyV29DOTNJMkdycWdpUXJLNVk4bGVCcVM5dlFzWUtfTGpnUWpFc3JsRkc2cHRn?oc=5",
+          "source": "India Today",
+          "published": "01 Nov 2026, 01:04 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "AP Municipal Elections Record 37.13% Polling by 1 pm - Urban Acres",
+          "summary": "AP Municipal Elections Record 37.13% Polling by 1 pm Urban Acres",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tZFppUzlES09SVlBuTnhZbjhMdFgtbGo3QUU4aV9Yd2gzaTlKYklMWDFRVHY3NGt4Y3NOZ2FNWnpQeE40eUJFOVNCQS1FXzJtU0liVy1WS0laYXVFN2NGa29vTnBndFhDNDJ1U21LVVZ1dnRtT3pjaElvMmkyUE0?oc=5",
+          "source": "Urban Acres",
+          "published": "01 Nov 2026, 12:01 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Polling begins peacefully in Parvathipuram Manyam as Minister votes - The News Mill",
+          "summary": "Polling begins peacefully in Parvathipuram Manyam as Minister votes The News Mill",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObkY4STRMTnF6Y3AxWWkycTNia1FxeDlwTzBnbVU3QXdXa3RUNGZQUUw1RWFMQmhSdDNTTllXbDVrYnJLLWR0dGhDQ2hvYS1FQ2NhU25fTVVEVDhMWEdULXQ4dEd2NDdSMWR6d1FUbUNaUm9Rb0xHaS05bG1vSDNnTEFSTm4tMjhCQUZEYjZieVVaNTlTZzhldGF3Sk9CUG4tbkE?oc=5",
+          "source": "The News Mill",
+          "published": "01 Nov 2026, 06:22 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Vijayawada mayoral race turns into a three-way battle with high political stakes - The Times of India",
+          "summary": "Vijayawada mayoral race turns into a three-way battle with high political stakes The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdjhraXJXVGYwX25SejY0M0QwUVBEVGhaSVdiSGdjMGpqSkwxV1ZzcU1DdHY3Q2J2UFZLNm1FT0JoemphalNRa1NEM0h0YjRyTTJndmNJVmVhbE03ZmtFWkg5SHBZOGRhOG9GMWw3a3NxbVFBZVE0UFc4d3FkVXlQaDRxUV9tMkJMZGZRWV9GeUhoNUhEb192MXN1NmVKSWF5Wk1hc3Q5WG9ZeG5tdXBSX2Q5X2xvMVlsY2J6eVc1ZnZxTndHMkJvV29OUEs5NUJDcVhlemdVTEVxSUdzeUM1ZFFxUHJMTEluN2ROUExVTdIB9AFBVV95cUxQS2FZR0NSUmFFSHNFRy1EUW9ZdU05UUNTcTFFWHR3OTlkdENrNEtXM1JvNTVlSjc5azQ2X2Z0Wm9kNmhxckRodDFXbU9ZQmQ0cEg1RHFMSk1WRDF5R2E0RC1DRjRmVUtMbjlwU0VmT01uN1EzdWRZX3hkamI2SzRfY280djIycTgyYmpPT3V1Rkt4THBjUmYxQXV1eE95RzBXY1QydjR1aFhnelQ0OWN4YVdRMGJnV2o0cDNUYkRhMXBDOXJHc19tMDcyNzBDN2JKOVVWOFV4U2Z0eEc4MzRwZ2ZHLXd1TlJlOWh6YXFpcXQ1MDVR?oc=5",
+          "source": "The Times of India",
+          "published": "31 Oct 2026, 06:17 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Jagan Reddy Alleges Violence In Andhra Local Body Elections, Demands Re-Polling - شبكة تواصل الإخبارية",
+          "summary": "Jagan Reddy Alleges Violence In Andhra Local Body Elections, Demands Re-Polling شبكة تواصل الإخبارية",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rWGxhZXRQNnNNUXJCZUc0WGlhdGE5SEpELU80LThBRnhFd2VnblREN1lkY1RBTDh2X3hrSVFYSWRvWHJWWmZSRVpjNlZSWW4zTHJz?oc=5",
+          "source": "شبكة تواصل الإخبارية",
+          "published": "01 Nov 2026, 08:06 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh SEC Anil Chandra Punetha reviews local body election arrangements - ANI News",
+          "summary": "Andhra Pradesh SEC Anil Chandra Punetha reviews local body election arrangements ANI News",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNekEwU2EtNVhSNzVmVE9YeGR0dGlNZXhzUGpiTHNHcFl1M0xUZDh1b1hvdFo1d0M4eTE1ckQ2ejdLQjhaYUpodnRnMkZ2clN6Qnh0Mmd2LUM0dURmbmpoeUNWbjRNbzhUdno1dU15YU1oSmgtaWxfZnl3YkliUUliRzR6UG82dWJMLTlSV3NDYWxIMnh1cmR4dUJZdHl3d21ldjgyMGZscTdzMFdzaG5uWjdwRUhlRklNNWFGRFdaSk1zakdFaFloU2VUbDJHRHdFSkVZZUx1UUxOUFFk?oc=5",
+          "source": "ANI News",
+          "published": "19 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "TDP's Gudipala ZPTC Candidate Mamatha Sri Declares Rs 172 Crore in Assets - Deccan Chronicle",
+          "summary": "TDP's Gudipala ZPTC Candidate Mamatha Sri Declares Rs 172 Crore in Assets Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVnp2SHFxM1JaMVJ3TEZyTzNuTkN1YkRIb3E3Y3lWZFVPSVE4RHVrWXRYbEJqRHdaT1BudW55Q0JsZjF1UmlIb1Z1VjRYaXFuejRBemk5V2lyTjAwLUt4UkJEeW02ejhndlRkZzFpenRsRVlVNElfc0JuUUw5dlN4R3g2Xy01SzQ3OEtEa21lNHpBX1hRUEd6YWVfRlg2a0FNQ2plWWNVWVd2N3lrTm5TSDhsQXNpX0phYTdTdFo3bVgxLWFfYk85OXNNUkpBRVdMcWhYeE5yeE1fdWJlZmplN9IB5gFBVV95cUxPc0pDT3loUmNNUDEzd2Q3RkhGQUNISVBISmVCLUJhZF81VTgtLTdka3Y4VndMR3NUT1R2aFZSUW5tWUdLZG4xVlNnNXI1bU1UbjBZSHJqdXo2anJHY29sNVlfT2VER1BnaFlmbEY4WEVfVkNtdEZJMlZCUlVEdnNJRmFIOTVGazVHVVE4YmJhelhkaE5Ib1NZTFRsSUdXYkgzSHFmbUtUTG9PWnFBZkY3NjhEUlpEakZKVEJTWDE3MFM3QTFycHhmdU5iZkVZNXprV2R0cWRhdGNNOVZ3aGNueVA1VW5wQQ?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "30 Oct 2026, 07:12 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "01 Nov 2026, 11:35:16 AM IST",
       "baseline": false,
