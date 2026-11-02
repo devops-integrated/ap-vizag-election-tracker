@@ -27,8 +27,13 @@ h1{font-size:25px;letter-spacing:-.045em;margin:0 0 5px}
 .game-copy{min-width:0}
 .game h2{font-size:15px;margin:0 0 3px}
 .game p{font-size:11px;color:#7c899d;margin:0}
-#pickButton{border:0;border-radius:10px;background:#243f75;color:#fff;font:700 12px system-ui;padding:11px 15px;cursor:pointer;white-space:nowrap}
-#pickButton:hover{background:#3157a0}
+#pickButton{border:0;border-radius:12px;background:#59438d;color:#fff;font:800 12px system-ui;padding:13px 17px;cursor:pointer;white-space:nowrap;box-shadow:0 4px 0 #39295f}
+#pickButton:hover{background:#7056ad}
+#pickButton:active{transform:translateY(2px);box-shadow:0 2px 0 #39295f}
+.game h2{font-size:17px;margin:0 0 5px}
+.game p{font-size:12px;color:#756b60;margin:0}
+.game-result{font-size:14px;font-weight:800;color:#45366d;margin-top:12px;min-height:42px;max-width:600px}
+.game-small{font-size:10px;color:#8b8175;margin-top:5px}
 #gameResult{font-size:12px;font-weight:800;color:#3157a0;margin-top:7px;min-height:18px}
 @media(max-width:560px){main{padding:16px 12px 30px}.tracker{padding:17px}.party-grid{grid-template-columns:1fr}.game{align-items:flex-start;flex-direction:column}.number{font-size:32px}}
 </style>
@@ -46,18 +51,32 @@ h1{font-size:25px;letter-spacing:-.045em;margin:0 0 5px}
 </div>
 <p class="note">No official party-wise totals have been entered. Dashes are intentional; no figures are estimated.</p>
 </section>
-<section class="game" aria-label="Silly random party picker game">
-<div class="game-copy"><h2>🎲 Silly party picker</h2><p>Tap the button and let the totally unscientific election parrot pick a party.</p><div id="gameResult" aria-live="polite">The parrot is warming up…</div></div>
-<button id="pickButton" type="button">Pick a party!</button>
+<section class="game" aria-label="Funny election excuse generator game">
+<div class="game-copy"><h2>😂 The Great Election Excuse Machine</h2><p>Candidate lost? The campaign team has an explanation. Absolutely ridiculous explanations only.</p><div class="game-result" id="gameResult" aria-live="polite">Press the button to reveal today’s official unofficial excuse.</div><div class="game-small">Just for laughs · Not real election news or analysis</div></div>
+<button id="pickButton" type="button">Generate excuse 🎲</button>
 </section>
 </main>
 <script>
-const parties=["TDP 🟡","YSRCP 🔴","Jana Sena ⭐","BJP 🪷"];
-const silly=["The parrot has spoken: ","Breaking news from the birdcage: ","The very serious parrot chooses: ","Squawk! Today's pretend pick is: "];
+const excuses=[
+ "The loudspeaker was so powerful, even the voters got campaign fatigue.",
+ "Our manifesto was excellent. Unfortunately, the voters read it.",
+ "The rival candidate promised free Wi-Fi. Our voters wanted the password too.",
+ "The campaign van took a wrong turn and canvassed another district.",
+ "Our star speaker arrived on time… in the wrong town.",
+ "The team spent three days choosing the slogan and forgot to ask for votes.",
+ "The rival party's tea was hotter. This is a serious matter.",
+ "Our social media post got 10,000 likes. Sadly, none were from this constituency.",
+ "The campaign parrot refused to endorse anyone without sunflower seeds.",
+ "We had a winning strategy, but it was saved as FINAL_final_v7_revised.",
+ "The candidate waved so much that everyone thought it was a yoga event.",
+ "The counting agent brought a calculator. It was set to birthday mode."
+];
+let last=-1;
 document.getElementById("pickButton").addEventListener("click",()=>{
- const party=parties[Math.floor(Math.random()*parties.length)];
- const intro=silly[Math.floor(Math.random()*silly.length)];
- document.getElementById("gameResult").textContent=intro+party+"!";
+ let next;
+ do{next=Math.floor(Math.random()*excuses.length)}while(next===last);
+ last=next;
+ document.getElementById("gameResult").textContent="📢 "+excuses[next];
 });
 </script>
 </body>
