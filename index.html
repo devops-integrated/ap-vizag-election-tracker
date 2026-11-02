@@ -36,6 +36,17 @@ h1{font-size:25px;letter-spacing:-.045em;margin:0 0 5px}
 .game-small{font-size:10px;color:#8b8175;margin-top:5px}
 #gameResult{font-size:12px;font-weight:800;color:#3157a0;margin-top:7px;min-height:18px}
 @media(max-width:560px){main{padding:16px 12px 30px}.tracker{padding:17px}.party-grid{grid-template-columns:1fr}.game{align-items:flex-start;flex-direction:column}.number{font-size:32px}}
+
+.arcade{display:block!important;margin-top:16px!important;padding:21px!important;background:#171b35!important;color:#fff!important;border:1px solid #30385d!important;border-radius:20px!important;overflow:hidden}
+.arcade-head{display:flex;align-items:center;justify-content:space-between;gap:14px}.arcade-kicker{font-size:9px;letter-spacing:.18em;font-weight:900;color:#f7c96b}.arcade h2{font-size:20px!important;color:#fff;margin:3px 0 4px!important}.arcade p{font-size:11px!important;color:#c1c7dc!important;margin:0!important}
+.scoreboard{display:flex;gap:8px}.scoreboard div{background:#252b4b;border:1px solid #3b4264;border-radius:10px;padding:7px 11px;min-width:58px;text-align:center}.scoreboard small{display:block;font-size:8px;letter-spacing:.12em;color:#aeb6d1}.scoreboard strong{font-size:20px;color:#ffda80;line-height:1.3}
+.game-help{display:flex;gap:8px;flex-wrap:wrap;margin:15px 0 9px}.game-help span{background:#282f51;border-radius:20px;padding:5px 9px;font-size:10px;color:#e3e7f5}
+.arena-wrap{position:relative;border-radius:14px;overflow:hidden;background:#d9edff;border:2px solid #465078}
+#arena{display:block;width:100%;height:auto;aspect-ratio:860/360;touch-action:none;cursor:crosshair}
+.overlay{position:absolute;inset:0;display:grid;place-items:center;background:#11172dbd;padding:14px}.overlay.hidden{display:none}.overlay-card{text-align:center;max-width:390px;background:#fff;color:#202746;padding:19px 22px;border-radius:16px;box-shadow:0 10px 40px #0004}.overlay-card .overlay-emoji{font-size:35px}.overlay-card strong{font-size:16px}.overlay-card p{color:#626b83!important;font-size:11px!important;margin:7px 0 13px!important;line-height:1.5}.overlay-card button{border:0;border-radius:10px;background:#f2a93b;color:#251b36;font-weight:1000;font-size:11px;padding:12px 18px;cursor:pointer}
+.arcade-foot{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:10px;font-size:10px;color:#b9c2df}
+@media(max-width:600px){.arcade{padding:14px!important}.arcade-head{align-items:flex-start;flex-direction:column}.scoreboard{width:100%}.scoreboard div{flex:1}.game-help span{font-size:9px}.arcade-foot{font-size:9px}}
+
 </style>
 </head>
 <body>
@@ -51,33 +62,50 @@ h1{font-size:25px;letter-spacing:-.045em;margin:0 0 5px}
 </div>
 <p class="note">No official party-wise totals have been entered. Dashes are intentional; no figures are estimated.</p>
 </section>
-<section class="game" aria-label="Funny election excuse generator game">
-<div class="game-copy"><h2>😂 The Great Election Excuse Machine</h2><p>Candidate lost? The campaign team has an explanation. Absolutely ridiculous explanations only.</p><div class="game-result" id="gameResult" aria-live="polite">Press the button to reveal today’s official unofficial excuse.</div><div class="game-small">Just for laughs · Not real election news or analysis</div></div>
-<button id="pickButton" type="button">Generate excuse 🎲</button>
+<section class="game arcade" aria-label="Election chaos arcade game">
+  <div class="arcade-head">
+    <div><div class="arcade-kicker">🕹️ MINI ARCADE</div><h2>Election Chaos: Parrot Patrol</h2><p>Move your mouse to steer the parrot. Catch the ballot boxes. Dodge the nonsense!</p></div>
+    <div class="scoreboard"><div><small>SCORE</small><strong id="score">0</strong></div><div><small>TIME</small><strong id="time">30</strong></div><div><small>BEST</small><strong id="best">0</strong></div></div>
+  </div>
+  <div class="game-help"><span>🖱️ Move = steer</span><span>👆 Left-click = peck</span><span>🦜 Right-click = mega squawk</span></div>
+  <div class="arena-wrap"><canvas id="arena" width="860" height="360" aria-label="Game area. Move the mouse to steer the parrot, left-click to peck and right-click for a mega squawk."></canvas><div id="overlay" class="overlay"><div class="overlay-card"><div class="overlay-emoji">🦜</div><strong>Ready to cause campaign chaos?</strong><p>Catch 🗳️ ballots for points. Avoid 💩 promises and 🕳️ potholes. Right-click for one mega squawk!</p><button id="startGame" type="button">START THE MADNESS</button></div></div></div>
+  <div class="arcade-foot"><span id="message" aria-live="polite">The parrot is ready. Are you?</span><span>30 seconds · Just a silly game, not election data</span></div>
 </section>
 </main>
 <script>
-const excuses=[
- "The loudspeaker was so powerful, even the voters got campaign fatigue.",
- "Our manifesto was excellent. Unfortunately, the voters read it.",
- "The rival candidate promised free Wi-Fi. Our voters wanted the password too.",
- "The campaign van took a wrong turn and canvassed another district.",
- "Our star speaker arrived on time… in the wrong town.",
- "The team spent three days choosing the slogan and forgot to ask for votes.",
- "The rival party's tea was hotter. This is a serious matter.",
- "Our social media post got 10,000 likes. Sadly, none were from this constituency.",
- "The campaign parrot refused to endorse anyone without sunflower seeds.",
- "We had a winning strategy, but it was saved as FINAL_final_v7_revised.",
- "The candidate waved so much that everyone thought it was a yoga event.",
- "The counting agent brought a calculator. It was set to birthday mode."
-];
-let last=-1;
-document.getElementById("pickButton").addEventListener("click",()=>{
- let next;
- do{next=Math.floor(Math.random()*excuses.length)}while(next===last);
- last=next;
- document.getElementById("gameResult").textContent="📢 "+excuses[next];
-});
+(()=>{
+const canvas=document.getElementById('arena'),ctx=canvas.getContext('2d');
+const overlay=document.getElementById('overlay'),startBtn=document.getElementById('startGame');
+const scoreEl=document.getElementById('score'),timeEl=document.getElementById('time'),bestEl=document.getElementById('best'),message=document.getElementById('message');
+const W=860,H=360;
+let running=false,score=0,time=30,last=0,spawn=0,items=[],particles=[],player={x:430,y:290},peck=0,squawk=0,raf=0,best=0;
+try{best=Number(localStorage.getItem('parrotPatrolBest')||0)}catch(e){}bestEl.textContent=best;
+function position(e){const r=canvas.getBoundingClientRect();player.x=Math.max(22,Math.min(W-22,(e.clientX-r.left)/r.width*W));player.y=Math.max(45,Math.min(H-28,(e.clientY-r.top)/r.height*H))}
+canvas.addEventListener('pointermove',position);
+canvas.addEventListener('pointerdown',e=>{position(e);if(!running)return;if(e.button===0){peck=12;catchNearby(48)}else if(e.button===2){squawk=24;const before=items.length;items=items.filter(o=>o.good);const cleared=before-items.length;score+=cleared*2;scoreEl.textContent=score;message.textContent='SQUAAAWK! The nonsense has been cleared! +'+(cleared*2)}});
+canvas.addEventListener('contextmenu',e=>e.preventDefault());
+function catchNearby(radius){for(let i=items.length-1;i>=0;i--){const o=items[i],d=Math.hypot(o.x-player.x,o.y-player.y);if(d<radius){if(o.good){score+=10;message.textContent='Nice catch! +10 votes for the parrot!';burst(o.x,o.y,'✨')}else{score=Math.max(0,score-8);message.textContent='FAKE PROMISE! The parrot is filing a complaint. −8';burst(o.x,o.y,'💢')}items.splice(i,1);scoreEl.textContent=score;return}}message.textContent='PECK! Missed. The parrot needs glasses.'}
+function burst(x,y,emoji){particles.push({x,y,emoji,life:30})}
+function spawnItem(){const good=Math.random()<.68;items.push({x:35+Math.random()*(W-70),y:-25,v:1.5+Math.random()*2.1,drift:(Math.random()-.5)*1.4,good,emoji:good?['🗳️','⭐','🥇','📮'][Math.floor(Math.random()*4)]:['💩','🕳️','🤡'][Math.floor(Math.random()*3)],size:27+Math.random()*8})}
+function draw(){ctx.clearRect(0,0,W,H);const g=ctx.createLinearGradient(0,0,0,H);g.addColorStop(0,'#bfe5ff');g.addColorStop(1,'#e9f8dc');ctx.fillStyle=g;ctx.fillRect(0,0,W,H);
+ctx.fillStyle='#b3d89a';ctx.fillRect(0,310,W,50);ctx.fillStyle='#fff';for(let i=0;i<8;i++){ctx.globalAlpha=.45;ctx.beginPath();ctx.arc((i*137+40)%W,45+(i%3)*25,18,0,7);ctx.fill()}ctx.globalAlpha=1;
+items.forEach(o=>{ctx.font=o.size+'px system-ui';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText(o.emoji,o.x,o.y)});
+particles.forEach(p=>{ctx.globalAlpha=Math.max(0,p.life/30);ctx.font='24px system-ui';ctx.fillText(p.emoji,p.x,p.y);ctx.globalAlpha=1});
+ctx.beginPath();ctx.ellipse(player.x,player.y+22,31,8,0,0,7);ctx.fillStyle='#23334a33';ctx.fill();
+ctx.font='42px system-ui';ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText('🦜',player.x,player.y);
+if(peck>0){ctx.strokeStyle='#ff9f1c';ctx.lineWidth=5;ctx.beginPath();ctx.arc(player.x,player.y,48-peck,0,7);ctx.stroke()}
+if(squawk>0){ctx.strokeStyle='#9b5de5';ctx.lineWidth=8;ctx.beginPath();ctx.arc(player.x,player.y,55+(24-squawk)*5,0,7);ctx.stroke();ctx.font='bold 18px system-ui';ctx.fillStyle='#6937a5';ctx.fillText('SQUAAAWK!',player.x,player.y-62)}
+}
+function frame(now){if(!running)return;const dt=Math.min(40,now-last);last=now;spawn+=dt;time-=dt/1000;if(spawn>650){spawn=0;spawnItem()}
+items.forEach(o=>{o.y+=o.v*dt/16.7;o.x+=o.drift*dt/16.7});items=items.filter(o=>o.y<H+30);
+for(let i=items.length-1;i>=0;i--){const o=items[i];if(o.good&&Math.hypot(o.x-player.x,o.y-player.y)<32){score+=5;scoreEl.textContent=score;burst(o.x,o.y,'💫');items.splice(i,1);message.textContent='Parrot scoops up a ballot! +5'}} 
+particles.forEach(p=>p.life--);particles=particles.filter(p=>p.life>0);if(peck>0)peck--;if(squawk>0)squawk--;
+timeEl.textContent=Math.max(0,Math.ceil(time));draw();
+if(time<=0){finish();return}raf=requestAnimationFrame(frame)}
+function finish(){running=false;cancelAnimationFrame(raf);const newBest=score>best;if(newBest){best=score;bestEl.textContent=best;try{localStorage.setItem('parrotPatrolBest',best)}catch(e){}}message.textContent='Game over! You scored '+score+'. '+(newBest?'NEW PERSONAL BEST! 🏆':'The parrot demands a rematch.');overlay.querySelector('strong').textContent=newBest?'NEW HIGH SCORE! 🏆':'Campaign chaos complete!';overlay.querySelector('p').textContent='You scored '+score+' points. '+(newBest?'The parrot is impressed.':'Can you beat that score?');startBtn.textContent='PLAY AGAIN';overlay.classList.remove('hidden')}
+function start(){cancelAnimationFrame(raf);running=true;score=0;time=30;last=performance.now();spawn=0;items=[];particles=[];peck=0;squawk=0;scoreEl.textContent='0';timeEl.textContent='30';message.textContent='Go go go! Catch those ballots!';overlay.classList.add('hidden');draw();raf=requestAnimationFrame(frame)}
+startBtn.addEventListener('click',start);draw();
+})();
 </script>
 </body>
 </html>
