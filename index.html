@@ -250,6 +250,45 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
  .candidate-feature-head{flex-direction:column}
 }
 
+
+/* AP Election Command Center — party-first homepage redesign */
+.party-overview{margin:0 0 28px;padding:25px;border:1px solid #e0e6f0;border-radius:18px;background:#fff;box-shadow:0 10px 32px #17284b08}
+.party-overview-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:19px}
+.party-overview-head h2,.shortcut-heading h2{margin:9px 0 5px;font-size:clamp(22px,2.7vw,29px);letter-spacing:-.055em;color:#152441}
+.party-overview-head p{margin:0;color:#78859a;font-size:12px}
+.party-live-label{display:inline-flex;align-items:center;gap:8px;padding:8px 11px;border:1px solid #d9eee6;border-radius:999px;background:#f0faf6;color:#18745e;font-size:9px;font-weight:850;letter-spacing:.12em;white-space:nowrap}
+.party-live-label i{width:7px;height:7px;border-radius:50%;background:#159c78;box-shadow:0 0 0 4px #159c7818}
+.party-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.party-card{min-width:0;padding:17px 17px 15px;border:1px solid #e5e9f1;border-radius:13px;background:linear-gradient(155deg,#fff,#fafbff);position:relative;overflow:hidden}
+.party-card:after{content:"";position:absolute;right:-25px;top:-30px;width:90px;height:90px;border-radius:50%;background:var(--party-tint,#eef1ff);opacity:.85}
+.party-card-top{position:relative;z-index:1;display:flex;align-items:center;gap:8px;min-width:0}
+.party-mark{width:29px;height:29px;display:grid;place-items:center;flex:0 0 29px;border-radius:8px;background:var(--party-tint,#eef1ff);color:var(--party-color,#4058ba);font-size:12px;font-weight:900}
+.party-name{font-size:13px;font-weight:850;color:#1b2b49}
+.party-status{margin-left:auto;font-size:8px;color:#8a94a6;white-space:nowrap}
+.party-number{margin:23px 0 0;font-size:37px;line-height:1;font-weight:850;letter-spacing:-.07em;color:#172746;font-variant-numeric:tabular-nums}
+.party-caption{margin-top:7px;font-size:10px;color:#78859a}
+.party-track{height:4px;margin-top:17px;border-radius:99px;background:#edf0f6;overflow:hidden}
+.party-track span{display:block;width:0;height:100%;background:var(--party-color)}
+.party-tdp{--party-color:#287c50;--party-tint:#e4f4e9}
+.party-ysrcp{--party-color:#2472bf;--party-tint:#e7f1fc}
+.party-jsp{--party-color:#b47a18;--party-tint:#fff3d9}
+.party-bjp{--party-color:#d66a28;--party-tint:#fff0e5}
+.party-disclaimer{margin:16px 0 0;padding:11px 13px;border-left:3px solid #8a98b8;border-radius:0 8px 8px 0;background:#f6f8fc;color:#69768b;font-size:10px;line-height:1.65}
+.party-disclaimer strong{color:#344563}
+.command-shortcuts{margin:0 0 28px}
+.shortcut-heading{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:13px}
+.shortcut-heading h2{font-size:22px}
+.shortcut-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.shortcut-card{display:flex;align-items:center;gap:10px;min-width:0;padding:14px 12px;text-align:left;border:1px solid #e1e7f0;border-radius:12px;background:#fff;color:#1c2c49;cursor:pointer;box-shadow:0 4px 15px #17284b05;transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease}
+.shortcut-card:hover{transform:translateY(-2px);border-color:#cbd5ff;box-shadow:0 10px 22px #17284b0c}
+.shortcut-icon{width:30px;height:30px;display:grid;place-items:center;flex:0 0 30px;border-radius:8px;background:#eff1ff;color:#5362c5;font-size:15px}
+.shortcut-card>span:nth-child(2){display:flex;flex-direction:column;gap:3px;min-width:0}
+.shortcut-card b{font-size:10px;line-height:1.35}
+.shortcut-card small{font-size:8px;line-height:1.4;color:#818da0}
+.shortcut-arrow{margin-left:auto;color:#8c97aa;font-size:12px}
+@media(max-width:900px){.party-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.shortcut-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.party-overview{padding:16px}.party-overview-head{align-items:flex-start;flex-direction:column}.party-grid{gap:8px}.party-card{padding:13px}.party-card-top{gap:6px}.party-name{font-size:12px}.party-status{font-size:7px}.party-number{font-size:32px;margin-top:19px}.shortcut-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.shortcut-card{padding:12px 9px;gap:7px}.shortcut-card b{font-size:9px}}
+
 </style>
 </head>
 <body>
@@ -290,12 +329,12 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 
 
 <div class="command-layout">
-  <div class="command-topline"><div><span class="live-dot"></span><span class="micro-label">ELECTION INTELLIGENCE / ANDHRA PRADESH</span></div><span class="topline-right">FIELD NOTES · SOURCE-LED · IST</span></div>
+  <div class="command-topline"><div><span class="live-dot"></span><span class="micro-label">AP ELECTION COMMAND CENTER</span></div><span class="topline-right">LIVE TRACKER · ANDHRA PRADESH · VISAKHAPATNAM · GVMC</span></div>
   <div class="command-hero">
     <div class="hero-copy">
       <div class="hero-kicker"><span class="kicker-line"></span> THE ELECTION DESK</div>
-      <h2>Andhra Pradesh<br><em>election desk.</em></h2>
-      <p>Follow election developments across Andhra Pradesh and Visakhapatnam. Check ward candidates, compare reports with official notices, and see what changed at the latest refresh.</p>
+      <h2>AP Election<br><em>Command Center.</em></h2>
+      <p>See the election picture at a glance: party-wise tracking, GVMC ward candidates, election schedules and the latest developments across Andhra Pradesh.</p>
       <div class="hero-actions"><button class="action primary" data-go="liveNews">Read latest updates <span aria-hidden="true">↗</span></button><button class="hero-ghost" data-go="wards">Find ward candidates <span aria-hidden="true">→</span></button><button class="hero-ghost" data-go="calendar">Check election dates <span aria-hidden="true">↗</span></button></div>
       <div class="hero-footnote"><span class="shield-mark">✓</span> Allegations stay attributed. Official records stay distinct from media reports.</div>
     </div>
@@ -309,6 +348,29 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
       <div class="radar-caption">SIGNAL ≠ CONFIRMATION<br><span>Check the source before sharing.</span></div>
     </div>
   </div>
+  <section class="party-overview" aria-labelledby="partyOverviewTitle">
+    <div class="party-overview-head">
+      <div><span class="section-eyebrow"><span class="section-index">01</span> ELECTION OVERVIEW</span><h2 id="partyOverviewTitle">Party-wise election dashboard</h2><p>Votes polled and vote share will appear only when verified results are available.</p></div>
+      <span class="party-live-label"><i></i> LIVE TRACKER</span>
+    </div>
+    <div class="party-grid">
+      <article class="party-card party-tdp"><div class="party-card-top"><span class="party-mark">T</span><span class="party-name">TDP</span><span class="party-status">Awaiting results</span></div><div class="party-number">—</div><div class="party-caption">Votes polled / share</div><div class="party-track"><span></span></div></article>
+      <article class="party-card party-ysrcp"><div class="party-card-top"><span class="party-mark">Y</span><span class="party-name">YSRCP</span><span class="party-status">Awaiting results</span></div><div class="party-number">—</div><div class="party-caption">Votes polled / share</div><div class="party-track"><span></span></div></article>
+      <article class="party-card party-jsp"><div class="party-card-top"><span class="party-mark">J</span><span class="party-name">Jana Sena</span><span class="party-status">Awaiting results</span></div><div class="party-number">—</div><div class="party-caption">Votes polled / share</div><div class="party-track"><span></span></div></article>
+      <article class="party-card party-bjp"><div class="party-card-top"><span class="party-mark">B</span><span class="party-name">BJP</span><span class="party-status">Awaiting results</span></div><div class="party-number">—</div><div class="party-caption">Votes polled / share</div><div class="party-track"><span></span></div></article>
+    </div>
+    <p class="party-disclaimer"><strong>Data integrity:</strong> No vote figures are currently loaded in this overview. Dashes are intentional; no results or vote shares have been estimated or invented.</p>
+  </section>
+  <section class="command-shortcuts" aria-label="Main election tracker sections">
+    <div class="shortcut-heading"><div><span class="section-eyebrow"><span class="section-index">02</span> TRACK THE ELECTION</span><h2>Go straight to the detail</h2></div></div>
+    <div class="shortcut-grid">
+      <button class="shortcut-card" data-go="vizag"><span class="shortcut-icon">⌖</span><span><b>GVMC 120 Wards</b><small>City-wide ward tracking</small></span><span class="shortcut-arrow">↗</span></button>
+      <button class="shortcut-card" data-go="wards"><span class="shortcut-icon">♙</span><span><b>Ward-wise candidates</b><small>Who is contesting each ward</small></span><span class="shortcut-arrow">↗</span></button>
+      <button class="shortcut-card" data-go="constituencies"><span class="shortcut-icon">◈</span><span><b>Party candidates</b><small>Candidate names and party status</small></span><span class="shortcut-arrow">↗</span></button>
+      <button class="shortcut-card" data-go="calendar"><span class="shortcut-icon">▦</span><span><b>Election schedule</b><small>Polling, repolling and counting</small></span><span class="shortcut-arrow">↗</span></button>
+      <button class="shortcut-card" data-go="latestUpdates"><span class="shortcut-icon">↻</span><span><b>Latest updates</b><small>What changed most recently</small></span><span class="shortcut-arrow">↗</span></button>
+    </div>
+  </section>
   <div class="metric-ribbon">
     <article class="metric-tile"><div class="metric-top"><span class="metric-icon icon-violet">↗</span><span class="metric-label">IN THE FEED</span></div><div class="metric-value" id="updateCount">—</div><div class="metric-desc">Published update records <span class="metric-arrow">↗</span></div><button class="metric-link" data-go="liveNews">Open intelligence feed</button></article>
     <article class="metric-tile"><div class="metric-top"><span class="metric-icon icon-mint">⌖</span><span class="metric-label">VIZAG REGISTER</span></div><div class="metric-value">120 <small>wards</small></div><div class="metric-desc">GVMC ward index <span class="metric-arrow">↗</span></div><button class="metric-link" data-go="wards">Browse ward register</button></article>
