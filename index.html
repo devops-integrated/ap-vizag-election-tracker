@@ -289,6 +289,25 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 @media(max-width:900px){.party-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.shortcut-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:600px){.party-overview{padding:16px}.party-overview-head{align-items:flex-start;flex-direction:column}.party-grid{gap:8px}.party-card{padding:13px}.party-card-top{gap:6px}.party-name{font-size:12px}.party-status{font-size:7px}.party-number{font-size:32px;margin-top:19px}.shortcut-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.shortcut-card{padding:12px 9px;gap:7px}.shortcut-card b{font-size:9px}}
 
+
+/* Poll turnout: clearly separate participation from party results */
+.poll-turnout-panel{margin:0 0 30px;padding:22px;border:1px solid #dfe6f0;border-radius:16px;background:linear-gradient(135deg,#fff 0%,#f8fbff 100%);box-shadow:0 8px 25px #17284b08}
+.poll-turnout-head{display:flex;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:17px}
+.poll-turnout-head h2{font-size:23px;letter-spacing:-.045em;margin:8px 0 4px;color:#152441}
+.poll-turnout-head p{font-size:11px;color:#77849a;margin:0}
+.poll-source-tag{flex:0 0 auto;padding:7px 10px;border-radius:8px;background:#eef8f4;color:#176c58;font-size:10px;font-weight:800}
+.poll-turnout-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px}
+.poll-turnout-stats article{padding:17px;border:1px solid #e5eaf2;border-radius:12px;background:#fff;display:flex;flex-direction:column;gap:5px}
+.poll-stat-label{font-size:9px;letter-spacing:.12em;font-weight:850;color:#8390a5}
+.poll-turnout-stats strong{font-size:clamp(24px,3vw,34px);line-height:1.2;letter-spacing:-.055em;color:#17294a;font-variant-numeric:tabular-nums}
+.poll-turnout-stats small{font-size:10px;color:#78859a}
+.poll-turnout-foot{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-top:12px}
+.poll-turnout-foot>div{padding:13px 15px;border-radius:10px;background:#f2f5fb;color:#58677e;font-size:11px;line-height:1.65}
+.poll-turnout-foot strong{color:#233657}
+.poll-data-note{margin:14px 0 10px;padding:11px 13px;border-left:3px solid #d6a13a;border-radius:0 8px 8px 0;background:#fff8e9;color:#71551c;font-size:11px;line-height:1.65}
+.poll-links{display:flex;gap:9px 17px;flex-wrap:wrap}.poll-links a{font-size:10px;font-weight:800;color:#3157c8;text-decoration:none}.poll-links a:hover{text-decoration:underline}
+@media(max-width:650px){.poll-turnout-panel{padding:16px}.poll-turnout-head{flex-direction:column}.poll-turnout-stats{grid-template-columns:1fr}.poll-turnout-stats article{padding:13px}.poll-turnout-foot{grid-template-columns:1fr}.poll-turnout-stats strong{font-size:29px}}
+
 </style>
 </head>
 <body>
@@ -361,6 +380,23 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
     </div>
     <p class="party-disclaimer"><strong>Data integrity:</strong> No vote figures are currently loaded in this overview. Dashes are intentional; no results or vote shares have been estimated or invented.</p>
   </section>
+  <section class="poll-turnout-panel" aria-labelledby="pollTurnoutTitle">
+    <div class="poll-turnout-head">
+      <div><span class="section-eyebrow"><span class="section-index">02</span> POLL PARTICIPATION</span><h2 id="pollTurnoutTitle">How many voters turned out?</h2><p>Statewide municipal-election turnout reported after polling on 1 November 2026.</p></div>
+      <span class="poll-source-tag">Reported · 2 Nov 2026</span>
+    </div>
+    <div class="poll-turnout-stats">
+      <article><span class="poll-stat-label">STATEWIDE TURNOUT</span><strong>60.96%</strong><small>Reported voter participation</small></article>
+      <article><span class="poll-stat-label">VOTES CAST</span><strong>59,06,255</strong><small>Voters who exercised their franchise</small></article>
+      <article><span class="poll-stat-label">REGISTERED VOTERS</span><strong>96,89,061</strong><small>Across the 92 ULBs covered in the report</small></article>
+    </div>
+    <div class="poll-turnout-foot">
+      <div><strong>GVMC / Visakhapatnam:</strong> A verified corporation-specific turnout figure is not included in the statewide report. We will show it here when APSEC publishes a confirmed breakdown.</div>
+      <div><strong>Repoll update:</strong> Repolling was reported at 12 polling stations across six ULBs on 2 November following alleged booth-capturing incidents. Treat the statewide figure as the reported aggregate, not a final GVMC or party-wise result.</div>
+    </div>
+    <p class="poll-data-note">Important: turnout means the number of people who voted. It does not show how those votes were split between TDP, YSRCP, Jana Sena, BJP or other parties. Party-wise vote totals and vote share remain pending official counting and results.</p>
+    <div class="poll-links"><a href="https://demo8.cgg.gov.in/apsec/getVoterTurnOutCanPortal" target="_blank" rel="noopener noreferrer">APSEC voter turnout portal ↗</a><a href="https://www.newindianexpress.com/states/andhra-pradesh/2026/Nov/02/andhra-pradesh-records-6096-per-cent-voter-turnout-in-ulb-elections" target="_blank" rel="noopener noreferrer">Turnout report ↗</a><a href="https://www.hindustantimes.com/india-news/repolling-begins-at-12-polling-stations-in-six-ulbs-in-andhra-101793594244486.html" target="_blank" rel="noopener noreferrer">Repoll report ↗</a></div>
+  </section>
   <section class="command-shortcuts" aria-label="Main election tracker sections">
     <div class="shortcut-heading"><div><span class="section-eyebrow"><span class="section-index">02</span> TRACK THE ELECTION</span><h2>Go straight to the detail</h2></div></div>
     <div class="shortcut-grid">
@@ -368,6 +404,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
       <button class="shortcut-card" data-go="wards"><span class="shortcut-icon">♙</span><span><b>Ward-wise candidates</b><small>Who is contesting each ward</small></span><span class="shortcut-arrow">↗</span></button>
       <button class="shortcut-card" data-go="constituencies"><span class="shortcut-icon">◈</span><span><b>Party candidates</b><small>Candidate names and party status</small></span><span class="shortcut-arrow">↗</span></button>
       <button class="shortcut-card" data-go="calendar"><span class="shortcut-icon">▦</span><span><b>Election schedule</b><small>Polling, repolling and counting</small></span><span class="shortcut-arrow">↗</span></button>
+      <a class="shortcut-card" href="#pollTurnoutTitle" style="text-decoration:none;color:inherit"><span class="shortcut-icon">◎</span><span><b>Poll turnout</b><small>Statewide votes cast and participation</small></span><span class="shortcut-arrow">↗</span></a>
       <button class="shortcut-card" data-go="latestUpdates"><span class="shortcut-icon">↻</span><span><b>Latest updates</b><small>What changed most recently</small></span><span class="shortcut-arrow">↗</span></button>
     </div>
   </section>
