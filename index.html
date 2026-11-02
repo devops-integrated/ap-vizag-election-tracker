@@ -345,87 +345,45 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 </nav>
 <section id="dashboard" class="view">
 <style>
-/* Minimal party + polling dashboard */
-#dashboard{background:#f4f7fc;padding:28px 0 54px}
-#dashboard .simple-shell{max-width:1120px;margin:0 auto;padding:0 22px}
-#dashboard .simple-top{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:24px}
-#dashboard .simple-brand{font-size:12px;font-weight:900;letter-spacing:.16em;color:#52627e}
-#dashboard .simple-live{font-size:10px;font-weight:800;letter-spacing:.1em;color:#16765e}
-#dashboard .simple-hero{padding:34px;border-radius:22px;background:#101e3b;color:#fff;margin-bottom:20px;position:relative;overflow:hidden}
-#dashboard .simple-hero:after{content:"";position:absolute;width:280px;height:280px;border:1px solid #ffffff20;border-radius:50%;right:-50px;top:-150px;box-shadow:0 0 0 35px #ffffff08,0 0 0 70px #ffffff06}
-#dashboard .simple-hero h2{font-size:clamp(30px,5vw,48px);line-height:1.04;letter-spacing:-.055em;margin:0 0 9px;position:relative;z-index:1}
-#dashboard .simple-hero p{margin:0;color:#bdc9dc;font-size:13px;position:relative;z-index:1}
-#dashboard .simple-section{background:#fff;border:1px solid #e3e9f2;border-radius:18px;padding:24px;margin:18px 0;box-shadow:0 8px 26px #162b4d08}
-#dashboard .simple-section-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:18px}
-#dashboard .simple-eyebrow{font-size:9px;letter-spacing:.15em;font-weight:900;color:#71809a}
-#dashboard .simple-section h3{font-size:23px;letter-spacing:-.045em;color:#182947;margin:6px 0 4px}
-#dashboard .simple-section-head p{font-size:11px;color:#7c899d;margin:0}
-#dashboard .simple-tag{padding:7px 10px;border-radius:20px;background:#edf4ff;color:#3659a4;font-size:9px;font-weight:850;white-space:nowrap}
-#dashboard .party-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
-#dashboard .party-card{border:1px solid #e8edf4;border-radius:14px;padding:17px;background:#fbfcfe;min-width:0}
-#dashboard .party-card-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-#dashboard .party-mark{width:28px;height:28px;border-radius:9px;display:grid;place-items:center;background:#e8edf5;color:#243958;font-weight:900}
-#dashboard .party-name{font-size:13px;font-weight:900;color:#1b2c49}
-#dashboard .party-status{font-size:8px;color:#8b96a8;margin-left:auto}
-#dashboard .party-number{font-size:30px;line-height:1.2;font-weight:900;letter-spacing:-.05em;color:#1b2d4b;margin-top:19px}
-#dashboard .party-caption{font-size:10px;color:#78869b;margin-top:2px}
-#dashboard .party-track{height:5px;background:#e9eef5;border-radius:8px;margin-top:14px;overflow:hidden}
+#dashboard{background:#f4f7fc;padding:32px 0 56px}
+#dashboard .party-only-shell{max-width:1050px;margin:0 auto;padding:0 22px}
+#dashboard .party-only-head{padding:30px 32px;border-radius:20px;background:#142440;color:#fff;margin-bottom:20px}
+#dashboard .party-only-head .eyebrow{font-size:10px;letter-spacing:.16em;font-weight:900;color:#b9c9e5}
+#dashboard .party-only-head h2{font-size:clamp(30px,5vw,46px);line-height:1.08;letter-spacing:-.05em;margin:9px 0}
+#dashboard .party-only-head p{font-size:13px;color:#cfdaea;margin:0}
+#dashboard .party-only-panel{background:#fff;border:1px solid #e3e9f2;border-radius:18px;padding:24px;box-shadow:0 8px 26px #162b4d08}
+#dashboard .party-only-panel h3{font-size:22px;letter-spacing:-.04em;color:#182947;margin:0 0 5px}
+#dashboard .party-only-panel .intro{font-size:11px;color:#7c899d;margin:0 0 20px}
+#dashboard .party-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+#dashboard .party-card{border:1px solid #e5eaf2;border-radius:15px;padding:20px;background:#fbfcfe;min-width:0}
+#dashboard .party-card-top{display:flex;align-items:center;gap:10px}
+#dashboard .party-mark{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:#e8edf5;color:#243958;font-weight:900}
+#dashboard .party-name{font-size:15px;font-weight:900;color:#1b2c49}
+#dashboard .party-status{font-size:9px;color:#8b96a8;margin-left:auto}
+#dashboard .party-number{font-size:36px;line-height:1.2;font-weight:900;letter-spacing:-.05em;color:#1b2d4b;margin-top:22px}
+#dashboard .party-caption{font-size:11px;color:#78869b;margin-top:3px}
+#dashboard .party-track{height:6px;background:#e9eef5;border-radius:8px;margin-top:16px;overflow:hidden}
 #dashboard .party-track span{display:block;width:0;height:100%;background:#7d91b4}
-#dashboard .exit-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
-#dashboard .exit-card{padding:15px;border:1px solid #e7ecf3;border-radius:12px;background:#fafbfd}
-#dashboard .exit-party{font-size:11px;font-weight:900;color:#253754}
-#dashboard .exit-value{font-size:23px;font-weight:900;color:#8a96a8;margin:12px 0 2px}
-#dashboard .exit-caption{font-size:9px;color:#8490a2;line-height:1.5}
-#dashboard .poll-turnout-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px}
-#dashboard .poll-turnout-stats article{padding:17px;border:1px solid #e5eaf2;border-radius:12px;background:#fbfcfe;display:flex;flex-direction:column;gap:5px}
-#dashboard .poll-stat-label{font-size:9px;letter-spacing:.12em;font-weight:850;color:#8390a5}
-#dashboard .poll-turnout-stats strong{font-size:clamp(24px,3vw,34px);line-height:1.2;letter-spacing:-.055em;color:#17294a;font-variant-numeric:tabular-nums}
-#dashboard .poll-turnout-stats small{font-size:10px;color:#78859a}
-#dashboard .poll-note{margin:14px 0 0;padding:12px 14px;border-radius:9px;background:#fff8e9;color:#76591d;font-size:11px;line-height:1.6}
-#dashboard .simple-sources{display:flex;gap:14px;flex-wrap:wrap;margin-top:13px}
-#dashboard .simple-sources a{font-size:10px;font-weight:800;color:#3157c8;text-decoration:none}
-#dashboard .simple-sources a:hover{text-decoration:underline}
-#dashboard .simple-footer{text-align:center;color:#8a96a8;font-size:10px;padding:14px}
-@media(max-width:760px){#dashboard .party-grid,#dashboard .exit-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:520px){#dashboard{padding-top:16px}#dashboard .simple-shell{padding:0 12px}#dashboard .simple-hero{padding:25px 20px}#dashboard .simple-section{padding:17px}.poll-turnout-stats{grid-template-columns:1fr}#dashboard .simple-section-head{flex-direction:column}}
+#dashboard .party-only-note{font-size:10px;color:#8793a5;margin:16px 0 0;line-height:1.6}
+@media(max-width:560px){#dashboard{padding:18px 0 36px}#dashboard .party-only-shell{padding:0 12px}#dashboard .party-only-head{padding:24px 20px}#dashboard .party-only-panel{padding:16px}#dashboard .party-grid{grid-template-columns:1fr}}
 </style>
-<div class="simple-shell">
-  <div class="simple-top"><span class="simple-brand">AP ELECTION TRACKER</span><span class="simple-live">● ELECTION DASHBOARD · VERSION 2</span></div>
-  <header class="simple-hero"><h2>Andhra Pradesh<br>Election Dashboard</h2><p>Party-wise results, exit poll projections and voter turnout — in one place.</p></header>
-
-  <section class="simple-section" aria-labelledby="partyOverviewTitle">
-    <div class="simple-section-head"><div><span class="simple-eyebrow">01 · PARTY POSITION</span><h3 id="partyOverviewTitle">Party-wise vote tracker</h3><p>Official party-wise votes and vote share will be added when results are declared.</p></div><span class="simple-tag">OFFICIAL RESULTS</span></div>
+<div class="party-only-shell">
+  <header class="party-only-head">
+    <div class="eyebrow">AP ELECTION TRACKER</div>
+    <h2>Party-wise Vote Tracker</h2>
+    <p>Andhra Pradesh · Party results at a glance</p>
+  </header>
+  <section class="party-only-panel" aria-labelledby="partyOverviewTitle">
+    <h3 id="partyOverviewTitle">Party-wise position</h3>
+    <p class="intro">Votes polled and vote share will be shown when verified official results are available.</p>
     <div class="party-grid">
-      <article class="party-card party-tdp"><div class="party-card-top"><span class="party-mark">T</span><span class="party-name">TDP</span><span class="party-status">Pending</span></div><div class="party-number">—</div><div class="party-caption">Votes / vote share</div><div class="party-track"><span></span></div></article>
-      <article class="party-card party-ysrcp"><div class="party-card-top"><span class="party-mark">Y</span><span class="party-name">YSRCP</span><span class="party-status">Pending</span></div><div class="party-number">—</div><div class="party-caption">Votes / vote share</div><div class="party-track"><span></span></div></article>
-      <article class="party-card party-jsp"><div class="party-card-top"><span class="party-mark">J</span><span class="party-name">Jana Sena</span><span class="party-status">Pending</span></div><div class="party-number">—</div><div class="party-caption">Votes / vote share</div><div class="party-track"><span></span></div></article>
-      <article class="party-card party-bjp"><div class="party-card-top"><span class="party-mark">B</span><span class="party-name">BJP</span><span class="party-status">Pending</span></div><div class="party-number">—</div><div class="party-caption">Votes / vote share</div><div class="party-track"><span></span></div></article>
+      <article class="party-card party-tdp"><div class="party-card-top"><span class="party-mark">T</span><span class="party-name">TDP</span><span class="party-status">Awaiting results</span></div><div class="party-number">—</div><div class="party-caption">Votes polled / vote share</div><div class="party-track"><span></span></div></article>
+      <article class="party-card party-ysrcp"><div class="party-card-top"><span class="party-mark">Y</span><span class="party-name">YSRCP</span><span class="party-status">Awaiting results</span></div><div class="party-number">—</div><div class="party-caption">Votes polled / vote share</div><div class="party-track"><span></span></div></article>
+      <article class="party-card party-jsp"><div class="party-card-top"><span class="party-mark">J</span><span class="party-name">Jana Sena</span><span class="party-status">Awaiting results</span></div><div class="party-number">—</div><div class="party-caption">Votes polled / vote share</div><div class="party-track"><span></span></div></article>
+      <article class="party-card party-bjp"><div class="party-card-top"><span class="party-mark">B</span><span class="party-name">BJP</span><span class="party-status">Awaiting results</span></div><div class="party-number">—</div><div class="party-caption">Votes polled / vote share</div><div class="party-track"><span></span></div></article>
     </div>
-    <p class="poll-note">No party-wise result has been entered here. The dashes are intentional; no figures are estimated.</p>
+    <p class="party-only-note">Official party-wise vote totals and vote share have not been entered. No figures are estimated or invented.</p>
   </section>
-
-  <section class="simple-section" aria-labelledby="exitPollTitle">
-    <div class="simple-section-head"><div><span class="simple-eyebrow">02 · EXIT POLL WATCH</span><h3 id="exitPollTitle">Exit poll projections</h3><p>Agency-wise projections will appear here only when a published source is available.</p></div><span class="simple-tag">AWAITING PUBLICATION</span></div>
-    <div class="exit-grid">
-      <article class="exit-card"><div class="exit-party">TDP</div><div class="exit-value">—</div><div class="exit-caption">No verified exit poll figure loaded</div></article>
-      <article class="exit-card"><div class="exit-party">YSRCP</div><div class="exit-value">—</div><div class="exit-caption">No verified exit poll figure loaded</div></article>
-      <article class="exit-card"><div class="exit-party">Jana Sena</div><div class="exit-value">—</div><div class="exit-caption">No verified exit poll figure loaded</div></article>
-      <article class="exit-card"><div class="exit-party">BJP</div><div class="exit-value">—</div><div class="exit-caption">No verified exit poll figure loaded</div></article>
-    </div>
-    <p class="poll-note">Exit polls are estimates, not official results. Each future entry should show the polling agency, publication date, sample/area covered and source link. No verified exit poll projection is currently displayed.</p>
-  </section>
-
-  <section class="simple-section" aria-labelledby="pollTurnoutTitle">
-    <div class="simple-section-head"><div><span class="simple-eyebrow">03 · VOTER PARTICIPATION</span><h3 id="pollTurnoutTitle">Polling turnout</h3><p>Statewide municipal-election turnout figures as reported on 2 November 2026.</p></div><span class="simple-tag">REPORTED FIGURES</span></div>
-    <div class="poll-turnout-stats">
-      <article><span class="poll-stat-label">STATEWIDE TURNOUT</span><strong>60.96%</strong><small>Reported voter participation</small></article>
-      <article><span class="poll-stat-label">VOTES CAST</span><strong>59,06,255</strong><small>Votes reported cast</small></article>
-      <article><span class="poll-stat-label">REGISTERED VOTERS</span><strong>96,89,061</strong><small>Across 92 ULBs in the report</small></article>
-    </div>
-    <p class="poll-note">GVMC-specific turnout is not separately verified in the statewide report. Turnout is not the same as party vote share. Repolling was separately reported at 12 polling stations across six ULBs.</p>
-    <div class="simple-sources"><a href="https://demo8.cgg.gov.in/apsec/getVoterTurnOutCanPortal" target="_blank" rel="noopener noreferrer">APSEC turnout portal ↗</a><a href="https://www.newindianexpress.com/states/andhra-pradesh/2026/Nov/02/andhra-pradesh-records-6096-per-cent-voter-turnout-in-ulb-elections" target="_blank" rel="noopener noreferrer">Turnout report ↗</a><a href="https://www.hindustantimes.com/india-news/repolling-begins-at-12-polling-stations-in-six-ulbs-in-andhra-101793594244486.html" target="_blank" rel="noopener noreferrer">Repoll report ↗</a></div>
-  </section>
-  <div class="simple-footer">AP Election Tracker · Figures are labelled by source and verification status</div>
 </div>
 </section>
 <section id="statements" class="view hidden">
