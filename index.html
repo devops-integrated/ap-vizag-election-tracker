@@ -47,7 +47,30 @@ h1{font-size:25px;letter-spacing:-.045em;margin:0 0 5px}
 .arcade-foot{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:10px;font-size:10px;color:#b9c2df}
 @media(max-width:600px){.arcade{padding:14px!important}.arcade-head{align-items:flex-start;flex-direction:column}.scoreboard{width:100%}.scoreboard div{flex:1}.game-help span{font-size:9px}.arcade-foot{font-size:9px}}
 
-</style>
+
+.news-panel{margin-top:16px;background:#fff;border:1px solid #e3e9f2;border-radius:20px;padding:22px;box-shadow:0 8px 28px #162b4d09}
+.news-head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;flex-wrap:wrap}
+.news-head h2{font-size:20px;margin:0 0 4px;letter-spacing:-.03em}
+.news-sub{font-size:11px;color:#78869b;margin:0}
+.news-tools{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.news-tools button{border:1px solid #dce4ef;background:#f7f9fc;color:#30425f;border-radius:9px;padding:8px 11px;font-size:11px;font-weight:800;cursor:pointer}
+.news-tools button.active{background:#243958;color:#fff;border-color:#243958}
+.news-meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:15px 0}
+.live-dot{width:7px;height:7px;border-radius:50%;background:#1ca66a;display:inline-block;box-shadow:0 0 0 4px #1ca66a18}
+.news-stamp{font-size:10px;color:#75839a}
+.news-list{display:grid;gap:10px}
+.news-item{border:1px solid #e8edf4;border-radius:13px;padding:14px;background:#fcfdff}
+.news-item-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.news-tag{font-size:9px;font-weight:900;letter-spacing:.04em;padding:4px 7px;border-radius:20px;background:#eef2f8;color:#40516c}
+.news-tag.official{background:#e8f5ed;color:#17633e}
+.news-tag.reported{background:#fff3df;color:#8a5814}
+.news-item h3{font-size:13px;line-height:1.45;margin:0 0 5px}
+.news-item p{font-size:11px;line-height:1.55;color:#66758d;margin:0 0 8px}
+.news-item a{font-size:10px;font-weight:800;color:#315b9b;text-decoration:none}
+.news-empty{padding:20px;text-align:center;color:#718099;font-size:12px;background:#f8fafd;border-radius:12px}
+.news-foot{font-size:10px;line-height:1.55;color:#8793a5;margin:13px 0 0}
+@media(max-width:560px){.news-panel{padding:16px}.news-head h2{font-size:18px}}
+\n</style>
 </head>
 <body>
 <main>
@@ -62,7 +85,17 @@ h1{font-size:25px;letter-spacing:-.045em;margin:0 0 5px}
 </div>
 <p class="note">No official party-wise totals have been entered. Dashes are intentional; no figures are estimated.</p>
 </section>
-<section class="game arcade" aria-label="Election chaos arcade game">
+
+<section class="news-panel" aria-labelledby="newsTitle">
+ <div class="news-head">
+  <div><h2 id="newsTitle">Vizag & Andhra Election Updates</h2><p class="news-sub">Latest reports, official notices and election developments</p></div>
+  <div class="news-tools"><button type="button" class="active" data-filter="vizag">Vizag focus</button><button type="button" data-filter="all">All AP</button><button type="button" id="refreshNews">↻ Refresh</button></div>
+ </div>
+ <div class="news-meta"><span class="live-dot"></span><span class="news-stamp" id="newsStatus" aria-live="polite">Loading latest updates…</span></div>
+ <div class="news-list" id="newsList"><div class="news-empty">Fetching the latest election feed…</div></div>
+ <p class="news-foot">The page checks for new data every 2 minutes. The background collector runs approximately every 5 minutes, subject to GitHub Actions scheduling. News reports are labelled “Reported”; an official-source link is not proof of the contents of the linked notice. No live results are estimated.</p>
+</section>
+\n<section class="game arcade" aria-label="Election chaos arcade game">
   <div class="arcade-head">
     <div><div class="arcade-kicker">🕹️ MINI ARCADE</div><h2>Election Chaos: Parrot Patrol</h2><p>Move your mouse to steer the parrot. Catch the ballot boxes. Dodge the nonsense!</p></div>
     <div class="scoreboard"><div><small>SCORE</small><strong id="score">0</strong></div><div><small>TIME</small><strong id="time">30</strong></div><div><small>BEST</small><strong id="best">0</strong></div></div>
@@ -107,5 +140,40 @@ function start(){cancelAnimationFrame(raf);running=true;score=0;time=30;last=per
 startBtn.addEventListener('click',start);draw();
 })();
 </script>
-</body>
+
+<script>
+(()=> {
+ const endpoint='./news.json';
+ const list=document.getElementById('newsList');
+ const status=document.getElementById('newsStatus');
+ const refresh=document.getElementById('refreshNews');
+ const filters=[...document.querySelectorAll('[data-filter]')];
+ let mode='vizag',lastData=null;
+ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const isVizag=x=>/vizag|visakhapatnam|gvmc/i.test([x.title,x.summary,x.source,x.feed].join(' '));
+ function render(data){
+  lastData=data;
+  const all=Array.isArray(data.items)?data.items:[];
+  const selected=mode==='vizag'?all.filter(isVizag):all;
+  const sorted=selected.slice().sort((a,b)=>Date.parse(b.published||'')-Date.parse(a.published||''));
+  status.textContent='Data checked: '+(data.updated_at_ist||'time unavailable')+' · page refreshes every 2 min';
+  if(!sorted.length){list.innerHTML='<div class="news-empty">No matching updates were found in the latest feed. Try “All AP” to see wider Andhra Pradesh coverage.</div>';return;}
+  list.innerHTML=sorted.slice(0,30).map(x=>{
+   const official=/official source/i.test(x.status||'');
+   const tag=official?'Official source':'Reported';
+   return '<article class="news-item"><div class="news-item-top"><span class="news-tag '+(official?'official':'reported')+'">'+tag+'</span><span class="news-tag">'+esc(x.source||x.feed||'Election update')+'</span>'+(x.published?'<span class="news-stamp">'+esc(x.published)+'</span>':'')+'</div><h3>'+esc(x.title)+'</h3><p>'+esc(x.summary||x.note||'Open the source for details.')+'</p>'+(x.link?'<a href="'+esc(x.link)+'" target="_blank" rel="noopener noreferrer">Open source ↗</a>':'')+'</article>';
+  }).join('');
+ }
+ async function load(){
+  status.textContent='Checking for new updates…';
+  try{const r=await fetch(endpoint+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('Feed unavailable ('+r.status+')');const d=await r.json();render(d)}
+  catch(e){status.textContent='Could not refresh the feed. Showing the last available updates if present.';if(lastData)render(lastData);else list.innerHTML='<div class="news-empty">Election feed is temporarily unavailable. Please try again shortly.</div>'}
+ }
+ filters.forEach(b=>b.addEventListener('click',()=>{mode=b.dataset.filter;filters.forEach(x=>x.classList.toggle('active',x===b));if(lastData)render(lastData);else load()}));
+ refresh.addEventListener('click',load);
+ load();
+ setInterval(load,120000);
+})();
+</script>
+\n</body>
 </html>
