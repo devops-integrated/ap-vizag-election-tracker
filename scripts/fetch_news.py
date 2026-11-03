@@ -163,7 +163,7 @@ def main():
     combined = (items + official_items)[:100]
     payload = {
         "updated_at_ist": checked,
-        "update_frequency": "Scheduled approximately every 3 hours; manual workflow runs are also supported",
+        "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
         "source_note": "Election reports include short summaries from publisher RSS descriptions. They remain reported, not official confirmation, unless backed by an official notice.",
         "items": combined
     }
@@ -207,7 +207,7 @@ def main():
     })
     history = {
         "updated_at_ist": checked,
-        "update_frequency": "Scheduled approximately every 3 hours; manual workflow runs are also supported",
+        "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
         "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
         "runs": runs[:60]
     }
