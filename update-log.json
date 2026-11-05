@@ -1,8 +1,137 @@
 {
-  "updated_at_ist": "05 Nov 2026, 10:37:47 AM IST",
+  "updated_at_ist": "05 Nov 2026, 06:38:33 PM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "05 Nov 2026, 06:38:33 PM IST",
+      "baseline": false,
+      "new_count": 12,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "What NDA’s clean sweep in local body polls means for Andhra Pradesh politics - The Hindu",
+          "summary": "What NDA’s clean sweep in local body polls means for Andhra Pradesh politics The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYUh2TnNkNzVPOFViYUZyTC1VLWw3bExfbWJpWUJtMmV0WmEwa3Y4NzBRU0tLRXVyakVfYWpQX1pKdVM0UkRJcWpmZHJia0c5dmljb0JOdUFOY1dqdlBQMHdCV3cxaVU0Y1M2Z2QwclN3ZXdzSHMzR1lxTzRDZktvZlpaTkQ1aEVQbC05VHdGMDNRV0JmWkNhZVRzczhmVXVoaUI1aUR4anBGZVpjb1NBbUdycEkyNzhaQjU5VlktaEoyMXNGbWJ5M20yb1kybWFpdVk5UGpYT3JmemU4aXNCUjh1d9IB6gFBVV95cUxPVWd5UFU0ZmRhSkxIRktSQlI3N1V3OFVCRjFzWEdvdGwxU2ZxNmVZUEZPa2xyREE3UnJ1UXpUS2M5SXg0dmhvRXZZX3I3YmFNNkFqczBkc0dqa1lRdFJ4T0N2VmFrNmo2QkxQckNuQm13OHZTYXRGdzdvZmNpXzN0cV9fcGlfZGI4ZWhReTFTMmFfcExhSlVGbENxeW9PZHJ5X0NsQ2U5aUtTTm00ZzlUelBueG1zVUprekV1QVFnUTFsVW5JUGxXM0pqalJoTk5ETmJicDA0NjhiQnVuWlNZTFVkOFRHcXZPUkE?oc=5",
+          "source": "The Hindu",
+          "published": "04 Nov 2026, 07:53 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Petrol Bombs Hurled; YSRCP-TDP Clashes Mar Local Body Elections In Andhra Pradesh - ETV Bharat",
+          "summary": "Petrol Bombs Hurled; YSRCP-TDP Clashes Mar Local Body Elections In Andhra Pradesh ETV Bharat",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZkJ0YUt1LVJDX2RuNXJWVTltZ3pZaHV3ZXVsZTBoSHUzamJZR28xSURTbFBCejZSMVBLcUNSczdXbU9hSHJzalNrX1FTcFRqbXdaQmZZVFpKU0tBdTFTMVVLVE5DQW5qMmV4NzktMkNzWXViNUV3WlFGazJmaGhNdGpFX25nejA0S3NneGZNeXYzVU1ya2tXS0l2OVVDWlhoTW5naWNrckdUQ3BDYnd6Y0o2em81RGNhV2ZZZkZSZnQ4dWNjOTVNYkxR0gHPAUFVX3lxTE9uN2lyTEZhT3ZwZEI5MDlieXlkdnY1WVh0eGFzRjRncFJLWlBISGNfa09CaEJlelpBYkd2MUkweEY4ckJTeGh5eTlRUnZRaVBoNkNPMG9QR2JaNGJhQkd4ZmlBbUVLLVMtNjJsMkExdHNvbjNGbDRFY09OWUNvM3N6VHYydFZoQlpzNmNaMFpUd0dFN2Z6WVQ5YVVPa21lZDh0Q0RFUjJSODdyMWg2dlpLV0RmX1R0S29GeFV6dGZkSFN2TjFXaDN0X3NWUHliSQ?oc=5",
+          "source": "ETV Bharat",
+          "published": "05 Nov 2026, 12:13 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "'Lost Election, Return Money': Andhra Candidate's 'Cash-For-Votes' Admission - NDTV",
+          "summary": "'Lost Election, Return Money': Andhra Candidate's 'Cash-For-Votes' Admission NDTV",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSTdxbmNZNTEtRlJ1UVZDZ2lUcVZWTWJUalFKaXZsRmRQNElmZjBxUnJJRzhkVGNGdVNvT3ByTVhBZFIzN0tVWmxqeEx5NUY3NTZoWDA3TjA0WnVGSWxTSUxRRDMxUUJqYXA2YkhCT0ZVR2JEYUF1MVFwLVZoTXlHTUhrWk9nSnY1cUhsVXBTdkdIT1Q1a1pvYmFsalF6dm9GSHlKaFRmZU1GYk85UmFjdzhHQi0wOFhBVm9LemtlLWE4MFdjU3BQUGRjd9IB0wFBVV95cUxPX1FWekk4U1haRjd1RW1UOUhHR0hFZF9MVEV3cWlETzQ0azNNai1aTFlkQTJDTlFheEptY2w5M09FaXpfb1cyRGU4b3BhbFExcDhNTVhtbzZuaFMtQ2VsX2F6eElwakZhdlc0V2h0RGFIcFRtVHNKQlpXMGM3eThZSU9nTlN2N0VFemJpbVdHUzhVZUtoUFNPTklhc3RFTmFjMXRMOFZzSXVscXQ5T1V2c19xNDBJVWI5cmFEb0dqemduSk94b2h5QUdFMzV1ZG91d3Ew?oc=5",
+          "source": "NDTV",
+          "published": "05 Nov 2026, 05:34 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Territorial jurisdiction dispute of Kotia region: Despite Odisha govt's heightened security measures to d - The Times of India",
+          "summary": "Territorial jurisdiction dispute of Kotia region: Despite Odisha govt's heightened security measures to d The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxOeDFqNDZZVEJZMjUtMW5CbUVhMG5rRldKZVAyME9VLUFWd1FhZ0wxS1VkaFo4dXlMVUVHeEszaWFfM245ZDk2U1BjeTZ3eVFYLUNSNndROU12ZGs5cDBBRjRkYjZ2UVFCRjN4X2VZX0VlaWxUaDllaWRKZzNsYk9uSE9hOWx6Z0NXWnZla0hUR3U2S01FUzU4amt4STlQVlFmeWxtR0tmbnplRHNycE9PTTMxcVBOUHFXT3FCaGdKZGFrOWhqMjR1VGRfZjRyU21zY3A2UTMtMWg4QzZ2OEFaMHV0bGd0UWZYeXM2WExqVGNrd3VMQS0zM0FUbDNpclpHelUyWWNwblFXVFpSMVhNd0s4dUowRjhZNkpXUHlib3MxZ0xFYmtJS1NmMVR2RTBqMnd4elNrbENzcEtCb3FDRm5hRlloSDJvUWQ3MU8yRlRhcC1kUmowS2FlY3FyRzhLSzZwSklqWC1SME5v0gHyAkFVX3lxTFB5Z3IwMTJhUm0tcDFZQmVmU1ZxbDZ4SjZRWTdodU0yNXhqZmlUcXRTclV2QUhVNnNFUnhDaTUtM0w1TUFCUmhhVFZRODV5RDVMRUU0S0lwVHc0WHNXQUNuTXJyV0taRkg3eXB6cmNLUjVnRXZMSVBfZ0VNSHFJazJrZTBhbXA1SEgwMTM0VXhpcUxyRVg0bEF5TlJUS2h4S254Z0FaSWhhcW9oa0xtSVM5RjZ4ekVyai1wM05zUXh1MUk5cDBoZWJkTWh0bU5BSnR2QWh6UE5IbzJqMWdYd3B4T0N2SnJ3b0FxblZvaDZCMUlYaXZFM2JqNHoyRl9CNnA4Tm02dk5KeHZuRUcwczM0aG9PdkNfTll2eF9LR1JTbldFeWVnWGZsSldRcXJMWFRSRG1fLVR3ckNXQlBUZThSd2o3WGo2UXpnTC1xbTBqdlFxRU1rcndQYUF4TV9qR0x0SVhGZld5emgwUGczbnVBYmc?oc=5",
+          "source": "The Times of India",
+          "published": "05 Nov 2026, 10:05 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Tension in Andhra as petrol bombs are hurled during local polls - The Assam Tribune",
+          "summary": "Tension in Andhra as petrol bombs are hurled during local polls The Assam Tribune",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdmJfRnFGWjJtSFo5T09EdlVoTmQ0cUN0T1VXNjdDZVFfUzdpSVRlWkktTk9wTVhlQlJKVWxKVDZZVVdGY0ctUVNZLXR5cF85eFMxTjJoOVpGWTI2cll6ZzA0X0ZlYmxtSl85ekZyLTI3cjdqa1NPS1RPR3ZKMnd2YkRrLVNTeFhhejM3X2QtbHprWkE3RGdwTjREZm00ODFmY21uXzVYX3XSAa4BQVVfeXFMTzV3bDg5MlduWDhKemdyNDB6YnBpc3hDS0NGUWFES0ZCTGxTWG9TN3dCclRrMlN4VW1NUFJUcjVTRWdraWlDSkxOQmhoN251cjREcFktU29MTEM3dDhoblk5dVJPc3oweGJINWNXNU5scWdhZm5CSGQ0NXNjNDRncFc0Wk1mWnV0RjV1VVVhVUdLRENfOFU2QmRzeXNtYXV3SUVrQVJLSTdRbV9qdmN3?oc=5",
+          "source": "The Assam Tribune",
+          "published": "05 Nov 2026, 09:51 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "TDP candidate wins Tirupati Mayoral seat - The Hindu",
+          "summary": "TDP candidate wins Tirupati Mayoral seat The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLUw5TFlpUTZydzVBSDlaVVJRYzNNTW5iNDJjdjRHVXRtNE10am5mVTItNTVCRE9uM1FZUDVtMnpzazRxeDZLSUJ0bkhoVW1MOWJvMkhpN3M2ZHB3SlVHNHY3V0hUMlVwSHNCRmMxSm90QzF0ODkza0xIQWFIQ1VNX1RqTm5Oai1acGRiZWtfeWRzSmxVaDQ5cXZJbXR1SWtQTlpEWGJ5QWdpamtQUWZZYW5zYjHSAbsBQVVfeXFMTmI5VWxYY2NUaFJnUGh4QmJJWURSR2gzaEdvdTFLOElyZ3FoSDVLay12anI3RkxCOTdZcEFxOVJmVFg2R0hIYi04SWhfUXN1ZS04X211d3ZnZ1d2aGg0RzRiMVFHYXV4YmVSZ20tNHZscS1kSUN6c1FhNGdxalEtb2NaY1dUVHE2R3NnMWJUMjhpSlRoQzloT2lacjNyZEZKa3ZWRE1jLThVVjdPZDVMUFVESEQxMVVGUlF5QQ?oc=5",
+          "source": "The Hindu",
+          "published": "04 Nov 2026, 01:09 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Kotia Border Friction Escalates: Odisha Voters Cross into Andhra Pradesh Despite Security Surge - Pragativadi",
+          "summary": "Kotia Border Friction Escalates: Odisha Voters Cross into Andhra Pradesh Despite Security Surge Pragativadi",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMWt0RDJfS0JiLWh5Q0c4RWd0RVRqWmFCT2xXRGM3NUE5eEVtN0x2aVhNTXA4Z0ItNC0weE5oSUo1ZUVoRHNBZVZEQm14OUc0R21HaDlXeGJCM1lDbjlzTWVJaUxuTWtaYTljb2FCRVdYcVl5aTlUMlZoMlpCbVhFOUxEaVM5cUl1cVB5RmdRdTNGZ1Q1N2x2WjYwdVY4LW9waENScDRrdXlkUXdBUmRzakhR?oc=5",
+          "source": "Pragativadi",
+          "published": "05 Nov 2026, 05:47 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh MPTC, ZPTC Elections Under Heavy Security - INDToday",
+          "summary": "Andhra Pradesh MPTC, ZPTC Elections Under Heavy Security INDToday",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQY0lHa2w4SEhKcWdQSHB0SjNHY2JLcFhSXzgxemdHbkdwUFhlZHhHUERvUVl2MnBVWVVERlRHdHRkdVpoRnhDM0cwMlh1VzhfcjczS3JYeEtNNGpSSHRMYTN0cGpCdWlJY0hXRVlDQll0RUY0WUZNMTB6bzJjTFhuNU56cw?oc=5",
+          "source": "INDToday",
+          "published": "05 Nov 2026, 08:26 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "SEC Makes Arrangements For Vote Counting At 138 Centres Across AP - Deccan Chronicle",
+          "summary": "SEC Makes Arrangements For Vote Counting At 138 Centres Across AP Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONEJFOXRnb1A2VUQ0aU5QbXVuNFBEeXEyNnFwQ3R3UGJQSW9kNVVOMktiN2VZSUpxU2kycnYyMmZmQU5ZT0h3VVhUcUFSd1hheGRfdUVJV3UtV0FJTElBcjRqdFZXaGdZOVBsMzlBVXh5cWRMMmNhRm5mMEMyQTc5N3dmajhndzg2NHpST1dkeTZBdU1ZejhFSVQwSjROU1FVclBsWjgwaGhfeUVrLU82SHBiNDQxTWZKX0VKbzZ5WGlLR3N1dGZwRjM1OGhkUmRkN1HSAdcBQVVfeXFMUHh0c1VLdlVOVVNSTGEwcF9ILXl1X2w0VzdSUnBlS2lKNWZBek91N3dmZVNoRkF1dDhPTVNJRG9VMklKNk9DMmd4cVZqOGFEMVJsWUU0R19LRjZfTjlqRFFwMHlodWFfdHlUNlQzSnlVR0FVTC05R2NlX2VYRkpWSUhwZFZwRFYtTlFMWm5heVV4VkJaa0FDMEM0Y2VJUTJJXy1FcmVQWlg4a3hETndGa0xMQ2MxWTBmSTVGUjdOOXVkdHZVci1JNm1vaVh6YVpmNHN0bEZYUVE?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "02 Nov 2026, 04:56 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Local body polls underway in Andhra Pradesh, TDP-YSRCP workers clash in Pulivendula | India News - Hindustan Times",
+          "summary": "Local body polls underway in Andhra Pradesh, TDP-YSRCP workers clash in Pulivendula | India News Hindustan Times",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSlFDNEcwaTBNWFhidFp5dXJKU1RyeFBDSHFHdVh2Wlh3am5GREw4OTZXay00ai1Zd1h0Z0U1UDlCd0ZwZ1J2MHA2bm1JVmlURnQ5aXVTbjdSUE5FcnllSWRBYmF2T3hLV2tBQUY4dGJ0d1BFcDl2N01WdkE5Z0syMlJWQW9yQktQOGp4ZVU5U3FTWl9fcFVVaUhXNEtxRDFYZEJ0QmZTN1BCeTNSNHBnZ0FwZDB4VTIyU0JIOFJCRzFpUU93S202a3FjdGl2ZWMxbGZycHpkOFB4RjFwQXfSAeMBQVVfeXFMUHhxOUJVb1pVZm5SSVFFU2RLOV9jdHZoYndoU0F0SmlkZXBfZEIwU0ZzSUVZQU1oSVdJY2dPRG00OWVWemo1d0czOTUxOTQyeTNnVDJzb0U1NUpKb0RURW9ZN1VtbzZYRG5QNEZLQWNBMkdXVC1HZXFydkRsdVJ0aDRVeFo4eXJ2WGFNMFo4eGQ5aVYzeFZOeFRPOEl6Vy1Xc3kyVzlESm5WcHQwbUQ4bFNacHJZZDNQS29xb3BnYmk0RVNZSDM5RmhMeW1od05JaUtOTmZTZEozZUpoSmJJOGFseDg?oc=5",
+          "source": "Hindustan Times",
+          "published": "01 Nov 2026, 07:25 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Local Polls: Deepak Reddy Gunapati vs Karthik Yellapragada - India Today - India Today",
+          "summary": "Andhra Local Polls: Deepak Reddy Gunapati vs Karthik Yellapragada - India Today India Today",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQTNQQlhsM0VjWmdmY3JhMFQ2X2lwem1DaXlKUXJpeXgtZ2t4eTcyQkcyc1RpaHNua1ZhSHFwTWcyck9CYkktMmlzNGgtMHBHVnZ3Tm9BcFo3cDhqa2V0c1dQdjFrdm1STi1meTZxVzkycm5nOVhCZkdOSXphTVFTbV9TRTMtVmtvMVJHVjZla3pqUVcwRHA4dHRjVm11SkRKN09peXM2aENKc0N2RXltSWZEV0tPV0xXNGRMTkswNTFjamRY0gHKAUFVX3lxTE82cERBeUFmVU5xRjZIT24zR0xWYzEwMUI4VGJOWURGMUtLZUlsQUxVbGJBclFfLU9idkJva1hzdFo3dmhWMVgxb204alFaVHBJZFl5MUtPV0NZM2tFckh5ODhmOGhhMTJXSmdmck5pd3hHajR5MU9Bc3VOMDRRN0ZRRWFrQTNIZjZiVDV3TnlTZWxwVWc1a1FnUnZYbDJ6V3NwWGd2VndRc0Vra25TYUhoMWcxU0ZXbmxBVGZlaWJDWmdVbW9PY1BZTlE?oc=5",
+          "source": "India Today",
+          "published": "02 Nov 2026, 04:44 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "AP local body elections: Seat-sharing finalised in NDA; YSRCP releases first list of candidates - The South First",
+          "summary": "AP local body elections: Seat-sharing finalised in NDA; YSRCP releases first list of candidates The South First",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN1pXYTN2S2xsNEZjdWZzdzNHcWxaeWlSTjdQX0daU1o1eHlpeldicEJjTkN5cVZjekRVOFdjY1BxOXRLeVNYQUVMcWFXWWZtRTd3R1FGYm1obFhBVGdOSWJFOWQtMkp1cWFhSWd5TDQwMUU2OVJMekdwWExORU9SVzZPSDVxdDJLUnJYaTlrR0toUVVUQlFUNUNwWWdGa0J1ejQ1ZzJwejg2a3Mydkd0SmZka0xXZnl4VlQ0Y3BiN3RZU0lmVFBEaG9RU3VjdXM?oc=5",
+          "source": "The South First",
+          "published": "16 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "05 Nov 2026, 10:37:47 AM IST",
       "baseline": false,
