@@ -1,8 +1,67 @@
 {
-  "updated_at_ist": "06 Nov 2026, 08:57:35 PM IST",
+  "updated_at_ist": "07 Nov 2026, 02:29:24 AM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "07 Nov 2026, 02:29:24 AM IST",
+      "baseline": false,
+      "new_count": 5,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "Counting of votes, declaration of results on November 7 for ZPTC, MPTC elections in A.P. - The Hindu",
+          "summary": "Counting of votes, declaration of results on November 7 for ZPTC, MPTC elections in A.P. The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOcHBQdHQySEdIeTRxNENmOUVHRjczRHlrZU9mMFlzQW4yUDdseDQxOGRaMU8tX2JwckZnNV9vTkdzVW03N2JxR3Q2S2JyUmNjMjJ5am9GeE8zTzBzbTFIRl9YX0VqMU43dldHc3pvT3JjSHRtS3dRZVF5Z3AzUzNsc2FmQUIzWFJ2eVlCallBUGNSWnJzcU5nQk9MaUR2SXZ6SHNleDJteGVzdTBSaTFkTHFaaklmWDk2Z2Q1ZGczakJhVGtTNjh1VVhzWExLbTJobFdOMzZjdGpGTFlVdGwwbFZkZTjSAesBQVVfeXFMTVhVUW9wZTJfOV92d0RhMmt4YVNyU1RUTEdHVXZIMWF0OE1iajdhZENEZjZpdnlJRDM4TlhEZ1MzNFQ2VUFMR3REMUo2VV9iNFN2YlozdldERW1XVFNGV3ZZQWhMX3hJMGZRZEFBb1pKUDViQ3lOYXNoMk5TYVhPWlE5NjNlSVo5REwtRW1VQnFVYlZYcTUzWUdxTS14LWRPRkRSMlRSN3lCQXNUMEROQ2lscmZyUjNoUlFaa2FuQWtYZld6UURjZVNvVE53MF9PUWxoUWZhbTNiZEZaMXk4anBGZXJGc3hKLWF6OA?oc=5",
+          "source": "The Hindu",
+          "published": "06 Nov 2026, 03:10 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "MPTC, ZPTC Vote Counting in Andhra Pradesh to Begin at 8 AM on November 7 - AP7AM",
+          "summary": "MPTC, ZPTC Vote Counting in Andhra Pradesh to Begin at 8 AM on November 7 AP7AM",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaFp2Z1o3bnVYNldDMUU4OXBpdU5Vcm5TazgxZTZtWGhwUk41QnNRZnFxUmhGc3lKMDZPck5jN0M4ZWQ5YzE4NXpqZW43UUxBWngzWjFuUFZqd202YV9KTy1icEpnRzViWHk0cnhaNWw4dk5jcFp4eUMtNF9aM05McU1SRWFfOEhxWnFUcUhwTElBWThxR3pYV3lYS3djZWxJQllaaTZwONIBrAFBVV95cUxPRlRoR2hQU3dlNTFBeW5GVFZxUVNhTncyX0JHajJqMWF0WmR6VVNIUWFxMDZ5RTNDZUNfdmdHVjV4LXRsMGd6cVdJWXZjVlYzOHFzUWRsNXRhdEhvRUhIZzByV3V4TFBkOFFUQkh6dnJMelBpSjJLcG1wTGlGNlZSSWVfbTNtaUJBUjQxT3pCZ3FDX1B1aDJIeDUyN2FjWEdpWjNUSEd3QlJPZXdo?oc=5",
+          "source": "AP7AM",
+          "published": "06 Nov 2026, 05:06 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "CPI(M) calls for statewide protest on Nov 11 against \"NDA's onslaught on Democracy\" in Andhra Pradesh - ANI News",
+          "summary": "CPI(M) calls for statewide protest on Nov 11 against \"NDA's onslaught on Democracy\" in Andhra Pradesh ANI News",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSG1pSmd3ZTlYSlVaRU1tUGxXenNzTUotQUozNnYwTlk2cTdidGlGVGg1YWdQcUpkR2ZiSjBBTHphSFRpUHM5MC1kb3VseXZNTEtPc3pENE9oZVhXVVA0OFk1ZUh4WHBQaHQtWVc2RnJRbV9hYk9jbW1oSzJ3bUVsUVZTeTdKR0E2cjVzTlFiTU56S2dhZnRmSGRKekJRSDlWQ3dmLXhBUWlHbS15MzBSd2RwWWJ3dGQtYXk4SHRGQmVYVWpsaXRJcWxxTTNpS1BJVVY0blVwNjVlcW9udzhBcGNMZlpDazY0WHZobw?oc=5",
+          "source": "ANI News",
+          "published": "06 Nov 2026, 09:36 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Congress makes surprise comeback with 10 wards in Chirala - The Times of India",
+          "summary": "Congress makes surprise comeback with 10 wards in Chirala The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYzlwUzRfdEdRcWJneHNCd0xaLW51QVBuWkxOUHVSNXpKX1E1OXFFNk0tOF9ULU5tb09BTGJETWF3T250aFlUa2UxbEVvNjdsdnVmVkc2b09mWG9VS0F1MjBwTXczU19UbGFiZ0NDc0loTXhQSWdOZTVPb00zQkE4TF9pUDIzQVM1R3YxZzZoX2tENkRVRW9nVHBDWHBGZV9CVnNVV0FRQnhNNmNSdU1tcXBUTTBEYXpDRktxYzE5ejFmSFNTVDB4eVFGU3ZpZEJU0gHWAUFVX3lxTE1WdENZTmVtWm5RdS1tYUxsNnVuUDVHNGRPX2JuU3NON3lMMEdxNWgxcV94SFBYZW1hc3hkUjZNam5KaTY2MHpjSXlVQkNNMXN6WVA5VHBNb0VUYVJTcGNtN0h5Yl9BVTlVZ01Zc0JYV0REZWZYMW5yNlN6OTJtUk9EaHpZVktVRXlpaFpPeWFoV1RjYkhUNzVoTzlmT0VxRjVQdzhRMll3a1RiQTRqLS0yNTVSZW1LZnY4NkZodVdyR19iMVlxTGFvYlFvRzFudV8yUVZXNHc?oc=5",
+          "source": "The Times of India",
+          "published": "06 Nov 2026, 04:53 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "ZPTC, MPTC polls peaceful amid minor incidents in Andhra Pradesh: DGP - The New Indian Express",
+          "summary": "ZPTC, MPTC polls peaceful amid minor incidents in Andhra Pradesh: DGP The New Indian Express",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNnJQVmFqbjdmZ2NpdmN3c2VNUGJqODFpWERaTmp6MGxsQ0tNTzBjbW9GYjF6NnVmejNPU1gtd3R5SkdwR1M1WXRMUlJucDd4NVZFMERMNnpBRklETDRwbGxUdE5DNWFfOU5XdS0weDE2dHpGNFl2djhyMmM1YlA2SER3eDNWYU9TdGtsRTNWdEJKTkZUUkpLSllKbTFvX3dwSXFnS1R2b3d2SENPRTB0VVBmRzRsV2IxRGZwckZVUkhIRWNfSEpfY2o1elFFT2vSAdwBQVVfeXFMTmNkbGtFcU1qSEw5dVNhYXdZQzlJRHNjVFAwUFlsdlVhZzJkaEp0OVByaHNlUVBNT2tMY2QzOVB2RmFtSTZ5dG5CcUVGVnpTcXFYa2E1SHB3eHNIek5rZkJsQW5Rb2FqSjVkRm5BMl9LdkFlNThYMWtqODNrdVZUT0hlSW0wakQ1NHlZd2J5NkhKOFVLblFlUnQ0MGNHTk5WVmdmSUVwWXhqaC1NODExcl9HVDM4anRqMTNGOTZDOG1PR293WUxrYWh5U20yZ2RtT2VwSEJITGJKTk4xMg?oc=5",
+          "source": "The New Indian Express",
+          "published": "06 Nov 2026, 03:25 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "06 Nov 2026, 08:57:35 PM IST",
       "baseline": false,
