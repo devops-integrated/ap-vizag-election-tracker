@@ -1,8 +1,67 @@
 {
-  "updated_at_ist": "06 Nov 2026, 01:23:06 PM IST",
+  "updated_at_ist": "06 Nov 2026, 08:57:35 PM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "06 Nov 2026, 08:57:35 PM IST",
+      "baseline": false,
+      "new_count": 5,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "Andhra Pradesh SEC halts election process for 100 ULBs after Supreme Court order - The Hindu",
+          "summary": "Andhra Pradesh SEC halts election process for 100 ULBs after Supreme Court order The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQkx0bXNlTGNZMGl0dDBNMWZJVEMwU3Y0YV9ZTjJmcEFaTUE5Z2hvTlEyTHFNRnRtOHQ0NmU4WV9iVkFfQ0E2RFB2VGZMdGxXNm44eUloVnZ0Z0R3RUhWSkNabVRENmxFekhMOVI1LXVEdDZiRHIyU2JBeXRwcE82Q1V6TUVqYTViOEk0TllGbjcwdmRyQk5jd0dvNmNpVHRBRFZTVjdPT1Y4X21rb2VvWkFoRW13MDFBQzNIQkc0eG9Hd29rTGdybkxESFBlQlhXYVlHWklhZWZ3WTBPNk1oZWZSZlFqVWZi0gHvAUFVX3lxTE5DbTB5U2dEUmZUOUZxVmE5SDN6VHBBNk5sMGNWRlE4LTVuZm9wNW9DYTQ5M1YzcDNuZHNFSTdqc1hQU00zdlJneEc1UlJvUEgyVVUwd3dqeVdOekJyS3JacUh2YmRQQkdLYzBPUGYxZXRfck5lOWlxUkE5U05MRzgyYWtKdHo5b0lHQWJ4Q2E3ZkxtY2JzcmM3NjRDOXBxTkcwbDVBeTd6RS15Z3dTMmpKVmdnV3E2RWhRM0QwZjJWRnR5eXpWcDZSYnY4YWc4WXJNbVlraDlaVjgwdTV1VFJ0MEdiMEl6S0dRSXp2b2pR?oc=5",
+          "source": "The Hindu",
+          "published": "21 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh Schools, Colleges To Remain Closed On November 4 And 5 For Local Body Polls - News18",
+          "summary": "Andhra Pradesh Schools, Colleges To Remain Closed On November 4 And 5 For Local Body Polls News18",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVHlvREpkRXp4Uk1qV0cxMGV0clFIZG1PTmdQVi1xNTBIOE5fbk5jYmZBendSNXdMNFFuYWh1bzU3LVhDWV8zdmpYVGI0Mkx5dWxpclFfLU5BakZ3WG1PcWZ0NVpYUU5GOEVLNjlGWG5NcnpIWEtNMGhUczVuM0NybGZ2Tjlxakc3dmNJN1FaMENWNWoteU9BZEZ1cUFxcGx0a3VfQ1FkYUs0UlRZUmFWTkhQX1g1S3ExS0pidW9KaVU2clhxN1FqUFFDRWhaUDhBYWhZNDREcXhhLUHSAeABQVVfeXFMUEZhWF9QaWQwbGZreHkyNl9XVjI3czQyRS14VllTdDVXS21sU0ZwOU1odlBsdk1xMXlzZmphNzlPRVpZZG5Pc2swaUhIOWxFX2hrcHNxMjVPY0tvQ1hvcVpjUW94c2tabjBBQTVnNVZ1RndnNldwb2xieENDSUxUYnYyZk9FazBDTU4tbE83dlN2eXpiX1pQQkwxNjFqR0ZZRTBMOGpEWDFreVhDY3JDN19BcWlsSGc3MWcwS3lObEZENUI4MElWa25sbWZzaGpsYWFvSEZOd3JBYXJNZ2diV2s?oc=5",
+          "source": "News18",
+          "published": "04 Nov 2026, 02:51 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "YSRCP alleges TDP disrupted Andhra municipal election counting - The News Mill",
+          "summary": "YSRCP alleges TDP disrupted Andhra municipal election counting The News Mill",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUDRBUzVRRElGMXV5dXp2aTQ3amxaRGRBcGtRZ3FIcDJvVGNGRTRGNWd0Ui0yWjltVEh6LTBlVlAyQXMyNXA2NTFYRzMxNU1UOUhFNVV2MElsUFpmLXZqeG1vUV83WFhEbmJMZFJteWx0YW5TbDJGaVNBaW82Z0swVDBfQ1R2NGY0Q1A5V2dFR0N1UUI1ZkV0NUVKRQ?oc=5",
+          "source": "The News Mill",
+          "published": "04 Nov 2026, 12:27 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh SEC reviews local body election preparations - The News Mill",
+          "summary": "Andhra Pradesh SEC reviews local body election preparations The News Mill",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVERHdVZFNUlIQUFaZEp3elUwcWJMaWxSdmVWQl9haGMtbzdvLUdEaTZGLWRNVC1VR1RySTRsNE1BdG5IQU90SEhkOXloeWlSMzhtUUsyWlUwaHF3RVZnQzlRUnJkZ1lKZFhIRGdyQzNuVnFjWHNPTGxTMmd0aTVBOXA3REFrdkliZnJISGdZU3psTy1EeVJn?oc=5",
+          "source": "The News Mill",
+          "published": "19 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Floods, damaged roads, cyclone cast shadow over north AP rural polls - The Times of India",
+          "summary": "Floods, damaged roads, cyclone cast shadow over north AP rural polls The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUXNsZlBUbXJZRDFWRzFGY2plM3FpV2haWnZRZGRYYUNpajRHdkhabnYyLXZ2bFlhSVBRWF9FWldqZ0I4SXh4VmRRUmN5ZmVfalVzVjh1eDJsVlRSTjg4clZjLXItdkM4bVVsSFpWMENiTnZORmVIWXdSbkptVDRyN2IyZUNFSm14WW05TTBNa2hITE5VaGNFUUhVMmVSTzYwckVWYXluN2ZkbHFoQ2ZFNU5QQUlYNk1xRjFacHZDR1VUWkhsN3ZMVERFdlNIWE1tZGoyZkpscGhnOTA20gHiAUFVX3lxTFBhRjM0QkljUTRxbGNlRDlEMnNDZWRUMllZdUtDaUpnS0ExY2xnWTZIcHZ4VUdCVkJ2cWZqM3NJWFZDMXo5aU1ETUp1QW1HNFFnVTN2clQ4QjZwZFRyUDc4Qm1YZWotUVRhbExnSWk4c3NRVTRwQ0dOMlZQSjRYd0ozbTNFMnZUTFdzMml4Vlo0NV9uTWJDOHlkU3d6eFJMSU5lbUowS1ZMMXhRNFhzeHpmSkdGQTdiOWFQR0FqR3Z3OWxZWFluT1RYcWVsYkZqbTcwaTIwWmJaN2ZvRGtwS1NSTnc?oc=5",
+          "source": "The Times of India",
+          "published": "03 Nov 2026, 05:50 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "06 Nov 2026, 01:23:06 PM IST",
       "baseline": false,
