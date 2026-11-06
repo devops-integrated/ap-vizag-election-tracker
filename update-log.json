@@ -1,8 +1,107 @@
 {
-  "updated_at_ist": "06 Nov 2026, 06:37:12 AM IST",
+  "updated_at_ist": "06 Nov 2026, 01:23:06 PM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "06 Nov 2026, 01:23:06 PM IST",
+      "baseline": false,
+      "new_count": 9,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "Jagan alleges rigging in ZPTC, MPTC polls in Andhra Pradesh, calls for electoral reforms - The New Indian Express",
+          "summary": "Jagan alleges rigging in ZPTC, MPTC polls in Andhra Pradesh, calls for electoral reforms The New Indian Express",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPR1FITmFaeXFPdVdROTY3cWlfZzVhSkhPMTE3eEFYUzdUc3hjWUN4ZXo2YVpIeVVnZXdVdGZrb1BfZlBYZFdvS2dzNUJEN1F3cnBoREFqVW5ZS3BpMXF3MDBZRHZWdzhxV0R0Mno3Z1hwOTBObl9heHd0NUp6S2lUQi1mR3ZkNm1wVnNIb1lLRElOZk1ZdGFHRnpGUDVGV2Q0NHQzaE9QdUt4RnREaml2M1F4Tm8yTElYV1gxQkU2Y0hheFUwQXYzLUJvdjJkMlZOZDNrYWRJNlhwM2RyV3dxZzR2c2psZkg40gH2AUFVX3lxTFBIMy1Vem8xMS1YMXRrdmJPSHVvRlBnNUJLMEVWa0xEMDRVOFM5U3lBazgwVjFZSmdGdXI3RkdxOVd0amVLVnA4OTdINkxWUmxmOVZRVWhhTmI5YkE0UFdtYU5abkxkRVR2elBBcDhrRTRleHpOUUpQbmxmTlhnWFlUYjdkNmRDMU0zVHdXYktmMFpYU251b0VVRkVQMjhsaGZjalU2cHhkRVNDYmRWbEstb3RUMHRhTjJVQ25MSm5KVEcwMlZZdTRFTUhabjFkLWNKX1JqTjJkZno2MHFTQmZPbEdnVklaZERYTFE3VlRvSzZENlVwZw?oc=5",
+          "source": "The New Indian Express",
+          "published": "06 Nov 2026, 03:46 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "ZPTC, MPTC elections record 67.24 per cent turnout in Andhra Pradesh - The New Indian Express",
+          "summary": "ZPTC, MPTC elections record 67.24 per cent turnout in Andhra Pradesh The New Indian Express",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZXR4a1k4akhTUHVqZXdQQVJlY1U5aFNWQVFHLTdFTHN2b29TZi1GYUFQZDA5dk1VYnp5TVhuUWoxSmdROEI1UXpjVXNlcWt0RXY2VjdTeGkweU9BN1BKOHFxdTFlYlBka1p0bkI4U3hQd2VnREd1SGxYRDhGZXJsc1JfYkhLTWd6SEtNMW1jS1dFSzE5YzFkLWtyNE1KRWlDdGZYSmVsMzh5Rk9sWUZQajZ0THZpaUNla1JpeU1VVU11VUxna1V0S1V3T1l2UdIB2wFBVV95cUxPZzJUclJGUUcyd3dYa2JzZEtWOWxrdnlTeE5TaWhadURqZ0VjTHRkeS1kS3RBU0swY1N2VmphNDhUVUFrdHUtZEE3YktNT3VvOFNFZGN1R0o1NFRObUt1SVo3eFZpNm1UaW5sMDhRVEQxbTVORVhWaGJrZi1TVzZFVWxyb08zYzA1XzlBTjRkSnBEWjgyNG1Od3pnZm01VzF1Y1JsQVZBNnA3ZEV1eGJDV2F6bldGZnhWRjBTbjBYZlo4N3Y5b2p5NEZXMUtONXprcGRvRUFXcmdzMEE?oc=5",
+          "source": "The New Indian Express",
+          "published": "06 Nov 2026, 03:50 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "ZPTC, MPTC polls peaceful amid minor incidents in Andhra Pradesh: DGP - The New Indian Express",
+          "summary": "ZPTC, MPTC polls peaceful amid minor incidents in Andhra Pradesh: DGP The New Indian Express",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNnJQVmFqbjdmZ2NpdmN3c2VNUGJqODFpWERaTmp6MGxsQ0tNTzBjbW9GYjF6NnVmejNPU1gtd3R5SkdwR1M1WXRMUlJucDd4NVZFMERMNnpBRklETDRwbGxUdE5DNWFfOU5XdS0weDE2dHpGNFl2djhyMmM1YlA2SER3eDNWYU9TdGtsRTNWdEJKTkZUUkpLSllKbTFvX3dwSXFnS1R2b3d2SENPRTB0VVBmRzRsV2IxRGZwckZVUkhIRWNfSEpfY2o1elFFT2s?oc=5",
+          "source": "The New Indian Express",
+          "published": "06 Nov 2026, 03:25 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Kotia tribals brave Odisha curbs to vote in AP MPTC polls - The New Indian Express",
+          "summary": "Kotia tribals brave Odisha curbs to vote in AP MPTC polls The New Indian Express",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOajhSQTRJNmIxeXhqZHA3Sm1ka21CcFAtQU5BRzNaM3VUNG9RMzBwaVUzSWVuN1ViRlJHNjB3dzRvR0F2cWpXZTRDZmlRZmYtdnhUak1GcHBBMzBMNll4b09IQ1psWUtHWkNjMUlGQVJ4TGdDOTR0UC1LeHg4LXRKMWVRR2lnSzlfRHRoMzIyWDlOMHcxNEZ3Q3NoSVcwcWFxM0xfU0tVYk9XYnAwcDl6YUZXck1rd3BYRFlIa0E1anoxUdIBzwFBVV95cUxPdU1ZT2NNQXBBMkdZT1JTYjhBTmV4ODJNNlVlVXNZQUxHbk04MGMtRmhDaHpTeDFiVXVfNUotUmJKcEU3Wnluczh1a3gtQ3YwZFhKMTF4ZmtxMG5TWEZoN0hQUzV6Vk1ydXhLZVV3b0ZBRFl5bVVnQ0RhNTNhQXBESDBkNWNjU1FKSm56Z3VfYmU2Tk5sT3ZlN1J0R0lQbTVjNzU4djdaQnRCQjcxVGRpdWVwSHRjUHpHTTRISFNRdFdRZFNSakhiazN2NHhHQ00?oc=5",
+          "source": "The New Indian Express",
+          "published": "06 Nov 2026, 03:26 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Peddapuram ZPTC Candidate, Dr. Burra Divya Sunitha Raj's Election Campaign #burradivyasunitharaju #zptccandidate #peddapuram #apelections2026 #cmchandrababu #pawankalyan #apbodyelections #RTV - Facebook",
+          "summary": "Peddapuram ZPTC Candidate, Dr. Burra Divya Sunitha Raj's Election Campaign #burradivyasunitharaju #zptccandidate #peddapuram #apelections2026 #cmchandrababu #pawankalyan #apbodyelections #RTV Facebook",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSnZNcUc1THFKc0sta2Y4TlhvSVdBX1FubVZIMjRINlhFUlF6THFVWEpSc1B6VF8xY2xrTGt4dDJHSjRxNC1DWjN3UE1oRXJySTVYNjhnTHh5TjdxMldTQjZCQ19yeVZIeHdEcmZ3REJTbi1mRUo2UlJrckJhVVlvZjZxYldXUXRUWXJEZ0toaVBBNzAyZ3g0WXl6NWRNU19YeTZlcW82NUYwVDVQdnJlSlEzeS1fUEJ3WldfcHNmcmFDWGJmZDhGZWEtalV4UjJ4X3lmQWNFUFNIYmd3Q01v?oc=5",
+          "source": "Facebook",
+          "published": "02 Nov 2026, 02:53 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh Municipal Elections: TD Wins 77 Posts - Urban Acres",
+          "summary": "Andhra Pradesh Municipal Elections: TD Wins 77 Posts Urban Acres",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUy1JUDlTNTYxd3JvR3ZHQkdrNk9hR2dhWTlpQ0JJakNxM04teTNXd2dtUEdETi13YXdKbU5XZlFBMkd1R1F6UUZKbW1OYUNTZ3o3dHQ5TDZ3cGJMbHNicWlfZllaY1d3OHZJV24xeUhGNjNVd1BBdzF3RDdBZDNQSGNXX09xWE0?oc=5",
+          "source": "Urban Acres",
+          "published": "04 Nov 2026, 07:24 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "YSRC Candidate C. Ramesh Wins As Anantapur Mayor By 5,981 Votes - Deccan Chronicle",
+          "summary": "YSRC Candidate C. Ramesh Wins As Anantapur Mayor By 5,981 Votes Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQkdEUzdsOTVjU2NMMzRVQ1Z3dG10X2ZSRXQwNFhKZ1RHajdqaDF1Vmo3T29mQXZfUFBxOFhjT19sR3V2c2Z5MzR2dWFqMFdKSnVoX3JHVmFPbzBMNGdkR04zeFYyeEhodG4yYXl3RV9sbERLODJucFJWaWQ5X1ZPRURPazFkYm0xd0xPbGd5RHRFUUlma3NVWmtmLXJFTjB1NDR1ZkN2TnFaek0yMUZXQ0hEU1VUYlhFVEpsWFVlVDMwNUdoMGRRbGVEc3fSAdIBQVVfeXFMTUJxam9zSENVUGE4TjZlRU9lc3NDT3UyTnh4TEY4WWJYYmkwNWhUbjZBeHVWaHdYcVRCVkFNTFd3Vlhyd2dTTE5LeHgtMnZwWF8zbnpoZ3dCeE05bHJ2S0lCM0VrcGpOZlk1ZzJPOHUwNERYcEJFZXg0LWl1RHp6VjdrZGUyX0xGQ3hrYU9vWms3RnJhN3FUZk1VSjNpVGR5NGE5dzY5NkdndldFRXpQd1ljSUNZX3E4dmVVWlNOR2JUUnpzd1VqS1VqQ05oV05URG13?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "04 Nov 2026, 05:23 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh announces local body poll schedule, municipal elections on October 28 - ANI News",
+          "summary": "Andhra Pradesh announces local body poll schedule, municipal elections on October 28 ANI News",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNOTBvd0UtTjRpUmZLT2dLSUZFamo1eVg3LTBSVXlZeTZkQm9XSmlieDRfRmlzMXk4SmpjbXJoTk5HYjNCWWdGQUdqNVM5UnlMX3l2WlMzb2R0cU81QkcwTmZCTE1BS2dLY0xPVlA0MVBJcWQyWXBXOHdvZ3puUWtsdV93WGpqUExpTmR1TGlGWVZWYS0zNnpYcU1JZ1FRYllOTVZLd1FDTkN4WjYwWEdiYTl6V0Q4MV92NGktVE02MWNYUWN2a0xCUUdGbk94eDJDOVdSTWdrWkwyUVBMSWJIUw?oc=5",
+          "source": "ANI News",
+          "published": "14 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh school holiday: Schools to stay closed on Nov 4, 5; know why - Business Standard",
+          "summary": "Andhra Pradesh school holiday: Schools to stay closed on Nov 4, 5; know why Business Standard",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaFMtbHlFRTJPYWg5OFNmdWlJaW1aLVI4Q2NSeE42Y2FpWHRwVUwyMG9lVV8yQy0xNkFLYi1ra2Y5LXZnVjNXU2xENXJnWXFJTlRlN1JHVWRJd3pTNFRLQ19VNEQxSThlYmtla3ZsQWVLRHZuUDhuM0pYUnBRLURaRmt1dnhSZ3RuOTFVeWlhc05zNDY1aVdacS1PN3FuNndobzJoRXQ3eDBwQmNpT1ZnZGs5LW1fRnRzVHY4WlZOdUdsaHQta3JVQnlGeGR6LXJfeDdBcEhwTdIB3AFBVV95cUxQNm1SeHNqc1FZbGxOaWJfU0U1T0Yxajd0dEhpVmlqaTYteUZjb3Q3Sk5acnV0LTNfVkc3ZWF1MHVreDhVaFBfQWY4M1JMMmZlXzgxWE0xR0liM1lmNjZOaC1RMmd3R1BBbVpwcG1jLUx2cDJDYkVXR1YtRENuS1gyclprZU9HWGo5YjZfTGNzdXZlS2c0cWtlVHlNSXRMbGJJbXJub19WOFFhQjdsM19VMVJMWmFCX1VmaDZoQTdEODl1TnVXZ3luZUpJZmFua1JuWGZYNUZxMjBqc1ZN?oc=5",
+          "source": "Business Standard",
+          "published": "03 Nov 2026, 11:01 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "06 Nov 2026, 06:37:12 AM IST",
       "baseline": false,
