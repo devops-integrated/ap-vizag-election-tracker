@@ -1,8 +1,37 @@
 {
-  "updated_at_ist": "06 Nov 2026, 02:08:19 AM IST",
+  "updated_at_ist": "06 Nov 2026, 06:37:12 AM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "06 Nov 2026, 06:37:12 AM IST",
+      "baseline": false,
+      "new_count": 2,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "Jagan Reddy accuses TDP coalition of hijacking election process, subverting democracy - https://www.indiagazette.com/",
+          "summary": "Jagan Reddy accuses TDP coalition of hijacking election process, subverting democracy https://www.indiagazette.com/",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVUM4SFhxMEpxRHRJT083R2VrdUFzRFZKd2dZWnBQdzJGQkdBa0x6VzU4RXU2a3ZQN0w2M2I0NW5iVW9aQ2ZwdlZPWE9OWmNpaFVWR2UtbFdrM1RMemM2U3ZpeTlwa1ZvQmFmamMtMEZCNXVnLVJtZFJmNEsxSkc1bVczczE4ZmtBS2FYcXlNSkhsQ2FPTGtkWDdTajl1SEJuSDQtUnZnNW1MVF9DYk4yZGRsc1N0LXF1UV9QaVV0czFPUThCc2I4?oc=5",
+          "source": "https://www.indiagazette.com/",
+          "published": "05 Nov 2026, 10:33 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Municipal Poll Results Dampen YSRC Morale Ahead Of ZPTC, MPTC Elections - Deccan Chronicle",
+          "summary": "Municipal Poll Results Dampen YSRC Morale Ahead Of ZPTC, MPTC Elections Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNDZQUXRkbkQ1OHRjOVNJVTZlTFpZTTkydGU1NnJtOGs3a2wxT25LYTRFZVMxUTZjVmQ2YXF5b2dwVmNhSExvWFVvTlJTVjlEWDBwYU9kdVJEUGt3bFBHTVdfZ2p5MmpCNTVkalVrQXU0MDBBQXBDc2xIZUgtVUFNVXZPVEpOcXdWSkJfWTF6bm9rMjUwMWV1OGJ1aUZteUZnR01YT1d5MkdTbzNGMmQ1R09YLVByc0pQMVRDUFRONllOWGNnbGN6c2JJQWl3My01WFZpMVE5cGTSAd4BQVVfeXFMUEtkcHhzLS1vSDBoc2E5M1J1eHY4RjBTWWVQVEk0cHg0WlVIVFZnUURHSU13aV80c1BFa3pFNG5nc0Y2eE5sYmxCdGxCaGZSQTNDZ2pOWEZ3Ny1EZVctU1liX25TZTlmTEZ2b005NkZyM3ZwRURWYXlONVNEa05lRWxSSWdEdC1QMFdTdGhRbERZbFRMYjI4RlFkQ2J0b2ZtVVlLUmUzdWJGUGZ4UjkzM0RHYmo4Y1M1RXpNcWgzaFFvU1FJMFdFeUZLaHJhVGFmeVZSdk9DNjZZMjNRU2xB?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "03 Nov 2026, 06:49 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "06 Nov 2026, 02:08:19 AM IST",
       "baseline": false,
