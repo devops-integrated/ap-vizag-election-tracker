@@ -1,8 +1,57 @@
 {
-  "updated_at_ist": "07 Nov 2026, 06:18:30 AM IST",
+  "updated_at_ist": "07 Nov 2026, 12:08:49 PM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "07 Nov 2026, 12:08:49 PM IST",
+      "baseline": false,
+      "new_count": 4,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "TDP-Led NDA Wins Andhra Urban Civic Polls, Jagan Reddy Alleges 'Rigging' - NDTV",
+          "summary": "TDP-Led NDA Wins Andhra Urban Civic Polls, Jagan Reddy Alleges 'Rigging' NDTV",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTnBqUmZTcDNDRkgzeDZsSF94ZXlWbkFIWEllbHVSbk1yVzFZODA5dm5VOTJjNmw2UDgzUEp5bWpTY3VIc2NtZmV1WHcxMzJVR0xFQThoYUJUdkw0dHp1dTBPazdub1hsWWRKRkNMdFJzV3hsallxWE1pZ05vSXJIaUN1T2FzTWdyOUI5OU9zNkxOSDgyeDRpU3p4NXdUMkRYd0V4Q2t5RDBTRVA2TG5lSDk0SENjVnBkMUVr0gHDAUFVX3lxTE5lcFV4YkpTNENKdW55cVNDbFI3UW1KRXpZWHlIR3lXTE1wRUpVYzUwV1phekJ4UzlQRkFnX2lmZ3ZDTEZ6bXZOTVRjcGNIT1JZaXVGLWdFRl8yUjloMkZfcUhPV1dSRmN4b3EwdDd0VU1GdWQ0R0JhVmFGaEhiQ3hmekhiSUVicVdCQUxKZ0k1d1lpZ19jNm1UbkgxemsyXzNWRzNpbVUwQ1NFVVNCQm43NjUxbjFsM3o3MEtCWFJjd3VONA?oc=5",
+          "source": "NDTV",
+          "published": "04 Nov 2026, 09:33 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra MPTC, ZPTC Elections: Vote Counting Underway To Decide Fate Of Over 20,000 Candidates - ETV Bharat",
+          "summary": "Andhra MPTC, ZPTC Elections: Vote Counting Underway To Decide Fate Of Over 20,000 Candidates ETV Bharat",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVzZPN3RxdzdabjlXeVdKNFh4d3ZEQUtkeXM3WEZISmszcEE2QUc5SEY0QldKZmRzY2Y3cmtaQWFDeHVHc0VkajF3N3VVeG50bFNrZ0NPZHpZYWZHSmY4QzJwQTRIYWRITTN5ODBoNlNOVEZTRWY0dXNrdnFYeTFMMXVRRU1mU0JudWVXVE1CeWVYOGNHVHphVlFsOENQNi0tSzdCLXdzdU43cW55WTlQMExaVWpUR2RyeUdWT2R0LXJzclFaekNBbE1XZnFrcTVDaERmOXZLVDVreTZZRzV2ZGhlU2dRMHFSVWsw0gHwAUFVX3lxTE12cktfaTlBTmJXR2dNa3U0S1Bhdk5WM2Y3a0xoTVdLT3JFVGdFdTk5Zlg3ak5nVlUxYUxwdElCWGNGdjNlZ3NiXzN1NFN4aTk1Z2hwNTN0OVZuenJSNkNvSm0wQ0pKWXVqeXQtWnhvT0VNYTZlV19LMHhWV0FqT3JoX2xnNjI5VXlITWVjSTdmc0pIMWtEV3VjRVp0dGZROTczNUh6eVFYbEtndi1SX0lmdDQ1cVc5X2JjUTViVFdVYVlscnh2a0tsRWFNc2dmOFFwcXhoYnFjNFBRQ3hodmZTcDFKdHBEYzlXcEQwVDlBMQ?oc=5",
+          "source": "ETV Bharat",
+          "published": "07 Nov 2026, 04:41 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh: Vote counting for MPTC, ZPTC elections begins peacefully in NTR District - Devdiscourse",
+          "summary": "Andhra Pradesh: Vote counting for MPTC, ZPTC elections begins peacefully in NTR District Devdiscourse",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNEdYak02Q2hSZFNodkRFclZmZHlYcWF2TnBkOGFmOHg2ZkNiVEpSU2s2ZE1qRWpVS0xXamhjczA0eWRCTDNhOFd5SWpwdlRPZkhjLWF6SGJtWDJWY09yQ1VRY2k4cy12NEJwWmp5TE1iTGdoMzdiaFRNMkJsQVBBU2xCZHJFQm9VdHI4WUlrMGY2d0FSMkJtOENQcU9wdVZkUnJVTjRKUndVQk4tWGl5X093SnhYUUVXRmJjTnQteEQtdEU4U2x5QmY4eWtTQTZPbDFjYThIaETSAd4BQVVfeXFMTjVZb0N1UmdXMVN4Nk9SdXlBTTdPei1od0I2N0RxZHJPOWdLTTFSM0dxeXQ0SDY1YllmOV9aMy1RMzJyby1qQVlFZVVqcWpKX2lhMG5GUnpHaktrcVVRZ05XWTZUVjVGaF9rZXRtVjZYSVhYWmtnVVhHR2JVM29DTS1kdVRJNWRBYS1KbG9WZ0VHSzdEUFJsbm10QlZ4azY2UlVDTDdheVR3cE5EVFc1X1lRRjMzMFJBX0U3SWQ5LVBONEs3M25vNEpRVHVBRmdzVUpxcTJYRV9HSEhNemtR?oc=5",
+          "source": "Devdiscourse",
+          "published": "07 Nov 2026, 04:36 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Municipal Poll Results Dampen YSRC Morale Ahead Of ZPTC, MPTC Elections - Deccan Chronicle",
+          "summary": "Municipal Poll Results Dampen YSRC Morale Ahead Of ZPTC, MPTC Elections Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNDZQUXRkbkQ1OHRjOVNJVTZlTFpZTTkydGU1NnJtOGs3a2wxT25LYTRFZVMxUTZjVmQ2YXF5b2dwVmNhSExvWFVvTlJTVjlEWDBwYU9kdVJEUGt3bFBHTVdfZ2p5MmpCNTVkalVrQXU0MDBBQXBDc2xIZUgtVUFNVXZPVEpOcXdWSkJfWTF6bm9rMjUwMWV1OGJ1aUZteUZnR01YT1d5MkdTbzNGMmQ1R09YLVByc0pQMVRDUFRONllOWGNnbGN6c2JJQWl3My01WFZpMVE5cGTSAd4BQVVfeXFMUEtkcHhzLS1vSDBoc2E5M1J1eHY4RjBTWWVQVEk0cHg0WlVIVFZnUURHSU13aV80c1BFa3pFNG5nc0Y2eE5sYmxCdGxCaGZSQTNDZ2pOWEZ3Ny1EZVctU1liX25TZTlmTEZ2b005NkZyM3ZwRURWYXlONVNEa05lRWxSSWdEdC1QMFdTdGhRbERZbFRMYjI4RlFkQ2J0b2ZtVVlLUmUzdWJGUGZ4UjkzM0RHYmo4Y1M1RXpNcWgzaFFvU1FJMFdFeUZLaHJhVGFmeVZSdk9DNjZZMjNRU2xB?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "03 Nov 2026, 06:49 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "07 Nov 2026, 06:18:30 AM IST",
       "baseline": false,
