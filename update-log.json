@@ -1,8 +1,107 @@
 {
-  "updated_at_ist": "07 Nov 2026, 12:08:49 PM IST",
+  "updated_at_ist": "07 Nov 2026, 07:02:33 PM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "07 Nov 2026, 07:02:33 PM IST",
+      "baseline": false,
+      "new_count": 9,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "AP Local Body Election Results Expected Soon, Says State Election Commissioner - ETV Bharat",
+          "summary": "AP Local Body Election Results Expected Soon, Says State Election Commissioner ETV Bharat",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRVFQTTZoSEliWVFpMmFKRlUySUNsdmk2MjY0T2pxOXU0R2RwaWx3VlpkY2ZTOEZ5VzNVbUhuYzh1cmljeTVnaVJNNnUwbXE2czlnQ0R0NDJDOGxCTTBpNks1WHdDb0oweDQ3Q0MwM1U5RDFaUzVtZzNySVdRNUx3UXl3WDllN1RWWHhvVWFlcmYxRVNNN0lCa25fdmNCSDVvM2ptSk02LTZfYUFQYmgtMjhuTmRhT3RwZEw5OF9Qc0pndE5kOGY4R2tETEJWVVZmX3pCMDhn0gHbAUFVX3lxTE9ja1JwWk5ma25jbzVFMWJIbFZ4dXk2eHBhLXFwOVhwSEVfd3NGSzJMV21PYTVYd3BucUtpSDBsa09mSGpnbXlYMXp3bjVRM2hsallaTS1uUENDMm1Tb2Rkb0lyakdCa2xWUExXVGhRckJzNWc1bEJ4UjBneC1hUU1pcmdnRmxTUVFZYnB1c1B0SmtaSkRRelRXbkVPaXgtb1Ruc3B4RnVxWFZ0eWNiWnhra1FxQXBfMzJMdHlWQnVIeERXeEFfRzA0VzVkb3FoQWRXS1VyaUJic2t0cw?oc=5",
+          "source": "ETV Bharat",
+          "published": "07 Nov 2026, 11:27 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh: Vote counting for MPTC, ZPTC elections begins peacefully in NTR District - ANI News",
+          "summary": "Andhra Pradesh: Vote counting for MPTC, ZPTC elections begins peacefully in NTR District ANI News",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPenR6RHNzQjZNeHJNY0Q0S1YtNnN4ZE1aZ0dPU3NXeU9KdHk5YTNfVDlRMFhjWXlzdlh2NVJLM010a0o3RlA3bFJlclNNYkFfeU53OWVUVEE1Y2k0U0o4enVOVFBZenpaT0taTjZMQVBDdEpCY0dTQXJWaGZiWUZiLVRtcUJ0bzM0VnltT3IxU2thb1J3anVXRlBtcVZlel9tSU5nUjdSaDVmdndUd1NmYWhqZVhLT2JPTFpxX2ItejlSbWlkQUtucjY3VEtVenlJM3FwRDVYY0V4YWtoOTVRaXItYng?oc=5",
+          "source": "ANI News",
+          "published": "07 Nov 2026, 04:03 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Counting of votes underway for MPTC, ZPTC elections across Andhra Pradesh; three-tier security in place - Devdiscourse",
+          "summary": "Counting of votes underway for MPTC, ZPTC elections across Andhra Pradesh; three-tier security in place Devdiscourse",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQc01PTmFibzAxX0JpYmVjVTRoeEVvZTNybmMyd3d4dGtiRVJBVnloVEh2bk1lVXV4ekt6eHdQUExPcTN2cVJZbThDRDB0MGdWdmFBS3dfajh6T29rNkItR2RJclA5Ri1HY2t2c0JXc0M4Mlc3MlprbmYteUQ1aUNuUl8wQVluWFlJUXlwcU1uR2oyQzBLVkpmcGh0X0tHOWtSM09NVHhhUFktbDloMVlNd0hRUnNkazhoR1NFSDhDZnNvY2haWDhDMVZRZjhkblFLdkV4d0xNZHNmeVRfalJicmpXemY0MTctVktWZdIB8gFBVV95cUxPSEhlRFNpeElLbjV0TUtCd3ZzYnVRX2pKQ2dTbkdSYXhEbklYYkY1bThlaHJzMDJ2SHdJblRtUlhfWGNRSE5CZFpBamxMYXJId25kX2d3TkhJUTI3aHpzaGN1dWN4ZDh2dTZaVlZvLU01QS1pVXZCdDRBaThneG1rM2NtaTRieFBEOHh6U09TaV9ZSUV2TmR4WDFhRmxRU2dMV3VfLXRrU1doaUFKOFVWSGVVM09KVVJIM29BamRGaTRObEpZZndHaVlmNldZeHZjN1Ryamg1b0xwaTJ4NGJQcGF5MFd2Wk5KaGNzWXVibFY3dw?oc=5",
+          "source": "Devdiscourse",
+          "published": "07 Nov 2026, 06:08 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "AP Municipal Elections 2026: Polling Underway For 100 Urban Local Bodies In Andhra Pradesh - ETV Bharat",
+          "summary": "AP Municipal Elections 2026: Polling Underway For 100 Urban Local Bodies In Andhra Pradesh ETV Bharat",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNkY5NHpaTEU0Qk9UVFNjbzRaTndhTzVYQmhsU1lxYVgtYkJmc2JxSDdyUGJfN2VvZG0xOGVKUllqLUtMOVl5a2ZUVjB2MjExVnZJeFdvWUptWVk4ZVVxLVkwZkhWTnB5UlIwazdOX0tqbVZZelhQZ1pvcHIwNWRyTFBXR2xlYlpMRVREaDhhS3hGVEZ2WWJpel9IZHhPQml4c3ZmdTU3SDNUR25UV0lyZzctTDRxeHhSQVdvTmg1bjRYOHgtY2lXaVUzNFrSAdIBQVVfeXFMTXJJSVktZmxzYkZWQ0FvaV96d18tWGtxY0t4bF8yaWJ1TEEyR1lyY0NYVld5ZGVYbGZueEtISEVoRVRnemRldG5ndzNDbm9jUE5CTk1lVDlLZm1nZ3hWX2VFdUdHYU1vR3g5cktCdnVSZzMzT3QwWGlTdkhYc21ZSlJBRTZjTl94MWNNOFVjbzM0T0JUOHE0MWVsOWVuVktLRW5LQkc2TDFNQTg4RG5JZGlsYW1MQm9LVmZvZWItNE5kd2hmZnI1bldsV0VGa19EYndB?oc=5",
+          "source": "ETV Bharat",
+          "published": "01 Nov 2026, 03:43 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Counting underway for Andhra Pradesh MPTC and ZPTC elections with three-tier security - The News Mill",
+          "summary": "Counting underway for Andhra Pradesh MPTC and ZPTC elections with three-tier security The News Mill",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNXJmVm5LSGNpSk1UT3V1RGYtdERrN2J0R0tNcEJVZ2d1Q2tIbXgtXzdua0FHNGRYQVY0RXpHcEZhcWxYWjJ0WU9scFFwbkl3NkdJNmR4b3BjUU12SFp1V3UwZ2lDRnItcTBrcUdOT2dMYnQwUVZpSmN2NTlvRnloVzYyUHlDaWlXTFNnYWpfdG5XVTV0TkNCZGxEMDQwcWhQaURXd2pHMWdOVEZodm50MHA4b1lmWjNpcWc?oc=5",
+          "source": "The News Mill",
+          "published": "07 Nov 2026, 06:07 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh municipal election vote counting begins across 92 urban local bodies - ANI News",
+          "summary": "Andhra Pradesh municipal election vote counting begins across 92 urban local bodies ANI News",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZ2w1VWpQdVhtWFJhMGVmemlFSzZGRWpPamJ4OEptaDY0bHNJb2pYd1Qwd2I2SVk4amEyR1JSY2ZBQkNYVXNWUjhzWFhoelo0THZ6TUpnbXlqLUJrNV82WGJ5clMxVnV4R2JVNTFlZTM3VXROWHVHNEFnXy1OZGhZUWJQYjNRREFXVS1BcmE1SXM2WHhwYWRKdFU2aTJydGpVYVY5MEYtNVNaS2h0eDB0YU81OXJxOUF0TlZzT3V1TVV0NGc1N1JqYXAzeWg5bGxXTVgwekVqcms3eWdXNmF2Zw?oc=5",
+          "source": "ANI News",
+          "published": "03 Nov 2026, 03:03 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh: SEC halts urban local body polls after SC orders scrutiny of alleged nomination obstruction - The South First",
+          "summary": "Andhra Pradesh: SEC halts urban local body polls after SC orders scrutiny of alleged nomination obstruction The South First",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOOTYtcmRNZ1FPNGdpenRuQnlYdEN2dTR0QjBCMng5V3o5S214b2RGS1lLYUVIaGNBYVlsaXdRaGtsM1pwU0JsbW1KdHpoakxFdm04aDBjWHY0aGhwZ3NCb2hiMnNsTDEzTWZxblpIalJRbVdyR291MUI4TTRBejJPNkt5cUxwbXA1cGI3aU9PMjVjWGRxVWdUUjYzWGRrT1dEdDNSRUptX1dMQXZHZXNDNVVhMDRYV0htMVdjV3lnLWZhQmhsTEZxMG1ZeFVpU0tGOFZPVHJGT2NOaUo3RWhrUg?oc=5",
+          "source": "The South First",
+          "published": "21 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Naidu, YSRCP trade allegations over violence in Andhra Pradesh local body elections - Telangana Today",
+          "summary": "Naidu, YSRCP trade allegations over violence in Andhra Pradesh local body elections Telangana Today",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcF80THp6REZKWVNrUFdqZnJFLWloWlRleWg1cUNaM2IxNnlvc0FscC11VV9oY2I1TUhMaVd1UnRvZFZjUzJoaEdYS203MzJ0Ry1GTElHNUprRGNsNEhNMmRYYm5WSzl4ejlKVnE2NnpXZ3JtcXdvenBqeGFVWXZsS1RtdmJtUE9BMFA5U0M2cW9sWEgxTXNuaXR3S0RfZFl2aUY2V2FhMGF3OEtHNGc?oc=5",
+          "source": "Telangana Today",
+          "published": "24 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh: 100 Urban Local Bodies to go to polls on Oct 28 - The New Indian Express",
+          "summary": "Andhra Pradesh: 100 Urban Local Bodies to go to polls on Oct 28 The New Indian Express",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaWpDZXpocmltdzRxejhhaTNaRkJjbERRdjctMkgwNWxFeklTZDYyVWlRZk1fZXNzSEdjYXNLamxJNTY4RXUtMzB6QWdyc0dvSzM5WWd0SWRaT1d4Z0pZRUJFamxDR2g3VnY3X0VEaERCeFVBS05qZFloaW90RnMxNVFRS1FMenhTbkZQYTZSUC1jWHluWFBVVXZneXJEdVg2SEhBT0JlakVSTjlEWHNyejdlUnV3endzbTN4RTBDRW1Gb3dfeXMxWNIB1gFBVV95cUxOMGRiU1Y1N0tBVV9jSzl2NmM3d2JyWVc5SW4zSVViM0EzRGZ3SlJrdGotRGtmMFVjMm0zS0xzZ05ocnZPSkxBQzFOcExPd1RDeUxTOHM0MnlHQlNtN2xaNFExUktyOE1vVmdLNVpQVUI2TmZRd0ZjQ0tHT1c1QWQ3d0NLanhLZ0R2SXJrQXBncjlDel9LOFV5YllhRUJBejQ3UDUxRER5Q0N3bEZqVzIyN0ROUU04OXZyMmR3ZDh4NUhpdUhtclpwM2FQVzVDcVM2MHhfNnZB?oc=5",
+          "source": "The New Indian Express",
+          "published": "15 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "07 Nov 2026, 12:08:49 PM IST",
       "baseline": false,
