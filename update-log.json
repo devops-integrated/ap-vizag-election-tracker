@@ -1,8 +1,77 @@
 {
-  "updated_at_ist": "08 Nov 2026, 06:33:59 AM IST",
+  "updated_at_ist": "08 Nov 2026, 12:43:03 PM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "08 Nov 2026, 12:43:03 PM IST",
+      "baseline": false,
+      "new_count": 6,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "Andhra ZPTC, MPTC elections: NDA sweeps local body polls again - The News Minute",
+          "summary": "Andhra ZPTC, MPTC elections: NDA sweeps local body polls again The News Minute",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSW45NEY3ZTRjS2FTMkY3a1JLeTRBVXBmNjh2X1ZFRGNTcDl0YUdCMkYzS2NETkdkeUpDMmRPMHRsYWVIbm9KMlViLUVUaFROaGFVWVRJcUI5UmJTWGtETkhZdVR0V3lERDhBd2RZSjlDT2hUOGNBYkg5Vkg4aEphenphd0FsMHpIRnZLV2YwOG53UUNYa3prNFgwLVZLTXpsdGhqaEJlcUrSAbYBQVVfeXFMTUJISWt6SWRhQ0lyRzNmRGppcWVFR2IxRDgwUlJlS0FNR0h6dGVkTVpMZUhYR1JyZkNNY3dlTDdQTEU3RE94U3FsMElzQUJpRTUtcE1zNHVXTTlPZld2TFE5UlZqT0hwZl9Dci0yRENDSE9mUkdhTGhTWGU1WkU4c0E1U0h1X3pkY2FNSGk2ZU42d1BZZjhDUDliYU4tVUR0WVNfV1JZSDJuNk5nMURlV2lpaGJpUkE?oc=5",
+          "source": "The News Minute",
+          "published": "08 Nov 2026, 06:31 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "ZPTC, MPTC elections in Andhra Pradesh by and large peaceful - The Hindu",
+          "summary": "ZPTC, MPTC elections in Andhra Pradesh by and large peaceful The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVjhWRnFVS3BKTDhobFFlN2FBRzExcFkwSDBWZzkzRkhoOVh1QWxHaFM2Tnhad2FpaDRBLUEzQUVBN20ya2Foa1ktVW95NjlDU0hlUkxxeXlJdXV3V2ZTaExLMTdUaFZKVnloT1ZfRGRUR1NXSVltVWJXd0xOak9hZEZDdDlMMldGWjlZXzBWeDZQVkRHOWU3YUYyeE1sMXZxQ3J2NU9maUVlNFk4RGFNTnBfZzdUazd2eF9LNWNrQVVYdHVJZURLWlVxWkxjd9IB1AFBVV95cUxNdmY1dm9jc2w3WG5uTjBFbFRSQXIzai10UDdQWmtJalN3Z3VPZXpmTFdraE9lTDA2Z0ZhaGNxN1Juc3FVb0RnOHZrUXRxR1k5R2FfLUhFMEJjOTNuNUo2eUh3U0Y3cXhhR3lzWUtsTXJXeWJuNjUxOGo2YUxWajdDYWI3aEFtRDRSOWNHaWZkWGpSTHFUaUJVOG1EaHFISTVFQ01hOGttSnRWVnc4Q21oWjJVaFpQZ1k5RWk2c1YxcnZEUnNlMGJLSDZHM2N6U3B0dEd6bg?oc=5",
+          "source": "The Hindu",
+          "published": "05 Nov 2026, 04:30 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "NDA sweeps 37 of 39 Kadapa ZPTC seats in Andhra local body elections - The New Indian Express",
+          "summary": "NDA sweeps 37 of 39 Kadapa ZPTC seats in Andhra local body elections The New Indian Express",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTTZBMDdPM1MwdEJ6enpJNl9VTGxCSTE3S2kwel93TUZtU0g1YnhKYTR4WFRjYy1YU0FNMlhIUDhJTDQ0N2o2R3VaTzc3LW9ZM3dPRjlfdGo2ekFPWTU0NExzQ1g0MkRjTFJZT1daQ0FHdmJxSkV1WXdqeXRBOTB6U1dCSjhWWUItVU9zMVJRcFctSlU0S2hBYkRfS1JxeFdzLWFiM2ZGY202M0dBWkNoWkxDRDFhdlhNSDA0X0l4Z2lFUm53QkFjemp2RUkwT0Yz0gHeAUFVX3lxTE5pLUJWX2J1clpSZGJycEFBMzk2bEp3NHNtN09wTUdUZWlXQThsel9fTmZMa3FPOVROSnVEMk9uekZOMC1DRHpRTnlGbmlaM1pJTGJpWG5wT1B1UXY0c3g3WG9zOWlSZ2c1eENaN0gwbWo4cHdnOWxoMHBucHRCY0ZzdkFhUzNpNUMwclBBamM4NzNtYmJNUWxZRFFtd29aems1SUJQMEUwdlZTS01IU2E1WW5GZjVNRVFlVnBOOW5jREVfczQ0UTc1Z05oSDFSYzRmLWdIWHpUY3lHb0lGdw?oc=5",
+          "source": "The New Indian Express",
+          "published": "08 Nov 2026, 03:49 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh ULB Election Results 2026: Full List Of Winning Candidates, Mayors And Chairpersons With Their Profiles - Jagran Josh",
+          "summary": "Andhra Pradesh ULB Election Results 2026: Full List Of Winning Candidates, Mayors And Chairpersons With Their Profiles Jagran Josh",
+          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNTmVTQndYNUpFOTUwRTZjdHQtUFNacGVVaHltYlBEcEhDVTFkRXlvOTFaYlNMd2xxN1A2ZVplMGFvS01TWl94dDB2a3VwOWVSWTZNM0tpd1ZvXzQwaFpfVTRxcVFWMnRrTWNJTWtpSHFiYnpZV1JyOWxDSG1mQjI1RmdTZVc3OHlZNEtTZk5XRmR0N2I3eW5BQ180MUpHRzZIR1YtalAzQXVwb09mNTFzcGhCVmZzTGh6aVRWalBXODNtRUs3ZXlTWmo0bDJ4WERjUE9kWWF2eWI2eG1xSTlOQlRHSm9wZFRTcFBDbkFzQzdsRVAwRDkwenNXZXZ3WE9YcTBuVVhJS1ZjdEpf0gGTAkFVX3lxTFBjMTVvS045a1RMYXM2TjExcUJTVW81RzZPUmRqN2pKbDFVZDNXRHhsZUFjM3pxalNyZV9SX0daYWpoTnJJT2ttRUxPUXctaE5iOWlvbTE5LWtLLTA4aExXVXdMZzNYWXBGeVpGWlVPaXpmYjdVY0lCRXYtcDJtT3NYalpiUVVKa1dmY0RGYVQ5RkZmRERuYTNKU1lsUGJRUkZDMWdQSGdrdUpUNV9UN3U1Y1AyYzlYWWljd2ZfY20waWFub09Ga2dKVEN3blFYNzU2Zm1nRTVTQUdrTDdRa0hLaUVERDNNT3JOM0lQcHhTNFliU0xGOVlMcVVZOG92WmF4NzYtaERFSmViS0pWbFR4WTlV?oc=5",
+          "source": "Jagran Josh",
+          "published": "05 Nov 2026, 06:37 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Kotia villagers defy restrictions, trek for miles to vote in Andhra rural body polls - The Times of India",
+          "summary": "Kotia villagers defy restrictions, trek for miles to vote in Andhra rural body polls The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNaDhiYUZ6cGFIZVI3cnd0RzFsWkRId2U1U3JhTUY0UjhfQzNSRGNIZWJYejNVVEF5N1plbl9QNzdqWm8zU0FWaG0yZUpfT1JRdzQxM1JaOU9FUlJUVkl1V2s0el9EMExXeDBLTWMtbng1aEp5Z2dJb1lPTmVOLW5KRHhBRUw1bHlKc3ZRQmFYdWZfb0pfZHREZGVVSTZkRE1JM2RwMk1Ga3JXSjZOenAzbFJiaGNhSDRTNUExblJiV05LT3ZsY0JLdjd1ZW0xNnN5Wm1VUnJjRFhyZjZmUHRGMnhzdWVZSWtCbDBoWnV1cUVDOG100gH6AUFVX3lxTE1TS05US1ppeXptSDl6X1c3c0hKa3I0aHZVa2toUUM0bkUyR1hHSTdXRnF4S0wybjRyRE9TNE5TM3NwTHJiMkZpOUZzU1ZTdjc5Z2FyM0c3eXlPdTFWZGM0ZlNpd1JFcWV6VUV1eFBJbFJLbmhQTDZ6YUwwYUdTc2MwaHE4MlVTUGx2dTJZWmRFaHZ4ZVR6MkhYNnBGVXpvdElMdm5naDBkTXBXamxIX2I4d0MtTjFzXzhlRW81ZUROV09XR3NKZmF2LWFQazJhbXBaN3EwUzlYd1pkUk5jSWlSVHVLZ25rVU5xekRDaWNseHFxd09pS2pOT1E?oc=5",
+          "source": "The Times of India",
+          "published": "05 Nov 2026, 04:25 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh files SLP in Supreme Court challenging HC judgment on BC quota in local body elections - The Hindu",
+          "summary": "Andhra Pradesh files SLP in Supreme Court challenging HC judgment on BC quota in local body elections The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxONVgzQnFES0NKMktaa2ctemlvOWs1S2dtM2pzdXp0OC1tQmVsTUlEQk1XUEpwOFlWUUpRM29fVm1KNk9PekxmMHBIUVVyOG1fa2dsS3poZXUyNFR1OVNMX3NrUUh3NXFheHlSS2ZNTDhkTGlMSHJQLVhhSkc1YzE2el9qejdtZVNTMENBS2NCcE8xdHF5SXpZVzM1a0M4MGhRd0k0ZDVnOGx5LVNiQkhLMklaa191clB5TjdNLS1lcGpXdEtOemtzV0x4M3pkek5XVm5VNGV6QVVRaTlBSXdQSGhfa2FEMmh3LUZxZ2twT1BpVWFOUWQ3X0I1a2wzTGMyYUN0R3dR0gGMAkFVX3lxTFBoYkZVamVGVFo4WEhJYklJazBWLU4tcXFtTDZvLUxFZ1BMbHA2NVVIRTFuLTdUcHpuUko3Rk8zNDVEMmlTOFJkaFVyeC1HY2lvcVhvZUF0MENnMWNIN1N3RFQzb2lIZ1l0YUZnREtZZ0MxZjRMbm5fRFB2TnBZcXFGakpLTHctNXZNU2pjZ0Y5cVkyRjFwR191a01qOC1XNjdtdE40TWxsMWxUdWNOTVF1aEdYWTAxSEw5c2lkQWtXdWsyX3FOTm55YndTcFRmSlZLcEdIdDgwQkdCb256UmEwaEVJU1V4RUxoYkJCS01HZ1BXS1BhVUhtOS1ka1BjRW1DdFBpaEwzN3JYaGQ?oc=5",
+          "source": "The Hindu",
+          "published": "03 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "08 Nov 2026, 06:33:59 AM IST",
       "baseline": false,
