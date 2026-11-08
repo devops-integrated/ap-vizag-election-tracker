@@ -1,8 +1,37 @@
 {
-  "updated_at_ist": "09 Nov 2026, 12:23:50 AM IST",
+  "updated_at_ist": "09 Nov 2026, 04:06:34 AM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "09 Nov 2026, 04:06:34 AM IST",
+      "baseline": false,
+      "new_count": 2,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "TDP-Led NDA Wins Andhra Rural Polls, Jagan Reddy Alleges Irregularities - NDTV",
+          "summary": "TDP-Led NDA Wins Andhra Rural Polls, Jagan Reddy Alleges Irregularities NDTV",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWlUzZklZTDJjNEx6SnNud0R0OC1mbC1MclItdHpKeHJDanpUbW1kc3pvRUZVVTRIUEtvdjA1ZXhHVkxGVFJLSGJMeUcwaHZQOFQxZnNxN0tyNl9feDNDbG02ZS1oSkRFa2d0QjhXemtuYjJITEFXR3FzdHdyeS1uOHBhem1tVmQtVzZiYVBXbFpjNmlLSk93dEdxN3U0dkdqbS1rbHE3NDBpeXlSM200d9IBuAFBVV95cUxNR1dEMEYySllSSEFuLW1SeW9QRmp1RVp5U3RqSUtjWm5CazM0dFdyU2VwUFZ0dU96TEZUOU9na2JmM3NyX1NrOGtPNzA5cmxBUHZ0ZloySVlBY2JiOC0wWVU3OVJFaWxyeGlsQUtQN3R5MDdnNC1sMmM1RW1OdHF2OWlrSmNsbFRmbDNta0k3R0tERmktb29kbHY2LS1qVnRMYVo2dnlwR3FIcDJkZWFDMUpHa2NFbkVN?oc=5",
+          "source": "NDTV",
+          "published": "08 Nov 2026, 08:18 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "TDP-led NDA makes sweeping gains in ZPTC and MPTC elections across three Rayalaseema districts - The Hindu",
+          "summary": "TDP-led NDA makes sweeping gains in ZPTC and MPTC elections across three Rayalaseema districts The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQSGhjUkluZ3lJNnNUbjVyNllHODRELU9xcnRVRjBZN0NsblFHQzZ4ZEJIbmRubGxvMDVzY0tERDc3RTNUVkwxRzl4U29VSGNMeE5DczQ3NW5lcVdLRHhEQ2k4ck9BLVIzOEszVkRXa2Q3djdic2V1MWRNcTBwTW1nei1CeVV2WU5pRDZyYkFUaWEtaUpEcUdKR2k3dEl4eWUxZHo0ODZyNjJDNmlWaXQwRkxoeVdtV0ktTzdzM3RCNXE4TzdkVnZMaV9qUUZVSDR1cjNjVmtnWkUxWmdwMER6MEJmRXB3QjlDWnIxenREZl80NDRPbmhfdklKNUbSAYMCQVVfeXFMT3BlT3hHRHppRGtkMzVMdlFVTGh5YTUyazNaT2lVcnNXTWJ3VF9hSWN6eGw3M1RJdVBwSW9LQkZJMFVmNW9XMFIydWNjbmVKb1VwX2dLSk00Y1ZIQktjTUU1bDZLeEJMRlJLdkZnN0RNS1FwbUU5dW9TUG9GRVc5WW5YSjlTTGU4R1BQMUlsMHFqVnNhN0hHSVA0Z2x2RzFBbG5QNUVSdExyYjM3SGFlT3Y1ZVN4RXNQZk9keEYyZ2t2TXhlTVBSRHNLbTFvZ2FZZGk0bF9iTExUT042UmNqYlNtdzhCZk5OTW9vLTl2TFRDMDkwRnNWeGdLZXM0ZnJNWHFZTQ?oc=5",
+          "source": "The Hindu",
+          "published": "07 Nov 2026, 02:04 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "09 Nov 2026, 12:23:50 AM IST",
       "baseline": false,
