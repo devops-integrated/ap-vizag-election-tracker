@@ -1,8 +1,67 @@
 {
-  "updated_at_ist": "08 Nov 2026, 07:49:03 PM IST",
+  "updated_at_ist": "09 Nov 2026, 12:23:50 AM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "09 Nov 2026, 12:23:50 AM IST",
+      "baseline": false,
+      "new_count": 5,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "TDP-led coalition sweeps Andhra Pradesh local body polls with massive majority - Telangana Today",
+          "summary": "TDP-led coalition sweeps Andhra Pradesh local body polls with massive majority Telangana Today",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd0M5LUozTm5EV2xyOUU4VmFVQ2lNYjdlOC1zU3hpVjRiQXN5THZadFJYUm9NeVgwVjVKbnJQdjAtUndMeGJWU2lJLTFINXQ4MUpTc2FIcHUzckJMUGVfbXo2R1ZIQ21sN1JLWHQ1cWxmQ1haOHloRmF6eFYzdFMxVUZ1UWlBZkt0M1JBYlBmVmNPaG5sREN3WndESElJMk9LaXF2UkktR1g?oc=5",
+          "source": "Telangana Today",
+          "published": "08 Nov 2026, 05:54 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh Local Body Elections: TDP-Led NDA Scores Major Victory; Jagan Mohan Reddy Alleges Irregularities - www.nationpathindia.com",
+          "summary": "Andhra Pradesh Local Body Elections: TDP-Led NDA Scores Major Victory; Jagan Mohan Reddy Alleges Irregularities www.nationpathindia.com",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNUdQLVdpVXFZV0tsUW9hUEJ0UzgxSGZtSkhmT3g5NWF6TGFJVlRlTmRSUGQ2ZFNyTjdMa0dvaEpNcElzLWMwTUNETmpGcTZMRzZibDU2Rm1TWDl0SzVkN1ZCTmNQYjlQUFY1eGhtZUoxbDBYOXJ1MHZlVE8yRFlmcm5sZW5Kbm5QVGpJR1NGbXJZX0N3Rl9iVnp1ZkZvTGs?oc=5",
+          "source": "www.nationpathindia.com",
+          "published": "08 Nov 2026, 11:14 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra civic poll results do not reflect people’s mandate, alleges Congress chief Y.S. Sharmila - The Hindu",
+          "summary": "Andhra civic poll results do not reflect people’s mandate, alleges Congress chief Y.S. Sharmila The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUUpGUW5HUTNZSmczbFd1NkdYc19VRnZXaHhnc3praWRTWFhsX09iZWZZMzdSZ3R0cmt2UVN2LTNWTkVEYURyd2gwZzVpemIwX2swM0FiNkczSDRCSHhPYkZkYzRKZ3ktZHNOdy11WVc2UUpKaW1Na0Q0TkFzSkx2NGJJdTRIb2FFWXlvTVNhMG5OS0JzRFdSV0RLOWJyQmRFeXVBMU1aQTBpekV3NW5XOVZjYUtoMG5aY0N6MkhlNnFDWDJyWFI0LU12b2hvU05vci1sMVZjX192eGpSQVRVbnRYa2FIdHBnM0ZhbFpjVFFqN0lqeXRIS9IB_wFBVV95cUxPZ2ZaVGlQTXd4dkhMVXFlWFpXeEw4Tlg0aHdjdVdQZjhEbW5UaU9kYXo0MnozVm5SVkVRM0xzaXA2bFZlTm5KUUp6a3BoOUxsVFR0SzVZU1lhU3ZKWHdMM3cyemJkYVlzQjBhUFF1dlNwbmRSTkNEMUczb2ZjMVhMNjRyeGlWVl81cHRzVHlCUko1RHV1MDYwMS16Y25wa1RyZm85VlB5Qzh0VzlCdUVyaHpBb0VTWGt2MVJObjg2SUlCNXExdjduRFZBQm1oVWZWRUJzWnd1bnpieVFWd3pZT3VXcjBGYkx6SV8yNEJYaVNVU1FLZWNrbElVOXU0SVk?oc=5",
+          "source": "The Hindu",
+          "published": "04 Nov 2026, 07:55 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "TDP-led alliance wins majority of MPTC, ZPTC seats in Krishna, NTR - The New Indian Express",
+          "summary": "TDP-led alliance wins majority of MPTC, ZPTC seats in Krishna, NTR The New Indian Express",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbW90UURmd0paQUFzblhGakpIVWx4Nll4LUNvc0w5a3pVOF8yeHhrTUpuRzNoVmdpTkhUV1RUUzdQXzNQNDd6T1U0OVQtcFBMQ01EaVhXT3l5R1E4bENxOVBDNklvLUlVR1VGLVRNcnpZQjRtb0RDbHpZR01BN0NwcTJ4VHlhWHpoWk1DM0sxSU45VDNMQ2g0YkE5VVJjLWdpeFRZZUJ2T1dULWxCNEk1cFhrVllqcmZFX2w3RW4tenFnUlF4SHFOblpXUdIB2AFBVV95cUxQYldDWEQ4bzhWLXJ2aWRLSzB1bVdycjZpbW1EQzdhRG9qN2kwWXdYeHk1V19seUoxYmh6UGMtSUgtaFV6Q1REaGdiNUMwcFk5X1B2aDdQVHVjd0R5aUpxejZ4SmFiVlZFaEtTemI4d0RGeklHcmtNRmhPUkJid1dicVh3YTQyUE1QcFZOQnJobG85allQRzZ5cWlhYjBEeXIwelRGSVJwZDZicWdDZjJYczFXZkxkWGs4RGhyTjI5UEhPTEtZR0xfQ09mc0VRbXJvRzhNeEtYWTk?oc=5",
+          "source": "The New Indian Express",
+          "published": "08 Nov 2026, 03:20 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Why are Andhra Pradesh’s civic poll nominations under Supreme Court’s scrutiny | Explained - The Hindu",
+          "summary": "Why are Andhra Pradesh’s civic poll nominations under Supreme Court’s scrutiny | Explained The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOV2twSU12NXd6QmhZSmZoeXVPUHJQWFgxRHRHbDM4cjl1YUFscy1Ja2ZNWVJlQkU0S0xjZlc1SmdoRHBJc1BjdG1lVkhEaWZJQzd2S2ZNaWdwdXBKRVRLeExEM01OdF9mTEVxN2IyMjBuTmZCTFVhVldrNURXSVpBY1pxQllaTktJZGh2NTF1b25yZlhMaXhZSVdRNjBmODVsbWZ6dW8zSVhLa0VLbko5cHctcFhockVDdl81WVh1TkxnMW1hZ1hlNDBJY1hUUzVtZ2ZzVjRGTloyclBxNEloa01LWXM5d3hEaWd2SUljVl9zdk9RN2FB0gH-AUFVX3lxTE1pRThfWmtWRko3eWVndUhSYWN5SUxPV0s3QXY5bFVKdWRjWG9uWHpKTGpvMkxiZ0pad1c2N0Vyc0NGay1ZZDR5XzZRREZ1dU5QZGxvRXljRDc5OXBGSFpIbTNDREdmc1ZtdGdFTW9IYW5zb2tKRmY2VDA0b3ppT2RrZURWM0hieWFrQlpaUGV6c2llZjlvQTNheW93em5SVWN6clpKd3d5UnFGSmVmMnJYTlFMckJlbzViS0Y4S1FmcFRzVmNLSTFaRHN0dDJFMHJZZEhqdlctX3dBM21IR2wtSWw5Ql9iNTB6X3FqS0dmNzJQNzFiQjMtNXFqYkZB?oc=5",
+          "source": "The Hindu",
+          "published": "22 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "08 Nov 2026, 07:49:03 PM IST",
       "baseline": false,
