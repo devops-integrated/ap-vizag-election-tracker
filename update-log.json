@@ -1,8 +1,107 @@
 {
-  "updated_at_ist": "09 Nov 2026, 07:26:57 AM IST",
+  "updated_at_ist": "09 Nov 2026, 02:43:08 PM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "09 Nov 2026, 02:43:08 PM IST",
+      "baseline": false,
+      "new_count": 9,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "NDA seals YSRCP’s fate in rural local body polls by winning 499 ZPTC and 5,861 MPTC seats - The Hindu",
+          "summary": "NDA seals YSRCP’s fate in rural local body polls by winning 499 ZPTC and 5,861 MPTC seats The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNNmFieVNjc1R6TWJjS2FKSW04MmN4QlBHUXVIM2lIV3NMVmkyWWhvcG0tSGtPV01rdHhua3JGRlpaSW9RSnQ2dXp0al9FUXRLeklHRHYzSkpCbFhHUHc0c3dFc1dfeC1tdE9MVkFuYjRieFFHRGFSSVBJckFjc3l4ZWQySE9McGlnTzdhUW53c0d0RjQtMGk0UlFEejVWVG5lVGZsR0w3YmcyV0ZsNDZINWdjaHFVMVlIQ3pRdVg5QW85OVJqX1htdFhoblp2S3dsZk9wRG0wRkVkRXM2OVhPQWhvOGNNUDVsNTlhT0U4SnZFSUHSAfoBQVVfeXFMTnVYampqN1hVN3F1LW9mNFlYUDAxaTdscy1pUUgxQ3V3Wld2WTE1QjBfckp1NDJLVEcxMUc4M2hLSmU3MHpHY3BBVW4tZGttWXk3UV85NFpYU1AycVBzVlRhak9GV1dCcVZaWTlZMFZkdkFzMGFDSWVGYXVwWDY5V0Jic3hzX1FneWhUcWlTZkk4T1RpYUFaT2VkdUN1MnlCRzZlZFRmd1VKZldOR05XYVV4b05sRUV4ZmpmLVpVZkVMNnp2UDVhLVV5QU1CUEtuOWprWmt4cFc4dy1tcVZaVTk3S0pOS1dRN252NlB4eEpoLVlZZlBLM0JsUQ?oc=5",
+          "source": "The Hindu",
+          "published": "09 Nov 2026, 02:57 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra local body elections: TDP-led coalition wins two-third of zilla parishad seats | India News - Hindustan Times",
+          "summary": "Andhra local body elections: TDP-led coalition wins two-third of zilla parishad seats | India News Hindustan Times",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdEVzWDRQeGVYRmx6VXFLX0IyczNWdzd1ZE8xRmluWURwQXBUVHhVR2ZsQ0dmMGNZcXB3ZFdHU3BqSmpHTTI1dDJhdzJjNGtGN0hZbnh1YXVUTEU1VTZFa1hLa0IwMXNaUnZiTlk3OXBsbWNYaWlQNk9RRk9rLS1rdWszczBnQmpwZjFDZlU4MnlwUzRjSnVBSmFKeXpkTkN3UmJfeWZCanNxRDVGbXlMQk8yYTRzS1dFNkYxSUx3T2lLUEI2SHo3Tmk3SnExcy1KbGl2WE5Jc3pGeEU3TXBaSdIB5gFBVV95cUxOajIycUE3U1F3akdEdGtIMFdoUThDOUV2cXJudFZrMnoxdEMyMm9pN1NZZklDMG5KRE9YWFdzWnZEQTVRQ2p0NUlLVFpDd3lZd2xjQVRUbjA0MkExb0JQUVpYUERCaHBXWlJhTVFvdEItczk2SEpFY3dzcTRwb19CWjlSNVVSWEd4MWpkS2dySERiNmo4azRRQ1JMUHdfaWNYbF9Ec3ZXZ3dZUGhXOVgzZWhfRmJUN1pfRHFRN0x1bFdYWTl6TWVMYlp5RldldmdYSDVFRVhuSWtacEJkUDVBQm1feWN5QQ?oc=5",
+          "source": "Hindustan Times",
+          "published": "09 Nov 2026, 04:09 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "NDA alliance sweeps ZPTC and MPTC polls in Andhra Pradesh; vote counting spans 48 hours - The South First",
+          "summary": "NDA alliance sweeps ZPTC and MPTC polls in Andhra Pradesh; vote counting spans 48 hours The South First",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRU9CcXlkbXpHODZDSWtmbjNIUUJ0WGk3YTEwLVVmVGhaVFN6VEg0Tjk0em5BLUxyS1FMRVNLeW9jbjBHc1gwcF9QaHdfSmdycFFuQkpRZF9LdFliOU5QdzB2M1Vib0J5LTJ4Zy1mcmtBUkMyV3BvWnVBV1gzNzlfaWEwZjVaSlpCYWVlcDNKVUhxTGFrbFZvYUV2d1lCekFraG10TnNYeXZjeTBram81Q3laMDdSRGFNSUFkcUhqSjFYa1Z6cmc?oc=5",
+          "source": "The South First",
+          "published": "09 Nov 2026, 05:53 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "NDA Vote Share Rises to 58.9% in AP Local Body Polls, YSRCP Drops to 33.56%: CM - Telugu360",
+          "summary": "NDA Vote Share Rises to 58.9% in AP Local Body Polls, YSRCP Drops to 33.56%: CM Telugu360",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYVBpMnVmbGhJSF9mSDhSUXp2T0lhZXVndUE2UFZLanVlT1drdE93Smp5eElkUE9PWXRSbUt5YWZKSlpxMGpQOVFnWnMtZV9WcDJrYUV3VXZtTUt0TlBfUFdiN2dReTFibVgzOWFkRjQySm9oQnpFNjBCbGJiNF9yMHhIc1BSaXJVaTVQLWFhLWlBRTN4aEFqZjBZWEdCdjRadU5xWA?oc=5",
+          "source": "Telugu360",
+          "published": "09 Nov 2026, 08:56 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Stage set for polling in 92 urban local bodies in Andhra Pradesh on November 1 - The Hindu",
+          "summary": "Stage set for polling in 92 urban local bodies in Andhra Pradesh on November 1 The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPei05RFFkbXpDT0hwWThfUlJQS3RaWHBqQmdCOHA4bnhWbmZBaS1hZGJSejRRZjVxTXpwSkN0UVQtaGJrcGJWLTFseDVZbFl5eTZMWllMVGhpTFN6LWJLcWRqM0hPY29aak5BSXp6eDlONUM1N0c3QUtjM2p4ekJwVE5oQ1RuWmxMZXpkRTFUNTVyUGoteTRhZ0tGTU1wa2U5WkZvcVFtVTBGdmE4NWVpUC0zVEx3NC1XbHNJSFBrZFJZSEJ5UkRHRDR6YmQ2ZGdXcG1fMVZrT3Y5bzkzR2ZKeVVWLTBKQ0XSAe4BQVVfeXFMT1l3bk1oRWtmSE1zSkxpd3FVWEhYVFJidkJscXFzbXRsZ0VUMXJxempURmNvdS1zcVNtYXVkNFJueFZiMEF5SmNLYXRmT2JNSXJ3MEQ1aHFhUkYtVVFSalFTcHlHaG5ZamNxNF85aGw3d2lIQktjbUdhcDNjaFNfU0hpV21DeW50VE1Xa29iSUNPQW5TMlRHRFExb3c4QThGNVdXMDdZZmMwdW1Ga3RtYkZqQVBjaUFISUdKX0FTbDgwODBCVFdaVEE5cWw1eV9YVGh3aW8xOVpSZ044ODZOSDB0U1BmZE5VMEZIV0FTUQ?oc=5",
+          "source": "The Hindu",
+          "published": "31 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "AP local body elections: Seat-sharing finalised in NDA; YSRCP releases first list of candidates - The South First",
+          "summary": "AP local body elections: Seat-sharing finalised in NDA; YSRCP releases first list of candidates The South First",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN1pXYTN2S2xsNEZjdWZzdzNHcWxaeWlSTjdQX0daU1o1eHlpeldicEJjTkN5cVZjekRVOFdjY1BxOXRLeVNYQUVMcWFXWWZtRTd3R1FGYm1obFhBVGdOSWJFOWQtMkp1cWFhSWd5TDQwMUU2OVJMekdwWExORU9SVzZPSDVxdDJLUnJYaTlrR0toUVVUQlFUNUNwWWdGa0J1ejQ1ZzJwejg2a3Mydkd0SmZka0xXZnl4VlQ0Y3BiN3RZU0lmVFBEaG9RU3VjdXM?oc=5",
+          "source": "The South First",
+          "published": "16 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Supreme Court clears way for local body elections in Andhra Pradesh - Daily Pioneer",
+          "summary": "Supreme Court clears way for local body elections in Andhra Pradesh Daily Pioneer",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVFZLb1R3cm1XRXRWdkZWYUdncHE1QWU4Y2E3NF9zVTRfSS1RY09ocTJZMUtMa1A0dkV0NjJJMjgwdmx0X0pXVkpTTmVxLXgxQ2JySFA4UElPWnBIbTlEWVFNLThhRzJOdTByUE15VHhPQjhweFBGVXl0dlcyMExWdjBYZnlDNGJ2aVgzQ9IBmgFBVV95cUxQSXczTHNscVhubE43TVMwenpYUnhfc0tEVTluUVJYbW0xTGhSd1A1VXh1SXhpbFIxb1lSaER0U1FSdUtjZkVrWXdERWxMck5McDZuZDFBUmJscHNoWTRWaDBxNmZxb2ZjTGhkMTVqby1qRHZqLXphRm5NQk1FLVk0d1Z3eGZBSkJKWXJ3V1pPemtsOENMRm44OHhB?oc=5",
+          "source": "Daily Pioneer",
+          "published": "09 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "AP local body elections: Government pushes for October-end polls as YSRCP moves High Court - The South First",
+          "summary": "AP local body elections: Government pushes for October-end polls as YSRCP moves High Court The South First",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT0xwaFJ2ZjFEQ0puZ29sRXNVX29wVEM2cVV2YlZoaUxaaEhyS1ZmbWVLeVVBWE85MlI4bVNjYVQwOW5wU0R5dXF5eXdwcEc3QVBXMVczX2NZV2JtQnJfRExySEpzMGlKd1hENlNjWTlxMkhNdV9Id2VUekxZMy1TMTZ2Z2FFSVhUc2JNa01RbDVxdDdOVWFhSXZCYjNUMzhCVkJzbHNSUkcyZnJIeUZkWFBmR2M1QWNCQ0dQS3VRY3Jjcmlnc0RGUXln?oc=5",
+          "source": "The South First",
+          "published": "03 Sep 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Focus on local body elections, Madhav tells BJP cadre in Andhra Pradesh - The Hindu",
+          "summary": "Focus on local body elections, Madhav tells BJP cadre in Andhra Pradesh The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOXZiWVJxVG9JeWlxRGh6REF4ZUZDRmZyaFZKTnAxVFI5d0pZaDdkTHFTSnRlV3pvdXdpTFMtVnNIOTZaV1JzME00SEdVazVfU2Fia25qM2lvOW5rbUNTaWlEaWc1b1ZoZ2tKSExabXVaZFF4cEhBbWFsZTVUVjRzTmpyaFFQTDNDZElublRmMzd1Tld6c2M0WXhsZUhoVXZacWMwa0I4RGhIRExpNldTc0xYTUJJc1N1Y1JXLTlSZ2VZbGpPSzFwdnhPTTJNNmozU2wwRW1DYkV4THBG0gHjAUFVX3lxTE01MFA2dDE3S2hFbnl3VElNalNRNlhrall4M2pub2N4VEZBYmNjdmwwZmtwLXI5b1lXM1dWb3k0aTFaR2ZnVlhhSmV2M1ctTC1NdW1pbEgxa1A0RFQyeEZVeEZJendMbU9uUUZ5SWQyTEdRWTNTUmFxbFhjd2h0ZjZNaWRpY1YxYkhFR0JjQkVSeU93bFFOXzNWNVZ2MTVFTnZDeHd0Vk5DdlhCSEZpd25HT085TjFzY3k5UXMybkZhOHNFQWlBM0ptTjBDRXhqV215cndEYWIyUlBncy1SMXlvd3Jn?oc=5",
+          "source": "The Hindu",
+          "published": "11 Sep 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "09 Nov 2026, 07:26:57 AM IST",
       "baseline": false,
