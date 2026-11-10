@@ -1,8 +1,87 @@
 {
-  "updated_at_ist": "10 Nov 2026, 03:42:57 PM IST",
+  "updated_at_ist": "10 Nov 2026, 11:22:07 PM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "10 Nov 2026, 11:22:07 PM IST",
+      "baseline": false,
+      "new_count": 7,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "Andhra Local Body Elections: Massive mandate for NDA, Chandrababu Naidu calls it a testament to good governance - Organiser",
+          "summary": "Andhra Local Body Elections: Massive mandate for NDA, Chandrababu Naidu calls it a testament to good governance Organiser",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPMW9iQldWdzJSOXdndG1CTDl1WTZUaUJHZ1VOWTdOMHphMTJLSkg1OVdIWWFYZ3kwaDFWQ0owVG5Fd05ZdjltX0k2aDZUSjFoWWMwLUdVNU5YUHdFNENCclR5MGlZRWI0eUxrRDBfc05IbUp0YzZxbkprWjdPWmVweWRDQTlRbFdNQUc1QmRHZVM4dkhGUGRkMjVUdjRwZ2tMQ1FqZ3FjdFN2a0pRQzRSY0I5RG9EYjVtTm51MnlmaUQxaW04RG9VY2Y4TjhMUG1LOWM1bEFLTnRDRWtZWC1rZHFjQ0lhSk1SN0NUUEgxVHPSAfYBQVVfeXFMT29tLVN6WklMdzhSMzVzZ1Yta25WZE5nVEtMaXpBWjU2NXc1enVRUlR3Qkl0YzJVTm9nQ3p6djZZcXFIUG5qX2E2ODd1R1VzYzM0Q3Zsd280ek80NW9FX2N2TUZHUjdtRTBpaEtTR0NUUVZZQ3BBa2Z4Mk9uWHRGWlcxSTBzMUtXOURhdHd0TFNZaEFYTUQycjliM2dPZFF6WU1xYUU5b09JRjdYejJuYnBWTkVxV0ZWQTJrdkV3cFVtSVQ0X1J2ZjRTWDJaZHh4Qk03LTFCX3N4VGFYaGZKZXE2UnB6b0VtV19YanZNeFpqVFNKSDBn?oc=5",
+          "source": "Organiser",
+          "published": "10 Nov 2026, 12:35 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Local body elections were not held in a democratic way: MLC Duvvada Srinivas - The Hindu",
+          "summary": "Local body elections were not held in a democratic way: MLC Duvvada Srinivas The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQNnVrLVR3ZUJwT0RvQmdXODdqTEpoNFZmUjhpbGUtb3hjbWtKSG1PNjl3VUR4VVNQWkI3RzVWR08tSFpJUHBiZE1sd1J0d1ZPM3F5djdTSEV6YVBpY1RwNk9aY3lsZVNhcmlmSXJlbmxPTF9yeVZxbWpoSzlNdWNkVVhRaDZVaDh6UWExLXYydkg0N3prc0dUTHNzeURIbmVPd1VKVWVLU0JZWTFVQ1pqc011dE5PdWVfS0V0bWJZWFU1TVg5cHNuNGdocmxOZ1Y5OUhndGRmVGk3N2lKWHlpMXVpUdIB6gFBVV95cUxQZDhRTmNyUDVKY1o1SG0xZnZoZUlDV29OMVNfUWk5N1dUdlV3dkdwb1lTd2loQnFKWVdTTW1xUUpxYlEyUm1xbDhVX1ZUNTlqTVZTWFBPNkNua2hrQVYtV0VVNGxJOUs2Q044WmdjVE9PbmVGTUgxTHFKQ1Z0YUcwSGJxZGh1dFRTbnVzUWtOV3V4YXA4RklLVFZvSFcxbUtMMjQ1cFlaSVhPUEwtN29aVGtFcTNhRXc5bGdUZWlSSzlHVXhvVk93d1ZnNU5ZcDlXeEJmb0lNdGpWZmtnSi1jS3JkYThSYlByQXc?oc=5",
+          "source": "The Hindu",
+          "published": "10 Nov 2026, 11:20 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "CM Naidu says TDP will study if ‘forced conversions’ affected AP civic poll results - The News Minute",
+          "summary": "CM Naidu says TDP will study if ‘forced conversions’ affected AP civic poll results The News Minute",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeWRNT2hhVUZYcmtucUFPVVdQSW5JSmxWMzNRTUpSWlEwX3dnTjRtUTl4N0c3Y1FqRkRuUUVEb2t1V24zUWtJVzQ1eVBOWlhBdWRNNHVjelpadzB2cktpdXFVaFZWaF9MeFFSRk1hZWhrR1k3SFdlODVReDhqaHdkWDh0S0p4WnpfTWJaOUtLRXBZMmhzN3M0V3lFVmVub1JrLVlhVmtzMGZkRXNHUFZHS1BLcXpJSHdnZ2VCVFBoaU5OalFp0gHSAUFVX3lxTE05VUdDRWRDSTZKNkcyaC0yYVB1cnFFRTkwVnBfUzNNaVA4OEw4TFpyZ08tb010MXF5U0hlTDlqVEM2b1ZsODYtZTJOUmplLTBKSC0wX2tNVGpvbWRRbFoxTTJVMGVYbGl4d016OXA4RUVSTFVEeTl1ZjA4bEdVdHRkSlN4bmZKUUxBeERtRlZfcmZUaWtMN0tZcWR3VWFYV2VnV3EwY0w3OFplSU93LU5zY3ZMZm9WUkZUZTFURTZoSlk3cDRIUlRRYzg4LU1UX1FrUQ?oc=5",
+          "source": "The News Minute",
+          "published": "10 Nov 2026, 10:31 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Indirect elections to MPP, ZP leadership posts on November 19 and 20 - The Hindu",
+          "summary": "Indirect elections to MPP, ZP leadership posts on November 19 and 20 The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWXE1NThhTmROMDBJeWlLRjlTQXdpSzNxbXFfTGprVjI3aFBQdHUwcXplWlg2amloSFptMEwzTEI0bDFBS1JxRXRmOXZMZk9kRmpDU0o0MEl4d2c3NVJpSzQ0emlIbnl0X3U4MC1rOUxXTmpUMWU4Um15SlFYc0t6Q2Z3a3Y4MTJ6SmE4Q1RXSWN0LXQ3TE1KWnNiQ1JBSVhrUG43U2NpUnQ4MnVUVlR1a3pEanRHZ3hKcWphVTlqSGJ5YlByMW1BVllOc05xdG9xY1JoOFVTT1fSAd8BQVVfeXFMTzMwXzMyR0VSZ2pXcGFNMGtrX1lpclV5d2hxMlVUSUY0WjRGYW53RmNsOTFJUFBYT0xZZjkwT2JZeTBtUTZGYTQ0d2tRdms3SjVzRlVSSDd5aXVOMkVidXVtOWhFem1Wdk1mc1pfNEE3amo3ZVVvR1hRenhwUkhnZHpuSS1NVXkzdWtXeGt1OUdoUnNUa3g1SnNNM2wzZ3c1cmdETldGU0Z1MUdBYTE1VWJDSlRsdDFtbHFUOHoyaDlqWl9DRmR4Uk5DTzBzamVTMlpDN2N2QjVnVk5GamFTRQ?oc=5",
+          "source": "The Hindu",
+          "published": "10 Nov 2026, 01:48 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "CPI, CPI(M) to protest alleged election irregularities on November 11 - The Hindu",
+          "summary": "CPI, CPI(M) to protest alleged election irregularities on November 11 The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRlotNXBQSVVWdUtGdnQ4UXU1OWpCcWk5ZjY1dmJGY21IeUkxSTV0QVFRbWhmSk54TFJQeGptbUlTWGdweG5Uc1NKQjVkYzM2WEVGMllxdFktXzd5NW1yZm40THRSQXN3UEdWZHA5RWMwY1NvWlExcU9Eb2lXXzlMYUJibjhmbFpJZmFrUUhRY09GejFzSGQ5eU0ya3dtN2c3Q1QtZjBEM2lyR3oyT0ZnTy1DX3BHcXBYRUJRTkVlWjM1Mmw3aG1xSG1jMHpBdHhRdGJIa2tic9IB3gFBVV95cUxNZzhPdHllb29EcUgySm50VldvQTA4WHE1Q1N5ZXBZdVlMU0M2SHlnSGotNThTY2FjdjVWVVRzenJESlZfelZGeFJ3dV92YmtTNEFmRmJNMDVqalphcDVDbUZoUFNsbkl2ZkFWa2puQ2hJMGtpVjI0RkYwcy1HN05ydFB5a2ZzZVRuTVFxM0hLOEJ6YUVacTV3ZHQ5V0pIUGhETFlyWF9zSUpFUnlfMkhKalREblFoSDEzOG91cGJPZGYtM2VHMzNZY0ZxTDI1VXBocm5aX0NxRWpkakFIOGc?oc=5",
+          "source": "The Hindu",
+          "published": "10 Nov 2026, 11:12 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh Local Body Elections Schedule Out: Check Dates - NDTV",
+          "summary": "Andhra Pradesh Local Body Elections Schedule Out: Check Dates NDTV",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSnpQdTFQRWxpOE5yekRvT3JJbVZWSHdFdXcyclZwTS1tY1l6Y1pFdy1qdE1oVlRja3hpM1Ayb0tYTzBvak0yQzNGTldvc0hfenpSVWR1TzRUbU1zWllZSDhWVEV3WmNRZ0lXdlZKS0pfa1kxd09DU2tBUWlKOGE2d1RfNDN0RERqa3ZiVU41N1FzLTdoMnRvcHpZQnd0NGRYS3dN0gGrAUFVX3lxTFBONzREX21sWmtEV0syMzREWFgyaWxydlJkSnJyRFZWREYxNTRfUEFMbHpCV0FCOWJXU3UyMVlYc1h4QjJ1b0RONkNFeTkwRzFEa0JJNUFGN1FqUGxTX0s2enlEeU1JM1BnT3hWVlRuYUE2YzFoR0IzZFdrZWRCYmVrRVpFTWIzNG9uU2VTeWNYUEJEN29jQVVldU1mQVlDTnpYU3Fpb3g2QnpGRQ?oc=5",
+          "source": "NDTV",
+          "published": "15 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "AP ministers congratulate CM Chandrababu and Pawan in local body elections victory - The Hans India",
+          "summary": "AP ministers congratulate CM Chandrababu and Pawan in local body elections victory The Hans India",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNWdpRE1UQnd2UUJXaGtMZWZJOXJRdjB1Yk1YZjBYTlUzMTZKeTRERkVwSTBFY194YkdBMVJ5bklXT1N5MS1CZk5wMTY1UHVlczhpQWg4MnpzOGdJM2RwamltZzFCVHBrZGpDU045OU1ZVEkxYm91eGE3RVJsQlo4NGNaTzVoa0hoVU1qSE9FaTdWWkplVjFyZDBlS0pKcHhlT3Q4bEdHUzdYelVBRlVtV0FsMlNwOURJUF9vQjhNVzYzTDdRT1dneEtaTVhYRFE?oc=5",
+          "source": "The Hans India",
+          "published": "10 Nov 2026, 08:16 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "10 Nov 2026, 03:42:57 PM IST",
       "baseline": false,
