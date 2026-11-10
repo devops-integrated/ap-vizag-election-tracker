@@ -1,8 +1,97 @@
 {
-  "updated_at_ist": "10 Nov 2026, 11:22:07 PM IST",
+  "updated_at_ist": "11 Nov 2026, 04:05:25 AM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "11 Nov 2026, 04:05:25 AM IST",
+      "baseline": false,
+      "new_count": 8,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "Andhra Pradesh Local Body Elections Set for November 19 and 20 - Urban Acres",
+          "summary": "Andhra Pradesh Local Body Elections Set for November 19 and 20 Urban Acres",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbGU3dGF4LS1FMmVHYTFod0FRcnlRcnVMU3RFNmFOTFJkaW5xclhEbElXdk9PYm5kVjJmN3FQaUNhUlpGWGVhQ1pwNU45cHFQQ1M1LWVkTnJ3UnctOUJxVVBtNVo3RVRCZTJxelZoZmRRUHljcTJxYWRVU2VaU2JjdXFVQmRJZUxpTV93ZVN3?oc=5",
+          "source": "Urban Acres",
+          "published": "10 Nov 2026, 06:54 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Urban local body elections begin in Andhra Pradesh - The Hindu",
+          "summary": "Urban local body elections begin in Andhra Pradesh The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZTZxMi15RWFXRzQ5YzdMQ2lVQUVLUnZ3UVNVU0pPM2toUE1QQnk5ZU1yTGZiRUZpYjc0TE5ZNnVZWU9CNUlqdWhJTGY0eDFoakFFTU10ZjBnUi1wd0NHMVgwZjMwem9BUk9ud0x6SmNJZkU0WExQS1FwVDBCOWl0ZF9QN241YzlELUdCZDNIUGd1SHpRWnlpdmlfNUppbE1US0JVM3VjZDMtNjcyaHBtb2tfbVlmQdIBvAFBVV95cUxQWWk2THBlLVdrZExxLTc5bzV2SE4yU2c5LU5sWDJNNFc1NDhGVVFhMVlUdnB5dGVxX0V5amY4cm9HQW93V0tnc21sNjVwSzRwcXI2clhaNE96dGRpSHN6SEtvdmR6bktLZWdSOXAyNGIwa3J1NGRYVDVzbnc3TE44TS1xNzM3NkY0VDZpUENHZG9Tc2RBbldMUXBGSkdsZGgwMTJQYTRIUWtZVjRkRDQtOUJwMExkUnhCZ2J0MA?oc=5",
+          "source": "The Hindu",
+          "published": "01 Nov 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra civic polls result highlights: NDA heads for sweep; Jagan says ‘selections, not elections’ - The Hindu",
+          "summary": "Andhra civic polls result highlights: NDA heads for sweep; Jagan says ‘selections, not elections’ The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanhmcWNGQklsM1BOOEg4MWNZUS1zeUdlTWJVaFlDenpzZS1YOGxmQmRXeVVmT3lQeTRnSl8xeVh3X3BiYnpqWEt4N0gyUzdMLWxGdjN4TVB0TzJWcDVJdU00b3BELV9ITzFweU9pS2c2TkR6ZW1hQmRzSEpxZWlUVUZ4X2hUV3F5YVRXeHJBR3FxeVJJVTBzY2hmcGtWZTk4c3FDYkJmcy11bGNNMWFQR003cTdSTm5qU0tqYVFFbVPSAccBQVVfeXFMTktOdG1vYlBTTldXOXJzQ2o0cW0yaEU3Zkg5TEhfZGR2X2ZYZXVEc05NR1AzbEFvQ2lJUGwzR3k1S3NUZ21SYlREUURrbGNxZzZ1aEtqRVJjT0pjaVAzejRWVEdieXFfOTlRbFd2NXVVS2Y0UjIzUl9hZHlGTWhIQzFIa0RxeUd2N0tvX1ZKbDNzUzZwWGJrbmxNU1NHV29iMU8yNFlaenMxcTFaRGpnNnZ2QkZWNnQ0OTFFUnM1Z1lqNGtVQlpSYw?oc=5",
+          "source": "The Hindu",
+          "published": "03 Nov 2026, 03:50 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "TDP wins 20 MPTC seats, leads in 67 more in Guntur district - The Hindu",
+          "summary": "TDP wins 20 MPTC seats, leads in 67 more in Guntur district The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQc0t4QjJ1VDFnQ3dtRWlSazNWMDI5VEhLSmdaSld2em9PM2llOUM3X0FCSkZWOU56aXBxdUdVV0RHS2dTRHR2SzFiV0ttUkdCWlQzd2ZuRE5SdmZnakRpR3hDeS15dGs4eVJJUEJSdFRseWJVTzdXQ1R3NXRGR3NXd2pob3loenlReWRzTF9VMjJJMURFdFNpVWprbXJKMFBNeHV6SHgtWmNJOHpWbDNJN3pReGRZZmFVWnBISlAtNnJSc3d2V3ZZUFNQOEI?oc=5",
+          "source": "The Hindu",
+          "published": "07 Nov 2026, 01:34 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Madhav Wants BJP leaders, Cadres To Strengthen Party Through AP Panchayat Polls - Deccan Chronicle",
+          "summary": "Madhav Wants BJP leaders, Cadres To Strengthen Party Through AP Panchayat Polls Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQX0RTQTMtdXBUX1dHdEdYZ0RwZXB4VXVNVlQzNE5HNkdWQUhjX3ROMGdGSW15Tm53cVNKOHFGYWtocUVNRXg1bXFaZW1RSGI3NEIxNXBQZThnRTBfM2NTNlB5MVhQQTRFYlY0ak92ZkRCdGNrLXlOaFlkSFkyNGdUQmkwTGktMy1Icm56Y1QzNXZySHplZEUwS1ZwY1hYSUZKSFNuaFF0UjU5bmU1b0FNeWZrQ0Q5QzJCdExYOHEyZkRYWlZzUlZpVFMzT0laNDVhT0JwWDg0bXNsSEwwazZUU2E3d9IB6AFBVV95cUxOWU4yeG5WMEtDOWJ5NHBoVG4zeWRKMUpYUFZna1RMQzlyYndEeUZDelVHNHM3RVZ2VFE3Vm11VUFfWWlZVkhydDNwN0JiN0pzcEhta1lBbExSa1RmdUlxMk5vLVNDVGNxdkVtcDlSbmF3QzBGcU8xZFBPM3Z5Y0k4N2hFV1lQRW4xNUZYdWhHcnlVZm80UWZRakd6dWJpVjdBb1p0cENONWJaSVRqV0F1WkhIb1k0V3p4YkRlZEJ0djBIQk1TVnl1X2lFTW9ib2o4cENsU1hmWk9EZmYzRnFGWGhqbmlxeHdU?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "10 Nov 2026, 05:50 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Over 75,000 people bound over ahead of local body polls in A.P. - The Hindu",
+          "summary": "Over 75,000 people bound over ahead of local body polls in A.P. The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWnQzenB5VDJ2MjdnQ3ZwdU9leHZ0VFpHRklDRzhCTS1fWEdHWDZZd29TZlduWm1TeE1HZnE3X3pRTjliTVJGaC1xX3BnS0xRQWU3RUpyclNVS3NtVzJHSlV3UFdGVlhMdnVSMEhINUVEcDE5bUk5NlpqNGFmWjVnTW1CcGFKa09mVWlIamc1T3RJeHpsSm9zTHB4NDNBWlVhdXVVUjYzbUhfVUpnejFta09LY0FBWXJ4VVplbTBYSmFVZ3RlekRvRTlQd2ZDNVEyLWhmaFhqem1FMDlR0gHjAUFVX3lxTE5UN0Y2YkZqU0RSbHZnYmY3eGVrUUh1bnhjUnRld05MV1Bxd0FqS0hxZGNMZmlFcE5mdm96b2tQdlZHNTVJU1ZHSnNFLUY2VXlzS29sNHdoRkdaeDB4WWxrOXUwOGJhcWhGeFhJZE1oVm1YQU1LOG1laGZYSURzRUFNeHhPbC1zdm1nY0E4MTJUMlNjaFJwTzBsWTVGNG4yMVc5MHp6OXUzRzVpSlBOeUNGN2dheWEzZ3FzSE5WODFZQzZNYjZmbWJfTWNFRHdDM0g1QWFSX2pMOWZ4RWZFeXdmOW4w?oc=5",
+          "source": "The Hindu",
+          "published": "24 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Odisha moves Supreme Court against Andhra Pradesh over rural poll notice in Kotia area - The Hindu",
+          "summary": "Odisha moves Supreme Court against Andhra Pradesh over rural poll notice in Kotia area The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSHNfblVxSHM3aTh1MFVNTXBTQlo1WVBhVUtUT25WdU9YY1VBMjhEM2JoTUwxVE02QVR3alJ0UE52cVdQNmt6T0J3VTREQ3l6M1ZzOV9uSkh3T1g5ZXl6aW5sZndVUnd2SFVKajMwSjhpM1RORHhaejNocTNTSmxST3BEaUYwc1VjSnJwWndKeGdsSS14dHJ5SGwzMFg4MXE0eUxveHJZdjlkNVdGbGRPd2llLVBPOTBBUktlRjNYX2pSak0xMXljLTdkdmIzb001WmJENEVnU2tCRDdMYWgxcF8yM1hiRzjSAe4BQVVfeXFMT0tmbWFiRXcyQ0JaX2hPMnRBVC15ampQQzhTaWVmNXFZbmt6T2NlQkJPNWtPclRjSnVGUTctVGRwdzVZSEpFZVBCcE5kbzZkVWRQWHhwMEZtTWcyTm40eUMycndoc1ZCM1hNeDBhZEpyNGkwdFBNN3VCV2lnTWZ3WXBYdVhCdHJJQWFERXowa0JaeHo1VHViY3NZRGR1UnR0bkNRZm5nYVZ2VDBWOU1MT0xqeVUwZEc3MjdQRTZsZ2tZdUl5ZGVXZ0hIVVVDTERYQkFpSjh1SWdmYkI2b0VhdW9JUi10R0Q1dTBqaEttZw?oc=5",
+          "source": "The Hindu",
+          "published": "24 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "‘New Congress’ will emerge in Andhra Pradesh after local body elections: AICC in-charge secretary - The Hindu",
+          "summary": "‘New Congress’ will emerge in Andhra Pradesh after local body elections: AICC in-charge secretary The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQRDNsQzgxbGtWWnR6T0ZDblQ5emRSNHBuRjY2MDFiOURmaUZjdGtOMTlGM0c4R1pBMjczVnREcUNNZkJueDlPMGVPajR2MHZTNU1CT1NOQXFxNmJMR0R0X25RM19XNFVNSGVtaURodE4tZXVFeFczVk0tNmUtSVJKd2VDNHhna1phWFA0MVRXc2FlSGIydGlWN0xBUzNTbnJMX3pXV3hIUG94emd4MVNSZ082QVJLck5IbndmbEwxb2JsanZSei1ZbDJjYVAyRkFQUV9CYjcxUHBQNUpuR1hLUFlTTG1KMUZ2ZDkyQjBQbnVORDVC0gH7AUFVX3lxTE42SUxiZzVXeTVCYXRWbnliTHlaanZvX0hENHY5aG9QQ2c2N0lnTk82NENVMjJTSDdFd3RUaks4bHhQS2l6WWJLbnZxeGo4U3VjX2N3NGFqS1Vrdmc1SGxUVDl2dTdOSkxURENwcU43dTc1R1RRUk5FOGJWRUZmNTVBYXh3NkJmcjlxVnVCUktKZTdoXzN5b0JoMnBFOExHeWdyN0haYWdfZ0J1cWpLclhNY0N5Znk2NjRlNmFrcTl1T1M2RWwtMGhCbS1aeHVzSldyLWtCZTNBVk9GejdNQVNfQnlYU183bGtZUjlVOHNMbFFXRHJoUXluRlow?oc=5",
+          "source": "The Hindu",
+          "published": "10 Sep 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "10 Nov 2026, 11:22:07 PM IST",
       "baseline": false,
