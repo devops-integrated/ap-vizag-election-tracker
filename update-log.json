@@ -1,8 +1,37 @@
 {
-  "updated_at_ist": "11 Nov 2026, 07:43:18 AM IST",
+  "updated_at_ist": "11 Nov 2026, 02:58:27 PM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "11 Nov 2026, 02:58:27 PM IST",
+      "baseline": false,
+      "new_count": 2,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "Supreme Court defers AP municipal poll final list to October 25 on YSRCP plea, directs SEC to decide on nominations - The Hindu",
+          "summary": "Supreme Court defers AP municipal poll final list to October 25 on YSRCP plea, directs SEC to decide on nominations The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOX1pOV3BoWXo3SkY4bEl2bTBwOVFlblVyLU9UR1hnZzVSQmYwbnVpc1prOGIwNXd2YXhac215VEtaU1g5cy1xVERpellfdFQ1SkxUbEx3ekNsX2hVd1dLajFSdWlvSWc0WDNoblduWWhZdHBOWDJSMXZCbC1QOGxUUHZoVmtYdVF0d25uZl9CZ2xJazRjaHpaamQ0TWpXMXd3a1NJeTRLcFNRWTJGZ1pFNVlNODBQX05lb2VHS0FMRGVvdktNVFJSdEdRQmwySVZKVTgwYWt2amhfQTI2RHprVkczTFotZkFzajlzY0RIT3E5UFRNa1d5VWlaY1RZZWJQVlJlS0JSaW4zWHZL0gGTAkFVX3lxTE8xSkFiOUpXOTBwWC05czN4ck1VbzV4TXMzbHRPdVc2V0dFQUVwNy1iX2haRUI3Y2tUdXFVV2JNSkhQc3ZiX1pQQm9YMi1QSTBUczNDRVZMbUdfN3lQck53S1hic3lScGxRcU9JS3JYdDlrMG03SzZhckpNVnB6RFR0S29GLVNybzVIcW1WelZ2RGU0d1ZlYzg4OFJ5bTdPYlFvTTVMeWFtNHNTUktudkNsUmFNU29Sb1NRTUF3dWE4T2RMQmxzTG8zLTR5bVJsZjFXUUlwQmI1WWx6anA2Vk5sNjJZeFJKd1NZQ2ZQcko5MGNldVNOV3l5VUpNRVo4MjNqXzlJbXotVEwzWjdxcmxNUEVz?oc=5",
+          "source": "The Hindu",
+          "published": "21 Oct 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "TDP keen to contest for Rajam municipal chairperson’s post as elections will be held after a gap of two decades - The Hindu",
+          "summary": "TDP keen to contest for Rajam municipal chairperson’s post as elections will be held after a gap of two decades The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPamtSYmdDR0RqeTlpYVlpdnFnYUlnb2NHblBtbVVnSldyM1VpdzJiSmtMUWp0aGZubnVIYzRRV2t5akt1ejBNS1UtVTFpZmt3YUk2YXcwZmNFcFREZWlGYWNtLWRrRTUxbXNKczRLS1h4ZEN4UmdxdER4NWViYmM5Zk1uRTBWaUY5RVdNZnNQSXY3QVZqSzRabFBOejJ0Y2g4VUZzcGFlWHNwUEU4TmdzTUlySHA2S3VUSEo2RGNqTVJmYnJfX2xkOFJ1dlFpQW1ZUWZ4a2s3LTR2ZnN3NTFCRWxHSVhOaW1GU09NZ3FUaHU3X1VJVjl0d3FZTkNlTmFVSXduQTg4SUFRcm90V3VWRUNB0gGYAkFVX3lxTE9XSzRqNzlEWFpHckotMkpHSzFfYU1pYWxfVHp0ekQ1QmtXTU1lR3JqbkRtNnFNMGtwLWRPT1NrWkRvd2M1VUpDTWZ5UXB2N2hPSDdRSWtIcVFoeGtXUHpNUkFNVGxjYjVRaUpBR3pKanNJU0RKTjdlb2dPLUtWTEpLSkZ4elRVN1pRQU8wMDROT0hRT1ZES05yWjR2emp5dndaLWI3Z0t2UXY2QWxfSnRNazh3b2F1ZUFYUXRqU0N4SW9oNXpiblR3SmZYUkVucTZodEtCQmJ5ZVQwd1RrYTVXWVEwLWVVWklycVJ2MzJ4dnJTZGF3MFFtVVBuenYzZ1VYb0lsTlBYY084UTBhT3dqcVpGSkhhUW0?oc=5",
+          "source": "The Hindu",
+          "published": "10 Nov 2026, 11:07 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "11 Nov 2026, 07:43:18 AM IST",
       "baseline": false,
