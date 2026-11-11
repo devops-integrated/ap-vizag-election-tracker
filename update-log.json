@@ -1,8 +1,57 @@
 {
-  "updated_at_ist": "11 Nov 2026, 04:05:25 AM IST",
+  "updated_at_ist": "11 Nov 2026, 07:43:18 AM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "11 Nov 2026, 07:43:18 AM IST",
+      "baseline": false,
+      "new_count": 4,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "Andhra Local Body Elections: Massive mandate for NDA, Chandrababu Naidu calls it a testament to good governance - Organiser",
+          "summary": "Andhra Local Body Elections: Massive mandate for NDA, Chandrababu Naidu calls it a testament to good governance Organiser",
+          "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPMWo5Q1R0SkNBcG5nd2VCWDdYMEhKVFBCdW53TjFrRUU4UmZkdnR6VjF5bHo4RHh3ZGtKU2hYNi1qbDhGaEx5VEluVndmTW5RMmlPR1pWMHlJZ0hmb0xFOFlWd21uZmFKT0JRQ1NsWXFuWGcxTFA2UWlfcjhTZU05d1dESmdtOGdfcGRNNkdQczNrNDNFeGROU05jRTQwaFdKY3RRMjdZcWlYcmltZ1JoeThURThxdElQa2hpM292MW9hdl92bU1NeHI3cldSdm5nMGpnQV82WXlrNVp6Z0QydHd5T0VjRlk5REF5NE5zZWM3VnliWHU2Ri1ybGYwU1JOSUHSAYcCQVVfeXFMTUk1ZDBfOFhhd1oyT3VIRFFkdnd6X1lWajVUaGo1OEtBdFZISHV0X005bnNaYW54T04tUVFxMVVqZXhoOVB3d2puUEREbFh1dExYMVpDVDIzR1JNT2JhQWV5cEEwVkZoMTJ5TXM2dkoydU1MX0dRQ1R1Vy04Rm5PQ1IxVFJRbkVaTWRwNlFEVzdfMWxrbmJpeWpWSkdOempUbS00UzlvZTNzZkdMVm1oWlBFTG1ERnJZb0VMU0JPUUc4WG9JdVZERlZtUS1HZTNhd1dHa2xvTjNoQkFUeHRKSkdndWE5XzlzQlJyUlVXSHJhU3Bwck1tTmpHRDlPTnUtdzBfNlpzMFU?oc=5",
+          "source": "Organiser",
+          "published": "10 Nov 2026, 02:00 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh Growth Target Tops Naidu’s Post-Poll Agenda - Urban Acres",
+          "summary": "Andhra Pradesh Growth Target Tops Naidu’s Post-Poll Agenda Urban Acres",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaXNoWE13aFNPQ2VScnlIVUkzMFl5aDVtMHJQaHlBdVRLelVKb3BQTE9lbi1CUUliSmhwcFFFTzE3cE9LZDJlSVdMUjE1eEpNMlR1WnFja05Uem16VkQyOEdyRmZJZk9UaHFYdGROenF5eE55WGFOTUJqVExxYVd2MndLU1hvbnM?oc=5",
+          "source": "Urban Acres",
+          "published": "10 Nov 2026, 06:51 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Kotia border dispute: Odisha steps up security ahead of Andhra Pradesh local body polls - Daily Pioneer",
+          "summary": "Kotia border dispute: Odisha steps up security ahead of Andhra Pradesh local body polls Daily Pioneer",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWWlSenBkNFNGUGNpQVhzelFtR2hLcHN4OEZBak1yZGVzUmJXeUZ0RjRobXFNNHFvV3FJd1ZodFFsQUQzTmIxSFdCZ3B5NjQtaVE2YUxiMG0zMk9SVDhrc1hMd0RfZDBrYWZ1WDQ3OHpJZnBzRVBrYXBkc21SMjkzaFUyaXg0SDBUVnY40gGYAUFVX3lxTE96UEM0VTMxbElCREhiUjdPNVRTUUU2bHJvUU1PczVpcHYxMkdMR3BCSGQyV3pQclkteU1kVDVTWTU5YUwxeFVSaEIyblpBbmdVQTVBX2dlOTFWSWM5NUxwU19iMkhMWkYyNEZHUjVXS0NFVlQ1YjRBT3U1bkZmQmttT3dpOUIySGFpdzVkRFJwSXFOVlZTcmxy?oc=5",
+          "source": "Daily Pioneer",
+          "published": "05 Nov 2026, 04:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh Congress party decides to contest all seats in local body elections - The Hindu",
+          "summary": "Andhra Pradesh Congress party decides to contest all seats in local body elections The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPamN2SWJ6N0JKSDVtd3V3cHp1dEoybVNWN2sxd0QwNUpvX0ppaV9ITllMd1ljU21vX3pNSmJNbFd5WDBEUTgxTUZQQWc3ZjlGVkdROWYyYjc1QVZHLVZsOG4yWG5GNmlrYS1tY1dnVE03bEY1Uk9vckNSTU0wX280NFktY3A4d1kwSlR2Qm1oVXBYMlRuTG94NWEzWURFSGQ4QWdaWTRUemtTU1NNd3dOUExjai1nVGEwdWtQRkxhekRPdGZkdmQtRFFDdUpXZm5zVmEyd1hiTXJaeHR2RXZZX0RlejVILTloOEJSaNIB8wFBVV95cUxOSGZSUkpJZ2hrYW0zZjFVSVFLMnE5T2pEYVRFNzN1aTR0VWRWY25hY0V3N21YaUFoYk1wTm1uWl95QTBIN0hUdkU2LXRFZF9PS09jQWd4U1g4bFJaQ1VMcXpRYmJqOEp2NExSVmxwUGo3WlhheHR4NElqZTR5S1J4YjdFU0Z0TXFKSk5QcU1DZ1RISVJBVnpQNGRpTGt6cFVGNzFRQjA0b2hqNnZnUjJiYWJ4ZmRXenBPU25hLTEyS3Q4X2owXzhXVjZlb3RGZEFxS2dWdFl2Q2xXajUtWUhjQnk3Mlhmc3dmNnZsMzlSQUxKWFk?oc=5",
+          "source": "The Hindu",
+          "published": "20 Sep 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "11 Nov 2026, 04:05:25 AM IST",
       "baseline": false,
