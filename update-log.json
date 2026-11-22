@@ -1,8 +1,87 @@
 {
-  "updated_at_ist": "22 Nov 2026, 10:13:42 PM IST",
+  "updated_at_ist": "23 Nov 2026, 03:37:49 AM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "23 Nov 2026, 03:37:49 AM IST",
+      "baseline": false,
+      "new_count": 7,
+      "total_items": 100,
+      "new_items": [
+        {
+          "title": "Grievance Redressal Suspended in Three Districts Over Local Body Elections - Deccan Chronicle",
+          "summary": "Grievance Redressal Suspended in Three Districts Over Local Body Elections Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxObVJ1ODhZbDRqU2QwemVCaXZQV0puNDhWaHFVcTVPeE16aVZLdjFLXzdXTEdjWnowcEhOWjJmRWlCTUpJOGtMWVIzTEdKU0Q0TUhWOUtvaVFNWGNOY2tTUUlnQkdpTTY5TEhsOERFa2s4ek8wVkx4ajlhLVJqRWJsMTZkQnhfWWRmR3FOdGRJYllZTG9DYURVbnNueVV0YWotMWswZEdSLWJ1T2lpOUp4OE5fQ09aanhqYzB0cFFiRDF0WU5UcnJnSTdxM20yWGZHTFdzWHZzTEtoalBXaXfSAeMBQVVfeXFMT21DQnE5Rno1QXg1eEZhU3ZZb0ItTlZUaENQVzFJMnN1alQ1ZWFib1RhQ0JoWU0zN1FHaU04dXUxZko4bUpNNlpMZmNCNmNoaG9nbm9BUEZHeFBhd25MeW9TRGs0bU13bUJhc3RxYWlOa0trdlJ3b0tNVTJ1T0wxbkJ1NHB3NXdwRnhlM0RfY0NxZ2tlWkFxVGY1WjdzVUlXR24xLVVkTld1cWZZaUhvU1NQemgtUVBabHJHVkM2cnMyQ0s4amVtUnFablV4elc1RzBmcnhhcUxicVRoenQ5Ty00bXc?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "22 Nov 2026, 05:23 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "YSRC Accuses Police of Intimidating Candidates; Seeks SEC Intervention - Deccan Chronicle",
+          "summary": "YSRC Accuses Police of Intimidating Candidates; Seeks SEC Intervention Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQ0VWeHB5cmVaVlM0V2FRak50WEJlRURVWWFsOVRtVWVRdGNRZ1hIWGxpS28yLTZyNnc3NHNhVWR3b2ZuamVNZFdEMVE4ZVk5cFU5TXlDLVNaMXdKNEswOHhGSXZxb0VNV2twa21VUVZtRVZxNXNFTjVuWUdFQjEtWHUtMEZjWk1sUThZLWpYQUpFNkwwbks3THR0RVpMWU1tb1dEY3pmWmlwV21hRmNTUW5YY0t5UDlpV2JxTjVwY2tjNjRYLUlLQnNuajZsZC1oUW9GMkRqb9IB3AFBVV95cUxQdFpMSUpxbGlrR2VjQUpLbGlSLWVQR1ByWnVxOFZUbXM5Rm4wVGtadlROSmZGTm9hOU9LLWNvLWZFcElsWWNxWWVoN1VFQnZ3R0tWRWNQQnBsa0I2bWpyVWZwY2ZZUDkxdjQ2WUEyVFNzamFiU0IxWEktTmt2VGZFTndGQU0zdlVOZUU3cVFKcmYxOElMOHRSX1dhMC1tLWhIZUtxa3U2eVBJenhmemR1dlJ2Nk5GN3ZtSk1yYkg5U1Q1S2F4c3Zwek1Tb2lESUpHMUZndkdyQVRfRElK?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "22 Nov 2026, 06:07 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra civic poll results do not reflect people’s mandate, alleges Congress chief Y.S. Sharmila - The Hindu",
+          "summary": "Andhra civic poll results do not reflect people’s mandate, alleges Congress chief Y.S. Sharmila The Hindu",
+          "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQUUpGUW5HUTNZSmczbFd1NkdYc19VRnZXaHhnc3praWRTWFhsX09iZWZZMzdSZ3R0cmt2UVN2LTNWTkVEYURyd2gwZzVpemIwX2swM0FiNkczSDRCSHhPYkZkYzRKZ3ktZHNOdy11WVc2UUpKaW1Na0Q0TkFzSkx2NGJJdTRIb2FFWXlvTVNhMG5OS0JzRFdSV0RLOWJyQmRFeXVBMU1aQTBpekV3NW5XOVZjYUtoMG5aY0N6MkhlNnFDWDJyWFI0LU12b2hvU05vci1sMVZjX192eGpSQVRVbnRYa2FIdHBnM0ZhbFpjVFFqN0lqeXRIS9IB_wFBVV95cUxPZ2ZaVGlQTXd4dkhMVXFlWFpXeEw4Tlg0aHdjdVdQZjhEbW5UaU9kYXo0MnozVm5SVkVRM0xzaXA2bFZlTm5KUUp6a3BoOUxsVFR0SzVZU1lhU3ZKWHdMM3cyemJkYVlzQjBhUFF1dlNwbmRSTkNEMUczb2ZjMVhMNjRyeGlWVl81cHRzVHlCUko1RHV1MDYwMS16Y25wa1RyZm85VlB5Qzh0VzlCdUVyaHpBb0VTWGt2MVJObjg2SUlCNXExdjduRFZBQm1oVWZWRUJzWnd1bnpieVFWd3pZT3VXcjBGYkx6SV8yNEJYaVNVU1FLZWNrbElVOXU0SVk?oc=5",
+          "source": "The Hindu",
+          "published": "04 Nov 2026, 08:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Jana Sena Appoints Poll Panels for Kakinada, Srikakulam Corporations - Deccan Chronicle",
+          "summary": "Jana Sena Appoints Poll Panels for Kakinada, Srikakulam Corporations Deccan Chronicle",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYTYtUTlVaWdYSVF6TzcxZlpyWG5FR0ZLZF9ZdDdiUVFlZ3hPdVNJeUMwZ1ljaHljZlhNOWt3MVlqRzdHYUNPR01YQk1qMlBRb243RklnVGVKYTZ2NzlXb1JiUzN0UFRtaXR1d0loZnAtSTJmMkU1dlI4bDFTX3VSTVBEay02cGMzaWZScndRZlBBRnBzcFcwNEdHdnZTS0hRTzVxbkFnZDU5RGtlZHJDVHhUcTNDRXhrUkhJLTh3Ml9nMUYxMk1Kb0VzWlBfZlVqOGdvN9IB2gFBVV95cUxOdEJFRzg5Wi1reWVpeEZscWx1cmhhRnpCbVVoLW15cW9EQ005NHBSZlVOTWZVZWw1enowcHV4WVRwNVl1OHNXeElsdkFzRkUwMTY2c19PZlNrNEF4XzBZX1ZMTGllNFhjZ3ZmLU5QU1BhcDJ0c2gyVE45eEVRTWVlaGppQXBkQVJGRHRULW9DYkFvWlZQTGtablF6QXJQeElaTVo4N0Z4NTBiZnViU1Bod29qYXhDbVVkcEwydkRPUExPREFJZS1UZV9jUWxwbzV4ZkYzRHRPdU5vdw?oc=5",
+          "source": "Deccan Chronicle",
+          "published": "19 Nov 2026, 05:29 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra: Naidu government destroying democracy, alleges YSR Congress - The Hawk",
+          "summary": "Andhra: Naidu government destroying democracy, alleges YSR Congress The Hawk",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNeUVCX3U3Z01WRXN3MkhpaHNxVTJnbkVVc2ZlTUlRRTRhQV8wOW5jSzdQRFhCdTU2QjVzQldUR3NzNkFfLTdSb3RTOU9KLTEwZ3hIeW5xX0ZVcjFzd3B4amdONlVRY3NfcUxkYnRyem5IVjI1Y2RUZEc2U0JUclN2TmZUSVNxSFJDTFZzSW1qV2t5ZkZBS3k2anR4cVdWRGtzMnFaQzVpMnlGNVYxdHc3MjZ4czA3UGxvc0NfY2FfdHk?oc=5",
+          "source": "The Hawk",
+          "published": "22 Nov 2026, 06:06 PM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Andhra Pradesh Election Commission denies reports about delay in local body polls - The Hans India",
+          "summary": "Andhra Pradesh Election Commission denies reports about delay in local body polls The Hans India",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUURIX2FpendXM0RMUHBqOC1JN0FJQk1EVHUwcU1Dd2dNWFM0UGxmSDBOR094NUdWZXJKNEdXZ2NVRzJYdFFOUUNpRjBtd0V0Nk1hX2VlalVhUmVtS0pOTjE5UHlTN29qYTdnd1U1ZGF3cjc2Q1dSTHFDTjRtWUtiQWE4TnZ2b1hRNkdrZXNjN3pITVN2WF9WTkJZN1RzYnRWbER5c1h5REFadUEyT19PZ2NsU0NlS0tjU1RyS1h0cjhKYXc5d2JUcG84ek4?oc=5",
+          "source": "The Hans India",
+          "published": "29 Sep 2026, 07:00 AM UTC",
+          "feed": "Andhra Pradesh elections",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        },
+        {
+          "title": "Vizag mayor-elect Sravani father dies of heart attack - The Times of India",
+          "summary": "Vizag mayor-elect Sravani father dies of heart attack The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMDJuY3VCYnpEY1MwLThyMXZuYy1mbDE2MS12SG5YZGQ3RkJvc1BleUdWRGRrS1FUZzhEVVU4X0VBRTlkRkpwQnFDblpPbmtNTlgtMnprYWl0dWJYVFVQMFhPV0V6QmdJQmVVXzczdm9LYkhTYmZaaUVIWlllY19RNkQxUzZhazdpd19lTFFBM3FhdmM1ODBjS1plMVk4czliUUVxUGtDWU9VUnVIenJlaEpGTmJ6YkRTcDZhY2taVlhtRy1HRXNFU2JFSdIB0AFBVV95cUxObVl0MzF4ak1SLWF6ZnZYbmRFSG5QVjZzSWd5MFQ0QTFOMG9JQ0ZmekNvYXJ0dXhZUURmT3BvMG9xZzhtVUJMVGNzanBVTUVreXlUeG9TTzYyMC1pSDZSM3BtZVpDVWdwTUZvd2pKRXFHRVUyOTVYRm9ZaEk4eDM2eVF3VThvU01lQU9FOGU0ZjZ2d3Z2NTd4b0ZlSzVoNGRHX210TzNoS3FQVTR6QVBvQ2wyVkRLUVBrT2JVc0ZOTnM4VXFGWkdlTU5ycFJ6TE5o?oc=5",
+          "source": "The Times of India",
+          "published": "20 Nov 2026, 02:29 PM UTC",
+          "feed": "Visakhapatnam / GVMC",
+          "status": "Reported",
+          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "22 Nov 2026, 10:13:42 PM IST",
       "baseline": false,
@@ -6087,35 +6166,6 @@
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNDZQUXRkbkQ1OHRjOVNJVTZlTFpZTTkydGU1NnJtOGs3a2wxT25LYTRFZVMxUTZjVmQ2YXF5b2dwVmNhSExvWFVvTlJTVjlEWDBwYU9kdVJEUGt3bFBHTVdfZ2p5MmpCNTVkalVrQXU0MDBBQXBDc2xIZUgtVUFNVXZPVEpOcXdWSkJfWTF6bm9rMjUwMWV1OGJ1aUZteUZnR01YT1d5MkdTbzNGMmQ1R09YLVByc0pQMVRDUFRONllOWGNnbGN6c2JJQWl3My01WFZpMVE5cGTSAd4BQVVfeXFMUEtkcHhzLS1vSDBoc2E5M1J1eHY4RjBTWWVQVEk0cHg0WlVIVFZnUURHSU13aV80c1BFa3pFNG5nc0Y2eE5sYmxCdGxCaGZSQTNDZ2pOWEZ3Ny1EZVctU1liX25TZTlmTEZ2b005NkZyM3ZwRURWYXlONVNEa05lRWxSSWdEdC1QMFdTdGhRbERZbFRMYjI4RlFkQ2J0b2ZtVVlLUmUzdWJGUGZ4UjkzM0RHYmo4Y1M1RXpNcWgzaFFvU1FJMFdFeUZLaHJhVGFmeVZSdk9DNjZZMjNRU2xB?oc=5",
           "source": "Deccan Chronicle",
           "published": "03 Nov 2026, 06:49 PM UTC",
-          "feed": "Andhra Pradesh elections",
-          "status": "Reported",
-          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
-        }
-      ],
-      "note": "New feed items compared with the previous successful run."
-    },
-    {
-      "checked_at_ist": "07 Nov 2026, 06:18:30 AM IST",
-      "baseline": false,
-      "new_count": 2,
-      "total_items": 100,
-      "new_items": [
-        {
-          "title": "Cyclone Murasu: IMD issues red alert as heavy rain delays vote counting in Andhra Pradesh - ANI News",
-          "summary": "Cyclone Murasu: IMD issues red alert as heavy rain delays vote counting in Andhra Pradesh ANI News",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQOXB3aldmdWdTNi1GajZ3WnBhd2RKWVluNHhRRWlHODhhaVh4b3F0Tk9GckJHUnI4eC1kMC1TQ3paLWNTYzF5TW9nMnNYdVhjbW5yTkJOUkh0TlZCVE01akxVRVcwRXlPbE9lcnRlX2NIa3N3S0hWMFBKblhfTUJoTEF2NW5BdklZRnhkR3hheVJXZW41QmZ5Y2RDV2dsNkJVUWJULUd4OG5JNlliQ2pYdTVUUVhVWDA0UTBPdDlOSURMVmJTbmVjaXdnTWlEcjhENzItdThBeGRVUk9RQnRMNXp0QV9vR3c?oc=5",
-          "source": "ANI News",
-          "published": "03 Nov 2026, 08:06 AM UTC",
-          "feed": "Andhra Pradesh elections",
-          "status": "Reported",
-          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
-        },
-        {
-          "title": "Cyclone Murasu delays Andhra Pradesh local election vote counting amid red alert - The News Mill",
-          "summary": "Cyclone Murasu delays Andhra Pradesh local election vote counting amid red alert The News Mill",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMTJXdVE3WTFENm5lcFZ2UUotVVNxS0tDY09KTzJQZGdoV3pDMnlaNV9PRXpQYjRNLXB1aUVKcTlfNW5PaGdVODBPWFppbVAwSFNmSGVtdWZmSHk2VEJHYlEyMnJBRnViNWpneUZGTWU1M0w5dW5SdlBnUXpmVE5mOGdlSENkTWFYeGlLZ3N3azc2X3Z3S2hVUm5jSllCQ19lX3l2aTY2RENzUkQ5V0g3OUp2Yw?oc=5",
-          "source": "The News Mill",
-          "published": "03 Nov 2026, 08:07 AM UTC",
           "feed": "Andhra Pradesh elections",
           "status": "Reported",
           "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
