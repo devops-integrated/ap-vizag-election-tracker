@@ -1,8 +1,92 @@
 {
-  "updated_at_ist": "26 Nov 2026, 08:33:42 AM IST",
+  "updated_at_ist": "26 Nov 2026, 05:45:09 PM IST",
   "update_frequency": "Scheduled approximately every 5 minutes; the app checks the published feed every 2 minutes",
   "comparison_note": "New means newly present in the collected feed compared with the previous successful run; it does not mean independently fact-checked.",
   "runs": [
+    {
+      "checked_at_ist": "26 Nov 2026, 05:45:09 PM IST",
+      "baseline": false,
+      "new_count": 8,
+      "total_items": 8,
+      "new_items": [
+        {
+          "title": "Affidavits of Contesting Candidates for Mayor",
+          "summary": "This is a link listed on an official election-related website. The notice text was not extracted automatically; open the official document to confirm its contents.",
+          "link": "https://www.gvmc.gov.in/",
+          "source": "GVMC official website",
+          "published": "",
+          "feed": "Official website monitor",
+          "status": "Official source",
+          "note": "Official link collected; the linked notice itself still needs to be checked."
+        },
+        {
+          "title": "Please cast your valuable vote for GVMC in the SKOCH Awards Click Here",
+          "summary": "This is a link listed on an official election-related website. The notice text was not extracted automatically; open the official document to confirm its contents.",
+          "link": "https://exhibition.skoch.in/exhibition/greater-visakhapatnam-municipal-corporation-gvmc",
+          "source": "GVMC official website",
+          "published": "",
+          "feed": "Official website monitor",
+          "status": "Official source",
+          "note": "Official link collected; the linked notice itself still needs to be checked."
+        },
+        {
+          "title": "Notifications",
+          "summary": "This is a link listed on an official election-related website. The notice text was not extracted automatically; open the official document to confirm its contents.",
+          "link": "https://www.gvmc.gov.in/#notification",
+          "source": "GVMC official website",
+          "published": "",
+          "feed": "Official website monitor",
+          "status": "Official source",
+          "note": "Official link collected; the linked notice itself still needs to be checked."
+        },
+        {
+          "title": "AP State Election Commission portal: source could not be fetched during this check",
+          "link": "https://demo8.cgg.gov.in/apsec/",
+          "source": "AP State Election Commission portal",
+          "published": "",
+          "feed": "Official website monitor",
+          "status": "Source check failed",
+          "note": "The site may be temporarily unavailable or may have changed its page structure."
+        },
+        {
+          "title": "APSEC election notices: source could not be fetched during this check",
+          "link": "https://demo8.cgg.gov.in/apsec/electionNotice",
+          "source": "APSEC election notices",
+          "published": "",
+          "feed": "Official website monitor",
+          "status": "Source check failed",
+          "note": "The site may be temporarily unavailable or may have changed its page structure."
+        },
+        {
+          "title": "APSEC contesting candidates: source could not be fetched during this check",
+          "link": "https://demo8.cgg.gov.in/apsec/contestingCandidates",
+          "source": "APSEC contesting candidates",
+          "published": "",
+          "feed": "Official website monitor",
+          "status": "Source check failed",
+          "note": "The site may be temporarily unavailable or may have changed its page structure."
+        },
+        {
+          "title": "APSEC results: source could not be fetched during this check",
+          "link": "https://demo8.cgg.gov.in/apsec/electedRepresentatives",
+          "source": "APSEC results",
+          "published": "",
+          "feed": "Official website monitor",
+          "status": "Source check failed",
+          "note": "The site may be temporarily unavailable or may have changed its page structure."
+        },
+        {
+          "title": "APSEC voter portal: source could not be fetched during this check",
+          "link": "https://demo8.cgg.gov.in/apsec/voterPortalHome",
+          "source": "APSEC voter portal",
+          "published": "",
+          "feed": "Official website monitor",
+          "status": "Source check failed",
+          "note": "The site may be temporarily unavailable or may have changed its page structure."
+        }
+      ],
+      "note": "New feed items compared with the previous successful run."
+    },
     {
       "checked_at_ist": "26 Nov 2026, 08:33:42 AM IST",
       "baseline": false,
@@ -7957,35 +8041,6 @@
           "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOOXZiWVJxVG9JeWlxRGh6REF4ZUZDRmZyaFZKTnAxVFI5d0pZaDdkTHFTSnRlV3pvdXdpTFMtVnNIOTZaV1JzME00SEdVazVfU2Fia25qM2lvOW5rbUNTaWlEaWc1b1ZoZ2tKSExabXVaZFF4cEhBbWFsZTVUVjRzTmpyaFFQTDNDZElublRmMzd1Tld6c2M0WXhsZUhoVXZacWMwa0I4RGhIRExpNldTc0xYTUJJc1N1Y1JXLTlSZ2VZbGpPSzFwdnhPTTJNNmozU2wwRW1DYkV4THBG0gHjAUFVX3lxTE01MFA2dDE3S2hFbnl3VElNalNRNlhrall4M2pub2N4VEZBYmNjdmwwZmtwLXI5b1lXM1dWb3k0aTFaR2ZnVlhhSmV2M1ctTC1NdW1pbEgxa1A0RFQyeEZVeEZJendMbU9uUUZ5SWQyTEdRWTNTUmFxbFhjd2h0ZjZNaWRpY1YxYkhFR0JjQkVSeU93bFFOXzNWNVZ2MTVFTnZDeHd0Vk5DdlhCSEZpd25HT085TjFzY3k5UXMybkZhOHNFQWlBM0ptTjBDRXhqV215cndEYWIyUlBncy1SMXlvd3Jn?oc=5",
           "source": "The Hindu",
           "published": "11 Sep 2026, 07:00 AM UTC",
-          "feed": "Andhra Pradesh elections",
-          "status": "Reported",
-          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
-        }
-      ],
-      "note": "New feed items compared with the previous successful run."
-    },
-    {
-      "checked_at_ist": "09 Nov 2026, 07:26:57 AM IST",
-      "baseline": false,
-      "new_count": 2,
-      "total_items": 100,
-      "new_items": [
-        {
-          "title": "TDP sweeps four Municipal Corporations across Rayalaseema - The Hindu",
-          "summary": "TDP sweeps four Municipal Corporations across Rayalaseema The Hindu",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLXNURlZzQjZKdm4tU0ZkVjdGcC00SHJ0LVlhR2pDRXUyY1JDV092eElrTzZ6M0NselBTRW1YLVZOWE5YVU9iNXk0UDRUR2NFbFRTUXRwbXdaYWEzMHF4cVVldlRLNDZjUG1tZHduSFB3cTJMYlMteGlxalZSVHFNUmdNaDJpVWllWU1xLTdqSFJyTTROZm1TSHF1Yk1GcG9uVmw1U2FBdjRfcDBJbktFNVBabEdWWVZNd2xkUlF6NEkwR0hYbi1lSG9n0gHQAUFVX3lxTFBGeS1FTXNQak93N3YtVE9pZ3FtUFdHaHQ5ZUVxRnRPNnlqYWF6aU1aZEx3UFVZalpFSWF5VjF2MWl1aXZzdFVXc3VNdnlkMDQ0X2djR3lwYU92NF9vc244U19OTWFNNFJ2NEVZTkE3SXNWeTBqa2oweXFsOENFV2pYcW5KNmxrbVZ0eUJUZ2tXaE5PTmhQQUhBZHp6X3ZUcEZtWmdlNDBDcHhPX0l6Wkkxb0FybTRKbU04cFo3bm1SMTVOVFg0TEFnQUxJV18tc00?oc=5",
-          "source": "The Hindu",
-          "published": "04 Nov 2026, 04:09 PM UTC",
-          "feed": "Andhra Pradesh elections",
-          "status": "Reported",
-          "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
-        },
-        {
-          "title": "TDP-led NDA secures majority in Andhra local body polls across Krishna and NTR districts - Daily Pioneer",
-          "summary": "TDP-led NDA secures majority in Andhra local body polls across Krishna and NTR districts Daily Pioneer",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWktGOFVFanFob3hzcDRndXZfZm9UOXRiT0Y5RUctWG1Sc191bENZMmlnc0ZaNXRoLTRNMXJIeW9RaFBLekMzSFZ4UFlSX21MODhyRXY5WTU0UUpkMTFIRkpMNDgxTXcwRUhwbEd3U0hZdG94U3JIa1ZMbFFKOXdZZEMya3VsWnNRTThhQmJNSHpIRmx1NFc3bFktVUdpQm05U1lxQ1BVOFVHZWtWNWluWNIBvgFBVV95cUxOYVZlbjdEOGtqbFRJelBQWWItSVVCM0owRkVNcU85M0V2VGNBS1JwNnZ0OHBkU1VfNFVCZ083U0NxWVFRZEZ0RnhaOHN3WDJ4dXE4X1RZWDdmWW1VQ2pjc3VxME5OZS12MHNBLWFvcGlMWG5kQlFTd2dqM01fVHRuWlFLaE1mOGVSS0ptMXlsdDEwNGRVd1JWVG9QVmNUMWxDY2ptRWp0WEpnN0VMZEkzNXhZZS00N0VpVUR6ZUdB?oc=5",
-          "source": "Daily Pioneer",
-          "published": "08 Nov 2026, 07:12 AM UTC",
           "feed": "Andhra Pradesh elections",
           "status": "Reported",
           "note": "Summary based on the publisher's RSS description; allegations are attributed to the report and are not treated as proven."
